@@ -1,9 +1,0 @@
-Website Text Content for mobinius
-==================================================
-
-/ route:
-------------------------------
-Error fetching content: HTTPConnectionPool(host='www.mobinius.com', port=80): Read timed out. (read timeout=10)
-
-==================================================
-

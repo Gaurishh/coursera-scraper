@@ -1,9 +1,0 @@
-Website Text Content for webcyphertechnologies
-==================================================
-
-/ route:
-------------------------------
-Error fetching content: 406 Client Error: Not Acceptable for url: https://www.webcyphertechnologies.com/
-
-==================================================
-

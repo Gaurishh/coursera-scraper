@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Anuj Mathur",
+    "title": "Chief Executive Officer"
+  },
+  {
+    "name": "Nandita Mathur",
+    "title": "Chief Strategy Officer & Head of Engineering"
+  },
+  {
+    "name": "Rajeeb Biswas",
+    "title": "Director – HR and Administration"
+  },
+  {
+    "name": "Naresh Bansal",
+    "title": "Chief Financial Officer"
+  },
+  {
+    "name": "Gaurav Kothari",
+    "title": "Vice President, Engineering"
+  },
+  {
+    "name": "Rajat Bansal",
+    "title": "Head of Sales and Business Development"
+  },
+  {
+    "title": "Headquarters US",
+    "phone": "+1 508 668 8880"
+  },
+  {
+    "title": "Headquarters India",
+    "phone": "+91 124 665 6000"
+  },
+  {
+    "title": "Regional Office UAE",
+    "phone": "+91 995 885 8744"
+  },
+  {
+    "title": "Regional Office Australia",
+    "phone": "+61 405 642 510"
+  }
+]

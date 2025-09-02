@@ -1,9 +1,0 @@
-Website Text Content for poletek
-==================================================
-
-/ route:
-------------------------------
-Error fetching content: HTTPSConnectionPool(host='poletek.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001A87F84E660>: Failed to resolve 'poletek.in' ([Errno 11001] getaddrinfo failed)"))
-
-==================================================
-

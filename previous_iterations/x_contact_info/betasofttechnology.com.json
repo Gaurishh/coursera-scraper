@@ -1,0 +1,19 @@
+[
+  {
+    "name": "General Enquiries",
+    "email": "[email protected]"
+  },
+  {
+    "name": "Sales Enquiries",
+    "phone": "+91-9999183189, +91-9999183129",
+    "email": "[email protected]"
+  },
+  {
+    "name": "Support Enquiries",
+    "email": "[email protected]"
+  },
+  {
+    "name": "Career Contact",
+    "email": "[email protected]"
+  }
+]

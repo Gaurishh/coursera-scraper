@@ -1,0 +1,393 @@
+[
+  {
+    "name": "Sir M Visvesvaraya Institute of Technology",
+    "phone": "(+91) 080-28467248, 28477024",
+    "email": "info@sirmvit.edu"
+  },
+  {
+    "name": "University of Education",
+    "phone": "+ (54) 456 789 4569",
+    "email": "uoe@education.com"
+  },
+  {
+    "name": "Dr. Rajendra Singh C.",
+    "title": "Professor & HOD"
+  },
+  {
+    "name": "Dr. Priya Narayan",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Mrinalini Menon",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Ms. A. Niveditha",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Jagadeesh Kumar D.",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Rashmi K.V.",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Sudevi Basu",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Manjunath R.",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Halima R.",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Ishwar Chandra",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Hariharan P.",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Rajnish Kumar Singh",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Mr. Narasimha Murthy B.",
+    "title": "Asst. Instructor"
+  },
+  {
+    "name": "Ms. Shanthi V.",
+    "title": "Lab Instructor"
+  },
+  {
+    "name": "Mrs. Savithri C.",
+    "title": "Clerk/Typist"
+  },
+  {
+    "name": "Mr. Srinivasu",
+    "title": "Peon"
+  },
+  {
+    "name": "Ms. Rohini M.R.",
+    "title": "Lab Technician"
+  },
+  {
+    "name": "Mr. Srinivasaiah",
+    "title": "Peon"
+  },
+  {
+    "name": "Dr. H.G. Nagendra"
+  },
+  {
+    "name": "Priyanka R"
+  },
+  {
+    "name": "Dr. Vanipriya C H"
+  },
+  {
+    "name": "Mayuri K P"
+  },
+  {
+    "name": "Dr. Ravi Kumar H"
+  },
+  {
+    "name": "Ashwathy P"
+  },
+  {
+    "name": "Dr. Mousami Mondal"
+  },
+  {
+    "name": "Dr. Prashanth G K"
+  },
+  {
+    "name": "Dr. H.S. Lalithamba"
+  },
+  {
+    "name": "Dr. Srilatha Rao"
+  },
+  {
+    "name": "Dr. Bhagya.N.P"
+  },
+  {
+    "name": "Dr. Sowmyashree A S"
+  },
+  {
+    "name": "Dr. Mahadevaswamy M"
+  },
+  {
+    "name": "Dr. Aisha Siddekha"
+  },
+  {
+    "name": "Dr. E Vijaya Sekhar"
+  },
+  {
+    "name": "Dr. Dileep M S"
+  },
+  {
+    "name": "S.M. Vidya"
+  },
+  {
+    "name": "Dr. Pradeepa S"
+  },
+  {
+    "name": "H S Anil Kumar"
+  },
+  {
+    "name": "Venkatesh Kamath H."
+  },
+  {
+    "name": "B K Manjunatha"
+  },
+  {
+    "name": "S M Darshini"
+  },
+  {
+    "name": "Ms. Deepti S"
+  },
+  {
+    "name": "Ms. Bhavana A"
+  },
+  {
+    "name": "Ms. Inchana A"
+  },
+  {
+    "name": "Ms. Keerthi S V"
+  },
+  {
+    "name": "Ms. Trisha N"
+  },
+  {
+    "name": "Ms. Keerthana S. K."
+  },
+  {
+    "name": "Dr. SAVITA CHOUDHARY",
+    "title": "PROFESSOR & HEAD"
+  },
+  {
+    "name": "Mrs. Roopa H.L.",
+    "title": "ASSISTANT PROFESSOR"
+  },
+  {
+    "name": "Ms. Ganashree R.",
+    "title": "ASSISTANT PROFESSOR"
+  },
+  {
+    "name": "Ms. Hithaishi K N",
+    "title": "ASSISTANT PROFESSOR"
+  },
+  {
+    "name": "Mr. Pavan Kalyan S. N.",
+    "title": "Lab Instructor"
+  },
+  {
+    "name": "Mr. Ramesh N. R.",
+    "title": "Attender"
+  },
+  {
+    "name": "Mamatha Bangi"
+  },
+  {
+    "name": "Jagadeesha Poyya"
+  },
+  {
+    "name": "B. Dinesh"
+  },
+  {
+    "name": "S.J. Aditya Rao"
+  },
+  {
+    "name": "Chandrashekhar G. Joshi"
+  },
+  {
+    "name": "Manonmani, H."
+  },
+  {
+    "name": "Srividya Subash"
+  },
+  {
+    "name": "Shivam Pandit"
+  },
+  {
+    "name": "Sampath Kumar"
+  },
+  {
+    "name": "Shantha V"
+  },
+  {
+    "name": "Chandrashekhar Naik"
+  },
+  {
+    "name": "K.V Prasad"
+  },
+  {
+    "name": "Govindaraju M"
+  },
+  {
+    "name": "Arjun Kashyap"
+  },
+  {
+    "name": "P. A. Prashanth"
+  },
+  {
+    "name": "Padam Singh"
+  },
+  {
+    "name": "B. M. Nagabhushana"
+  },
+  {
+    "name": "C. Shivakumara"
+  },
+  {
+    "name": "Krishnaiah G M"
+  },
+  {
+    "name": "H. M. Sathyananda"
+  },
+  {
+    "name": "Vinita Chaturvedi"
+  },
+  {
+    "name": "K. R. S. S. Rao"
+  },
+  {
+    "name": "K. S. Rao"
+  },
+  {
+    "name": "K. S. Lokesh"
+  },
+  {
+    "name": "Tanushree Deb"
+  },
+  {
+    "name": "Vanitha Nagliekar"
+  },
+  {
+    "name": "Archna Narula"
+  },
+  {
+    "name": "R. R. Sivakiran"
+  },
+  {
+    "name": "K. R. Mohana"
+  },
+  {
+    "name": "Anindita Roy Chowdhury (Chakravarty)"
+  },
+  {
+    "name": "Alpana Seal"
+  },
+  {
+    "name": "N. S. Pagadala"
+  },
+  {
+    "name": "R. Bhat"
+  },
+  {
+    "name": "A. Landi"
+  },
+  {
+    "name": "Manpal Sridhar"
+  },
+  {
+    "name": "Juhi"
+  },
+  {
+    "name": "Kavya H"
+  },
+  {
+    "name": "Rajlaxmi Dash"
+  },
+  {
+    "name": "Sumi"
+  },
+  {
+    "name": "G. A. Balaji"
+  },
+  {
+    "name": "V. N. Balaji"
+  },
+  {
+    "name": "S. N. Rao"
+  },
+  {
+    "name": "G. Satyanarayana Murthy"
+  },
+  {
+    "name": "T. P. Francis"
+  },
+  {
+    "name": "K. Somasundar"
+  },
+  {
+    "name": "N. B. Sridhar"
+  },
+  {
+    "name": "S. Ananda"
+  },
+  {
+    "name": "S. Yogisha"
+  },
+  {
+    "name": "S. Anand"
+  },
+  {
+    "name": "Y. Tejabhiram"
+  },
+  {
+    "name": "Vinay Chavan"
+  },
+  {
+    "name": "Revansiddappa"
+  },
+  {
+    "name": "Archna"
+  },
+  {
+    "name": "K. Easwaran"
+  },
+  {
+    "name": "M. Mamtha"
+  },
+  {
+    "name": "Priya Mohan"
+  },
+  {
+    "name": "Sneha Paturi"
+  },
+  {
+    "name": "Kiran Chandrika S"
+  },
+  {
+    "name": "Vigasini Subbiah"
+  },
+  {
+    "name": "Pannaga Nagaraja"
+  },
+  {
+    "name": "Sambit Bandyopadhyay"
+  },
+  {
+    "name": "Arul Selvan"
+  },
+  {
+    "name": "Vidya Pradeep Kumar"
+  },
+  {
+    "name": "Ranjana Neelagar"
+  },
+  {
+    "name": "Rakshitha Yathish"
+  },
+  {
+    "name": "Shuchintha Srinivasa"
+  },
+  {
+    "name": "Reshma SV"
+  }
+]

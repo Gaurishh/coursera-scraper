@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Admission Enquiry",
+    "email": "admissions@cambridge.edu.in",
+    "phone": "+91-9731998888, +91-9880801188"
+  },
+  {
+    "name": "General Information",
+    "email": "info@cambridge.edu.in",
+    "phone": "080-25618798, 080-25618799"
+  },
+  {
+    "name": "Feedback (Students)",
+    "email": "student-feedback@cambridge.edu.in"
+  },
+  {
+    "name": "Feedback (Faculty)",
+    "email": "faculty-feedback@cambridge.edu.in"
+  },
+  {
+    "name": "Dr. B V Ravishankar",
+    "title": "Principal",
+    "email": "principal@cambridge.edu.in"
+  },
+  {
+    "name": "Mr. karthik",
+    "title": "Admissions",
+    "email": "admissions@cambridge.edu.in",
+    "phone": "+91-9731998888, +91-9880801188"
+  },
+  {
+    "name": "Mr. Ganesh",
+    "title": "Registrar",
+    "email": "registrar@cambridge.edu.in"
+  },
+  {
+    "name": "Dr. G Laskhminarayana",
+    "title": "Director-T&P, Placements",
+    "email": "director.tp@cambridge.edu.in",
+    "phone": "+91 9448047543"
+  },
+  {
+    "name": "Dr. G. Indumathi",
+    "title": "Principal, Cambridge Institute of Technology"
+  },
+  {
+    "name": "Shri. D.K. Mohan",
+    "title": "Chairman, Cambridge Group of Institutions"
+  },
+  {
+    "name": "Mr. Nithin Mohan",
+    "title": "CEO, Cambridge Group of Institutions"
+  },
+  {
+    "name": "Ms. Usha Rani Ramanathan",
+    "title": "Director- Talent Transformation Hub (TTH), Cambridge Institute of Technology"
+  },
+  {
+    "name": "Prof.D.Antony Louis Piriyakumar",
+    "title": "R & D Dean, Cambridge Institutions of Technology"
+  },
+  {
+    "name": "Prof. Jayanthi MG",
+    "title": "Dean of Alumni Relations",
+    "email": "jayanthi.cse@cambridge.edu.in"
+  },
+  {
+    "name": "Mr. Aaron Noel D’Souza",
+    "title": "Alumni Relations Officer",
+    "email": "aaron@cambridge.edu.in",
+    "phone": "+91 97738 03975"
+  },
+  {
+    "name": "Prof. Rajesh Kumar S",
+    "title": "Alumni Coordinator, CSE",
+    "email": "rajesh.cse@cambridge.edu.in"
+  },
+  {
+    "name": "Prof. Sapna",
+    "title": "Alumni Coordinator, ISE",
+    "email": "sapna.ise@cambridge.edu.in"
+  },
+  {
+    "name": "Prof. Sushma Byraiah",
+    "title": "Alumni Coordinator, MBA",
+    "email": "sushma.mba@cambrige.edu.in"
+  },
+  {
+    "name": "Prof. Mahalakshmi V",
+    "title": "Alumni Coordinator, AIML",
+    "email": "mahalakshmi.aiml@cambridge.edu.in"
+  },
+  {
+    "name": "Prof. Mohandas R",
+    "title": "Alumni Coordinator, EEE",
+    "email": "mohandas.eee@cambridge.edu.in"
+  },
+  {
+    "name": "Prof. Samir Raza",
+    "title": "Alumni Coordinator, MCA",
+    "email": "samir.mca@cambridge.edu.in"
+  },
+  {
+    "name": "Prof. Shyam Sundar V",
+    "title": "Alumni Coordinator, ECE",
+    "email": "shyamsundar.ece@cambridge.edu.in"
+  },
+  {
+    "name": "Prof. Sreevidya Raman S",
+    "title": "Alumni Coordinator, Civil",
+    "email": "sreevidya.civil@cambridge.edu.in"
+  },
+  {
+    "name": "Prof. Suhas U",
+    "title": "Alumni Coordinator, Mechanical",
+    "email": "suhas.mech@cambridge.edu.in"
+  }
+]

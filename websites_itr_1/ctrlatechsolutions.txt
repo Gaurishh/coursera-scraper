@@ -1,9 +1,0 @@
-Website Text Content for ctrlatechsolutions
-==================================================
-
-/ route:
-------------------------------
-Error fetching content: 403 Client Error: ModSecurity Action for url: https://www.ctrlatechsolutions.com/
-
-==================================================
-

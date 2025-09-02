@@ -1,9 +1,0 @@
-Website Text Content for gtbit
-==================================================
-
-/ route:
-------------------------------
-Error fetching content: 406 Client Error: Not Acceptable for url: http://gtbit.ac.in/
-
-==================================================
-

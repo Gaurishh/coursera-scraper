@@ -1,9 +1,0 @@
-Website Text Content for iitmjanakpuri
-==================================================
-
-/ route:
-------------------------------
-Error fetching content: 403 Client Error: Forbidden for url: http://www.iitmjanakpuri.com/
-
-==================================================
-

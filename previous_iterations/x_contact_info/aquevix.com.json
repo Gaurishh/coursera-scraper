@@ -1,0 +1,47 @@
+[
+  {
+    "title": "United States Sales Office",
+    "phone": "+1 (720) 605-9012",
+    "email": "ussales@aquevix.com"
+  },
+  {
+    "title": "UK/Europe Sales Office",
+    "phone": "+1 (720) 605-9012",
+    "email": "uksales@aquevix.com"
+  },
+  {
+    "title": "Canada Sales Office",
+    "email": "canada@aquevix.com"
+  },
+  {
+    "title": "Australia Sales Office",
+    "email": "australia@aquevix.com"
+  },
+  {
+    "title": "Singapore Sales Office",
+    "email": "singapore@aquevix.com"
+  },
+  {
+    "title": "Dubai Sales Office",
+    "email": "dubai@aquevix.com"
+  },
+  {
+    "title": "India Development Office Sales",
+    "phone": "+91 (11) 4560-0412",
+    "email": "india@aquevix.com"
+  },
+  {
+    "title": "Technical Support",
+    "phone": "+91 (11) 4560 0412",
+    "email": "hello@aquevix.com"
+  },
+  {
+    "name": "Sonya"
+  },
+  {
+    "name": "Amit Jindal"
+  },
+  {
+    "name": "Satish Kumar"
+  }
+]

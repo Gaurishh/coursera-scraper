@@ -1,9 +1,0 @@
-Website Text Content for nimesedu
-==================================================
-
-/ route:
-------------------------------
-Error fetching content: 406 Client Error: Not Acceptable for url: http://nimesedu.in/
-
-==================================================
-

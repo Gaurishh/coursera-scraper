@@ -1,0 +1,235 @@
+[
+  {
+    "title": "Accounts",
+    "phone": "+91 8042991013",
+    "email": "accounts@mvjce.edu.in"
+  },
+  {
+    "title": "Admissions",
+    "phone": "+91 8150811811",
+    "email": "contactmvjce@gmail.com"
+  },
+  {
+    "title": "Human Resources",
+    "phone": "+91 8042991010",
+    "email": "hrm@mvjce.edu.in"
+  },
+  {
+    "title": "Placement",
+    "phone": "+91 8042991080, +91 9606056954, +91 8042991030",
+    "email": "director.placement@mvjce.edu.in"
+  },
+  {
+    "title": "Office (Helpdesk)",
+    "phone": "+91 8042991000",
+    "email": "helpdesk@mvjce.edu.in"
+  },
+  {
+    "title": "Registrar",
+    "phone": "+91 8042991006",
+    "email": "registrar@mvjce.edu.in"
+  },
+  {
+    "title": "Principal",
+    "phone": "+91 8042991000",
+    "email": "principal@mvjce.edu.in"
+  },
+  {
+    "title": "FAX",
+    "phone": "+91 8028452443"
+  },
+  {
+    "title": "Board Line",
+    "phone": "+91 8042991000"
+  },
+  {
+    "title": "Reception",
+    "phone": "+91 8042991007"
+  },
+  {
+    "title": "Grievances (Faculty)",
+    "email": "grievances@mvjce.edu.in"
+  },
+  {
+    "name": "Dr. M V Jayaraman",
+    "title": "Founder, MVJ Group of Institutions"
+  },
+  {
+    "name": "Dr. Ajayan K R",
+    "title": "Principal",
+    "phone": "+91 8042991000",
+    "email": "principal@mvjce.edu.in"
+  },
+  {
+    "name": "Dr. I Hameem Shanavas",
+    "title": "Dean – Student Affairs & Dean -Applied Sciences"
+  },
+  {
+    "name": "Dr. M Brindha",
+    "title": "Dean – Administration & Dean -Electrical Sciences, Professor, ECE"
+  },
+  {
+    "name": "Dr. Preethi G",
+    "title": "HOD-Chemistry, BOE Chairman-Chemistry"
+  },
+  {
+    "name": "Prof. Kumar R",
+    "title": "Registrar & Controller of Examinations"
+  },
+  {
+    "name": "Dr. Anju Kulkarni",
+    "title": "Director- Quality Assurance"
+  },
+  {
+    "name": "Dr. Shrinivas L Gombi",
+    "title": "Dean -Academics & Dean -Mechanical Sciences"
+  },
+  {
+    "name": "Dr. Salim A",
+    "title": "Dean- Research & Dean – Computer Sciences, Professor, CSE"
+  },
+  {
+    "name": "Dr. Vinu M Kuriakose",
+    "title": "BOE Chairman-AE & AS"
+  },
+  {
+    "name": "Prof. Megala S",
+    "title": "HOD/CH, BOE Chairman-CH"
+  },
+  {
+    "name": "Prof. Rekha P",
+    "title": "BOE Chairman-CS"
+  },
+  {
+    "name": "Prof. Vidhya Caramel",
+    "title": "BOE Chairman-CV"
+  },
+  {
+    "name": "Dr. Vijay Kulkarni",
+    "title": "BOE Chairman-EE"
+  },
+  {
+    "name": "Dr. Thilagaraj M",
+    "title": "BOE Chairman-IIOT"
+  },
+  {
+    "name": "Dr. Shima Ramesh",
+    "title": "HOD-ECE, BOE Chairman-EC"
+  },
+  {
+    "name": "Prof. Shehar Banu",
+    "title": "HOD – ACT, BOE Chairman-ACT"
+  },
+  {
+    "name": "Dr. Namita",
+    "title": "BOE Chairman-VLSI"
+  },
+  {
+    "name": "Prof. Sushmitha",
+    "title": "HoD – AIML, BOE Chairman-ISE & AIML"
+  },
+  {
+    "name": "Dr. Santhosh N",
+    "title": "BOE Chairman-ME"
+  },
+  {
+    "name": "Dr. Bharath D",
+    "title": "HOD-Physics, BOE Chairman-Physics"
+  },
+  {
+    "name": "Dr. Pradeep C",
+    "title": "HOD-Mathematics, BOE Chairman- Mathematics"
+  },
+  {
+    "name": "Mrs. Latha Harikrishna",
+    "title": "Office Superintendent"
+  },
+  {
+    "name": "Mr. Franklin",
+    "title": "Office Assistant"
+  },
+  {
+    "name": "Mrs Savitha",
+    "title": "Office Assistant"
+  },
+  {
+    "name": "Mrs Laxmi Shivalli",
+    "title": "Accounts Manager"
+  },
+  {
+    "name": "Mr. Shrinivas Shenoy",
+    "title": "Project Manager"
+  },
+  {
+    "name": "Mrs Manisha Singh",
+    "title": "Programmer, ISE"
+  },
+  {
+    "name": "Prof. Karthik",
+    "title": "Assistant Professor, Civil Engg."
+  },
+  {
+    "name": "Dr. Shenbagalakshmi",
+    "title": "Assistant Professor, ECE"
+  },
+  {
+    "name": "Prof. Susmitha M N",
+    "title": "HOD – AIML & ISE"
+  },
+  {
+    "name": "Prof Gopinath",
+    "title": "Assistant Professor -AE"
+  },
+  {
+    "name": "Mr. Hari Krishna Hegde",
+    "title": "Public Relation Officer"
+  },
+  {
+    "name": "Mr Basanna Gouda",
+    "title": "Boys Hostel Warden"
+  },
+  {
+    "name": "Ms Sindhu",
+    "title": "Girls Hostel Warden"
+  },
+  {
+    "name": "Dr. Satish Sugumaran",
+    "title": "Associate Professor, Physics"
+  },
+  {
+    "name": "Mrs Suma",
+    "title": "Student Counsellor"
+  },
+  {
+    "name": "Mrs Gayathri Sen",
+    "title": "Counsellor, Samadhana Counselling Centre, Bangalore"
+  },
+  {
+    "name": "Mrs Preethi",
+    "title": "HR- Head"
+  },
+  {
+    "name": "Prof. Sophia G",
+    "title": "AP/CSE"
+  },
+  {
+    "name": "Dr Rajesh Kumar P",
+    "title": "AP/Mechanical"
+  },
+  {
+    "name": "Mrs. Niranjana",
+    "title": "AP-English"
+  },
+  {
+    "name": "Mr Udaya Kumar",
+    "title": "PED"
+  },
+  {
+    "name": "Dr. Magesan",
+    "title": "AP-Chemistry"
+  },
+  {
+    "name": "Dr Sridhara R N",
+    "title": "Chief Librarian"
+  }
+]

@@ -1,9 +1,0 @@
-Website Text Content for apeejay
-==================================================
-
-/asm/ route:
-------------------------------
-Error fetching content: 403 Client Error: Forbidden for url: https://www.apeejay.edu/asm/?utm_source=google&utm_medium=google+business+listing&utm_campaign=organic
-
-==================================================
-

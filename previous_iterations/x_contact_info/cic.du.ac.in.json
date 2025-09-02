@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Ms Shobha Rai",
+    "title": "Assistant Professor - Information Technology",
+    "phone": "9718840638"
+  },
+  {
+    "name": "Dr. J. S. Purohit",
+    "title": "Principal Investigator"
+  },
+  {
+    "title": "Undergraduate Admissions",
+    "email": "ug@admission.du.ac.in"
+  },
+  {
+    "title": "Postgraduate Admissions",
+    "email": "pg@admission.du.ac.in"
+  },
+  {
+    "title": "Ph.D. Admissions",
+    "email": "phd@admission.du.ac.in"
+  },
+  {
+    "title": "Admissions",
+    "phone": "011-27006900"
+  },
+  {
+    "title": "Office",
+    "email": "office@cic.du.ac.in"
+  },
+  {
+    "title": "Director",
+    "email": "director@cic.du.ac.in"
+  }
+]

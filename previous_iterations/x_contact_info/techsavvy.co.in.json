@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Sales / General Enquiries",
+    "phone": "+91-9650032300, +91-120-2401121/31",
+    "email": "sales@techsavvy.co.in"
+  },
+  {
+    "title": "Technical Helpline / Support",
+    "phone": "+91-931-005-7450",
+    "email": "Support@techsavvy.co.in"
+  },
+  {
+    "title": "Marketing Enquiries",
+    "phone": "+91-965-003-2300",
+    "email": "marketing@techsavvy.co.in"
+  },
+  {
+    "title": "Toll-Free",
+    "phone": "18008892245"
+  },
+  {
+    "title": "Regional Office (Haryana)",
+    "phone": "09910003273"
+  },
+  {
+    "title": "Registered Office (New Delhi)",
+    "phone": "9910004639"
+  },
+  {
+    "title": "Regional Office (Rajasthan)",
+    "phone": "9810857450"
+  },
+  {
+    "name": "admin",
+    "title": "Author"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "JACK",
+    "title": "CEO"
+  },
+  {
+    "name": "Michal",
+    "title": "Manager"
+  },
+  {
+    "name": "Trayn",
+    "title": "Software Developer"
+  },
+  {
+    "phone": "+3197010269362"
+  },
+  {
+    "phone": "+919211589469"
+  },
+  {
+    "email": "info@lineadigitech.nl"
+  },
+  {
+    "email": "support@lineadigitech.net"
+  },
+  {
+    "email": "support@lineadigitech.com"
+  }
+]

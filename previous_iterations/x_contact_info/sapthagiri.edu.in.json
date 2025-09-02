@@ -1,0 +1,39 @@
+[
+  {
+    "title": "General Contact",
+    "phone": "080-28372800",
+    "fax": "080-28372797",
+    "email": "principal@sapthagiri.edu.in"
+  },
+  {
+    "title": "Admissions",
+    "phone": [
+      "9900072632",
+      "080-28372800"
+    ],
+    "email": "admissions@sapthagiri.edu.in"
+  },
+  {
+    "name": "G D Manoj",
+    "title": "Managing Director"
+  },
+  {
+    "name": "SRI. G. DAYANAND",
+    "title": "Chairman"
+  },
+  {
+    "name": "Dr.RAMESH SHAHABADKAR"
+  },
+  {
+    "name": "Dr. Chandrashekar Nayak",
+    "title": "Guide"
+  },
+  {
+    "name": "Dr. Veena More S",
+    "title": "Guide"
+  },
+  {
+    "name": "Dr. Soumya C",
+    "title": "Guide"
+  }
+]
