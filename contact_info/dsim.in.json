@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Corporate Office",
+    "phone": "+91 8882999818"
+  },
+  {
+    "name": "Pan India Helpline",
+    "phone": "+91 8882999818"
+  },
+  {
+    "name": "Malviya Nagar Center",
+    "title": "Helpline",
+    "phone": "+91 8882999818"
+  },
+  {
+    "name": "Vishwavidyalaya Center",
+    "title": "Helpline",
+    "phone": "+91 9716000544"
+  },
+  {
+    "name": "Gurgaon Center",
+    "phone": "0124-4816133, +91 8882999818"
+  },
+  {
+    "name": "Agra Center",
+    "title": "Helpline",
+    "phone": "+91 7060709222",
+    "email": "agra@dsim.co.in"
+  }
+]

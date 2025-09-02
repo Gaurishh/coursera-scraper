@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Support",
+    "email": "support@hackerearth.com",
+    "phone": "+1-650-461-4192"
+  },
+  {
+    "name": "Sales Enquiry",
+    "email": "contact@hackerearth.com"
+  },
+  {
+    "name": "Internal Complaints Committee (ICC)",
+    "email": "icc@hackerearth.com"
+  },
+  {
+    "name": "Rohit CP"
+  },
+  {
+    "name": "Annie Mathew",
+    "title": "Director, Developers and Digital Natives, Microsoft"
+  },
+  {
+    "name": "Klaus Trescher",
+    "title": "CEO and Managing Director, Siemens India"
+  },
+  {
+    "name": "Sachin Gupta",
+    "title": "Founder"
+  },
+  {
+    "name": "Vivek Prakash",
+    "title": "CTO"
+  },
+  {
+    "name": "Shishir Bhat",
+    "title": "VP - Inside Sales"
+  },
+  {
+    "name": "Ankith Appaiah",
+    "title": "VP - India Sales"
+  },
+  {
+    "name": "Swetha Harikrishnan",
+    "title": "Sr.Director of HR"
+  },
+  {
+    "name": "Tarun Mallappa",
+    "title": "VP - Finance"
+  },
+  {
+    "name": "Vishwastam Shukla",
+    "title": "CTO"
+  }
+]

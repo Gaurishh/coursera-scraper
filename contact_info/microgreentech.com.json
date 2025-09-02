@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Microgreen Technologies Inc.",
+    "title": "USA Office",
+    "phone": "+1-425-244-0993",
+    "email": "info@microgreentech.com"
+  },
+  {
+    "name": "Microgreen Technologies Pvt. Ltd.",
+    "title": "Corporate Office",
+    "phone": "+91 7815960452",
+    "email": "info@microgreentech.com"
+  },
+  {
+    "name": "Microgreen Technologies Pvt. Ltd.",
+    "title": "Branch Office",
+    "phone": "+91 82178-44105, +91 96208-37777",
+    "email": "info@microgreentech.com"
+  },
+  {
+    "title": "CEO"
+  },
+  {
+    "name": "admin",
+    "title": "Blog Author"
+  }
+]

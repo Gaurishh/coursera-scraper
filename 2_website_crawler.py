@@ -305,7 +305,7 @@ def main():
     """
     Main function with multithreaded website crawling.
     """
-    csv_filename = 'discovered_leads.csv'
+    csv_filename = '1_discovered_leads.csv'
     output_dir = 'websites'
     
     # Configuration

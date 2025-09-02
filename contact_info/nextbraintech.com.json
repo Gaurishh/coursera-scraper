@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Mr. Saranraj C",
+    "title": "CEO & Founder",
+    "email": "saran@nextbraintech.com",
+    "phone": "+91 80883 21887, +1 437-989-3995"
+  },
+  {
+    "name": "HR",
+    "email": "hr@nextbraintech.com",
+    "phone": "+91 97901 65601"
+  },
+  {
+    "name": "Customer Support",
+    "email": "contact@nextbraintech.com"
+  },
+  {
+    "name": "Bangalore Office",
+    "phone": "+91 80883 21887, +1 437-989-3995"
+  },
+  {
+    "name": "Toronto Office",
+    "phone": "+1 437-989-3995"
+  },
+  {
+    "name": "Nashville Office",
+    "phone": "+1 210 666 9190"
+  },
+  {
+    "name": "Coimbatore Office",
+    "phone": "+91 9952493995"
+  },
+  {
+    "name": "Australia Office",
+    "phone": "+61 401 991 482"
+  },
+  {
+    "name": "Nairobi Office",
+    "phone": "+91 80883 21887"
+  },
+  {
+    "name": "General Inquiry",
+    "phone": "+91 99524 93995"
+  },
+  {
+    "name": "Siva",
+    "title": "CTO"
+  },
+  {
+    "name": "Muniraj",
+    "title": "UX & UI Manager"
+  },
+  {
+    "name": "Boopathy",
+    "title": "HR Manager"
+  },
+  {
+    "name": "Chiranjeevi",
+    "title": "VP - Business Development"
+  },
+  {
+    "name": "Mohan",
+    "title": "Lead - iOS Developer"
+  },
+  {
+    "name": "Sakthivel",
+    "title": "Lead - DevOps Engineer"
+  },
+  {
+    "name": "Shilpa Sree",
+    "title": "BDE"
+  },
+  {
+    "name": "Abdul Waheed",
+    "title": "Meanstack Developer"
+  },
+  {
+    "name": "Ramesh",
+    "title": "QA Engineer"
+  }
+]

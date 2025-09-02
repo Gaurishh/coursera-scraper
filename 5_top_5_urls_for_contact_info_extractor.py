@@ -20,10 +20,52 @@ except ImportError:
 INPUT_CSV = "2_leads_classified.csv"
 INPUT_DIR = "websites"
 OUTPUT_DIR = "top_5_urls_for_contact_info"
+ERROR_LOG_FILE = "llm_failure_log.json"  # File to log websites where LLM calls fail
 API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE") # Recommended: Use environment variables
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
-MAX_WORKERS = 1  # Number of concurrent threads for processing
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
+MAX_WORKERS = 6  # Number of concurrent threads for processing
 MAX_CONSECUTIVE_ERRORS = 5  # Stop trying after 5 consecutive URL validation failures
+
+# Thread lock for error logging
+error_log_lock = threading.Lock()
+
+def log_llm_failure(website_url, course_type, error_details):
+    """
+    Log LLM failure details to the error log file.
+    
+    Args:
+        website_url (str): The website URL that failed
+        course_type (str): The course type (programming/sales)
+        error_details (dict): Dictionary containing error information
+    """
+    with error_log_lock:
+        # Load existing error log or create new one
+        if os.path.exists(ERROR_LOG_FILE):
+            try:
+                with open(ERROR_LOG_FILE, 'r', encoding='utf-8') as f:
+                    error_log = json.load(f)
+            except (json.JSONDecodeError, FileNotFoundError):
+                error_log = {"failures": []}
+        else:
+            error_log = {"failures": []}
+        
+        # Add new failure entry
+        failure_entry = {
+            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+            "website_url": website_url,
+            "course_type": course_type,
+            "error_details": error_details
+        }
+        
+        error_log["failures"].append(failure_entry)
+        
+        # Save updated error log
+        try:
+            with open(ERROR_LOG_FILE, 'w', encoding='utf-8') as f:
+                json.dump(error_log, f, indent=2, ensure_ascii=False)
+            print(f"📝 Logged LLM failure for {website_url} to {ERROR_LOG_FILE}")
+        except Exception as e:
+            print(f"⚠️  Failed to write error log: {e}")
 
 # --- LLM Master Prompts for Different Course Types ---
 # Programming Course Master Prompt
@@ -83,19 +125,21 @@ Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
 # --- Gemini 2.5 Flash API Function ---
 def generate_content_with_gemini(prompt, max_retries=3):
     """
-    Generate content using Gemini 2.5 Flash with retry logic via REST API.
+    Generate content using Gemini 2.5 Pro with retry logic via REST API.
     
     Args:
         prompt (str): The prompt to send to Gemini
         max_retries (int): Maximum number of retry attempts
         
     Returns:
-        str: Generated content or None if failed
+        tuple: (response_text, error_details) where response_text is the generated content or None if failed,
+               and error_details is a dict with error information if all retries failed
     """
     if API_KEY == "YOUR_API_KEY_HERE":
-        return None
+        return None, {"error": "API key not configured", "attempts": 0}
     
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
+    errors = []
     
     for attempt in range(max_retries):
         try:
@@ -104,15 +148,27 @@ def generate_content_with_gemini(prompt, max_retries=3):
             
             # Extract text from response
             response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
-            return response_text
+            return response_text, None
             
         except Exception as e:
+            error_info = {
+                "attempt": attempt + 1,
+                "error_type": type(e).__name__,
+                "error_message": str(e)
+            }
+            errors.append(error_info)
             print(f"⚠️  Gemini API attempt {attempt + 1} failed: {e}")
+            
             if attempt < max_retries - 1:
                 time.sleep(2 ** attempt)  # Exponential backoff
             else:
                 print(f"❌ All Gemini API attempts failed for prompt")
-                return None
+                error_details = {
+                    "total_attempts": max_retries,
+                    "errors": errors,
+                    "final_error": errors[-1] if errors else None
+                }
+                return None, error_details
 
 # --- URL Normalization Function ---
 def normalize_url_for_processing(url):
@@ -137,7 +193,7 @@ def normalize_url_for_processing(url):
 # --- Contact URL Prioritization Function ---
 def prioritize_contact_urls(urls):
     """
-    Prioritizes URLs containing '/contact' or '/contact-us' to ensure they are always selected.
+    Prioritizes URLs containing exactly '/contact' or '/contact-us' to ensure they are always selected.
     
     Args:
         urls (list): List of URLs to prioritize
@@ -150,7 +206,8 @@ def prioritize_contact_urls(urls):
     
     for url in urls:
         url_lower = url.lower()
-        if '/contact' in url_lower or '/contact-us' in url_lower:
+        # Check for exact matches: '/contact' or '/contact-us' (not just containing these strings)
+        if url_lower.endswith('/contact') or url_lower.endswith('/contact-us') or '/contact/' in url_lower or '/contact-us/' in url_lower:
             contact_urls.append(url)
         else:
             non_contact_urls.append(url)
@@ -418,9 +475,9 @@ def process_single_lead(lead_data):
             llm_selected_urls = []
             llm_success = False
             
-            # Try Gemini 2.5 Flash first
+            # Try Gemini 2.5 Pro first
             print(f"🤖 Attempting LLM selection for {remaining_slots} remaining slots...")
-            response_text = generate_content_with_gemini(prompt)
+            response_text, error_details = generate_content_with_gemini(prompt)
             
             if response_text:
                 print(f"📝 LLM response received, parsing...")
@@ -439,7 +496,7 @@ def process_single_lead(lead_data):
                         # Limit to remaining slots
                         llm_selected_urls = llm_selected_urls[:remaining_slots]
                         llm_success = True
-                        print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
+                        print(f"✅ SUCCESS: Gemini 2.5 Pro selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
                     else:
                         raise ValueError("Gemini response did not contain a valid list of URLs.")
 
@@ -449,6 +506,10 @@ def process_single_lead(lead_data):
             else:
                 print(f"⚠️  WARN: No response from Gemini API for {website_url} ({course_type})")
                 llm_success = False
+                
+                # Log the LLM failure if we have error details
+                if error_details:
+                    log_llm_failure(website_url, course_type, error_details)
             
             # Fallback to deterministic selection if Gemini failed or not available
             if not llm_success:
@@ -497,7 +558,8 @@ def process_single_lead(lead_data):
                 replacement_found = False
                 while top_urls and not replacement_found and consecutive_errors < MAX_CONSECUTIVE_ERRORS:
                     next_url = top_urls.pop(0)  # Pop from the front of the queue
-                    if next_url not in final_urls:  # Make sure we don't duplicate
+                    # Check against both final_urls and final_selected_urls to prevent duplicates
+                    if next_url not in final_urls and next_url not in final_selected_urls:
                         print(f"  🔄 Trying replacement: {next_url}")
                         if validate_url_content(next_url):
                             final_urls.append(next_url)

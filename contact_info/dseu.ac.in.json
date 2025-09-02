@@ -1,0 +1,281 @@
+[
+  {
+    "name": "DSEU Helpdesk",
+    "phone": "1800-309-3209",
+    "email": "helpdesk@dseu.ac.in"
+  },
+  {
+    "name": "DSEU Admissions",
+    "email": "admissions@dseu.ac.in"
+  },
+  {
+    "name": "Smt. Atishi",
+    "title": "Hon’ble Minister for Education, PWD, Power, Art, Culture, & Languages, and Tourism, Govt. of NCT of Delhi, and Chairperson, Board of Management, DSEU"
+  },
+  {
+    "name": "Sh. Niharika Rai, IAS",
+    "title": "Hon'ble Vice Chairperson"
+  },
+  {
+    "name": "Prof. (Dr.) Amita Dev",
+    "title": "Hon'ble Vice Chancellor",
+    "email": "vc@dseu.ac.in"
+  },
+  {
+    "name": "Prof. (Dr.) Rihan Khan Suri",
+    "title": "Pro Vice Chancellor",
+    "email": "provc@dseu.ac.in"
+  },
+  {
+    "name": "Sh. Ashwani Kumar, IAS",
+    "title": "Principal Secretary (TTE)"
+  },
+  {
+    "name": "Dr. Bhim Prosad Sarmah",
+    "title": "Registrar",
+    "email": "registrar@dseu.ac.in"
+  },
+  {
+    "name": "Sh. Pankaj Kumar Singh",
+    "title": "Finance Officer",
+    "email": "fo@dseu.ac.in"
+  },
+  {
+    "name": "Prof. (Dr.) Snigdha Pattnaik",
+    "title": "Dean Academics",
+    "email": "deanacademics@dseu.ac.in"
+  },
+  {
+    "name": "Prof. (Dr.) Bhuvnesh Kumar",
+    "title": "Dean Student Affairs & Campus Life",
+    "email": "deansacl@dseu.ac.in"
+  },
+  {
+    "name": "Sh. R.K.Singh",
+    "title": "Controller of Examination",
+    "email": "coe@dseu.ac.in"
+  },
+  {
+    "name": "Sh. Abhinav Kumar Singh",
+    "title": "Deputy Registrar (Academics & Scholarship)",
+    "email": "abhinavksingh@dseu.ac.in"
+  },
+  {
+    "name": "Ms. Neha Singh",
+    "title": "Deputy Registrar (Establishment)",
+    "email": "neha.singh@dseu.ac.in"
+  },
+  {
+    "name": "Mr. Pradeep Sharma",
+    "title": "Deputy Registrar (Finance & Accounts)",
+    "email": "pradeep.sharma@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Deepika Dhanda",
+    "title": "Deputy Registrar (Planning & Policy)",
+    "email": "deepika.dhanda@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Girish Kumar",
+    "title": "Deputy Registrar (Skill, Entrepreneurship & Innovation)",
+    "email": "girish.k@dseu.ac.in"
+  },
+  {
+    "name": "Ms. Archna Gautam",
+    "title": "Assistant Registrar (Student Affairs & Campus Life)",
+    "email": "archnagautam@dseu.ac.in"
+  },
+  {
+    "name": "Mr. Narender Kumar",
+    "title": "Assistant Registrar (HR & Admin)",
+    "email": "narender.k@dseu.ac.in"
+  },
+  {
+    "name": "Mr. Pradeep Vashisht",
+    "title": "Assistant Registrar (Campus Operations)",
+    "email": "pradeep.vashisht@dseu.ac.in"
+  },
+  {
+    "name": "Mr. Shivam Yadav",
+    "title": "Assistant Registrar (Office of the Vice Chancellor)",
+    "email": "shivam.yadav@dseu.ac.in"
+  },
+  {
+    "name": "Mr. S. K. Pathak",
+    "title": "Assistant Registrar (Office of the Registrar)",
+    "email": "sk.pathak@dseu.ac.in"
+  },
+  {
+    "name": "Mr. Ankur Gupta",
+    "title": "Assistant Registrar (Examinations)",
+    "email": "ankur.gupta@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Harsahib Singh",
+    "title": "Assistant Registrar (Admissions)",
+    "email": "harsahib.singh@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Anil Kumar",
+    "title": "Campus Director, Dwarka",
+    "email": "anil.kumar@dseu.ac.in"
+  },
+  {
+    "name": "Prof. (Dr.) Manoj Kumar",
+    "title": "Campus Director, Okhla-I",
+    "email": "manoj.kumar@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Shuchita Kumar",
+    "title": "Campus Director, Maharani Bagh",
+    "email": "shuchita.k@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Anil Kumar Sharma",
+    "title": "Campus Director, Okhla-II",
+    "email": "anil.k@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Shailesh Kumar",
+    "title": "Campus Director, Okhla-III",
+    "email": "shailesh.kumar@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Anshu Kumar",
+    "title": "Campus Director, Wazirpur",
+    "email": "anshu.k@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Amardeep",
+    "title": "Campus Director, G.B. Pant",
+    "email": "amardeep@dseu.ac.in"
+  },
+  {
+    "name": "Sh. H.S. Rawat",
+    "title": "Campus Director, Pusa",
+    "email": "hs.rawat@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Reetika Agarwal",
+    "title": "Campus Director, Mayur Vihar",
+    "email": "reetika.agarwal@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Suman Gupta",
+    "title": "Campus Director, Siri Fort",
+    "email": "suman.gupta@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Deepika Garg",
+    "title": "Campus Director, Vivek Vihar",
+    "email": "deepika.garg@dseu.ac.in"
+  },
+  {
+    "name": "Sh. Manish Kr. Dev",
+    "title": "Campus Director, Rajokri",
+    "email": "manish.dev@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Ashok Kumar",
+    "title": "Campus Director, Ashok Vihar",
+    "email": "ashok.kumar@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Priyanka Singh",
+    "title": "Campus Director, Bhai Parmanand, Shakarpur",
+    "email": "priyanka.singh@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Vinita Gupta",
+    "title": "Campus Director, Kasturba, Pitampura",
+    "email": "vinita.gupta@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Neeru Mehta",
+    "title": "Campus Director, Dheerpur & Head of Centre of Excellence - Dheerpur",
+    "email": "neeru.mehta@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Seema Sharma",
+    "title": "Campus Director, Ambedkar, Shakarpur",
+    "email": "seema.sharma@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Naresh Kumar",
+    "title": "Head of Centre of Excellence - Anand Vihar",
+    "email": "naresh.kumar@dseu.ac.in"
+  },
+  {
+    "name": "Dr. Priyanka Arora",
+    "title": "Head of Centre of Excellence - Mayur Vihar",
+    "email": "priyanka.arora@dseu.ac.in"
+  },
+  {
+    "name": "DSEU Dwarka Campus",
+    "phone": "(011) 25081028"
+  },
+  {
+    "name": "DSEU Pusa Campus-I",
+    "phone": "(011) 25847822"
+  },
+  {
+    "name": "DSEU Pusa Campus-II",
+    "phone": "(011) 25843050"
+  },
+  {
+    "name": "DSEU Okhla-I Campus",
+    "phone": "(011) 26826620"
+  },
+  {
+    "name": "DSEU Okhla-II Campus",
+    "phone": "(011) 26382023"
+  },
+  {
+    "name": "DSEU Okhla-III Campus",
+    "phone": "(011) 26927513"
+  },
+  {
+    "name": "DSEU Wazirpur-I Campus",
+    "phone": "(011) 27372745"
+  },
+  {
+    "name": "DSEU Ashok Vihar Campus",
+    "phone": "(011) 27305349"
+  },
+  {
+    "name": "DSEU Mayur Vihar Campus",
+    "phone": "(011) 22753101"
+  },
+  {
+    "name": "DSEU Siri Fort Campus",
+    "phone": "(011) 26490602"
+  },
+  {
+    "name": "DSEU Vivek Vihar Campus",
+    "phone": "(011) 22153229"
+  },
+  {
+    "name": "DSEU Rajokri Campus",
+    "phone": "(011) 25064516"
+  },
+  {
+    "name": "DSEU G.B. Pant Campus",
+    "phone": "(011) 26382061"
+  },
+  {
+    "name": "DSEU Ambedkar Shakarpur Campus-I",
+    "phone": "(011) 22421473"
+  },
+  {
+    "name": "DSEU Kasturba Pritampura Campus",
+    "phone": "(011) 27318536"
+  },
+  {
+    "name": "DSEU Maharani Bagh Campus",
+    "phone": "(011) 26315510"
+  },
+  {
+    "name": "DSEU Bhai Parmanand Shakarpur Campus-II",
+    "phone": "(011) 22521319"
+  }
+]

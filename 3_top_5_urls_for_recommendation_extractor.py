@@ -13,32 +13,15 @@ except ImportError:
     # python-dotenv not installed, continue without it
     pass
 
-# Import the new Google Gen AI SDK
-try:
-    from google import genai
-    from google.genai import types
-    GENAI_AVAILABLE = True
-except ImportError:
-    print("WARNING: google-genai package not installed. Install with: pip install google-genai")
-    GENAI_AVAILABLE = False
+# No additional imports needed - using requests for REST API
 
 # --- Configuration ---
 INPUT_DIR = "websites"
 OUTPUT_DIR = "top_5_urls_for_recommendation"
-API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
-MAX_WORKERS = 1  # Number of concurrent threads for processing
+API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE") # Recommended: Use environment variables
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
+MAX_WORKERS = 6  # Number of concurrent threads for processing
 MAX_CONSECUTIVE_ERRORS = 5  # Stop trying after 5 consecutive URL validation failures
-
-# Initialize the Gen AI client
-if GENAI_AVAILABLE and API_KEY != "YOUR_API_KEY_HERE":
-    try:
-        client = genai.Client(api_key=API_KEY)
-        print("✅ Successfully initialized Gemini 2.5 Flash client")
-    except Exception as e:
-        print(f"❌ Failed to initialize Gemini client: {e}")
-        GENAI_AVAILABLE = False
-else:
-    print("⚠️  Gemini client not available - will use fallback methods only")
 
 # --- LLM Master Prompt ---
 # This detailed prompt guides the LLM to make a reliable and informed decision.
@@ -62,7 +45,7 @@ Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
 # --- Gemini 2.5 Pro API Function ---
 def generate_content_with_gemini(prompt, max_retries=3):
     """
-    Generate content using Gemini 2.5 Pro with retry logic.
+    Generate content using Gemini 2.5 Pro with retry logic via REST API.
     
     Args:
         prompt (str): The prompt to send to Gemini
@@ -71,22 +54,19 @@ def generate_content_with_gemini(prompt, max_retries=3):
     Returns:
         str: Generated content or None if failed
     """
-    if not GENAI_AVAILABLE:
+    if API_KEY == "YOUR_API_KEY_HERE":
         return None
+    
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
     for attempt in range(max_retries):
         try:
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    temperature=0.2,  # Lower temperature for more consistent results
-                    max_output_tokens=800,  # Shorter responses for URL selection
-                    top_p=0.7,  # More focused responses
-                    top_k=20  # Limit vocabulary for better consistency
-                )
-            )
-            return response.text
+            response = requests.post(API_URL, json=payload, timeout=60)
+            response.raise_for_status()
+            
+            # Extract text from response
+            response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
+            return response_text
             
         except Exception as e:
             print(f"⚠️  Gemini API attempt {attempt + 1} failed: {e}")
@@ -119,7 +99,7 @@ def normalize_url_for_processing(url):
 # --- About URL Prioritization Function ---
 def prioritize_about_urls(urls):
     """
-    Prioritizes URLs containing '/about' or '/about-us' to ensure they are always selected.
+    Prioritizes URLs containing exactly '/about' or '/about-us' to ensure they are always selected.
     
     Args:
         urls (list): List of URLs to prioritize
@@ -132,7 +112,8 @@ def prioritize_about_urls(urls):
     
     for url in urls:
         url_lower = url.lower()
-        if '/about' in url_lower or '/about-us' in url_lower:
+        # Check for exact matches: '/about' or '/about-us' (not just containing these strings)
+        if url_lower.endswith('/about') or url_lower.endswith('/about-us') or '/about/' in url_lower or '/about-us/' in url_lower:
             about_urls.append(url)
         else:
             non_about_urls.append(url)
@@ -283,39 +264,35 @@ def process_single_website(filename):
             llm_success = False
             
             # Try Gemini 2.5 Pro first
-            if GENAI_AVAILABLE:
-                print(f"🤖 Attempting LLM selection for {remaining_slots} remaining slots...")
-                response_text = generate_content_with_gemini(prompt)
-                
-                if response_text:
-                    print(f"📝 LLM response received, parsing...")
-                    try:
-                        # Clean the response text (remove markdown code blocks if present)
-                        if response_text.startswith('```json'):
-                            response_text = response_text[7:]  # Remove ```json
-                        if response_text.endswith('```'):
-                            response_text = response_text[:-3]  # Remove ```
-                        response_text = response_text.strip()
-                        
-                        data = json.loads(response_text)
+            print(f"🤖 Attempting LLM selection for {remaining_slots} remaining slots...")
+            response_text = generate_content_with_gemini(prompt)
+            
+            if response_text:
+                print(f"📝 LLM response received, parsing...")
+                try:
+                    # Clean the response text (remove markdown code blocks if present)
+                    if response_text.startswith('```json'):
+                        response_text = response_text[7:]  # Remove ```json
+                    if response_text.endswith('```'):
+                        response_text = response_text[:-3]  # Remove ```
+                    response_text = response_text.strip()
+                    
+                    data = json.loads(response_text)
 
-                        if isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
-                            llm_selected_urls = data['selected_urls']
-                            # Limit to remaining slots
-                            llm_selected_urls = llm_selected_urls[:remaining_slots]
-                            llm_success = True
-                            print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-about URLs for {filename}")
-                        else:
-                            raise ValueError("Gemini response did not contain a valid list of URLs.")
+                    if isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
+                        llm_selected_urls = data['selected_urls']
+                        # Limit to remaining slots
+                        llm_selected_urls = llm_selected_urls[:remaining_slots]
+                        llm_success = True
+                        print(f"✅ SUCCESS: Gemini 2.5 Pro selected {len(llm_selected_urls)} non-about URLs for {filename}")
+                    else:
+                        raise ValueError("Gemini response did not contain a valid list of URLs.")
 
-                    except (json.JSONDecodeError, ValueError) as e:
-                        print(f"⚠️  WARN: Gemini response parsing failed for {filename}. Error: {e}")
-                        llm_success = False
-                else:
-                    print(f"⚠️  WARN: No response from Gemini API for {filename}")
+                except (json.JSONDecodeError, ValueError) as e:
+                    print(f"⚠️  WARN: Gemini response parsing failed for {filename}. Error: {e}")
                     llm_success = False
             else:
-                print(f"⚠️  WARN: Gemini API not available for {filename}")
+                print(f"⚠️  WARN: No response from Gemini API for {filename}")
                 llm_success = False
             
             # Fallback to deterministic selection if Gemini failed or not available
@@ -365,7 +342,8 @@ def process_single_website(filename):
                 replacement_found = False
                 while top_urls and not replacement_found and consecutive_errors < MAX_CONSECUTIVE_ERRORS:
                     next_url = top_urls.pop(0)  # Pop from the front of the queue
-                    if next_url not in final_urls:  # Make sure we don't duplicate
+                    # Check against both final_urls and final_selected_urls to prevent duplicates
+                    if next_url not in final_urls and next_url not in final_selected_urls:
                         print(f"  🔄 Trying replacement: {next_url}")
                         if validate_url_content(next_url):
                             final_urls.append(next_url)
@@ -494,13 +472,6 @@ def process_websites():
 # --- Execution ---
 if __name__ == "__main__":
     if API_KEY == "YOUR_API_KEY_HERE":
-        print("❌ ERROR: Please set your Gemini API key as an environment variable (GEMINI_API_KEY).")
-        print("   You can set it with: $env:GEMINI_API_KEY='your_api_key_here'")
-        print("   Or install the package with: pip install google-genai")
-    elif not GENAI_AVAILABLE:
-        print("⚠️  WARNING: google-genai package not available. Install with: pip install google-genai")
-        print("   The script will run with deterministic fallback only.")
-        process_websites()
+        print("ERROR: Please set your Gemini API key in the script or as an environment variable (GEMINI_API_KEY).")
     else:
-        print("🚀 Starting with Gemini 2.5 Flash integration...")
         process_websites()

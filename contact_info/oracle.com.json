@@ -1,0 +1,427 @@
+[
+  {
+    "name": "Oracle Sales (India)",
+    "phone": "+91 80 37132100, 000 800 100 7789 (Tata toll-free, India)",
+    "email": "salesinquiry_in@oracle.com"
+  },
+  {
+    "name": "Technical Support (India)",
+    "phone": "000 800 100 7534"
+  },
+  {
+    "name": "Billing Support (India)",
+    "phone": "000 800 050 1015"
+  },
+  {
+    "name": "Oracle India Headquarters",
+    "title": "New Delhi Office"
+  },
+  {
+    "name": "Account Support/Password Reset",
+    "email": "oracle-acct_ww@oracle.com"
+  },
+  {
+    "name": "MFA System Email",
+    "email": "no-reply@identity.oci.oraclecloud.com"
+  },
+  {
+    "name": "Larry Ellison",
+    "title": "Founder"
+  },
+  {
+    "name": "Bob Miner",
+    "title": "Founder"
+  },
+  {
+    "name": "Ed Oates",
+    "title": "Founder"
+  },
+  {
+    "name": "Oracle Global Contact (United States)",
+    "phone": "+1.800.633.0738"
+  },
+  {
+    "name": "Oracle Global Contact (Canada)",
+    "phone": "1-800-363-3059"
+  },
+  {
+    "name": "Oracle Global Contact (Canada - French)",
+    "phone": "1-800-363-5805"
+  },
+  {
+    "name": "Oracle Global Contact (Argentina)",
+    "phone": "+54 11 5299 6535"
+  },
+  {
+    "name": "Oracle Global Contact (Belize)",
+    "phone": "+57 1 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Brazil)",
+    "phone": "0800-891-4433"
+  },
+  {
+    "name": "Oracle Global Contact (Chile)",
+    "phone": "+56 2 2830 7879"
+  },
+  {
+    "name": "Oracle Global Contact (Colombia)",
+    "phone": "+57 60 1 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Costa Rica)",
+    "phone": "+506 2205-5500"
+  },
+  {
+    "name": "Oracle Global Contact (Ecuador)",
+    "phone": "+57 601 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Guatemala)",
+    "phone": "+57 601 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Honduras)",
+    "phone": "+57 601 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Mexico)",
+    "phone": "+52 33 29924637"
+  },
+  {
+    "name": "Oracle Global Contact (Nicaragua)",
+    "phone": "+57 601 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Panama)",
+    "phone": "+57 601 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Paraguay)",
+    "phone": "+57 601 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Peru)",
+    "phone": "+51 1 615 1047"
+  },
+  {
+    "name": "Oracle Global Contact (Puerto Rico)",
+    "phone": "+506 25828126"
+  },
+  {
+    "name": "Oracle Global Contact (Uruguay)",
+    "phone": "+57 601 611 6734"
+  },
+  {
+    "name": "Oracle Global Contact (Australia)",
+    "phone": "1300 366 386"
+  },
+  {
+    "name": "Oracle Global Contact (Bangladesh)",
+    "phone": "+65 6501 2308"
+  },
+  {
+    "name": "Oracle Global Contact (Bhutan)",
+    "phone": "1800 672 2531"
+  },
+  {
+    "name": "Oracle Global Contact (Brunei)",
+    "phone": "+65 643 62 417"
+  },
+  {
+    "name": "Oracle Global Contact (Cambodia)",
+    "phone": "1800 672 2531"
+  },
+  {
+    "name": "Oracle Global Contact (China)",
+    "phone": "+400 699 8888"
+  },
+  {
+    "name": "Oracle Global Contact (Hong Kong SAR, PRC)",
+    "phone": "800 901 039"
+  },
+  {
+    "name": "Oracle Global Contact (Indonesia)",
+    "phone": "+62 21 2555 2100"
+  },
+  {
+    "name": "Oracle Global Contact (Japan)",
+    "phone": "050-3615-0035"
+  },
+  {
+    "name": "Oracle Global Contact (Korea)",
+    "phone": "080-2194-114"
+  },
+  {
+    "name": "Oracle Global Contact (Laos)",
+    "phone": "8424 3944 7521"
+  },
+  {
+    "name": "Oracle Global Contact (Malaysia)",
+    "phone": "1800 801 837"
+  },
+  {
+    "name": "Oracle Global Contact (Maldives)",
+    "phone": "+65 650 12 307"
+  },
+  {
+    "name": "Oracle Global Contact (Mongolia)",
+    "phone": "+7 495 641 1439"
+  },
+  {
+    "name": "Oracle Global Contact (New Zealand)",
+    "phone": "05 08 555 215"
+  },
+  {
+    "name": "Oracle Global Contact (Nepal)",
+    "phone": "+65 650 12 308"
+  },
+  {
+    "name": "Oracle Global Contact (Pakistan)",
+    "phone": "+92 51 209 9783"
+  },
+  {
+    "name": "Oracle Global Contact (Philippines)",
+    "phone": "+63 2 7220 5097"
+  },
+  {
+    "name": "Oracle Global Contact (Singapore)",
+    "phone": "1800 672 2531"
+  },
+  {
+    "name": "Oracle Global Contact (Sri Lanka)",
+    "phone": "+65 650 12 306"
+  },
+  {
+    "name": "Oracle Global Contact (Taiwan)",
+    "phone": "0800-672-253"
+  },
+  {
+    "name": "Oracle Global Contact (Thailand)",
+    "phone": "+66 2 696 4798"
+  },
+  {
+    "name": "Oracle Global Contact (Vietnam)",
+    "phone": "+84 24 3944 7521"
+  },
+  {
+    "name": "Oracle Global Contact (Austria)",
+    "phone": "+43 133 777 001"
+  },
+  {
+    "name": "Oracle Global Contact (Belgium)",
+    "phone": "+32 2 719 1332"
+  },
+  {
+    "name": "Oracle Global Contact (Bosnia & Herzegovina)",
+    "phone": "+387 33 958 948"
+  },
+  {
+    "name": "Oracle Global Contact (Bulgaria)",
+    "phone": "+359 2 923 8191"
+  },
+  {
+    "name": "Oracle Global Contact (Croatia)",
+    "phone": "+385 1 630 63 64"
+  },
+  {
+    "name": "Oracle Global Contact (Cyprus)",
+    "phone": "+357 22 694626"
+  },
+  {
+    "name": "Oracle Global Contact (Czech Republic)",
+    "phone": "+420 220 437 006"
+  },
+  {
+    "name": "Oracle Global Contact (Denmark)",
+    "phone": "+45 44 80 80 77"
+  },
+  {
+    "name": "Oracle Global Contact (Estonia)",
+    "phone": "+372 628 7709"
+  },
+  {
+    "name": "Oracle Global Contact (Finland)",
+    "phone": "+358 9 5494 1006"
+  },
+  {
+    "name": "Oracle Global Contact (France)",
+    "phone": "+33 1 57 60 8302"
+  },
+  {
+    "name": "Oracle Global Contact (Germany)",
+    "phone": "+49 6103 397 006"
+  },
+  {
+    "name": "Oracle Global Contact (Greece)",
+    "phone": "+30 210 67 89 498"
+  },
+  {
+    "name": "Oracle Global Contact (Hungary)",
+    "phone": "+36 1 487 2440"
+  },
+  {
+    "name": "Oracle Global Contact (Ireland)",
+    "phone": "+353 1 8031162"
+  },
+  {
+    "name": "Oracle Global Contact (Italy)",
+    "phone": "+39 022 49 59 355"
+  },
+  {
+    "name": "Oracle Global Contact (Latvia)",
+    "phone": "+44 (0)20 7131 2812"
+  },
+  {
+    "name": "Oracle Global Contact (Lithuania)",
+    "phone": "+370 5 2047507"
+  },
+  {
+    "name": "Oracle Global Contact (Luxembourg)",
+    "phone": "+352 27 000605"
+  },
+  {
+    "name": "Oracle Global Contact (Malta)",
+    "phone": "+44 2071 312814"
+  },
+  {
+    "name": "Oracle Global Contact (Netherlands)",
+    "phone": "+31 30 6698202"
+  },
+  {
+    "name": "Oracle Global Contact (Norway)",
+    "phone": "+47 73 84 21 11"
+  },
+  {
+    "name": "Oracle Global Contact (Poland)",
+    "phone": "+48 22 168 24 14"
+  },
+  {
+    "name": "Oracle Global Contact (Portugal)",
+    "phone": "+351 21 423 5180"
+  },
+  {
+    "name": "Oracle Global Contact (Romania)",
+    "phone": "+40 213 476 002"
+  },
+  {
+    "name": "Oracle Global Contact (Serbia)",
+    "phone": "+381 1120 16897"
+  },
+  {
+    "name": "Oracle Global Contact (Slovakia)",
+    "phone": "+421 2 5728 8003"
+  },
+  {
+    "name": "Oracle Global Contact (Slovenia)",
+    "phone": "+44 2071 312813"
+  },
+  {
+    "name": "Oracle Global Contact (Spain)",
+    "phone": "+34 916 036 188"
+  },
+  {
+    "name": "Oracle Global Contact (Sweden)",
+    "phone": "+46 85 877 8022"
+  },
+  {
+    "name": "Oracle Global Contact (Switzerland - French)",
+    "phone": "+41 22 556 26 27"
+  },
+  {
+    "name": "Oracle Global Contact (Switzerland - German)",
+    "phone": "+41 22 556 26 26"
+  },
+  {
+    "name": "Oracle Global Contact (Turkey)",
+    "phone": "+90 212 329 6550"
+  },
+  {
+    "name": "Oracle Global Contact (Ukraine)",
+    "phone": "+380 44 498 4277"
+  },
+  {
+    "name": "Oracle Global Contact (United Kingdom)",
+    "phone": "+44 2075 626823"
+  },
+  {
+    "name": "Oracle Global Contact (Bahrain)",
+    "phone": "+973 1 7512551"
+  },
+  {
+    "name": "Oracle Global Contact (Egypt)",
+    "phone": "+20 22 4802777"
+  },
+  {
+    "name": "Oracle Global Contact (Israel)",
+    "phone": "+972 3 9273770"
+  },
+  {
+    "name": "Oracle Global Contact (Jordan)",
+    "phone": "+962 6 5200802"
+  },
+  {
+    "name": "Oracle Global Contact (Kuwait)",
+    "phone": "+974 4 4462710"
+  },
+  {
+    "name": "Oracle Global Contact (Lebanon)",
+    "phone": "+96265200825"
+  },
+  {
+    "name": "Oracle Global Contact (Oman)",
+    "phone": "+974 4 4462740"
+  },
+  {
+    "name": "Oracle Global Contact (Qatar)",
+    "phone": "+974 4 4462718"
+  },
+  {
+    "name": "Oracle Global Contact (Saudi Arabia)",
+    "phone": "+966 112739210"
+  },
+  {
+    "name": "Oracle Global Contact (United Arab Emirates)",
+    "phone": "+971 4 3909010"
+  },
+  {
+    "name": "Oracle Global Contact (Yemen)",
+    "phone": "+971 4 3909010"
+  },
+  {
+    "name": "Oracle Global Contact (Algeria)",
+    "phone": "+212 522 977 308"
+  },
+  {
+    "name": "Oracle Global Contact (Ghana)",
+    "phone": "+271 131 945 66"
+  },
+  {
+    "name": "Oracle Global Contact (Kenya)",
+    "phone": "+271 131 945 66"
+  },
+  {
+    "name": "Oracle Global Contact (Morocco)",
+    "phone": "+212 522 977 308"
+  },
+  {
+    "name": "Oracle Global Contact (Nigeria)",
+    "phone": "+271 131 945 66"
+  },
+  {
+    "name": "Oracle Global Contact (Senegal)",
+    "phone": "+271 131 945 66"
+  },
+  {
+    "name": "Oracle Global Contact (Sub Saharan Africa)",
+    "phone": "+271 131 945 66"
+  },
+  {
+    "name": "Oracle Global Contact (South Africa)",
+    "phone": "+27 11 319 4022"
+  },
+  {
+    "name": "Oracle Global Contact (Tunisia)",
+    "phone": "+212 522 977 308"
+  }
+]

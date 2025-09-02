@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Techno Kaksha",
+    "phone": "+91 96671 89337",
+    "email": "info@technokaksha.com"
+  },
+  {
+    "name": "Vinay Rajput",
+    "title": "Director"
+  },
+  {
+    "name": "Harish Kumar",
+    "title": "Academic Head"
+  },
+  {
+    "name": "Saloni Prajapati",
+    "title": "Administration Head"
+  },
+  {
+    "name": "Amardeep Gulati",
+    "title": "CSR Head"
+  },
+  {
+    "name": "Seema Sharma",
+    "title": "Course Coordinator"
+  },
+  {
+    "name": "Aman Rajput",
+    "title": "Course Coordinator"
+  },
+  {
+    "name": "Aftar Ansari",
+    "title": "Course Coordinator"
+  },
+  {
+    "name": "Riya Rawat",
+    "title": "Course Coordinator"
+  }
+]

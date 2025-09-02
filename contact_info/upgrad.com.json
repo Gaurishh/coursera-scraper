@@ -1,0 +1,33 @@
+[
+  {
+    "name": "For Program Related Queries",
+    "phone": "1800 210 2020",
+    "email": "customercare@upgrad.com"
+  },
+  {
+    "name": "For Business Related Queries",
+    "phone": "1800 210 2020",
+    "email": "enterprise@upgrad.com"
+  },
+  {
+    "name": "For Grievance Redressal",
+    "phone": "1800 210 2020",
+    "email": "grievance.redressal@upgrad.com"
+  },
+  {
+    "name": "Ronnie Screwvala",
+    "title": "Co-Founder & Chairperson"
+  },
+  {
+    "name": "Mayank Kumar",
+    "title": "Co-Founder"
+  },
+  {
+    "name": "Phalgun Kompalli",
+    "title": "Co-Founder"
+  },
+  {
+    "name": "Student Support",
+    "email": "studentsupport@upgrad.com"
+  }
+]

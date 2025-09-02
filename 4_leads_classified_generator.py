@@ -22,7 +22,7 @@ URL_FILES_DIR = "top_5_urls_for_recommendation"
 # Final output file
 OUTPUT_FILE = "2_leads_classified.csv" 
 API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
 
 # --- LLM Master Prompt ---
 MASTER_PROMPT_TEMPLATE = """
@@ -136,43 +136,82 @@ def process_single_lead(lead):
 
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
-    try:
-        response = requests.post(API_URL, json=payload, timeout=90)
-        response.raise_for_status()
-        response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
-        
-        # Clean response text and parse JSON
-        if response_text.startswith('```json'):
-            response_text = response_text[7:]  # Remove ```json
-        if response_text.endswith('```'):
-            response_text = response_text[:-3]  # Remove ```
-        response_text = response_text.strip()
-        
-        data = json.loads(response_text)
-        
-        print(f"SUCCESS: Analyzed {website_url}")
-        return {
-            'Website': website_url,
-            'Course': data.get('recommended_course', 'N/A'),
-            'Score': data.get('confidence_score', 0),
-            'Reasoning': data.get('reasoning', '')
-        }
+    # Retry mechanism for LLM calls
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            print(f"🤖 LLM attempt {attempt + 1}/{max_retries} for {website_url}")
+            response = requests.post(API_URL, json=payload, timeout=90)
+            response.raise_for_status()
+            response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
+            
+            # Clean response text and parse JSON
+            if response_text.startswith('```json'):
+                response_text = response_text[7:]  # Remove ```json
+            if response_text.endswith('```'):
+                response_text = response_text[:-3]  # Remove ```
+            response_text = response_text.strip()
+            
+            data = json.loads(response_text)
+            
+            print(f"✅ SUCCESS: Analyzed {website_url}")
+            return {
+                'Website': website_url,
+                'Course': data.get('recommended_course', 'N/A'),
+                'Score': data.get('confidence_score', 0),
+                'Reasoning': data.get('reasoning', '')
+            }
 
-    except requests.RequestException as e:
-        print(f"ERROR: API request failed for {website_url}. Error: {e}")
-        return None
-    except (KeyError, IndexError) as e:
-        print(f"ERROR: Invalid API response structure for {website_url}. Error: {e}")
-        return None
-    except json.JSONDecodeError as e:
-        print(f"ERROR: JSON parsing failed for {website_url}. Response: {response_text[:200]}... Error: {e}")
-        return None
-    except ValueError as e:
-        print(f"ERROR: Data validation failed for {website_url}. Error: {e}")
-        return None
-    except Exception as e:
-        print(f"ERROR: Unexpected error for {website_url}. Error: {e}")
-        return None
+        except requests.RequestException as e:
+            print(f"⚠️  API request failed for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
+            if attempt < max_retries - 1:
+                # Exponential backoff: wait 2^attempt seconds before retrying
+                wait_time = 2 ** attempt
+                print(f"⏳ Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+            else:
+                print(f"❌ All {max_retries} API attempts failed for {website_url}")
+                return None
+                
+        except (KeyError, IndexError) as e:
+            print(f"⚠️  Invalid API response structure for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt
+                print(f"⏳ Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+            else:
+                print(f"❌ All {max_retries} attempts failed due to invalid response structure for {website_url}")
+                return None
+                
+        except json.JSONDecodeError as e:
+            print(f"⚠️  JSON parsing failed for {website_url} (attempt {attempt + 1}/{max_retries}). Response: {response_text[:200] if 'response_text' in locals() else 'No response'}... Error: {e}")
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt
+                print(f"⏳ Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+            else:
+                print(f"❌ All {max_retries} attempts failed due to JSON parsing error for {website_url}")
+                return None
+                
+        except ValueError as e:
+            print(f"⚠️  Data validation failed for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt
+                print(f"⏳ Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+            else:
+                print(f"❌ All {max_retries} attempts failed due to data validation error for {website_url}")
+                return None
+                
+        except Exception as e:
+            print(f"⚠️  Unexpected error for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
+            if attempt < max_retries - 1:
+                wait_time = 2 ** attempt
+                print(f"⏳ Waiting {wait_time} seconds before retry...")
+                time.sleep(wait_time)
+            else:
+                print(f"❌ All {max_retries} attempts failed due to unexpected error for {website_url}")
+                return None
 
 
 def generate_classifications():
@@ -201,7 +240,7 @@ def generate_classifications():
     
     print(f"--- Starting Analysis for {len(leads_to_process)} Leads ---")
     
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=6) as executor:
         future_to_lead = {executor.submit(process_single_lead, lead): lead for lead in leads_to_process}
         
         for future in as_completed(future_to_lead):

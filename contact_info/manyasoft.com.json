@@ -1,0 +1,31 @@
+[
+  {
+    "name": "ManyaSoft",
+    "phone": "8197440066",
+    "email": "sales@manyasoft.com"
+  },
+  {
+    "name": "Kumar SS",
+    "title": "Manager : Web Apps"
+  },
+  {
+    "name": "Ashwini SS",
+    "title": "Manager : Web Apps"
+  },
+  {
+    "name": "Janya N Gowda",
+    "title": "Manager : Business"
+  },
+  {
+    "name": "Vijay Sharma",
+    "title": "Lead : Web Apps"
+  },
+  {
+    "phone": "666 888 0000",
+    "email": "needhelp@growim.com"
+  },
+  {
+    "phone": "099 695 695 35",
+    "email": "needhelp@company.com"
+  }
+]

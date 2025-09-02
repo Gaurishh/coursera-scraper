@@ -21,7 +21,7 @@ CONTACT_URLS_DIR = "top_5_urls_for_contact_info"
 # Output directory for contact information JSON files
 OUTPUT_DIR = "contact_info"
 API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
 
 # --- LLM Master Prompt for Contact Information Extraction ---
 CONTACT_EXTRACTION_PROMPT_TEMPLATE = """
@@ -263,7 +263,7 @@ def gather_contact_information():
     
     print(f"--- Starting Contact Information Extraction for {len(leads_to_process)} Leads ---")
     
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=6) as executor:
         future_to_lead = {executor.submit(process_single_lead, lead): lead for lead in leads_to_process}
         
         for future in as_completed(future_to_lead):

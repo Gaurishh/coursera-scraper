@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Sales Enquiries",
+    "phone": "+91 8310144401",
+    "email": "salesenquiries@c2info.com"
+  },
+  {
+    "name": "Customer Support Team",
+    "phone": "08067657070",
+    "email": "support@c2info.com"
+  },
+  {
+    "name": "Migration Support",
+    "phone": "08067657000"
+  },
+  {
+    "name": "Aruljothi C",
+    "title": "Chennai Branch Contact",
+    "phone": "+91-9840926525",
+    "email": "aruljothi.c@c2info.com"
+  },
+  {
+    "name": "Anvar M H",
+    "title": "Kochi Branch Contact",
+    "phone": "+91-9895712423",
+    "email": "anvar@c2info.in"
+  },
+  {
+    "name": "Rupak Ranjan Saikia",
+    "title": "Kolkata Branch Contact",
+    "phone": "+91-9836236277",
+    "email": "rupak.rs@c2info.com"
+  },
+  {
+    "name": "Vikas Nerukar",
+    "title": "Mumbai Branch Contact",
+    "phone": "+91-8291276763",
+    "email": "Vikas.n@c2info.com"
+  },
+  {
+    "name": "Asha Arun",
+    "title": "Grievance Officer",
+    "phone": "+91-97421 53377",
+    "email": "grievanceofficer@c2info.com"
+  },
+  {
+    "name": "Sripal Bachawat",
+    "title": "Pioneer in providing solutions on Windows platform"
+  },
+  {
+    "name": "Sajith Thattalath",
+    "title": "Pioneer software solution providers for Pharmaceutical Industry"
+  },
+  {
+    "name": "Ghaag Vaibbhav",
+    "title": "Sales Head"
+  },
+  {
+    "name": "Muthu Narayanan",
+    "title": "Enterprise Architect"
+  },
+  {
+    "name": "Dileep",
+    "title": "Tech Lead"
+  },
+  {
+    "name": "Gajanan Sawant",
+    "title": "Tech Lead"
+  },
+  {
+    "name": "Rajib Bhattacharya",
+    "title": "HR Manager"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Sales Team",
+    "email": "sales@sagesoftware.co.in",
+    "phone": "+1800-1024-951"
+  },
+  {
+    "name": "Mumbai Office",
+    "phone": "+91 84548 61144"
+  },
+  {
+    "name": "Gurugram Office",
+    "phone": "+91-78993 53366"
+  },
+  {
+    "name": "Chennai Office",
+    "phone": "+91-99626 66339"
+  },
+  {
+    "name": "Bengaluru Office",
+    "phone": "+91-82975 41670"
+  },
+  {
+    "name": "Pune Office",
+    "phone": "+91-86553 06473"
+  },
+  {
+    "name": "Kolkata Office",
+    "phone": "+91-9903774837"
+  }
+]

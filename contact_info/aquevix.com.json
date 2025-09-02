@@ -1,0 +1,46 @@
+[
+  {
+    "name": "United States Sales",
+    "email": "ussales@aquevix.com",
+    "phone": "+1 (720) 605-9012"
+  },
+  {
+    "name": "UK/Europe Sales",
+    "email": "uksales@aquevix.com",
+    "phone": "+1 (720) 605-9012"
+  },
+  {
+    "name": "Canada Sales",
+    "email": "canada@aquevix.com"
+  },
+  {
+    "name": "Australia Sales",
+    "email": "australia@aquevix.com"
+  },
+  {
+    "name": "Singapore Sales",
+    "email": "singapore@aquevix.com"
+  },
+  {
+    "name": "Dubai Sales",
+    "email": "dubai@aquevix.com"
+  },
+  {
+    "name": "India Development Office",
+    "email": "india@aquevix.com",
+    "phone": "+91 (11) 4560-0412"
+  },
+  {
+    "name": "Technical Support",
+    "phone": "+91 (11) 4560 0412",
+    "email": "hello@aquevix.com"
+  },
+  {
+    "name": "Legal",
+    "email": "legal@aquevix.com"
+  },
+  {
+    "name": "Amit Jindal",
+    "title": "Founder"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Netherlands Office",
+    "phone": "+3197010269362",
+    "email": "info@lineadigitech.nl"
+  },
+  {
+    "title": "India Office / General Support",
+    "phone": "+919211589469",
+    "email": "support@lineadigitech.net"
+  },
+  {
+    "title": "General Support (Alternative)",
+    "phone": "+919211589469",
+    "email": "support@lineadigitech.com"
+  },
+  {
+    "name": "JACK",
+    "title": "CEO"
+  },
+  {
+    "name": "Michal",
+    "title": "Manager"
+  },
+  {
+    "name": "Trayn",
+    "title": "Software Developer"
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "name": "Prof. Neelima Gupta",
+    "title": "Head, Senior Professor",
+    "phone": "27667591, 27667059, 27667725 Extn.:1336",
+    "email": "head@cs.du.ac.in"
+  },
+  {
+    "name": "Department of Computer Science",
+    "title": "General Contact",
+    "phone": "91-11-27667591, 91-11-27667059, 91-11-27667725, 27667591, 27667059, 27667725 Extn.:1336",
+    "email": "head@cs.du.ac.in, office@cs.du.ac.in"
+  },
+  {
+    "name": "Helpline for Women (24x7)",
+    "title": "General Helpline",
+    "phone": "7827170170"
+  },
+  {
+    "name": "Prof. Punam Bedi",
+    "title": "Senior Professor"
+  },
+  {
+    "name": "Prof. Vasudha Bhatnagar",
+    "title": "Senior Professor"
+  },
+  {
+    "name": "Prof. Naveen Kumar",
+    "title": "Senior Professor"
+  },
+  {
+    "name": "Prof. Vivek Kumar Singh",
+    "title": "Professor (On Deputation)"
+  },
+  {
+    "name": "Dr. Dilip Senapati",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Om Pal",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Mantosh Biswas",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Bharti",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Vikas Kumar",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Ankit Rajpal",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Kuldeep Singh",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Reena",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Aakash Singh",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Prof. Sanjeev Singh",
+    "title": "Director: Computer Centre"
+  },
+  {
+    "name": "Department of Arabic",
+    "title": "General Contact",
+    "phone": "91-11-27666624",
+    "email": "head@arabic.du.ac.in"
+  },
+  {
+    "name": "Department of English",
+    "title": "General Contact",
+    "phone": "91-11-27666757",
+    "email": "head@english.du.ac.in"
+  },
+  {
+    "name": "Department of Germanic & Romance Studies",
+    "title": "General Contact",
+    "phone": "91-11-27666426, 91-11-27667725",
+    "email": "head@grs.du.ac.in"
+  },
+  {
+    "name": "Department of Hindi",
+    "title": "General Contact",
+    "phone": "91-11-27666628",
+    "email": "head@hindi.du.ac.in"
+  },
+  {
+    "name": "Department of Library & Information Science",
+    "title": "General Contact",
+    "phone": "91-11-27666656",
+    "email": "head@dlis.du.ac.in"
+  },
+  {
+    "name": "Department of Linguistics",
+    "title": "General Contact",
+    "phone": "91-11-27666676",
+    "email": "head@linguistics.du.ac.in"
+  },
+  {
+    "name": "Department of Indian Languages and Literary Studies",
+    "title": "General Contact",
+    "phone": "91-11-27666626",
+    "email": "head@mil.du.ac.in"
+  },
+  {
+    "name": "Department of Persian",
+    "title": "General Contact",
+    "phone": "91-11-27666623",
+    "email": "head@persian.du.ac.in"
+  },
+  {
+    "name": "Department of Philosophy",
+    "title": "General Contact",
+    "phone": "91-11-27666629",
+    "email": "head@philosophy.du.ac.in"
+  },
+  {
+    "name": "Department of Psychology",
+    "title": "General Contact",
+    "phone": "91-11-27667455",
+    "email": "head@psychology.du.ac.in"
+  },
+  {
+    "name": "Department of Slavonic & Finno-Ugrian Studies",
+    "title": "General Contact",
+    "phone": "91-11-27662226",
+    "email": "head@sfus.du.ac.in"
+  },
+  {
+    "name": "Department of Sanskrit",
+    "title": "General Contact",
+    "phone": "91-11-27666657",
+    "email": "head@sanskrit.du.ac.in"
+  },
+  {
+    "name": "Department of Punjabi",
+    "title": "General Contact",
+    "phone": "91-11-27666621",
+    "email": "head@punjabi.du.ac.in"
+  },
+  {
+    "name": "Department of Urdu",
+    "title": "General Contact",
+    "phone": "91-11-27666627",
+    "email": "head@urdu.du.ac.in"
+  },
+  {
+    "name": "Department of Buddhist Studies",
+    "title": "General Contact",
+    "phone": "91-11-27666625",
+    "email": "head@buddhist.du.ac.in"
+  },
+  {
+    "name": "Department of Finance and Business Economics",
+    "title": "General Contact",
+    "phone": "91-11-24111141",
+    "email": "mbeadmindu@gmail.com"
+  },
+  {
+    "name": "Department of Commerce",
+    "title": "General Contact",
+    "phone": "91-11-27667891",
+    "email": "head@commerce.du.ac.in"
+  },
+  {
+    "name": "Department of Education",
+    "title": "General Contact",
+    "phone": "91-11-27667509",
+    "email": "head.dean@cie.du.ac.in"
+  },
+  {
+    "name": "Department of Biochemistry",
+    "title": "General Contact",
+    "phone": "91-11-24112081",
+    "email": "head@biochem.du.ac.in"
+  },
+  {
+    "name": "Department of Biophysics",
+    "title": "General Contact",
+    "phone": "91-11-24117005, 91-11-24112231",
+    "email": "head@biophysics.du.ac.in"
+  },
+  {
+    "name": "Department of Electronics Science",
+    "title": "General Contact",
+    "phone": "91-11-24116718",
+    "email": "head@electronics.du.ac.in"
+  },
+  {
+    "name": "Department of Genetics",
+    "title": "General Contact",
+    "phone": "91-11-24115221",
+    "email": "head@genetics.du.ac.in"
+  },
+  {
+    "name": "Department of Physical Education & Sports Sciences",
+    "title": "General Contact",
+    "phone": "91-11-28543753",
+    "email": "office@dpess.du.ac.in"
+  },
+  {
+    "name": "Department of Plant Molecular Biology",
+    "title": "General Contact",
+    "phone": "91-11-24115096",
+    "email": "head@pmb.du.ac.in"
+  },
+  {
+    "name": "Department of Microbiology",
+    "title": "General Contact",
+    "phone": "91-11-24157240",
+    "email": "head@microbio.du.ac.in"
+  },
+  {
+    "name": "Institute of Informatics & Communication (IIC)",
+    "title": "General Contact",
+    "phone": "011-24157350",
+    "email": "iicoffice@south.du.ac.in"
+  },
+  {
+    "name": "Department of Law",
+    "title": "General Contact",
+    "phone": "91-11-27667483",
+    "email": "deanlawdu.so@gmail.com"
+  },
+  {
+    "name": "Department of Business Management & Industrial Administration",
+    "title": "General Contact",
+    "phone": "91-11-27666685",
+    "email": "adminoffice@fms.edu"
+  },
+  {
+    "name": "Department of Operational Research",
+    "title": "General Contact",
+    "phone": "91-11-27666672",
+    "email": "head@or.du.ac.in"
+  },
+  {
+    "name": "Department of Statistics",
+    "title": "General Contact",
+    "email": "head@statistics.du.ac.in"
+  },
+  {
+    "name": "Department of Mathematics",
+    "title": "General Contact",
+    "phone": "91-11-27666658",
+    "email": "head@maths.du.ac.in"
+  },
+  {
+    "name": "Department of Anaesthesiology & Critical Care",
+    "title": "General Contact",
+    "phone": "91-11-22586262"
+  },
+  {
+    "name": "Department of Anatomy",
+    "title": "General Contact",
+    "phone": "91-11-27667647"
+  },
+  {
+    "name": "Department of Medical Bio-Chemistry",
+    "title": "General Contact",
+    "phone": "91-11-27667647"
+  },
+  {
+    "name": "Department of Community Medicine",
+    "title": "General Contact",
+    "phone": "91-11-27667647"
+  },
+  {
+    "name": "Department of Dermatology, Venereology & Leprosy",
+    "title": "General Contact",
+    "phone": "91-11-27667647"
+  },
+  {
+    "name": "Department of Dental Sciences",
+    "title": "General Contact",
+    "phone": "91-11-27667647"
+  },
+  {
+    "name": "Department of Opthalmology",
+    "title": "General Contact",
+    "phone": "91-11-27667647"
+  },
+  {
+    "name": "Department of Medical Microbiology",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Medicine",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Obstetrics & Gyanaecology",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Forensic Medicine",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Surgery",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Radiology, Radiotherapy, Radiodiagnosis & Radiation Medicine",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Pulmonary Medicine",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Psychiatry",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Physiology",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Pharmacology",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Pathology",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Paediatrics",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Otolaryngology",
+    "title": "General Contact",
+    "phone": "91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Orthopaedics",
+    "title": "General Contact",
+    "phone": "+91-11-27667647",
+    "email": "dean_medical@du.ac.in"
+  },
+  {
+    "name": "Department of Music",
+    "title": "General Contact",
+    "phone": "91-11-27667608, 91-11-27667725",
+    "email": "dean_music@du.ac.in"
+  },
+  {
+    "name": "Department of Fine Arts",
+    "title": "General Contact",
+    "phone": "+91 82878 00281, +91 96509 29013",
+    "email": "head@music.du.ac.in"
+  },
+  {
+    "name": "Department of Distance & Continuing Education",
+    "title": "General Contact",
+    "phone": "91-11-27666776"
+  },
+  {
+    "name": "Department of Zoology",
+    "title": "General Contact",
+    "phone": "91-11-27667985",
+    "email": "head@zoology.du.ac.in"
+  },
+  {
+    "name": "Department of Physics & Astrophysics",
+    "title": "General Contact",
+    "phone": "91-11-27666796",
+    "email": "head@physics.du.ac.in"
+  },
+  {
+    "name": "Department of Geology",
+    "title": "General Contact",
+    "phone": "91-11-27667073",
+    "email": "head@geology.du.ac.in"
+  },
+  {
+    "name": "Department of Environmental Studies",
+    "title": "General Contact",
+    "phone": "91-11-27667125",
+    "email": "head@es.du.ac.in"
+  },
+  {
+    "name": "Department of Chemistry",
+    "title": "General Contact",
+    "phone": "91-11-27667794",
+    "email": "head@chemistry.du.ac.in"
+  },
+  {
+    "name": "Department of Botany",
+    "title": "General Contact",
+    "phone": "91-11-27667573",
+    "email": "head@botany.du.ac.in"
+  },
+  {
+    "name": "Department of Anthropology",
+    "title": "General Contact",
+    "phone": "91-11-27667329",
+    "email": "head@anthro.du.ac.in"
+  },
+  {
+    "name": "Department of Pharmacy",
+    "title": "General Contact",
+    "phone": "91-11-26563342, 91-11-26563771, 91-11-24364213"
+  },
+  {
+    "name": "Department of Home Science",
+    "title": "General Contact",
+    "phone": "011-23711222",
+    "email": "director@lic.du.ac.in"
+  },
+  {
+    "name": "Department of Nursing",
+    "title": "General Contact",
+    "phone": "19-11-26435397, 91-11-26436788"
+  },
+  {
+    "name": "Department of Sociology",
+    "title": "General Contact",
+    "phone": "91-11-27667858",
+    "email": "head@sociology.du.ac.in"
+  },
+  {
+    "name": "Department of Political Science",
+    "title": "General Contact",
+    "phone": "91-11-27666670",
+    "email": "head@polscience.du.ac.in"
+  },
+  {
+    "name": "Department of Economics",
+    "title": "General Contact",
+    "phone": "91-11-27667725",
+    "email": "head@economics.du.ac.in"
+  },
+  {
+    "name": "Department of East Asian Studies",
+    "title": "General Contact",
+    "phone": "91-11-27666675",
+    "email": "head@eas.du.ac.in"
+  },
+  {
+    "name": "Delhi School of Journalism",
+    "title": "General Contact",
+    "phone": "9811098070",
+    "email": "head@dsj.du.ac.in"
+  },
+  {
+    "name": "Department of African Studies",
+    "title": "General Contact",
+    "phone": "91-11-27666673",
+    "email": "head@as.du.ac.in"
+  },
+  {
+    "name": "Department of Continuing Education and Extension",
+    "title": "General Contact",
+    "phone": "011-27667280",
+    "email": "head@ace.du.ac.in"
+  },
+  {
+    "name": "Department of Geography",
+    "title": "General Contact",
+    "phone": "91-11-27666491",
+    "email": "head@geography.du.ac.in"
+  },
+  {
+    "name": "Department of Social Work",
+    "title": "General Contact",
+    "phone": "91-11-27667881, 91-11-27667881",
+    "email": "head@socialwork.du.ac.in"
+  },
+  {
+    "name": "Department of History",
+    "title": "General Contact",
+    "phone": "91-11-27666659",
+    "email": "head@history.du.ac.in"
+  },
+  {
+    "name": "Department of Electrical Engineering",
+    "title": "General Contact",
+    "email": "office@fot.du.ac.in, dean_fot@du.ac.in"
+  },
+  {
+    "name": "Department of Electronics & Communication Engineering",
+    "title": "General Contact",
+    "email": "office@fot.du.ac.in, dean_fot@du.ac.in"
+  },
+  {
+    "name": "Department of Computer Engineering",
+    "title": "General Contact",
+    "email": "office@fot.du.ac.in, dean_fot@du.ac.in"
+  },
+  {
+    "name": "Department of Ayurvedic & Unani Medicine",
+    "title": "General Contact",
+    "phone": "91-11-23524180"
+  }
+]

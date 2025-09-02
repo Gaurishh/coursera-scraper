@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Principal's Office",
+    "email": "principal@aurobindo.du.ac.in",
+    "phone": "+91-11-40536164"
+  },
+  {
+    "name": "Dr. Anjali Arora",
+    "title": "Head, Training and Placement Cell"
+  },
+  {
+    "name": "Mr. Prem Singh",
+    "title": "Training and Placement Cell"
+  },
+  {
+    "name": "Prof. Rupam Kapoor",
+    "title": "University Representative (Chairman)"
+  },
+  {
+    "name": "Prof. Ananya Ghosh Dastidar",
+    "title": "University Representative (Treasurer)"
+  },
+  {
+    "name": "Prof.Poornima Mittal",
+    "title": "Governing Body Member"
+  },
+  {
+    "name": "Sh. Pradeep Deswal",
+    "title": "Governing Body Member"
+  },
+  {
+    "name": "Sh. Rahul Sharma",
+    "title": "Governing Body Member"
+  },
+  {
+    "name": "Dr. Meenakshi Gupta",
+    "title": "Teachers’ Representative / Associate Professor, Deptt. of Commerce",
+    "email": "mgupta.abc@gmail.com"
+  },
+  {
+    "name": "Dr. Anil Kumar Mavi",
+    "title": "Teachers’ Representative / Assistant Professor, Deptt. of Botany"
+  },
+  {
+    "name": "Dr. Vikas Kumar Joshiya",
+    "title": "Teachers’ Representative"
+  },
+  {
+    "name": "Dr. Mini Gill",
+    "title": "Teachers’ Representative"
+  },
+  {
+    "name": "Prof. Vipin Kumar Aggarwal",
+    "title": "Officiating Principal & Member Secretary / Professor",
+    "email": "vkag19@gmail.com"
+  },
+  {
+    "name": "Prof. Arun Chaudhary",
+    "title": "Principal (OSD), Sri Aurobindo College (Evening)"
+  },
+  {
+    "name": "Sh. Kiran Pal. Singh",
+    "title": "Special Invitee"
+  },
+  {
+    "name": "Sh. Vinod Kumar",
+    "title": "Special Invitee"
+  },
+  {
+    "name": "Prof. Subhanjali Chopra",
+    "title": "Professor",
+    "email": "subhanjalichopra@yahoo.co.in"
+  },
+  {
+    "name": "Prof. Namita Rajput",
+    "title": "Professor",
+    "email": "nrajput_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Dr. (Mrs. ) Asha Kiran Gupta",
+    "title": "Associate Professor",
+    "email": "kittipunnu@gmail.com"
+  },
+  {
+    "name": "Prof. (Mrs.) Anjali Bhatnagar",
+    "title": "Professor",
+    "email": "dr.anjalibhatnagar@gmail.com"
+  },
+  {
+    "name": "Dr. Meenakshi Chaudhary",
+    "title": "Assistant Professor",
+    "email": "menu_pohana@yahoo.com"
+  },
+  {
+    "name": "Dr Nishita Gupta",
+    "title": "Teacher-in-charge, Commerce / Assistant Professor",
+    "email": "Nishitagupta24@gmail.com"
+  },
+  {
+    "name": "Dr Shasta Gupta",
+    "title": "Assistant Professor",
+    "email": "sgupta_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Ms Silky Jain",
+    "title": "Teacher-in-Charge / Assistant Professor",
+    "email": "sjain_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Ms Minny Narang",
+    "title": "Assistant Professor",
+    "email": "mnarang_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Dr. Vandana Munjal",
+    "title": "Assistant Professor",
+    "email": "Vandanamunjal91@gmail.com"
+  },
+  {
+    "name": "Ms Priyanka Bedi",
+    "title": "Assistant Professor",
+    "email": "pbedi_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Ms Ankita Goel",
+    "title": "Assistant Professor",
+    "email": "asinghal_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Dr Yogesh Garg",
+    "title": "Assistant Professor",
+    "email": "gargyogesh1909@gmail.com"
+  },
+  {
+    "name": "Dr Parul Goel",
+    "title": "Assistant Professor",
+    "email": "pgoel_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Dr Seema Nashier",
+    "title": "Assistant Professor",
+    "email": "seema.nashier@gmail.com"
+  },
+  {
+    "name": "Dr Pratyush Singh",
+    "title": "Assistant Professor",
+    "email": "pratyush.csmch@gmail.com"
+  },
+  {
+    "name": "Ms Aakriti Saini",
+    "title": "Assistant Professor",
+    "email": "saini.aakriti27@gmail.com"
+  },
+  {
+    "name": "Ms Kirti Yadav",
+    "title": "Assistant Professor",
+    "email": "Kirtiyadav107@gmail.com"
+  },
+  {
+    "name": "Ms Sonia Lohia",
+    "title": "Assistant Professor",
+    "email": "slohia_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Ms Sonia",
+    "title": "Assistant Professor",
+    "email": "Srexwalcomm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Dr Kaushalendra Pal Singh",
+    "title": "Assistant Professor",
+    "email": "kaushal.cfa@gmail.com"
+  },
+  {
+    "name": "Ms Shruti Kumari",
+    "title": "Assistant Professor",
+    "email": "shrutikumari96@gmail.com"
+  },
+  {
+    "name": "Mr Ankit Singh",
+    "title": "Assistant Professor",
+    "email": "ankits579@gmail.com"
+  },
+  {
+    "name": "Ms Ila Yadav",
+    "title": "Assistant Professor",
+    "email": "yadavila4@gmail.com"
+  },
+  {
+    "name": "Mr Saurabh Kumar",
+    "title": "Assistant Professor",
+    "email": "saurabhkumar867@gmail.com"
+  },
+  {
+    "name": "Mr Kaushal Yadav",
+    "title": "Assistant Professor",
+    "email": "kaushal95yadav@gmail.com"
+  },
+  {
+    "name": "Dr Vijay Lakshmi",
+    "title": "Assistant Professor",
+    "email": "vlakshmi_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Mr Vikas Kumar",
+    "title": "Assistant Professor",
+    "email": "singh.ronit653@gmail.com"
+  },
+  {
+    "name": "Ms Shalu",
+    "title": "Assistant Professor",
+    "email": "chauhanshalu15@gmail.com"
+  },
+  {
+    "name": "Mr Alok Bandhu",
+    "title": "Assistant Professor",
+    "email": "alokdse@gmail.com"
+  },
+  {
+    "name": "Mr Kishore Kumar Shah",
+    "title": "Assistant Professor",
+    "email": "kishorekumarshah@gmail.com"
+  },
+  {
+    "name": "Mr Dinesh Meena",
+    "title": "Assistant Professor",
+    "email": "dmeena_comm@aurobindo.du.ac.in"
+  },
+  {
+    "name": "Dr Priyanka Meena",
+    "title": "Assistant Professor",
+    "email": "priyankameena192@gmail.com"
+  },
+  {
+    "name": "Dr Kapil Garg",
+    "title": "Assistant Professor",
+    "email": "drkapil9@gmail.com"
+  },
+  {
+    "name": "Mr Abhishek Mishra",
+    "title": "Assistant Professor",
+    "email": "abhishek2dec1996@gmail.com"
+  },
+  {
+    "name": "Dr. Sangeetha B",
+    "title": "Assistant Professor",
+    "email": "sharmasangeetha7@gmail.com"
+  },
+  {
+    "name": "Mr Kartik Saini",
+    "title": "Assistant Professor",
+    "email": "kkartiksaini.711@gmail.com"
+  },
+  {
+    "name": "Prof. Rashmi Mathur",
+    "title": "Teacher-in-charge, Botany"
+  },
+  {
+    "name": "Dr. Shikha Narang",
+    "title": "Teacher-in-charge, Chemistry"
+  },
+  {
+    "name": "Ms. Pratibha R. Gupta",
+    "title": "Teacher-in-charge, Computer science"
+  },
+  {
+    "name": "Dr. Parul Jain",
+    "title": "Teacher-in-charge, Economics"
+  },
+  {
+    "name": "Dr. P.P. Singh",
+    "title": "Teacher-in-charge, Electronics"
+  },
+  {
+    "name": "Dr. Neetu Dwivedi",
+    "title": "Teacher-in-charge, Environmental Science"
+  },
+  {
+    "name": "Ms. Sukriti Sobti",
+    "title": "Teacher-in-charge, English"
+  },
+  {
+    "name": "Dr. Meenakshi Gupta",
+    "title": "Teacher-in-charge, Hindi"
+  },
+  {
+    "name": "Prof. Amit Jha",
+    "title": "Teacher-in-charge, History"
+  },
+  {
+    "name": "Dr. Davinder Singh",
+    "title": "Teacher-in-charge, Mathematics"
+  },
+  {
+    "name": "Dr. Om Prakash",
+    "title": "Teacher-in-charge, Physics"
+  },
+  {
+    "name": "Dr. S.S. Rana",
+    "title": "Teacher-in-charge, Pol. Sc"
+  },
+  {
+    "name": "Mr. Om Prakash Singh Yadav",
+    "title": "Teacher-in-charge, Zoology"
+  },
+  {
+    "name": "Dr. Vijit Kumar",
+    "title": "Teacher-in-charge, Sanskrit"
+  }
+]

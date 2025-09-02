@@ -1,0 +1,718 @@
+[
+  {
+    "name": "Manav Rachna Campus (General)",
+    "phone": "+91-129-4259000, +91-129-4198211, 0129-4198200",
+    "email": "info@mrei.ac.in"
+  },
+  {
+    "name": "Admissions",
+    "phone": "0129-4259000",
+    "email": "admissions@manavrachna.edu.in"
+  },
+  {
+    "name": "Career Enquiry",
+    "phone": "+91-129-4198211",
+    "email": "careers.mrei@mrei.ac.in"
+  },
+  {
+    "name": "MRIIRS (General Enquiry)",
+    "phone": "+91-129-4198000, +91-129-4198100"
+  },
+  {
+    "name": "MRU (General Enquiry)",
+    "phone": "+91-129-4268500"
+  },
+  {
+    "name": "MRDC (General Enquiry)",
+    "phone": "+91-129-4268800"
+  },
+  {
+    "name": "MR Online",
+    "phone": "1800-2024-30"
+  },
+  {
+    "name": "MRIS",
+    "phone": "+91 90-98-99-1000"
+  },
+  {
+    "name": "Kota City Office",
+    "phone": "+91-129-4198211",
+    "email": "manoj.mriu@gmail.com"
+  },
+  {
+    "name": "Hyderabad City Office",
+    "phone": "+91-9966695455, +91-9910244484",
+    "email": "hyderabad@mrei.ac.in"
+  },
+  {
+    "name": "Delhi City Office",
+    "phone": "+91-011-44110500, +91-9910244484",
+    "email": "delhi@mrei.ac.in"
+  },
+  {
+    "name": "Guwahati City Office",
+    "phone": "+91-9864078779",
+    "email": "guwahati@mrei.ac.in"
+  },
+  {
+    "name": "Indore City Office",
+    "phone": "+91-731-4050399",
+    "email": "indore@mrei.ac.in"
+  },
+  {
+    "name": "Varanasi City Office",
+    "phone": "+91-9973663222",
+    "email": "varanasi@mrei.ac.in"
+  },
+  {
+    "name": "Patna City Office",
+    "phone": "+91-9608095599, +91-9546673623",
+    "email": "patna@mrei.ac.in"
+  },
+  {
+    "name": "Prof. Mewa Singh Turan (Retd)",
+    "title": "Ombudsperson",
+    "phone": "+91-9992159425, +91-9467050870",
+    "email": "profmsturan@gmail.com"
+  },
+  {
+    "name": "Dr. Prashant Bhalla",
+    "title": "President, Manav Rachna Educational Institutions"
+  },
+  {
+    "name": "Dr. Amit Bhalla",
+    "title": "Vice- President, Manav Rachna Educational Institutions"
+  },
+  {
+    "name": "Mr. Rajiv Kapoor",
+    "title": "Managing Director Manav Rachna Educational Institutions and CEO-Manav Rachna Vidyantriksh Private Limited"
+  },
+  {
+    "name": "Dr. N. C. Wadhwa",
+    "title": "Director General, Manav Rachna Educational Institutions"
+  },
+  {
+    "name": "Prof. (Dr.) I K Bhat",
+    "title": "Vice Chancellor, Manav Rachna University"
+  },
+  {
+    "name": "Prof. (Dr.) Sanjay Srivastava",
+    "title": "Vice Chancellor, Manav Rachna International Institute of Research and Studies"
+  },
+  {
+    "name": "Dr. Naresh Grover",
+    "title": "Pro Vice Chancellor - MRIIRS"
+  },
+  {
+    "name": "Dr. Pardeep Kumar",
+    "title": "Pro Vice Chancellor-MRIIRS, Dean-School of Engineering & Technology (SET), Dean-School of Design (SoD)"
+  },
+  {
+    "name": "Dr. Puneet Batra",
+    "title": "Pro Vice Chancellor - MRIIRS, Dean-School of Dental Sciences, Dean-School of Allied Health Sciences"
+  },
+  {
+    "name": "Ms. Sanya Bhalla",
+    "title": "Executive Director- International Affairs & Collaborations and Alumni Relations"
+  },
+  {
+    "name": "Dr. Meenakshi S Khurana",
+    "title": "Executive Director & Dean Academics & Officiating Registrar"
+  },
+  {
+    "name": "Dr. Sarita Sachdeva",
+    "title": "Executive Director & Dean Research, MRIIRS"
+  },
+  {
+    "name": "Dr. Taranjeet Kaur",
+    "title": "Dean School of Behavioral Sciences"
+  },
+  {
+    "name": "Dr. Monika Goel",
+    "title": "Dean -School of Commerce"
+  },
+  {
+    "name": "Prof. (Dr.) Brijesh Kumar",
+    "title": "Dean- School of Computer Applications, MRIIRS"
+  },
+  {
+    "name": "Dr. Deepti Dabas Hazarika",
+    "title": "Dean-School of Leadership and Management & Member Secretary, Strategic Mentoring Board"
+  },
+  {
+    "name": "Dr. Shilpi Jha",
+    "title": "Dean-School of Media Studies and Humanities"
+  },
+  {
+    "name": "Dr. Rashima Mahajan",
+    "title": "Dean-Internal Quality Assurance Cell, Director IQAC & Professor"
+  },
+  {
+    "name": "Dr. Nandini Srivastava",
+    "title": "Dean-CDP"
+  },
+  {
+    "name": "Ms. Gurjeet Chawla",
+    "title": "Dean -Student Welfare"
+  },
+  {
+    "name": "Dr. Anita Khosla",
+    "title": "Controller of Examination"
+  },
+  {
+    "name": "Ms. Ritika Singh",
+    "title": "Director & Officiating Dean-School of Culinary Arts and Hotel Management"
+  },
+  {
+    "name": "Dr. Geeta Nijhawan",
+    "title": "Associate Dean-School of Engineering and Technology"
+  },
+  {
+    "name": "Dr. Tapas Kumar",
+    "title": "Associate Dean, SET, HOD CSE-SPL & Professor"
+  },
+  {
+    "name": "Dr. Rashmi Agrawal",
+    "title": "Associate Dean-School of Computer Applications"
+  },
+  {
+    "name": "Dr. Jyoti Chawla",
+    "title": "Associate Dean-Academics"
+  },
+  {
+    "name": "Dr. Kamlesh Sharma",
+    "title": "Associate Dean-Academics & Professor"
+  },
+  {
+    "name": "Dr. Shruti Jain",
+    "title": "Director-School of Design"
+  },
+  {
+    "name": "Dr. Umesh Dutta",
+    "title": "Director - MRIIC"
+  },
+  {
+    "name": "Ms. Kanupriya Shekhar",
+    "title": "Senior Director - Admissions, Outreach & Student Facilitation Centre"
+  },
+  {
+    "name": "Prof. (Dr.) Jyoti Pruthi",
+    "title": "Director, Office of International Affairs & Alliances Joint Director, Regional Outreach"
+  },
+  {
+    "name": "Dr. Sadiqa Abbas",
+    "title": "Director International Affairs & Collaborations"
+  },
+  {
+    "name": "Dr. Aruangshu Mukherjee",
+    "title": "Director-Centre for Advance Water Technology and Management"
+  },
+  {
+    "name": "Dr. Nidhi Didwania",
+    "title": "Director-Manav Rachna Centre for Medicinal Plant Pathology"
+  },
+  {
+    "name": "Dr. Shobha Srivastava",
+    "title": "Director-Student Services"
+  },
+  {
+    "name": "Mr. Amitabh Sen Gupta",
+    "title": "Senior Director- Centre for Distance and Online Educations (CDOE)"
+  },
+  {
+    "name": "Dr. Shaveta Bhaita",
+    "title": "Director-Centre for Distance and Online Education"
+  },
+  {
+    "name": "Dr. Mamta Dahiya",
+    "title": "HoD-Computer Science Engineering, Professor"
+  },
+  {
+    "name": "Dr. Prabir Kuamr Paul",
+    "title": "HoD-Biotechnology"
+  },
+  {
+    "name": "Dr. Abhiruchi Passi",
+    "title": "HoD-Electronics and Communication"
+  },
+  {
+    "name": "Dr. Leena G.",
+    "title": "HoD-Electrical and Electronics Engineering"
+  },
+  {
+    "name": "Dr. Senthil Vadivel T",
+    "title": "HoD-Civil Engineering"
+  },
+  {
+    "name": "Dr. Manoj Nayak",
+    "title": "HoD-Mechanical Engineering"
+  },
+  {
+    "name": "Dr. Shagufta Jabin",
+    "title": "HoD-Applied Sciences"
+  },
+  {
+    "name": "Prof. (Dr.) Pankaj Dhawan",
+    "title": "HoD-Prosthodontics"
+  },
+  {
+    "name": "Dr. Dax Abraham",
+    "title": "HoD-Endodontics and Conservative Dentistry"
+  },
+  {
+    "name": "Dr.Tanu Nangia",
+    "title": "HoD- Pedodontics"
+  },
+  {
+    "name": "Dr. Manish Bhargava",
+    "title": "HoD-Oral Pathology"
+  },
+  {
+    "name": "Prof. (Dr.) Pooja Palwankar",
+    "title": "HoD-Periodontology"
+  },
+  {
+    "name": "Dr. Sumit Bhateja",
+    "title": "HoD-Oral Medicine & Radiology"
+  },
+  {
+    "name": "Dr. Anmol Mathur",
+    "title": "HoD-Public Health Dentistry"
+  },
+  {
+    "name": "Dr. Ruhi Lal",
+    "title": "HoD-Journalism and Mass Communication"
+  },
+  {
+    "name": "Dr. Swati Chauhan",
+    "title": "HoD-English"
+  },
+  {
+    "name": "Dr. Priyanka Tiwari",
+    "title": "HoD-Applied Psychology"
+  },
+  {
+    "name": "Dr. Durairaj Kumarasamy",
+    "title": "HoD-Economics"
+  },
+  {
+    "name": "Dr. Suhail Javed Quraishi",
+    "title": "HoD-Computer Applications"
+  },
+  {
+    "name": "Dr. Arnab Chakraborty",
+    "title": "Director & Head, Department of Management Studies"
+  },
+  {
+    "name": "Dr. Jayendra verma",
+    "title": "HoD-Commerce"
+  },
+  {
+    "name": "Dr. Divya Sanghi",
+    "title": "HoD-Nutrition and Dietetics"
+  },
+  {
+    "name": "Dr. Nitesh Malhotra",
+    "title": "HoD-Physiotherapy"
+  },
+  {
+    "name": "Dr. Devendra Vashisht",
+    "title": "Proctor"
+  },
+  {
+    "name": "Dr. Rajesh Kumar",
+    "title": "University Librarian, MRIIRS"
+  },
+  {
+    "name": "Mr. Sarkar Talwar",
+    "title": "Director-Sports"
+  },
+  {
+    "name": "Mr. Atul Kalra",
+    "title": "Director-Administration"
+  },
+  {
+    "name": "Payal Mehta",
+    "title": "Director-CHR"
+  },
+  {
+    "name": "Dr. Hanu Bhardwaj",
+    "title": "Director-Career Development Centre"
+  },
+  {
+    "name": "Ms. Rakhi Pruthi",
+    "title": "Director - Corporate Relations & Placements"
+  },
+  {
+    "name": "Dr. Shalini Khatri",
+    "title": "Director - Corporate Relations & Placements"
+  },
+  {
+    "name": "Sh. Sabyasachi Sen",
+    "title": "General Manager, IT, MRIIRS"
+  },
+  {
+    "name": "Mr. Deepak Sharma",
+    "title": "Deputy Registrar - Registration & Scholarships / Academics"
+  },
+  {
+    "name": "Mr. Parvinder Bhogal",
+    "title": "GM-Estate"
+  },
+  {
+    "name": "Major Satinder Arora",
+    "title": "GM Security"
+  },
+  {
+    "name": "Dr. Surbhi Kapur",
+    "title": "Professor, School of Leadership and Management, Manav Rachna International Institute of Research and Studies"
+  },
+  {
+    "name": "Mr. S.Y. Siddiqui",
+    "title": "Former Executive Advisor, Maruti Suzuki India Ltd."
+  },
+  {
+    "name": "Mr. P. Dwarkanath",
+    "title": "Former Chairman, GSK Consumer Health Care Ltd"
+  },
+  {
+    "name": "Mr. Rajiv Dubey",
+    "title": "Chairman - Mahindra First Choice Wheels Ltd. & Member of the Governing Body, International Labour Organization, Geneva"
+  },
+  {
+    "name": "Mr. A. K. Balyan",
+    "title": "Former MD and CEO, Petronet LNG Ltd., Former Director HR, ONGC"
+  },
+  {
+    "name": "Mr. A. Sudhakar",
+    "title": "Former Director HR, Dabur India"
+  },
+  {
+    "name": "Mr. Ramesh Kumar",
+    "title": "Senior ED, HR, Admn., Training and CSR, IFFCO Tokio General Insurance Ltd."
+  },
+  {
+    "name": "Mr. Arun Malhotra",
+    "title": "Ex-MD Nissan Motors India"
+  },
+  {
+    "name": "Mr. S. K. Bose",
+    "title": "CEO , Hydrocarbon Sector Skill Council"
+  },
+  {
+    "name": "Mr. Anand R.",
+    "title": "Sr. Vice President-HR HCL"
+  },
+  {
+    "name": "Mr. Ajay Seth",
+    "title": "CFO, Maruti Suzuki India Ltd."
+  },
+  {
+    "name": "Mr. Shaaista Quettawala",
+    "title": "Senior HR Leader and HRpreneur"
+  },
+  {
+    "name": "Mr. Mukesh Sharma",
+    "title": "Senior General Manager (HR & Admn.), Indian Synthetic Rubber Pvt. Ltd."
+  },
+  {
+    "name": "Mr. Neeraj Kapoor",
+    "title": "Director – Centre for Management Development, All India management Association"
+  },
+  {
+    "name": "Ekta Arya",
+    "title": "Deputy Manager"
+  },
+  {
+    "name": "Anchal Mathur",
+    "title": "Deputy Manager"
+  },
+  {
+    "name": "Neha Sharma",
+    "title": "Deputy Manager"
+  },
+  {
+    "name": "Ajitesh Gaurav",
+    "title": "Deputy Manager"
+  },
+  {
+    "name": "Rahul Sharma",
+    "title": "Assistant Manager"
+  },
+  {
+    "name": "Deepa Jain",
+    "title": "Manager"
+  },
+  {
+    "name": "Chahat Wadhwa",
+    "title": "HR Executive"
+  },
+  {
+    "name": "Vishal Rana",
+    "title": "HR Executive"
+  },
+  {
+    "name": "Dinesh Kumar Rana",
+    "title": "Executive Secretary to Vice Chancellor"
+  },
+  {
+    "name": "Anita Arora",
+    "title": "Personal Secretary"
+  },
+  {
+    "name": "Bharat Kumar Munjal",
+    "title": "Assisstant registrar"
+  },
+  {
+    "name": "Dr. Suresh Kumar",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Supriya P. Panda",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Indu Kashyap",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Poonam Tanwar",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Deepa Bura",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Meeta Singh",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Poonam Nandal",
+    "title": "Professor"
+  },
+  {
+    "name": "Dr. Nitasha Soni",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Rosy Madaan",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Ramesh Chandra Sahoo",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Ms. Rachna Behl",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Tanvi Gupta",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Savita",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Kritika Soni",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Shobha Tyagi",
+    "title": "Associate Professor, Dept. of Computer Science & Engineering (MRIIRS)"
+  },
+  {
+    "name": "Dr. Ravindra Kumar Chahar",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Mahboob Alam",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Mr. Sideshvari Dutt Mishra",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Priyanka Rastogi",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Pronika Chawla",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Shefali Singhal",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Neha Batra",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Neha Garg",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Srishty Jindal",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Mr. Arko Baghchi",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Monika",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Meghna Luthra",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Mr. Rohit Batla",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Rashi Sahay",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Sameeksha Khare",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Urvashi Rahul Saxena",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Anisha",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Swati Hans",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Mr. Bhanu Dwivedi",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Anshu Sharma",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Tanu Dua",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Shweta Sharma",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Ginni Sehgal",
+    "title": "Associate Professor"
+  },
+  {
+    "name": "Dr. Satyajee Srivastava",
+    "title": "Professor"
+  },
+  {
+    "name": "Ms. SHAVETA JAIN",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Ms. Nidhi Sharma",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Mr. Bishal Saha",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Gurpreet Kaur",
+    "title": "Department of Management & Commerce (MRU)"
+  },
+  {
+    "name": "Dr. Mohammad Javed Idrisi",
+    "title": "Department of Computer Science & Technology (MRU)"
+  },
+  {
+    "name": "Dr. Jaiparkash",
+    "title": "Department of Computer Science & Technology (MRU)"
+  },
+  {
+    "name": "Dr. Sunil Kumar Roy",
+    "title": "Department of Management & Commerce (MRU)"
+  },
+  {
+    "name": "Ms. Megha Makan",
+    "title": "French language trainer, MRCFL (MRU)"
+  },
+  {
+    "name": "Dr. Shuchi Singhal",
+    "title": "Department of Management & Commerce (MRU)"
+  },
+  {
+    "name": "Ms. Pooja Ahuja",
+    "title": "Department of Computer Science & Technology (MRU)"
+  },
+  {
+    "name": "Dr. Ganga Sharma",
+    "title": "Department of Computer Science & Technology (MRU)"
+  },
+  {
+    "name": "Dr. SK Shukla",
+    "title": "Professor, Dept. of Chemistry (MRU )"
+  },
+  {
+    "name": "Dr. Aditi Chodhary",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr. Ashu Gautam",
+    "title": "Dept. of Electronics & Engineering (MRIIRS)"
+  },
+  {
+    "name": "Dr. Pooja Sharma",
+    "title": "Dept. of Physiotherapy (MRIIRS)"
+  },
+  {
+    "name": "Dr. Nooria Rehman",
+    "title": "Dept. of Economics (MRIIRS)"
+  },
+  {
+    "name": "Dr. Amanpreet Kaur",
+    "title": "Dept. of Applied Psychology (MRIIRS)"
+  },
+  {
+    "name": "Ms. Prachi Mor",
+    "title": "Dept. of Hotel Management (MRIIRS)"
+  },
+  {
+    "name": "Chef Sunil Kumar",
+    "title": "Dept. of Hotel Management (MRIIRS)"
+  },
+  {
+    "name": "Dr. Mani Tyagi",
+    "title": "Dept. of UG Management Studies (MRIIRS)"
+  },
+  {
+    "name": "Dr. Guni Vats",
+    "title": "Dept. of English (MRIIRS)"
+  },
+  {
+    "name": "Dr. Poonam Singh",
+    "title": "Dept. of Commerce (MRIIRS)"
+  },
+  {
+    "name": "Ms. Arkaja Garg",
+    "title": "Dept. of Commerce (MRIIRS)"
+  },
+  {
+    "name": "Ms. Megha Shisodiya",
+    "title": "Dept. of Design (MRIIRS)"
+  }
+]
