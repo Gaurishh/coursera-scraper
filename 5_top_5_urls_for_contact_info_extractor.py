@@ -14,33 +14,16 @@ except ImportError:
     # python-dotenv not installed, continue without it
     pass
 
-# Import the new Google Gen AI SDK
-try:
-    from google import genai
-    from google.genai import types
-    GENAI_AVAILABLE = True
-except ImportError:
-    print("WARNING: google-genai package not installed. Install with: pip install google-genai")
-    GENAI_AVAILABLE = False
+# No additional imports needed - using requests for REST API
 
 # --- Configuration ---
 INPUT_CSV = "2_leads_classified.csv"
 INPUT_DIR = "websites"
 OUTPUT_DIR = "top_5_urls_for_contact_info"
-API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
+API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE") # Recommended: Use environment variables
+API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key={API_KEY}"
 MAX_WORKERS = 1  # Number of concurrent threads for processing
 MAX_CONSECUTIVE_ERRORS = 5  # Stop trying after 5 consecutive URL validation failures
-
-# Initialize the Gen AI client
-if GENAI_AVAILABLE and API_KEY != "YOUR_API_KEY_HERE":
-    try:
-        client = genai.Client(api_key=API_KEY)
-        print("✅ Successfully initialized Gemini 2.5 Flash client")
-    except Exception as e:
-        print(f"❌ Failed to initialize Gemini client: {e}")
-        GENAI_AVAILABLE = False
-else:
-    print("⚠️  Gemini client not available - will use fallback methods only")
 
 # --- LLM Master Prompts for Different Course Types ---
 # Programming Course Master Prompt
@@ -97,10 +80,10 @@ Your response MUST be a valid JSON object and nothing else. The JSON object shou
 Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
 """
 
-# --- Gemini 2.5 Pro API Function ---
+# --- Gemini 2.5 Flash API Function ---
 def generate_content_with_gemini(prompt, max_retries=3):
     """
-    Generate content using Gemini 2.5 Pro with retry logic.
+    Generate content using Gemini 2.5 Flash with retry logic via REST API.
     
     Args:
         prompt (str): The prompt to send to Gemini
@@ -109,22 +92,19 @@ def generate_content_with_gemini(prompt, max_retries=3):
     Returns:
         str: Generated content or None if failed
     """
-    if not GENAI_AVAILABLE:
+    if API_KEY == "YOUR_API_KEY_HERE":
         return None
+    
+    payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
     for attempt in range(max_retries):
         try:
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    temperature=0.2,  # Lower temperature for more consistent results
-                    max_output_tokens=800,  # Shorter responses for URL selection
-                    top_p=0.7,  # More focused responses
-                    top_k=20  # Limit vocabulary for better consistency
-                )
-            )
-            return response.text
+            response = requests.post(API_URL, json=payload, timeout=60)
+            response.raise_for_status()
+            
+            # Extract text from response
+            response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
+            return response_text
             
         except Exception as e:
             print(f"⚠️  Gemini API attempt {attempt + 1} failed: {e}")
@@ -438,40 +418,36 @@ def process_single_lead(lead_data):
             llm_selected_urls = []
             llm_success = False
             
-            # Try Gemini 2.5 Pro first
-            if GENAI_AVAILABLE:
-                print(f"🤖 Attempting LLM selection for {remaining_slots} remaining slots...")
-                response_text = generate_content_with_gemini(prompt)
-                
-                if response_text:
-                    print(f"📝 LLM response received, parsing...")
-                    try:
-                        # Clean the response text (remove markdown code blocks if present)
-                        if response_text.startswith('```json'):
-                            response_text = response_text[7:]  # Remove ```json
-                        if response_text.endswith('```'):
-                            response_text = response_text[:-3]  # Remove ```
-                        response_text = response_text.strip()
-                        
-                        data = json.loads(response_text)
+            # Try Gemini 2.5 Flash first
+            print(f"🤖 Attempting LLM selection for {remaining_slots} remaining slots...")
+            response_text = generate_content_with_gemini(prompt)
+            
+            if response_text:
+                print(f"📝 LLM response received, parsing...")
+                try:
+                    # Clean the response text (remove markdown code blocks if present)
+                    if response_text.startswith('```json'):
+                        response_text = response_text[7:]  # Remove ```json
+                    if response_text.endswith('```'):
+                        response_text = response_text[:-3]  # Remove ```
+                    response_text = response_text.strip()
+                    
+                    data = json.loads(response_text)
 
-                        if isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
-                            llm_selected_urls = data['selected_urls']
-                            # Limit to remaining slots
-                            llm_selected_urls = llm_selected_urls[:remaining_slots]
-                            llm_success = True
-                            print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
-                        else:
-                            raise ValueError("Gemini response did not contain a valid list of URLs.")
+                    if isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
+                        llm_selected_urls = data['selected_urls']
+                        # Limit to remaining slots
+                        llm_selected_urls = llm_selected_urls[:remaining_slots]
+                        llm_success = True
+                        print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
+                    else:
+                        raise ValueError("Gemini response did not contain a valid list of URLs.")
 
-                    except (json.JSONDecodeError, ValueError) as e:
-                        print(f"⚠️  WARN: Gemini response parsing failed for {website_url} ({course_type}). Error: {e}")
-                        llm_success = False
-                else:
-                    print(f"⚠️  WARN: No response from Gemini API for {website_url} ({course_type})")
+                except (json.JSONDecodeError, ValueError) as e:
+                    print(f"⚠️  WARN: Gemini response parsing failed for {website_url} ({course_type}). Error: {e}")
                     llm_success = False
             else:
-                print(f"⚠️  WARN: Gemini API not available for {website_url} ({course_type})")
+                print(f"⚠️  WARN: No response from Gemini API for {website_url} ({course_type})")
                 llm_success = False
             
             # Fallback to deterministic selection if Gemini failed or not available
@@ -685,13 +661,6 @@ def process_leads():
 # --- Execution ---
 if __name__ == "__main__":
     if API_KEY == "YOUR_API_KEY_HERE":
-        print("❌ ERROR: Please set your Gemini API key as an environment variable (GEMINI_API_KEY).")
-        print("   You can set it with: $env:GEMINI_API_KEY='your_api_key_here'")
-        print("   Or install the package with: pip install google-genai")
-    elif not GENAI_AVAILABLE:
-        print("⚠️  WARNING: google-genai package not available. Install with: pip install google-genai")
-        print("   The script will run with deterministic fallback only.")
-        process_leads()
+        print("ERROR: Please set your Gemini API key in the script or as an environment variable (GEMINI_API_KEY).")
     else:
-        print("🚀 Starting with Gemini 2.5 Flash integration...")
         process_leads()
