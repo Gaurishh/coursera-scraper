@@ -1,0 +1,9 @@
+Website Text Content for funambolo
+==================================================
+
+/ route:
+------------------------------
+Error fetching content: HTTPSConnectionPool(host='funambolo.co.in', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')))
+
+==================================================
+

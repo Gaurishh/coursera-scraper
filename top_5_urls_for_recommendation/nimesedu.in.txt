@@ -1,0 +1,5 @@
+http://nimesedu.in/aboutus.php
+http://nimesedu.in/institute_course.php
+http://nimesedu.in/placement.php
+http://nimesedu.in/computer_application.php
+http://nimesedu.in/management_detail.php?name=Masters in Business Administration

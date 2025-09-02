@@ -1,0 +1,9 @@
+Website Text Content for amcec
+==================================================
+
+/ route:
+------------------------------
+Error fetching content: HTTPSConnectionPool(host='amcec.edu.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001E533644890>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+
+==================================================
+

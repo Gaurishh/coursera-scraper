@@ -1,0 +1,9 @@
+Website Text Content for iraitech
+==================================================
+
+/ route:
+------------------------------
+Error fetching content: HTTPSConnectionPool(host='www.iraitech.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)')))
+
+==================================================
+

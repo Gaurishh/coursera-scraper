@@ -1,0 +1,9 @@
+Website Text Content for marconix
+==================================================
+
+/ route:
+------------------------------
+Error fetching content: 406 Client Error: Not Acceptable for url: http://www.marconix.in/
+
+==================================================
+

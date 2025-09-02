@@ -1,0 +1,7 @@
+https://sveltetech.com/
+https://sveltetech.com/about.php
+https://sveltetech.com/contact.php
+https://sveltetech.com/index.html
+https://sveltetech.com/index.php
+https://sveltetech.com/product.php
+https://sveltetech.com/service.php

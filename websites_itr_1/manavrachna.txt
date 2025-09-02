@@ -1,0 +1,9 @@
+Website Text Content for manavrachna
+==================================================
+
+/international-institute-of-research-and-studies/ route:
+------------------------------
+Error fetching content: 520 Server Error: <none> for url: https://manavrachna.edu.in/international-institute-of-research-and-studies/
+
+==================================================
+

@@ -1,0 +1,5 @@
+https://www.infosys.com/contact.html
+https://www.infosys.com/contact/country.html?region=Americas&subsidiary=Infosys
+https://www.infosys.com/contact/country.html?region=Asia_X32_Pacific&subsidiary=Infosys
+https://www.infosys.com/contact/country.html?region=Europe&subsidiary=Infosys
+https://www.infosys.com/contact/country.html?region=Middle_X32_East_X32_and_X32_Africa&subsidiary=Infosys

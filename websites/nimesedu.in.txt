@@ -1,0 +1,50 @@
+http://nimesedu.in/
+http://nimesedu.in/aboutus.php
+http://nimesedu.in/admission_policy.php
+http://nimesedu.in/business_opprtunite.php
+http://nimesedu.in/computer_application.php
+http://nimesedu.in/contact-us.php
+http://nimesedu.in/director.php
+http://nimesedu.in/engineering.php
+http://nimesedu.in/gallery.php
+http://nimesedu.in/holiday.php
+http://nimesedu.in/index.php
+http://nimesedu.in/institute_course.php
+http://nimesedu.in/management.php
+http://nimesedu.in/management_detail.php?name=Automobile Engineering
+http://nimesedu.in/management_detail.php?name=Chemical Engineering
+http://nimesedu.in/management_detail.php?name=Civil Engineering 
+http://nimesedu.in/management_detail.php?name=Computer Science & Engineering
+http://nimesedu.in/management_detail.php?name=Diploma in Business Administration 
+http://nimesedu.in/management_detail.php?name=Diploma in Computer Application
+http://nimesedu.in/management_detail.php?name=Electrical Engineering 
+http://nimesedu.in/management_detail.php?name=Electronics Engineering 
+http://nimesedu.in/management_detail.php?name=Executive- Masters in Business Administration 
+http://nimesedu.in/management_detail.php?name=Graduate Diploma in Business Administration
+http://nimesedu.in/management_detail.php?name=Graduate Diploma in Computer Application
+http://nimesedu.in/management_detail.php?name=Graduate Diploma in Hotel Management
+http://nimesedu.in/management_detail.php?name=Instrumentation And Control Engineering 
+http://nimesedu.in/management_detail.php?name=Masters in Business Administration
+http://nimesedu.in/management_detail.php?name=Masters in Hotel Management (MBA HM) 
+http://nimesedu.in/management_detail.php?name=Mechanical Engineering
+http://nimesedu.in/management_detail.php?name=Polymer Science 
+http://nimesedu.in/management_detail.php?name=Post Graduate Diploma in Business Administration
+http://nimesedu.in/management_detail.php?name=Post Graduate Diploma in Computer Application 
+http://nimesedu.in/placement.php
+http://nimesedu.in/recruiment.php
+http://nimesedu.in/special_Profile.php
+http://nimesedu.in/student_portal.php
+http://nimesedu.in/testimonial.php
+http://nimesedu.in/univer.php?university=aaidu
+http://nimesedu.in/university_course.php
+http://nimesedu.in/university_course_detail.php?university=Allahabad Deemed University
+http://nimesedu.in/university_course_detail.php?university=Eiilm University
+http://nimesedu.in/university_course_detail.php?university=MD University
+http://nimesedu.in/university_course_fee_detail.php?id=130
+http://nimesedu.in/university_course_fee_detail.php?id=131
+http://nimesedu.in/university_course_fee_detail.php?id=132
+http://nimesedu.in/university_course_fee_detail.php?id=133
+http://nimesedu.in/university_course_fee_detail.php?id=134
+http://nimesedu.in/university_course_fee_detail.php?id=135
+http://nimesedu.in/university_course_fee_detail.php?id=136
+http://nimesedu.in/university_course_fee_detail.php?id=137

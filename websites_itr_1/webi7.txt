@@ -1,0 +1,9 @@
+Website Text Content for webi7
+==================================================
+
+/ route:
+------------------------------
+Error fetching content: 406 Client Error: Not Acceptable for url: https://webi7.com/
+
+==================================================
+

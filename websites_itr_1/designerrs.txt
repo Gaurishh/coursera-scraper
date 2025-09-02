@@ -1,0 +1,9 @@
+Website Text Content for designerrs
+==================================================
+
+/ route:
+------------------------------
+Error fetching content: 406 Client Error: Not Acceptable for url: https://designerrs.com/
+
+==================================================
+

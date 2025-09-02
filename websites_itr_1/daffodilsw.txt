@@ -1,0 +1,9 @@
+Website Text Content for daffodilsw
+==================================================
+
+/ route:
+------------------------------
+Error fetching content: 403 Client Error: Forbidden for url: https://www.daffodilsw.com/
+
+==================================================
+

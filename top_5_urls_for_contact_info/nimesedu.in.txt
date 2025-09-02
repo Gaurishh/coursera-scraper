@@ -1,0 +1,5 @@
+http://nimesedu.in/management_detail.php?name=Electrical Engineering
+http://nimesedu.in/management_detail.php?name=Automobile Engineering
+http://nimesedu.in/management_detail.php?name=Chemical Engineering
+http://nimesedu.in/management_detail.php?name=Civil Engineering
+http://nimesedu.in/management_detail.php?name=Electronics Engineering

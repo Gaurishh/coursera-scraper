@@ -1,0 +1,5 @@
+https://aoreindia.com/contact-us/
+https://aoreindia.com/wp-login.php?action=logout&redirect_to=https%3A%2F%2Faoreindia.com%2Fcontact-us%2F&_wpnonce=29d857ca02
+https://aoreindia.com/about-us/
+https://aoreindia.com/wp-login.php?action=logout&redirect_to=https%3A%2F%2Faoreindia.com%2Fabout-us%2F&_wpnonce=29d857ca02
+https://aoreindia.com/beauty-and-wellness-management/
