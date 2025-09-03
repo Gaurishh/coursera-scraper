@@ -3,7 +3,9 @@ import json
 import requests
 import time
 import threading
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urlparse
 
 # Try to load environment variables from .env file
 try:
@@ -13,37 +15,20 @@ except ImportError:
     # python-dotenv not installed, continue without it
     pass
 
-# No additional imports needed - using requests for REST API
-
-# --- Configuration ---
-INPUT_DIR = "websites"
-OUTPUT_DIR = "top_5_urls_for_recommendation"
-API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE") # Recommended: Use environment variables
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
-MAX_WORKERS = 6  # Number of concurrent threads for processing
-MAX_CONSECUTIVE_ERRORS = 5  # Stop trying after 5 consecutive URL validation failures
+# Import constants
+from constants import (
+    GEMINI_API_KEY, GEMINI_API_URL, RECOMMENDATION_INPUT_DIR, RECOMMENDATION_OUTPUT_DIR,
+    RECOMMENDATION_MAX_WORKERS, RECOMMENDATION_MAX_CONSECUTIVE_ERRORS,
+    DEFAULT_REQUEST_TIMEOUT, API_REQUEST_TIMEOUT, DEFAULT_MAX_RETRIES,
+    MASTER_PROMPT_TEMPLATE, GENERAL_CLASSIFICATION_SCORES
+)
 
 # --- LLM Master Prompt ---
 # This detailed prompt guides the LLM to make a reliable and informed decision.
-MASTER_PROMPT_TEMPLATE = """
-Persona:
-You are an expert data analyst specializing in website structure. Your task is to identify the most informative URLs from a given list that will help a sales team understand an institution's focus.
-
-Primary Goal:
-Select the most informative URLs from the list below that will help a sales team understand an institution's focus. Choose up to 5 URLs (or all available URLs if there are fewer than 5) that are most likely to contain information about the institution's core purpose, courses offered, industry partnerships, or team structure. This information will be used to recommend either a 'Programming' course or a 'Sales' course. Use your own expert judgment to determine the most relevant URLs from the list.
-
-IMPORTANT: If any URLs contain "/about" or "/about-us" in their path, prioritize these URLs as they are most likely to contain information about the institution's core purpose and focus.
-
-List of URLs to Analyze:
-{url_list_json}
-
-Required Output Format:
-Your response MUST be a valid JSON object and nothing else. The JSON object should contain a single key, 'selected_urls', with a list of the most relevant URLs you have chosen (up to 5, or all available if fewer than 5).
-Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
-"""
+# (Prompt template is now imported from constants.py)
 
 # --- Gemini 2.5 Pro API Function ---
-def generate_content_with_gemini(prompt, max_retries=3):
+def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
     """
     Generate content using Gemini 2.5 Pro with retry logic via REST API.
     
@@ -54,14 +39,14 @@ def generate_content_with_gemini(prompt, max_retries=3):
     Returns:
         str: Generated content or None if failed
     """
-    if API_KEY == "YOUR_API_KEY_HERE":
+    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
         return None
     
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
     for attempt in range(max_retries):
         try:
-            response = requests.post(API_URL, json=payload, timeout=60)
+            response = requests.post(GEMINI_API_URL, json=payload, timeout=API_REQUEST_TIMEOUT)
             response.raise_for_status()
             
             # Extract text from response
@@ -121,7 +106,7 @@ def prioritize_about_urls(urls):
     return about_urls, non_about_urls
 
 # --- URL Validation Function ---
-def validate_url_content(url, timeout=10):
+def validate_url_content(url, timeout=DEFAULT_REQUEST_TIMEOUT):
     """
     Validates if a URL returns valid HTML content.
     
@@ -155,57 +140,80 @@ def validate_url_content(url, timeout=10):
 
 # --- Fallback Function (Guardrail) ---
 # This runs if the LLM fails, ensuring the script never crashes.
-def get_all_urls_deterministic(url_list):
-    """
-    Selects ALL URLs based on a deterministic keyword scoring system.
-    Returns a list of URLs sorted by priority (highest score first).
-    Used as a prioritized queue for fallback URL selection.
-    """
-    print("INFO: Creating prioritized URL queue based on keyword scoring.")
-    
-    # Keywords with assigned scores. Higher is better.
-    keyword_scores = {
-        # Tier 1: Core Offerings & High-Value Departments (Score 10)
-        'courses': 10, 'curriculum': 10, 'academics': 10, 'syllabus': 10,
-        'solutions': 10, 'services': 10, 'products': 10,
-        'computer-science': 10, 'b-tech': 10, 'mca': 10, 
-        'mba': 10, 'bba': 10, 'marketing': 10, 'sales': 10,
+# (Keyword scores are now imported from constants.py)
 
-        # Tier 2: People, Outcomes & Identity (Score 8)
-        'departments': 8, 'faculty': 8, 'training': 8, 
-        'placements': 8, 'career-services': 8,
-        'about': 7, 'who-we-are': 7,
-
-        # Tier 3: Recent Activities & Broader Context (Score 6)
-        'news': 6, 'events': 6, 'blog': 6,
-        'team': 5, 'leadership': 5,
-        
-        # Tier 4: General/Administrative (Score 3)
-        'admissions': 3, 'jobs': 3,
-        
-        # Tier 5: Noise (Score 1)
-        'contact': 1, 'gallery': 1, 'alumni': 1
-    }
-    
+def get_prioritized_urls(url_list, keyword_scores):
+    """
+    Scores and sorts URLs based on a refined keyword matching algorithm.
+    This function tokenizes URLs for accuracy, uses max score logic, positional weighting,
+    and handles negative keywords.
+    """
     scored_urls = []
-    for url in url_list:
-        score = 0
-        # Check for keywords in the URL path
-        for keyword, value in keyword_scores.items():
-            if keyword in url.lower():
-                score += value
-        
-        # Give a small bonus to the root URL if present
-        if url.endswith(('.com/', '.in/', '.org/', '.ac.in/')):
-             score += 3
+    # Prioritize longer, more specific keywords first (e.g., 'contact-us' before 'contact')
+    sorted_keywords = sorted(keyword_scores.keys(), key=len, reverse=True)
 
-        scored_urls.append((url, score))
+    for url in url_list:
+        max_score = 0
+        is_penalized = False
+
+        parsed_url = urlparse(url)
+        path = parsed_url.path
         
+        # Tokenize the URL path for accurate matching
+        clean_path = re.sub(r'[\/_-]', ' ', path).lower()
+        tokens = clean_path.split()
+        
+        highest_keyword_score = 0
+        keyword_pos = float('inf')
+
+        for keyword in sorted_keywords:
+            found_in_url = False
+            for i, token in enumerate(tokens):
+                if keyword in token:
+                    score = keyword_scores[keyword]
+                    
+                    # Apply penalty immediately and stop processing this URL
+                    if score < 0:
+                        max_score = score
+                        is_penalized = True
+                        break
+                    
+                    # "Max Score" logic: only the highest value keyword determines the score
+                    if score > highest_keyword_score:
+                       highest_keyword_score = score
+                       keyword_pos = i
+                       
+                    found_in_url = True
+                    break  # Found the most specific keyword, move to the next keyword
+            if found_in_url:
+                break # A keyword has been matched, move to the next URL
+
+        if is_penalized:
+            scored_urls.append((url, max_score))
+            continue
+
+        # Apply positional weighting: keywords earlier in the URL are more important
+        if highest_keyword_score > 0 and keyword_pos != float('inf'):
+            positional_decay = 0.95 ** keyword_pos
+            max_score = highest_keyword_score * positional_decay
+        
+        # Give a small bonus for root URLs
+        if not path or path == '/':
+            max_score += 2
+
+        scored_urls.append((url, max_score))
+
     # Sort URLs by score in descending order
     scored_urls.sort(key=lambda x: x[1], reverse=True)
     
-    # Return ALL URLs sorted by priority (not just top 5)
     return [url for url, score in scored_urls]
+
+# --- Main Wrapper Function for Classification ---
+
+def get_all_urls_deterministic_classification(url_list):
+    """Wrapper function to sort URLs for website topic classification."""
+    print("INFO: Using improved algorithm for website classification.")
+    return get_prioritized_urls(url_list, GENERAL_CLASSIFICATION_SCORES)
 
 # --- Processing Function ---
 def process_single_website(filename):
@@ -220,8 +228,8 @@ def process_single_website(filename):
     Returns:
         tuple: (success, filename, urls_processed, error_message)
     """
-    input_filepath = os.path.join(INPUT_DIR, filename)
-    output_filepath = os.path.join(OUTPUT_DIR, filename)
+    input_filepath = os.path.join(RECOMMENDATION_INPUT_DIR, filename)
+    output_filepath = os.path.join(RECOMMENDATION_OUTPUT_DIR, filename)
     
     try:
         # Read URLs from file and normalize them
@@ -243,7 +251,7 @@ def process_single_website(filename):
             print(f"⚠️  No about URLs found in {len(urls)} total URLs")
         
         # Step 2: Create prioritized URL queue for non-about URLs
-        top_urls = get_all_urls_deterministic(non_about_urls)
+        top_urls = get_all_urls_deterministic_classification(non_about_urls)
         print(f"📋 Created prioritized queue with {len(top_urls)} non-about URLs for {filename}")
         
         # Step 3: Build final URL selection starting with about URLs
@@ -334,13 +342,13 @@ def process_single_website(filename):
                 consecutive_errors += 1
                 
                 # Check if we've hit the consecutive error limit
-                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                if consecutive_errors >= RECOMMENDATION_MAX_CONSECUTIVE_ERRORS:
                     print(f"  🛑 STOPPING: {consecutive_errors} consecutive errors reached. Website may be unreachable.")
                     break
                 
                 # Find next valid URL from the queue
                 replacement_found = False
-                while top_urls and not replacement_found and consecutive_errors < MAX_CONSECUTIVE_ERRORS:
+                while top_urls and not replacement_found and consecutive_errors < RECOMMENDATION_MAX_CONSECUTIVE_ERRORS:
                     next_url = top_urls.pop(0)  # Pop from the front of the queue
                     # Check against both final_urls and final_selected_urls to prevent duplicates
                     if next_url not in final_urls and next_url not in final_selected_urls:
@@ -355,13 +363,13 @@ def process_single_website(filename):
                             consecutive_errors += 1
                             
                             # Check consecutive errors again
-                            if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                            if consecutive_errors >= RECOMMENDATION_MAX_CONSECUTIVE_ERRORS:
                                 print(f"  🛑 STOPPING: {consecutive_errors} consecutive errors reached. Website may be unreachable.")
                                 break
                 
-                if not replacement_found and consecutive_errors < MAX_CONSECUTIVE_ERRORS:
+                if not replacement_found and consecutive_errors < RECOMMENDATION_MAX_CONSECUTIVE_ERRORS:
                     print(f"  ⚠️  No valid replacement found for {url}")
-                elif consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                elif consecutive_errors >= RECOMMENDATION_MAX_CONSECUTIVE_ERRORS:
                     break
         
         # Step 6: Save the results
@@ -387,27 +395,27 @@ def process_websites():
     """
     Main function to process websites using multithreading.
     """
-    if not os.path.exists(INPUT_DIR):
-        print(f"❌ ERROR: Input directory '{INPUT_DIR}' not found.")
+    if not os.path.exists(RECOMMENDATION_INPUT_DIR):
+        print(f"❌ ERROR: Input directory '{RECOMMENDATION_INPUT_DIR}' not found.")
         return
 
-    if not os.path.exists(OUTPUT_DIR):
-        print(f"📁 INFO: Output directory '{OUTPUT_DIR}' not found. Creating it.")
-        os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(RECOMMENDATION_OUTPUT_DIR):
+        print(f"📁 INFO: Output directory '{RECOMMENDATION_OUTPUT_DIR}' not found. Creating it.")
+        os.makedirs(RECOMMENDATION_OUTPUT_DIR)
 
-    website_files = [f for f in os.listdir(INPUT_DIR) if f.endswith('.txt')]
+    website_files = [f for f in os.listdir(RECOMMENDATION_INPUT_DIR) if f.endswith('.txt')]
     
     if not website_files:
-        print(f"❌ No website files found in '{INPUT_DIR}' directory.")
+        print(f"❌ No website files found in '{RECOMMENDATION_INPUT_DIR}' directory.")
         return
 
     print(f"🚀 Starting Multithreaded URL Recommendation Extractor")
     print("=" * 60)
     print(f"📊 Total websites to process: {len(website_files)}")
-    print(f"🧵 Max concurrent workers: {MAX_WORKERS}")
-    print(f"🛑 Max consecutive errors: {MAX_CONSECUTIVE_ERRORS}")
-    print(f"📁 Input directory: {INPUT_DIR}")
-    print(f"📁 Output directory: {OUTPUT_DIR}")
+    print(f"🧵 Max concurrent workers: {RECOMMENDATION_MAX_WORKERS}")
+    print(f"🛑 Max consecutive errors: {RECOMMENDATION_MAX_CONSECUTIVE_ERRORS}")
+    print(f"📁 Input directory: {RECOMMENDATION_INPUT_DIR}")
+    print(f"📁 Output directory: {RECOMMENDATION_OUTPUT_DIR}")
     print("=" * 60)
 
         # Process websites using multithreading
@@ -426,7 +434,7 @@ def process_websites():
                 total_urls_processed += urls_count
     
     # Use ThreadPoolExecutor for concurrent processing
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    with ThreadPoolExecutor(max_workers=RECOMMENDATION_MAX_WORKERS) as executor:
         # Submit all tasks
         future_to_filename = {
             executor.submit(process_single_website, filename): filename 
@@ -461,7 +469,7 @@ def process_websites():
     print(f"✅ Successful Processes: {successful_processes}")
     print(f"❌ Failed Processes: {len(website_files) - successful_processes}")
     print(f"🔗 Total URLs Processed: {total_urls_processed}")
-    print(f"📁 Results saved in: {OUTPUT_DIR}/")
+    print(f"📁 Results saved in: {RECOMMENDATION_OUTPUT_DIR}/")
     
     if successful_processes > 0:
         avg_urls = total_urls_processed / successful_processes
@@ -471,7 +479,7 @@ def process_websites():
 
 # --- Execution ---
 if __name__ == "__main__":
-    if API_KEY == "YOUR_API_KEY_HERE":
+    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
         print("ERROR: Please set your Gemini API key in the script or as an environment variable (GEMINI_API_KEY).")
     else:
         process_websites()

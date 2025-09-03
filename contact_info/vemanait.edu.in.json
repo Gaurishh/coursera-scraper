@@ -1,189 +1,25 @@
 [
   {
-    "name": "Vemana Institute of Technology",
-    "title": "General Contact",
-    "phone": "+91 95354 44571",
+    "phone": "+91 9535444571",
     "email": "info@vemanait.edu.in"
   },
   {
-    "name": "Vemana Institute of Technology",
-    "title": "Admissions Contact",
+    "phone": "+91 9535444571",
     "email": "admissions@vemanait.edu.in"
   },
   {
-    "name": "24 x 7 Helpline",
-    "title": "Helpline",
-    "phone": "+91 6361750682 / 83 / 86"
+    "phone": "+91 6361750682"
   },
   {
-    "name": "Placement Office",
-    "title": "General Placement Contact",
-    "email": "placements@vemanait.edu.in"
+    "phone": "+91 6361750683"
   },
   {
-    "name": "Prof. Somashekar",
-    "title": "Director - Training and Placement",
-    "phone": "+91 99023 29749, +91 99021 61133",
-    "email": "director-placement@vemanait.edu.in"
-  },
-  {
-    "name": "Dr. Byra Reddy G R",
-    "title": "Placement Officer",
-    "phone": "+91 97410 83004",
-    "email": "byrareddy.gr@vemanait.edu.in"
-  },
-  {
-    "name": "Dr. Noor Basha",
-    "title": "Associate Professor & Placement Co-ordinator, Computer Science & Engineering"
-  },
-  {
-    "name": "Ms. Mythili M",
-    "title": "Placement Co-ordinator, Information Science & Engineering"
-  },
-  {
-    "name": "Ms. Kusuma G S",
-    "title": "Placement Co-ordinator, Electronics and Communication Engineering"
-  },
-  {
-    "name": "Mr. Naveen Kumar R",
-    "title": "Placement Co-ordinator, Mechanical Engineering"
-  },
-  {
-    "name": "Dr. Namratha V",
-    "title": "Placement Co-ordinator, Civil Engineering"
-  },
-  {
-    "name": "Dr. Sapna M K",
-    "title": "Placement Co-Ordinator, Artificial Intelligence & Machine learning"
-  },
-  {
-    "name": "Sri. S. Jayaram Reddy",
-    "title": "Chairman, President-KRJS"
-  },
-  {
-    "name": "Sri. N. Shekar Reddy",
-    "title": "Member, General Secretary-KRJS"
-  },
-  {
-    "name": "Dr. K. P. Jagannath Reddy",
-    "title": "Educationist, Member, Professor Emeritus, Dept. of Aerospace Engg. – IISc."
-  },
-  {
-    "name": "Dr. U. Chandrashekar",
-    "title": "Industrialist, Member, Chief Research Officer- Cambridge Innovation Centre"
-  },
-  {
-    "name": "Dr. Rajanna T R",
-    "title": "Industrialist, Member, Former General Manager, AERDC, HAL"
-  },
-  {
-    "name": "Mr. P. B. Kottur",
-    "title": "Industrialist, Member, Global Head, L&T Technology Services"
-  },
-  {
-    "name": "Dr. Ramesh Babu",
-    "title": "Educationist, Member, Principal, RNS Institute of Technology, Bangalore"
-  },
-  {
-    "name": "Prof. Chandrashekar. S. M",
-    "title": "Senior Faculty, Vice-Principal - Vemana IT"
-  },
-  {
-    "name": "Dr. Vijayasimha Reddy. B. G",
-    "title": "Member Secretary, Principal – Vemana IT"
+    "phone": "+91 6361750686"
   },
   {
     "name": "Dr. Ramakrishna M",
-    "title": "Professor & Head, Computer Science & Engineering",
+    "title": "Professor & Head",
     "phone": "+91 9686725572",
     "email": "hodcse@vemanait.edu.in"
-  },
-  {
-    "name": "Dr. Shilpa G.V",
-    "title": "Associate Professor"
-  },
-  {
-    "name": "Dr. Rashmi.R",
-    "title": "Associate Professor"
-  },
-  {
-    "name": "Dr. Rachitha M V",
-    "title": "Associate Professor"
-  },
-  {
-    "name": "Dr. J Brundha Elci",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Jagadamba A",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Roopalakshmi S",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Shilpa Reddy K",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Veena G",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Ashwini M",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Naveen H S",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. S. Suma",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Chitra G.",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. P.Gopala Krishna.",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Sneha Zolgikar",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. Kalaiselvi S",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Prof. R.Shwetha",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Mr. K. Sridhar Reddy",
-    "title": "System Engineer"
-  },
-  {
-    "name": "Mr. Chandra Sekhar",
-    "title": "System Engineer"
-  },
-  {
-    "name": "Ms. Shobitha",
-    "title": "Programmer"
-  },
-  {
-    "name": "Ms. Aruna K",
-    "title": "Lab Instructor"
-  },
-  {
-    "name": "Mr. P Hari Raj",
-    "title": "Lab Instructor"
-  },
-  {
-    "name": "Mr Mithil G B",
-    "title": "Lab Assistant"
   }
 ]

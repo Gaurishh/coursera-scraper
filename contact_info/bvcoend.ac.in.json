@@ -1,60 +1,17 @@
 [
   {
-    "name": "Bharati Vidyapeeths College of Engineering",
     "title": "General Contact",
-    "phone": "011-25278444/25278443, 9289792621, 9650435096",
+    "phone": "011-25278444, 011-25278443, 9289792621, 9650435096",
     "email": "coedelhi@bharatividyapeeth.edu"
   },
   {
-    "name": "Training and Placement Cell",
+    "name": "Sushil Kumar",
+    "title": "HOD, Applied Science Department",
+    "phone": "91-11-25258637, 91-11-25278443, 91-11-25278444 (Ext. 226)",
+    "email": "sushil.kumar@bharatividyapeeth.edu, hod.appliedscience@bharatividyapeeth.edu"
+  },
+  {
+    "title": "Training and Placement Cell",
     "email": "tp.coedelhi@bharatividyapeeth.edu"
-  },
-  {
-    "name": "Dr. Preeti Nagrath",
-    "title": "Director Placements"
-  },
-  {
-    "name": "Dr. Sandeep Sharma",
-    "title": "Training and Placement Officer"
-  },
-  {
-    "name": "Ms. Sarita",
-    "title": "Training and Placement Officer and Data Management Associate"
-  },
-  {
-    "name": "Ms.Sarita Yadav",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: IT-I"
-  },
-  {
-    "name": "Dr. Arun Dubey",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: IT-II"
-  },
-  {
-    "name": "Ms. Silica Kole",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: CSE-I"
-  },
-  {
-    "name": "Dr. Aarti",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: CSE-II"
-  },
-  {
-    "name": "Dr. Suman Yadav",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: ECE-I"
-  },
-  {
-    "name": "Ms. Anu Dabas",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: ECE-II"
-  },
-  {
-    "name": "Dr. Saurabh Rana",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: ECE-III"
-  },
-  {
-    "name": "Dr. Bharat Singh",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: EEE"
-  },
-  {
-    "name": "Dr. Sangeetha Gupta",
-    "title": "Training and Placement Faculty Co-Ordinator, Branch: ICE"
   }
 ]

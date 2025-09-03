@@ -1,30 +1,5 @@
 [
   {
-    "name": "Admission Enquiry",
-    "phone": "+918792909121 / +919972780251 / +918792909113 / +919972560251"
-  },
-  {
-    "name": "Hostel Office",
-    "phone": "080 42161708"
-  },
-  {
-    "name": "Indian Boys Hostel",
-    "phone": "080 42161701"
-  },
-  {
-    "name": "NRI Boys Hostel",
-    "phone": "080 42161745"
-  },
-  {
-    "name": "Girls Hostel",
-    "phone": "080 42161727"
-  },
-  {
-    "name": "Examination",
-    "title": "Office of Exam Superintendent",
-    "phone": "080-42161724"
-  },
-  {
     "name": "Ms. Meera",
     "title": "Reception Coordinator",
     "phone": "080-42161708"
@@ -32,17 +7,37 @@
   {
     "name": "Dr. B G Prasad",
     "title": "Principal, DSCE",
-    "phone": "080-42161753 / 26662226"
+    "phone": "080-42161753, 080-26662226"
   },
   {
-    "name": "Ms. Prema David",
-    "title": "Director-Admissions",
-    "phone": "080 42161750 / 080 42161751 / 9916075170 / 9741882324 / 9741889394 / 9741214448"
+    "name": "Mrs. Prema David",
+    "title": "Director-Admissions, Assistant Director Admissions",
+    "phone": "9741882324, 9741889394, 9741214448, 9916075170, +91-80-42161751, +91-80-42161750"
+  },
+  {
+    "name": "Hostel Office",
+    "phone": "080-42161708"
+  },
+  {
+    "name": "Indian Boys Hostel",
+    "phone": "080-42161701"
+  },
+  {
+    "name": "NRI Boys Hostel",
+    "phone": "080-42161745"
+  },
+  {
+    "name": "Girls Hostel",
+    "phone": "080-42161727"
   },
   {
     "name": "Mr. Ranjankumar Jha",
     "title": "Exam Section Coordinator",
     "phone": "080-42161770"
+  },
+  {
+    "name": "Office of Exam Superintendent",
+    "phone": "080-42161724"
   },
   {
     "name": "Mr. Gopalakrishna Murthy",
@@ -70,18 +65,13 @@
     "phone": "080-42161739"
   },
   {
-    "name": "Mr. M N Guruvenkatesh",
+    "name": "Mr. M.N Guruvenkatesh",
     "title": "Senior Vice President - Placements & Skill Development, Chief Academic Officer (CAO) - DSCE",
-    "phone": "080-26663981 / 42161497 / 9844165956"
-  },
-  {
-    "name": "Mr. Nagesh Puranik",
-    "title": "Director - Training & Placements",
-    "phone": "+91 80 26663981 / +91 9739213552"
+    "phone": "+91-80-26663981, +91-80-42161497, +91-9844165956"
   },
   {
     "name": "Ms. Sangeetha",
-    "title": "Conveno Coordinator",
+    "title": "Convenor",
     "phone": "080-42161758"
   },
   {
@@ -101,7 +91,7 @@
   },
   {
     "name": "Dr. Vindhya P Malagi",
-    "title": "Head of the Dept., Artificial Intelligence and machine learning",
+    "title": "Head of the Dept., Artificial Intelligence and Machine Learning",
     "phone": "080-42161753"
   },
   {
@@ -130,7 +120,7 @@
     "phone": "080-42161753"
   },
   {
-    "name": "Dr. Ramesh Babu D. R.",
+    "name": "Dr. D.R. Ramesh Babu",
     "title": "Vice-Principal, Professor & Head of the Department, Computer Science & Engineering",
     "phone": "+91-80-42161726"
   },
@@ -172,7 +162,7 @@
   {
     "name": "Dr. Vasanth Kumar",
     "title": "Head of the Dept., Industrial Engineering & Management",
-    "phone": "080 - 42161741"
+    "phone": "080-42161741"
   },
   {
     "name": "Dr. Rajeshwari J",
@@ -197,25 +187,30 @@
   {
     "name": "Dr. Samitha Khaiyum",
     "title": "Head of the Dept., Master of Computer Applications (MCA)",
-    "phone": "080 - 42161768"
+    "phone": "080-42161768"
   },
   {
     "name": "Dr. C.M. Joseph",
     "title": "Head of the Dept., Physics",
-    "phone": "080 - 42161729"
+    "phone": "080-42161729"
   },
   {
     "name": "Dr. K.S. Anantha Raju",
     "title": "Head of the Dept., Chemistry",
-    "phone": "080 - 42161700"
+    "phone": "080-42161700"
   },
   {
     "name": "Dr. Radha Gupta",
     "title": "Head of the Dept., Mathematics",
-    "phone": "080 - 42161730"
+    "phone": "080-42161730"
   },
   {
-    "name": "Dr. Krishnan R",
-    "title": "Professor, CSE, DSCE, Faculty Sponsor"
+    "name": "Admission Enquiry",
+    "phone": "+918792909121, +919972780251, +918792909113, +919972560251"
+  },
+  {
+    "name": "Mr. Nagesh Puranik",
+    "title": "Director - Training & Placements",
+    "phone": "+91-80-26663981, +91-9739213552"
   }
 ]

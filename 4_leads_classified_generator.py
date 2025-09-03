@@ -13,38 +13,16 @@ try:
 except ImportError:
     pass
 
-# --- Configuration ---
-# Input file from the very first step to get metadata like 'Institution type'
-INITIAL_LEADS_FILE = "1_discovered_leads.csv" 
-WEBSITES_DIR = "websites" # Directory with all 100 URLs
-# Input directory from the previous URL selection step
-URL_FILES_DIR = "top_5_urls_for_recommendation"
-# Final output file
-OUTPUT_FILE = "2_leads_classified.csv" 
-API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
+# Import constants
+from constants import (
+    GEMINI_API_KEY, GEMINI_API_URL, CLASSIFICATION_INITIAL_LEADS_FILE,
+    CLASSIFICATION_WEBSITES_DIR, CLASSIFICATION_URL_FILES_DIR, CLASSIFICATION_OUTPUT_FILE,
+    CLASSIFICATION_MAX_WORKERS, DEFAULT_REQUEST_TIMEOUT, LONG_API_REQUEST_TIMEOUT,
+    DEFAULT_MAX_RETRIES, CLASSIFICATION_PROMPT_TEMPLATE
+)
 
 # --- LLM Master Prompt ---
-MASTER_PROMPT_TEMPLATE = """
-Persona: 
-You are an expert B2B sales analyst for Coursera.
-
-Context: 
-Your goal is to analyze the provided text from an institution's website and recommend either a 'Programming' or 'Sales' course. The institution is a '{institution_type}'.
-
-Rules:
-1. Base your decision on the content from the following web pages.
-2. A high score (90+) for Programming is warranted for engineering colleges or companies with a strong tech focus.
-3. A high score (90+) for Sales is warranted for business schools or companies in sales-driven industries.
-4. Provide a confidence score from 0 to 100 representing how strongly you recommend the course.
-5. Provide a brief one-sentence justification for your choice.
-
-Website Content:
-{website_content}
-
-Your Task:
-Respond ONLY with a valid JSON object in the following format: {{"recommended_course": "<Programming or Sales>", "confidence_score": <number>, "reasoning": "<your_one_sentence_reason>"}}
-"""
+# (Prompt template is now imported from constants.py)
 
 # --- Helper Functions ---
 
@@ -70,7 +48,7 @@ def scrape_and_format_content(url_list):
 
     for url in url_list:
         try:
-            response = requests.get(url, headers=headers, timeout=10)
+            response = requests.get(url, headers=headers, timeout=DEFAULT_REQUEST_TIMEOUT)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             
@@ -104,12 +82,12 @@ def process_single_lead(lead):
         return None
 
     # First, check if the source file with all URLs exists in the 'websites' folder.
-    source_url_filepath = os.path.join(WEBSITES_DIR, filename)
+    source_url_filepath = os.path.join(CLASSIFICATION_WEBSITES_DIR, filename)
     if not os.path.exists(source_url_filepath):
-        print(f"WARN: Source URL file not found in '{WEBSITES_DIR}' for {website_url}. Skipping.")
+        print(f"WARN: Source URL file not found in '{CLASSIFICATION_WEBSITES_DIR}' for {website_url}. Skipping.")
         return None
 
-    url_filepath = os.path.join(URL_FILES_DIR, filename)
+    url_filepath = os.path.join(CLASSIFICATION_URL_FILES_DIR, filename)
     if not os.path.exists(url_filepath):
         print(f"WARN: Top 5 URL file not found for {website_url}. Skipping.")
         return None
@@ -129,7 +107,7 @@ def process_single_lead(lead):
     if not formatted_content.strip():
         return None # No content scraped
 
-    prompt = MASTER_PROMPT_TEMPLATE.format(
+    prompt = CLASSIFICATION_PROMPT_TEMPLATE.format(
         institution_type=institution_type,
         website_content=formatted_content
     )
@@ -137,11 +115,11 @@ def process_single_lead(lead):
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
     # Retry mechanism for LLM calls
-    max_retries = 3
+    max_retries = DEFAULT_MAX_RETRIES
     for attempt in range(max_retries):
         try:
             print(f"🤖 LLM attempt {attempt + 1}/{max_retries} for {website_url}")
-            response = requests.post(API_URL, json=payload, timeout=90)
+            response = requests.post(GEMINI_API_URL, json=payload, timeout=LONG_API_REQUEST_TIMEOUT)
             response.raise_for_status()
             response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
             
@@ -157,6 +135,9 @@ def process_single_lead(lead):
             print(f"✅ SUCCESS: Analyzed {website_url}")
             return {
                 'Website': website_url,
+                'Institution Type': institution_type,
+                'Location': lead.get('Location', 'N/A'),
+                'Phone': lead.get('Phone', 'N/A'),
                 'Course': data.get('recommended_course', 'N/A'),
                 'Score': data.get('confidence_score', 0),
                 'Reasoning': data.get('reasoning', '')
@@ -221,26 +202,26 @@ def generate_classifications():
     # Start timing
     start_time = time.time()
     
-    if not os.path.exists(INITIAL_LEADS_FILE):
-        print(f"ERROR: Initial leads file '{INITIAL_LEADS_FILE}' not found.")
+    if not os.path.exists(CLASSIFICATION_INITIAL_LEADS_FILE):
+        print(f"ERROR: Initial leads file '{CLASSIFICATION_INITIAL_LEADS_FILE}' not found.")
         return
     
-    if not os.path.exists(URL_FILES_DIR):
-        print(f"ERROR: URL files directory '{URL_FILES_DIR}' not found.")
+    if not os.path.exists(CLASSIFICATION_URL_FILES_DIR):
+        print(f"ERROR: URL files directory '{CLASSIFICATION_URL_FILES_DIR}' not found.")
         return
 
     try:
-        leads_df = pd.read_csv(INITIAL_LEADS_FILE)
+        leads_df = pd.read_csv(CLASSIFICATION_INITIAL_LEADS_FILE)
         leads_to_process = leads_df.to_dict('records')
     except Exception as e:
-        print(f"ERROR: Could not read CSV file '{INITIAL_LEADS_FILE}'. Error: {e}")
+        print(f"ERROR: Could not read CSV file '{CLASSIFICATION_INITIAL_LEADS_FILE}'. Error: {e}")
         return
     
     all_results = []
     
     print(f"--- Starting Analysis for {len(leads_to_process)} Leads ---")
     
-    with ThreadPoolExecutor(max_workers=6) as executor:
+    with ThreadPoolExecutor(max_workers=CLASSIFICATION_MAX_WORKERS) as executor:
         future_to_lead = {executor.submit(process_single_lead, lead): lead for lead in leads_to_process}
         
         for future in as_completed(future_to_lead):
@@ -255,9 +236,9 @@ def generate_classifications():
     # Create and save the final DataFrame
     try:
         results_df = pd.DataFrame(all_results)
-        results_df.to_csv(OUTPUT_FILE, index=False)
+        results_df.to_csv(CLASSIFICATION_OUTPUT_FILE, index=False)
     except Exception as e:
-        print(f"ERROR: Could not save results to '{OUTPUT_FILE}'. Error: {e}")
+        print(f"ERROR: Could not save results to '{CLASSIFICATION_OUTPUT_FILE}'. Error: {e}")
         return
 
     # Calculate and display total execution time
@@ -266,12 +247,12 @@ def generate_classifications():
     
     print("\n--- Processing Complete ---")
     print(f"Successfully processed and classified {len(results_df)} leads.")
-    print(f"Results saved to '{OUTPUT_FILE}'")
+    print(f"Results saved to '{CLASSIFICATION_OUTPUT_FILE}'")
     print(f"⏱️  Total Execution Time: {execution_time:.2f} seconds")
 
 # --- Execution ---
 if __name__ == "__main__":
-    if API_KEY == "YOUR_API_KEY_HERE":
+    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
         print("ERROR: Please set your Gemini API key as an environment variable (GEMINI_API_KEY).")
     else:
         generate_classifications()

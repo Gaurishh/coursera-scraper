@@ -1,12 +1,13 @@
 [
   {
-    "name": "Mindroit Technologies Pvt Ltd",
-    "title": "General Inquiries / Services",
-    "phone": "+91-7829652092, +91-80-49563406",
+    "phone": "+91-7829652092",
     "email": "services@mindroit.com"
   },
   {
-    "title": "Careers Department",
+    "phone": "+91-80-49563406",
+    "email": "services@mindroit.com"
+  },
+  {
     "email": "careers@mindroit.com"
   }
 ]

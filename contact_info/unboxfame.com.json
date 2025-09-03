@@ -1,0 +1,38 @@
+[
+  {
+    "name": "General Enquiry",
+    "email": "enquiry@unboxfame.com"
+  },
+  {
+    "name": "Customer Service",
+    "email": "care@unboxfame.com"
+  },
+  {
+    "name": "Sales (India)",
+    "phone": "+91-8920173716"
+  },
+  {
+    "name": "Customer Care (India)",
+    "phone": "+91-9625516571"
+  },
+  {
+    "name": "Support (USA)",
+    "phone": "+1 (845) 213 1048"
+  },
+  {
+    "name": "Sales (USA)",
+    "phone": "+1-877 772 5926"
+  },
+  {
+    "name": "Phone (Australia)",
+    "phone": "+61 2 4786 0304"
+  },
+  {
+    "name": "Fraud Concerns",
+    "email": "fraud@unboxfame.com"
+  },
+  {
+    "name": "Careers",
+    "email": "careers@unboxfame.com"
+  }
+]

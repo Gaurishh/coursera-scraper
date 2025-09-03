@@ -1,38 +1,11 @@
 [
   {
-    "name": "Renu Saxena",
-    "title": "CEO"
-  },
-  {
-    "name": "Mayank Dhingra",
-    "title": "IT Director"
-  },
-  {
-    "name": "Aman Malik",
-    "title": "CEO"
-  },
-  {
-    "name": "Erica May",
-    "title": "Operations Head"
-  },
-  {
-    "name": "Shlock Mehta",
-    "title": "HR-Head"
-  },
-  {
-    "name": "Komal Sinha",
-    "title": "HOD"
-  },
-  {
     "name": "Head Office",
     "phone": "011-47064605/43572945",
-    "email": "[email protected]"
+    "email": "info@pccsoftech.com"
   },
   {
     "name": "Branch Office",
     "phone": "+91-9999132658"
-  },
-  {
-    "email": "[email protected]"
   }
 ]

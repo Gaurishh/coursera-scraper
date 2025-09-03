@@ -4,7 +4,9 @@ import requests
 import time
 import csv
 import threading
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from urllib.parse import urlparse
 
 # Try to load environment variables from .env file
 try:
@@ -14,17 +16,14 @@ except ImportError:
     # python-dotenv not installed, continue without it
     pass
 
-# No additional imports needed - using requests for REST API
-
-# --- Configuration ---
-INPUT_CSV = "2_leads_classified.csv"
-INPUT_DIR = "websites"
-OUTPUT_DIR = "top_5_urls_for_contact_info"
-ERROR_LOG_FILE = "llm_failure_log.json"  # File to log websites where LLM calls fail
-API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE") # Recommended: Use environment variables
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
-MAX_WORKERS = 6  # Number of concurrent threads for processing
-MAX_CONSECUTIVE_ERRORS = 5  # Stop trying after 5 consecutive URL validation failures
+# Import constants
+from constants import (
+    GEMINI_API_KEY, GEMINI_API_URL, CONTACT_INFO_INPUT_CSV, CONTACT_INFO_INPUT_DIR,
+    CONTACT_INFO_OUTPUT_DIR, CONTACT_INFO_ERROR_LOG_FILE, CONTACT_INFO_MAX_WORKERS,
+    CONTACT_INFO_MAX_CONSECUTIVE_ERRORS, DEFAULT_REQUEST_TIMEOUT, API_REQUEST_TIMEOUT,
+    DEFAULT_MAX_RETRIES, PROGRAMMING_MASTER_PROMPT_TEMPLATE, SALES_MASTER_PROMPT_TEMPLATE,
+    PROGRAMMING_KEYWORD_SCORES, SALES_KEYWORD_SCORES
+)
 
 # Thread lock for error logging
 error_log_lock = threading.Lock()
@@ -40,9 +39,9 @@ def log_llm_failure(website_url, course_type, error_details):
     """
     with error_log_lock:
         # Load existing error log or create new one
-        if os.path.exists(ERROR_LOG_FILE):
+        if os.path.exists(CONTACT_INFO_ERROR_LOG_FILE):
             try:
-                with open(ERROR_LOG_FILE, 'r', encoding='utf-8') as f:
+                with open(CONTACT_INFO_ERROR_LOG_FILE, 'r', encoding='utf-8') as f:
                     error_log = json.load(f)
             except (json.JSONDecodeError, FileNotFoundError):
                 error_log = {"failures": []}
@@ -61,69 +60,17 @@ def log_llm_failure(website_url, course_type, error_details):
         
         # Save updated error log
         try:
-            with open(ERROR_LOG_FILE, 'w', encoding='utf-8') as f:
+            with open(CONTACT_INFO_ERROR_LOG_FILE, 'w', encoding='utf-8') as f:
                 json.dump(error_log, f, indent=2, ensure_ascii=False)
-            print(f"📝 Logged LLM failure for {website_url} to {ERROR_LOG_FILE}")
+            print(f"📝 Logged LLM failure for {website_url} to {CONTACT_INFO_ERROR_LOG_FILE}")
         except Exception as e:
             print(f"⚠️  Failed to write error log: {e}")
 
 # --- LLM Master Prompts for Different Course Types ---
-# Programming Course Master Prompt
-PROGRAMMING_MASTER_PROMPT_TEMPLATE = """
-Persona:
-You are an expert data analyst specializing in website structure and contact information discovery for technology companies. Your task is to identify the most informative URLs from a given list that will help a sales team find contact information, key personnel, and communication channels for programming course sales.
-
-Primary Goal:
-Select the most informative URLs from the list below that are most likely to contain contact information, key personnel details, or communication channels relevant to programming course sales. Choose up to 5 URLs (or all available URLs if there are fewer than 5) that are most likely to contain:
-- Contact information (phone numbers, email addresses, physical addresses)
-- Key personnel (CTO, technical directors, IT managers, decision makers)
-- Communication channels (contact forms, inquiry pages, support)
-- Company/organization details (about us, leadership, team)
-- Technical departments (IT, software development, engineering)
-- Training or education departments
-- Business development or partnership information
-
-IMPORTANT: If any URLs contain "/contact" or "/contact-us" in their path, prioritize these URLs as they are most likely to contain direct contact information.
-
-This information will be used for programming course sales outreach and lead generation. Use your own expert judgment to determine the most relevant URLs from the list.
-
-List of URLs to Analyze:
-{url_list_json}
-
-Required Output Format:
-Your response MUST be a valid JSON object and nothing else. The JSON object should contain a single key, 'selected_urls', with a list of the most relevant URLs you have chosen (up to 5, or all available if fewer than 5).
-Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
-"""
-
-# Sales Course Master Prompt
-SALES_MASTER_PROMPT_TEMPLATE = """
-Persona:
-You are an expert data analyst specializing in website structure and contact information discovery for business organizations. Your task is to identify the most informative URLs from a given list that will help a sales team find contact information, key personnel, and communication channels for sales course sales.
-
-Primary Goal:
-Select the most informative URLs from the list below that are most likely to contain contact information, key personnel details, or communication channels relevant to sales course sales. Choose up to 5 URLs (or all available URLs if there are fewer than 5) that are most likely to contain:
-- Contact information (phone numbers, email addresses, physical addresses)
-- Key personnel (sales managers, business development directors, marketing managers, decision makers)
-- Communication channels (contact forms, inquiry pages, support)
-- Company/organization details (about us, leadership, team)
-- Business departments (sales, marketing, business development)
-- Training or HR departments
-- Business development or partnership information
-
-IMPORTANT: If any URLs contain "/contact" or "/contact-us" in their path, prioritize these URLs as they are most likely to contain direct contact information.
-
-This information will be used for sales course sales outreach and lead generation. Use your own expert judgment to determine the most relevant URLs from the list.
-
-List of URLs to Analyze:
-{url_list_json}
-
-Required Output Format:
-Your response MUST be a valid JSON object and nothing else. The JSON object should contain a single key, 'selected_urls', with a list of the most relevant URLs you have chosen (up to 5, or all available if fewer than 5).
-Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
-"""
+# (Prompt templates are now imported from constants.py)
 
 # --- Gemini 2.5 Flash API Function ---
-def generate_content_with_gemini(prompt, max_retries=3):
+def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
     """
     Generate content using Gemini 2.5 Pro with retry logic via REST API.
     
@@ -135,7 +82,7 @@ def generate_content_with_gemini(prompt, max_retries=3):
         tuple: (response_text, error_details) where response_text is the generated content or None if failed,
                and error_details is a dict with error information if all retries failed
     """
-    if API_KEY == "YOUR_API_KEY_HERE":
+    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
         return None, {"error": "API key not configured", "attempts": 0}
     
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
@@ -143,7 +90,7 @@ def generate_content_with_gemini(prompt, max_retries=3):
     
     for attempt in range(max_retries):
         try:
-            response = requests.post(API_URL, json=payload, timeout=60)
+            response = requests.post(GEMINI_API_URL, json=payload, timeout=API_REQUEST_TIMEOUT)
             response.raise_for_status()
             
             # Extract text from response
@@ -215,7 +162,7 @@ def prioritize_contact_urls(urls):
     return contact_urls, non_contact_urls
 
 # --- URL Validation Function ---
-def validate_url_content(url, timeout=10):
+def validate_url_content(url, timeout=DEFAULT_REQUEST_TIMEOUT):
     """
     Validates if a URL returns valid HTML content.
     
@@ -249,142 +196,104 @@ def validate_url_content(url, timeout=10):
 
 # --- Fallback Functions (Guardrails) ---
 # These run if the LLM fails, ensuring the script never crashes.
+# (Keyword scores are now imported from constants.py)
+
+
+def get_prioritized_urls(url_list, keyword_scores):
+    """
+    Scores and sorts URLs based on a refined keyword matching algorithm.
+
+    This improved algorithm features:
+    1.  **Tokenization**: URLs are split by common delimiters for more accurate word matching.
+    2.  **Max Score Logic**: A URL's score is based on the highest-value keyword it contains,
+        not a sum, preventing misleading scores from many low-value keywords.
+    3.  **Positional Weighting**: Keywords found earlier in the URL path are given slightly
+        more weight, reflecting their higher importance.
+    4.  **Negative Keywords**: Specific keywords can heavily penalize a URL's score.
+    5.  **Specificity Priority**: Longer keywords (e.g., 'contact-us') are checked before
+        shorter ones (e.g., 'contact') to ensure the most specific term is matched.
+
+    Args:
+        url_list (list): A list of URL strings to be sorted.
+        keyword_scores (dict): A dictionary mapping keywords to their scores (positive or negative).
+
+    Returns:
+        list: A new list of URLs sorted by relevancy in descending order.
+    """
+    scored_urls = []
+
+    # Sort keywords by length, descending, to prioritize more specific matches first.
+    # e.g., 'contact-us' will be checked before 'contact'.
+    sorted_keywords = sorted(keyword_scores.keys(), key=len, reverse=True)
+
+    for url in url_list:
+        max_score = 0
+        is_penalized = False
+
+        # Use urlparse for robust path extraction
+        parsed_url = urlparse(url)
+        path = parsed_url.path
+
+        # Create a clean, tokenizable string from the URL path
+        # Replaces common delimiters with spaces for easy word matching
+        clean_path = re.sub(r'[\/_-]', ' ', path).lower()
+        tokens = clean_path.split()
+
+        # Find the highest-scoring keyword in the tokens
+        highest_keyword_score = 0
+        keyword_pos = float('inf')
+
+        for token in tokens:
+            if token in keyword_scores:
+                score = keyword_scores[token]
+                if score > highest_keyword_score:
+                    highest_keyword_score = score
+                    try:
+                        keyword_pos = tokens.index(token)
+                    except ValueError:
+                        keyword_pos = float('inf')
+                
+                # If a negative keyword is found, penalize heavily and stop processing
+                if score < 0:
+                    max_score = score
+                    is_penalized = True
+                    break
+        
+        if is_penalized:
+            scored_urls.append((url, max_score))
+            continue
+
+        # Calculate score with positional weighting
+        # A keyword at the start of the path is more valuable.
+        # We use a decay factor of 0.95 for each position.
+        if highest_keyword_score > 0 and keyword_pos != float('inf'):
+            positional_decay = 0.95 ** keyword_pos
+            max_score = highest_keyword_score * positional_decay
+        
+        # Give a small bonus to the root URL if present
+        if not path or path == '/':
+            max_score += 1
+
+        scored_urls.append((url, max_score))
+
+    # Sort URLs by the final score in descending order
+    scored_urls.sort(key=lambda x: x[1], reverse=True)
+
+    # Return only the URL strings from the sorted list
+    return [url for url, score in scored_urls]
+
+# --- Wrapper Functions (to maintain original interface) ---
 
 def get_all_urls_deterministic_programming(url_list):
-    """
-    Selects ALL URLs based on a deterministic keyword scoring system for programming course contact information.
-    Returns a list of URLs sorted by priority (highest score first).
-    Used as a prioritized queue for fallback URL selection.
-    """
-    print("INFO: Creating prioritized URL queue based on keyword scoring for programming course.")
-    
-    # Keywords with assigned scores. Higher is better for programming course contact information.
-    keyword_scores = {
-        # Tier 1: Direct Contact Information (Score 10)
-        'contact': 10, 'contact-us': 10, 'contactus': 10, 'get-in-touch': 10,
-        'reach-us': 10, 'connect': 10, 'inquiry': 10, 'enquiry': 10,
-        
-        # Tier 2: Technical Leadership & Personnel (Score 9)
-        'leadership': 9, 'team': 9, 'directors': 9, 'management': 9,
-        'founders': 9, 'ceo': 9, 'founder': 9, 'executives': 9,
-        'cto': 9, 'technical-director': 9, 'it-manager': 9,
-        
-        # Tier 3: Technical Departments (Score 8)
-        'about': 8, 'about-us': 8, 'aboutus': 8, 'who-we-are': 8,
-        'company': 8, 'organization': 8, 'profile': 8,
-        'it': 8, 'software': 8, 'development': 8, 'engineering': 8,
-        'technology': 8, 'tech': 8,
-        
-        # Tier 4: Training & Education (Score 7)
-        'training': 7, 'education': 7, 'learning': 7, 'courses': 7,
-        'academy': 7, 'institute': 7, 'university': 7,
-        
-        # Tier 5: Business Development (Score 6)
-        'partnership': 6, 'partnerships': 6, 'collaborate': 6,
-        'business-development': 6, 'sales': 6, 'marketing': 6,
-        
-        # Tier 6: Support & Services (Score 5)
-        'support': 5, 'help': 5, 'services': 5, 'solutions': 5,
-        'consulting': 5, 'advisory': 5,
-        
-        # Tier 7: Career & Opportunities (Score 4)
-        'career': 4, 'careers': 4, 'jobs': 4, 'opportunities': 4,
-        'join-us': 4, 'work-with-us': 4,
-        
-        # Tier 8: General Information (Score 2)
-        'news': 2, 'blog': 2, 'events': 2, 'gallery': 2,
-        
-        # Tier 9: Low Priority (Score 1)
-        'privacy': 1, 'terms': 1, 'sitemap': 1, 'alumni': 1
-    }
-    
-    scored_urls = []
-    for url in url_list:
-        score = 0
-        # Check for keywords in the URL path
-        for keyword, value in keyword_scores.items():
-            if keyword in url.lower():
-                score += value
-        
-        # Give a small bonus to the root URL if present
-        if url.endswith(('.com/', '.in/', '.org/', '.ac.in/')):
-             score += 2
+    """Wrapper function to sort URLs for a programming context."""
+    print("INFO: Using improved algorithm for programming course URLs.")
+    return get_prioritized_urls(url_list, PROGRAMMING_KEYWORD_SCORES)
 
-        scored_urls.append((url, score))
-        
-    # Sort URLs by score in descending order
-    scored_urls.sort(key=lambda x: x[1], reverse=True)
-    
-    # Return ALL URLs sorted by priority (not just top 5)
-    return [url for url, score in scored_urls]
 
 def get_all_urls_deterministic_sales(url_list):
-    """
-    Selects ALL URLs based on a deterministic keyword scoring system for sales course contact information.
-    Returns a list of URLs sorted by priority (highest score first).
-    Used as a prioritized queue for fallback URL selection.
-    """
-    print("INFO: Creating prioritized URL queue based on keyword scoring for sales course.")
-    
-    # Keywords with assigned scores. Higher is better for sales course contact information.
-    keyword_scores = {
-        # Tier 1: Direct Contact Information (Score 10)
-        'contact': 10, 'contact-us': 10, 'contactus': 10, 'get-in-touch': 10,
-        'reach-us': 10, 'connect': 10, 'inquiry': 10, 'enquiry': 10,
-        
-        # Tier 2: Business Leadership & Personnel (Score 9)
-        'leadership': 9, 'team': 9, 'directors': 9, 'management': 9,
-        'founders': 9, 'ceo': 9, 'founder': 9, 'executives': 9,
-        'sales-manager': 9, 'business-director': 9, 'marketing-manager': 9,
-        
-        # Tier 3: Business Departments (Score 8)
-        'about': 8, 'about-us': 8, 'aboutus': 8, 'who-we-are': 8,
-        'company': 8, 'organization': 8, 'profile': 8,
-        'sales': 8, 'marketing': 8, 'business': 8, 'commercial': 8,
-        
-        # Tier 4: Training & HR (Score 7)
-        'training': 7, 'education': 7, 'learning': 7, 'courses': 7,
-        'hr': 7, 'human-resources': 7, 'personnel': 7,
-        'academy': 7, 'institute': 7, 'university': 7,
-        
-        # Tier 5: Business Development (Score 6)
-        'partnership': 6, 'partnerships': 6, 'collaborate': 6,
-        'business-development': 6, 'b2b': 6, 'enterprise': 6,
-        
-        # Tier 6: Support & Services (Score 5)
-        'support': 5, 'help': 5, 'services': 5, 'solutions': 5,
-        'consulting': 5, 'advisory': 5,
-        
-        # Tier 7: Career & Opportunities (Score 4)
-        'career': 4, 'careers': 4, 'jobs': 4, 'opportunities': 4,
-        'join-us': 4, 'work-with-us': 4,
-        
-        # Tier 8: General Information (Score 2)
-        'news': 2, 'blog': 2, 'events': 2, 'gallery': 2,
-        
-        # Tier 9: Low Priority (Score 1)
-        'privacy': 1, 'terms': 1, 'sitemap': 1, 'alumni': 1
-    }
-    
-    scored_urls = []
-    for url in url_list:
-        score = 0
-        # Check for keywords in the URL path
-        for keyword, value in keyword_scores.items():
-            if keyword in url.lower():
-                score += value
-        
-        # Give a small bonus to the root URL if present
-        if url.endswith(('.com/', '.in/', '.org/', '.ac.in/')):
-             score += 2
-
-        scored_urls.append((url, score))
-        
-    # Sort URLs by score in descending order
-    scored_urls.sort(key=lambda x: x[1], reverse=True)
-    
-    # Return ALL URLs sorted by priority (not just top 5)
-    return [url for url, score in scored_urls]
+    """Wrapper function to sort URLs for a sales context."""
+    print("INFO: Using improved algorithm for sales course URLs.")
+    return get_prioritized_urls(url_list, SALES_KEYWORD_SCORES)
 
 # --- Helper Functions ---
 def get_domain_from_url(url):
@@ -417,8 +326,8 @@ def process_single_lead(lead_data):
     
     # Generate filename for the website
     website_filename = get_website_filename(website_url)
-    input_filepath = os.path.join(INPUT_DIR, website_filename)
-    output_filepath = os.path.join(OUTPUT_DIR, website_filename)
+    input_filepath = os.path.join(CONTACT_INFO_INPUT_DIR, website_filename)
+    output_filepath = os.path.join(CONTACT_INFO_OUTPUT_DIR, website_filename)
     
     try:
         # Check if website file exists
@@ -445,9 +354,9 @@ def process_single_lead(lead_data):
         
         # Step 2: Create prioritized URL queue for non-contact URLs
         if course_type.lower() == 'programming':
-            top_urls = get_all_urls_deterministic_programming(non_contact_urls)
+            top_urls = get_prioritized_urls(non_contact_urls, PROGRAMMING_KEYWORD_SCORES)
         elif course_type.lower() == 'sales':
-            top_urls = get_all_urls_deterministic_sales(non_contact_urls)
+            top_urls = get_prioritized_urls(non_contact_urls, SALES_KEYWORD_SCORES)
         else:
             return (False, website_url, 0, f"Unknown course type: {course_type}")
             
@@ -550,13 +459,13 @@ def process_single_lead(lead_data):
                 consecutive_errors += 1
                 
                 # Check if we've hit the consecutive error limit
-                if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                if consecutive_errors >= CONTACT_INFO_MAX_CONSECUTIVE_ERRORS:
                     print(f"  🛑 STOPPING: {consecutive_errors} consecutive errors reached. Website may be unreachable.")
                     break
                 
                 # Find next valid URL from the queue
                 replacement_found = False
-                while top_urls and not replacement_found and consecutive_errors < MAX_CONSECUTIVE_ERRORS:
+                while top_urls and not replacement_found and consecutive_errors < CONTACT_INFO_MAX_CONSECUTIVE_ERRORS:
                     next_url = top_urls.pop(0)  # Pop from the front of the queue
                     # Check against both final_urls and final_selected_urls to prevent duplicates
                     if next_url not in final_urls and next_url not in final_selected_urls:
@@ -571,13 +480,13 @@ def process_single_lead(lead_data):
                             consecutive_errors += 1
                             
                             # Check consecutive errors again
-                            if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                            if consecutive_errors >= CONTACT_INFO_MAX_CONSECUTIVE_ERRORS:
                                 print(f"  🛑 STOPPING: {consecutive_errors} consecutive errors reached. Website may be unreachable.")
                                 break
                 
-                if not replacement_found and consecutive_errors < MAX_CONSECUTIVE_ERRORS:
+                if not replacement_found and consecutive_errors < CONTACT_INFO_MAX_CONSECUTIVE_ERRORS:
                     print(f"  ⚠️  No valid replacement found for {url}")
-                elif consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                elif consecutive_errors >= CONTACT_INFO_MAX_CONSECUTIVE_ERRORS:
                     break
         
         # Step 6: Save the results
@@ -604,24 +513,24 @@ def process_leads():
     Main function to process leads from CSV using multithreading for contact information extraction.
     """
     # Check if CSV file exists
-    if not os.path.exists(INPUT_CSV):
-        print(f"❌ ERROR: Input CSV file '{INPUT_CSV}' not found.")
+    if not os.path.exists(CONTACT_INFO_INPUT_CSV):
+        print(f"❌ ERROR: Input CSV file '{CONTACT_INFO_INPUT_CSV}' not found.")
         return
 
     # Check if websites directory exists
-    if not os.path.exists(INPUT_DIR):
-        print(f"❌ ERROR: Input directory '{INPUT_DIR}' not found.")
+    if not os.path.exists(CONTACT_INFO_INPUT_DIR):
+        print(f"❌ ERROR: Input directory '{CONTACT_INFO_INPUT_DIR}' not found.")
         return
 
     # Create output directory if it doesn't exist
-    if not os.path.exists(OUTPUT_DIR):
-        print(f"📁 INFO: Output directory '{OUTPUT_DIR}' not found. Creating it.")
-        os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(CONTACT_INFO_OUTPUT_DIR):
+        print(f"📁 INFO: Output directory '{CONTACT_INFO_OUTPUT_DIR}' not found. Creating it.")
+        os.makedirs(CONTACT_INFO_OUTPUT_DIR)
 
     # Read leads from CSV
     leads = []
     try:
-        with open(INPUT_CSV, 'r', encoding='utf-8') as csvfile:
+        with open(CONTACT_INFO_INPUT_CSV, 'r', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 if 'Website' in row and 'Course' in row and row['Website'].strip():
@@ -630,11 +539,11 @@ def process_leads():
                         'Course': row['Course'].strip()
                     })
     except Exception as e:
-        print(f"❌ ERROR: Could not read CSV file '{INPUT_CSV}'. Error: {e}")
+        print(f"❌ ERROR: Could not read CSV file '{CONTACT_INFO_INPUT_CSV}'. Error: {e}")
         return
 
     if not leads:
-        print(f"❌ No valid leads found in '{INPUT_CSV}'.")
+        print(f"❌ No valid leads found in '{CONTACT_INFO_INPUT_CSV}'.")
         return
 
     # Count leads by type
@@ -646,11 +555,11 @@ def process_leads():
     print(f"📊 Total leads to process: {len(leads)}")
     print(f"💻 Programming course leads: {programming_leads}")
     print(f"💼 Sales course leads: {sales_leads}")
-    print(f"🧵 Max concurrent workers: {MAX_WORKERS}")
-    print(f"🛑 Max consecutive errors: {MAX_CONSECUTIVE_ERRORS}")
-    print(f"📁 Input CSV: {INPUT_CSV}")
-    print(f"📁 Websites directory: {INPUT_DIR}")
-    print(f"📁 Output directory: {OUTPUT_DIR}")
+    print(f"🧵 Max concurrent workers: {CONTACT_INFO_MAX_WORKERS}")
+    print(f"🛑 Max consecutive errors: {CONTACT_INFO_MAX_CONSECUTIVE_ERRORS}")
+    print(f"📁 Input CSV: {CONTACT_INFO_INPUT_CSV}")
+    print(f"📁 Websites directory: {CONTACT_INFO_INPUT_DIR}")
+    print(f"📁 Output directory: {CONTACT_INFO_OUTPUT_DIR}")
     print("=" * 60)
 
     # Process leads using multithreading
@@ -675,7 +584,7 @@ def process_leads():
                     sales_success += 1
     
     # Use ThreadPoolExecutor for concurrent processing
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+    with ThreadPoolExecutor(max_workers=CONTACT_INFO_MAX_WORKERS) as executor:
         # Submit all tasks
         future_to_lead = {
             executor.submit(process_single_lead, lead): lead 
@@ -712,7 +621,7 @@ def process_leads():
     print(f"💻 Programming Success: {programming_success}/{programming_leads}")
     print(f"💼 Sales Success: {sales_success}/{sales_leads}")
     print(f"🔗 Total URLs Processed: {total_urls_processed}")
-    print(f"📁 Results saved in: {OUTPUT_DIR}/")
+    print(f"📁 Results saved in: {CONTACT_INFO_OUTPUT_DIR}/")
     
     if successful_processes > 0:
         avg_urls = total_urls_processed / successful_processes
@@ -722,7 +631,7 @@ def process_leads():
 
 # --- Execution ---
 if __name__ == "__main__":
-    if API_KEY == "YOUR_API_KEY_HERE":
+    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
         print("ERROR: Please set your Gemini API key in the script or as an environment variable (GEMINI_API_KEY).")
     else:
         process_leads()

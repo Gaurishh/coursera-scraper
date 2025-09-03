@@ -1,5 +1,10 @@
 [
   {
+    "title": "General Contact",
+    "phone": "+91-11-41242424 to 33, +91-11-46485500 to 30",
+    "email": "fore@fsm.ac.in"
+  },
+  {
     "name": "Prof. Tarun Kumar Singhal",
     "title": "Chair (Academic Services)",
     "email": "chair-academicservices@fsm.ac.in"
@@ -20,207 +25,211 @@
     "email": "chair-researchpublications@fsm.ac.in"
   },
   {
+    "title": "Admissions Office",
+    "phone": "+91-11-46485535, +91-11-41242415/416",
+    "email": "admissions@fsm.ac.in"
+  },
+  {
+    "title": "Placement Office",
+    "phone": "+91-11-41242412/23/72",
+    "email": "placements@fsm.ac.in"
+  },
+  {
+    "title": "FORE Alumni Network Office (FAN)",
+    "phone": "+91-11-41242409",
+    "email": "fanfsm@fsm.ac.in"
+  },
+  {
+    "title": "Research & Publication Office",
+    "phone": "+91-11-46485523",
+    "email": "publications@fsm.ac.in"
+  },
+  {
+    "title": "Library",
+    "phone": "+91-11-41242417/485, +91-11-46485558/557",
+    "email": "library@fsm.ac.in"
+  },
+  {
+    "title": "Academic Office (PGP Office)",
+    "phone": "+91-11-41242484",
+    "email": "manager-academics1@fsm.ac.in"
+  },
+  {
+    "title": "Examination & Student Affairs Office",
+    "phone": "+91-11-41242419",
+    "email": "manager-academics2@fsm.ac.in"
+  },
+  {
+    "title": "Executive Education Office (MDP Office)",
+    "phone": "+91-11-41242477",
+    "email": "exed@fsm.ac.in"
+  },
+  {
+    "title": "Fellow Programme in Management (FPM) and Centers of Excellence (CoEs) Office",
+    "phone": "011-41242433",
+    "email": "fpmadmission@fsm.ac.in"
+  },
+  {
+    "title": "Finance & Accounts Office",
+    "phone": "+91-11-41242490/91/92",
+    "email": "accounts@fsm.ac.in"
+  },
+  {
+    "title": "Director's Office",
+    "phone": "+91-11-41242424/46485505",
+    "email": "director@fsm.ac.in, diroffice@fsm.ac.in"
+  },
+  {
+    "title": "Administration Office",
+    "phone": "+91-11-41242421/22, +91-11-46485546"
+  },
+  {
+    "name": "Sunil Kumar Singh",
+    "title": "Administration Office Personnel",
+    "email": "sunilkumar.singh@fsm.ac.in"
+  },
+  {
+    "name": "Shailendra",
+    "title": "Administration Office Personnel",
+    "email": "shailendra@fsm.ac.in"
+  },
+  {
+    "title": "Corporate Interaction Division",
+    "email": "cid@fsm.ac.in"
+  },
+  {
+    "name": "Puneet Garg",
+    "title": "Manager (Executive Education)",
+    "phone": "+91 9810875278",
+    "email": "puneet.garg@fsm.ac.in"
+  },
+  {
     "name": "Prof. Saurabh Mittal",
     "title": "Chairperson, Executive Education / Chair (In-company programmes)",
     "email": "saurabh.mittal@fsm.ac.in"
   },
   {
-    "name": "Mr. Puneet Garg",
-    "title": "Manager (Executive Education)",
-    "email": "puneet.garg@fsm.ac.in"
-  },
-  {
     "name": "Mr. Brijesh Ramtani",
-    "title": "Assistant General Manager - Placement / Member Secretary",
-    "phone": "9654482676 / 011-41242472",
+    "title": "Assistant General Manager - Placement / Member Secretary (Corporate Relations & Placement Committee)",
+    "phone": "9654482676, 011-41242472",
     "email": "brijesh@fsm.ac.in"
   },
   {
     "name": "Mr. Vaibhav Arora",
     "title": "Sr. Manager Corporate Relations and Placements",
-    "phone": "9368170652 / 011- 41242423",
+    "phone": "9368170652, 011-41242423",
     "email": "vaibhav.arora@fsm.ac.in"
   },
   {
     "name": "Ms. Anisha Singh",
     "title": "Assistant Manager- Corporate Relations",
-    "phone": "9026345233 / 011-41242412",
+    "phone": "9026345233, 011-41242412",
     "email": "anisha.singh@fsm.ac.in"
   },
   {
     "name": "Ms. Shweta Sharma",
     "title": "Placements & Corporate Relations Associate",
-    "phone": "9911837929 / 011-41242409",
+    "phone": "9911837929, 011-41242409",
     "email": "Shweta.sharma@fsm.ac.in"
   },
   {
-    "name": "Dr. Subir Verma",
-    "title": "Director"
+    "name": "Madhavi Sharma",
+    "title": "SPOC for Automobile",
+    "email": "placementdivision.fore@fsm.ac.in"
   },
   {
-    "name": "Prof. Sanghamitra Buddhapriya",
-    "title": "Dean & Head (Gurugram Campus)"
+    "name": "Nimish Grover",
+    "title": "SPOC for Banking",
+    "email": "fore.corporatecell@fsm.ac.in"
   },
   {
-    "name": "Prof. Anil Singh",
-    "title": "Dean (Infrastructure & Facilities)"
+    "name": "Ayushi Chaudhary",
+    "title": "SPOC for Banking",
+    "email": "fore.corporatecell@fsm.ac.in"
   },
   {
-    "name": "Dr. Prakash Gouda",
-    "title": "Librarian"
+    "name": "Aditi Sharma",
+    "title": "SPOC for E-Commerce, Media & Education",
+    "email": "careerdivision.fore@fsm.ac.in"
   },
   {
-    "name": "Dr. Abhay Anand Tiwari",
-    "title": "Chief Executive Officer (FCPLG & FSJD)"
+    "name": "Isha Joshi",
+    "title": "SPOC for E-Commerce, Media & Education",
+    "email": "careerdivision.fore@fsm.ac.in"
   },
   {
-    "name": "Mr. Shiv Sankar Pradhan",
-    "title": "Senior Manager (Academics - I)"
+    "name": "Shubhankar Chaudhary",
+    "title": "SPOC for Energy, Telecommunications & Semi-conductors",
+    "email": "Fore.careerdivision@fsm.ac.in"
   },
   {
-    "name": "Mr. Manish Pathak",
-    "title": "Senior Manager (Academics - II)"
+    "name": "Somya Shree",
+    "title": "SPOC for FMCG",
+    "email": "fore.placementcell@fsm.ac.in"
   },
   {
-    "name": "Mr. Bhuvan Chand",
-    "title": "Senior Manager (Accounts)"
+    "name": "Lavisha Mehta",
+    "title": "SPOC for FMCG",
+    "email": "fore.placementcell@fsm.ac.in"
   },
   {
-    "name": "Mr. Murlidhar Goswami",
-    "title": "Senior Manager (Admissions)"
+    "name": "Kapil Dev Singh",
+    "title": "SPOC for FMCD",
+    "email": "fore.placement@fsm.ac.in"
   },
   {
-    "name": "Mr. Uday Kumar",
-    "title": "Senior Manager (Systems)"
+    "name": "Hiten Panwar",
+    "title": "SPOC for FSI",
+    "email": "placementcell.fore@fsm.ac.in"
   },
   {
-    "name": "Mr. Sunil Kumar Singh",
-    "title": "General Manager (Infrastructure & Facility Management)",
-    "email": "sunilkumar.singh@fsm.ac.in"
+    "name": "Aditi Tomar",
+    "title": "SPOC for FSI",
+    "email": "placementcell.fore@fsm.ac.in"
   },
   {
-    "name": "Mr. Shailendra Kumar",
-    "title": "Senior Administrative Officer",
-    "email": "shailendra@fsm.ac.in"
+    "name": "Aryan Khanna",
+    "title": "SPOC for IT/ITES",
+    "email": "fore.corporaterelations@fsm.ac.in"
   },
   {
-    "name": "Prof. Ashutosh Pandey",
-    "title": "Chair, Corporate Relations & Placement Committee"
+    "name": "Sanya Malik",
+    "title": "SPOC for IT/ITES",
+    "email": "fore.corporaterelations@fsm.ac.in"
   },
   {
-    "name": "Prof. Surabhi Koul",
-    "title": "Co-Chair, Corporate Relations & Placement Committee"
+    "name": "Sonika Chhatwal",
+    "title": "SPOC for Manufacturing & Logistics",
+    "email": "fore.placementdivision@fsm.ac.in"
   },
   {
-    "name": "Prof. Pranesh Nagarajan",
-    "title": "Co-Chair, Corporate Relations & Placement Committee"
+    "name": "Omkar Jayadeo Avhad",
+    "title": "SPOC for Manufacturing & Logistics",
+    "email": "fore.placementdivision@fsm.ac.in"
   },
   {
-    "name": "Prof. Sourabh D Kulkarni",
-    "title": "Chair Admissions"
+    "name": "Sandhya Kumari",
+    "title": "SPOC for Market Research & Consulting",
+    "email": "fore.careercell@fsm.ac.in"
   },
   {
-    "name": "Prof. Rahul Pratap Singh Kaurav",
-    "title": "Chair (Website & Print Media)"
+    "name": "Aditya Sand",
+    "title": "SPOC for Market Research & Consulting",
+    "email": "fore.careercell@fsm.ac.in"
   },
   {
-    "name": "Prof. Ishita Batra",
-    "title": "Member, Corporate Relations & Placement Committee"
+    "name": "Jagriti",
+    "title": "SPOC for Market Research & Consulting",
+    "email": "fore.careercell@fsm.ac.in"
   },
   {
-    "name": "Prof. Ayushi Sharma",
-    "title": "Member, Corporate Relations & Placement Committee"
+    "name": "Aditya Kapoor",
+    "title": "SPOC for Pharma",
+    "email": "fore.corporateconnect@fsm.ac.in"
   },
   {
-    "name": "Prof. Prachi Bhatt",
-    "title": "Head, Center for Psychometric Testing & Research"
-  },
-  {
-    "name": "Prof. Anita T. Lal",
-    "title": "Head, Center for Entrepreneurship Development"
-  },
-  {
-    "name": "Prof. Shallini S Taneja",
-    "title": "Head, Center for Sustainable Development"
-  },
-  {
-    "name": "Prof. Ashok Harnal",
-    "title": "Head, Center for Customer Management & Analytics and Center for Digital, Social and Human Transformation (CDSHT)"
-  },
-  {
-    "name": "Prof. Arunaditya Sahay",
-    "title": "Head, Innovation Incubation Centre (IIC)"
-  },
-  {
-    "name": "Prof. Anil Kumar Singh",
-    "title": "Head, Center for Research and Innovation in Frugal Technology Management (CRIFT)"
-  },
-  {
-    "name": "Admissions Office",
-    "phone": "+91-11-46485535, +91-11-41242415, +91-11-41242416",
-    "email": "admissions@fsm.ac.in"
-  },
-  {
-    "name": "Placement Office",
-    "phone": "+91-11-41242412, +91-11-41242423, +91-11-41242472",
-    "email": "placements@fsm.ac.in"
-  },
-  {
-    "name": "FORE Alumni Network Office (FAN)",
-    "phone": "+91-11-41242409",
-    "email": "fanfsm@fsm.ac.in"
-  },
-  {
-    "name": "Research & Publication Office",
-    "phone": "+91-11-46485523",
-    "email": "publications@fsm.ac.in"
-  },
-  {
-    "name": "Library",
-    "phone": "+91-11-41242417, +91-11-41242485, +91-11-46485558, +91-11-46485557",
-    "email": "library@fsm.ac.in"
-  },
-  {
-    "name": "Academic Office (PGP Office)",
-    "phone": "+91-11-41242484",
-    "email": "manager-academics1@fsm.ac.in"
-  },
-  {
-    "name": "Examination & Student Affairs Office",
-    "phone": "+91-11-41242419",
-    "email": "manager-academics2@fsm.ac.in"
-  },
-  {
-    "name": "Executive Education Office (MDP Office)",
-    "phone": "+91-11-41242477, +91-9810875278",
-    "email": "exed@fsm.ac.in"
-  },
-  {
-    "name": "Fellow Programme in Management (FPM) and Centers of Excellence (CoEs) Office",
-    "phone": "011-41242433",
-    "email": "fpmadmission@fsm.ac.in"
-  },
-  {
-    "name": "Finance & Accounts Office",
-    "phone": "+91-11-41242490, +91-11-41242491, +91-11-41242492",
-    "email": "accounts@fsm.ac.in"
-  },
-  {
-    "name": "Director's Office",
-    "phone": "+91-11-41242424, +91-11-46485505",
-    "email": "director@fsm.ac.in, diroffice@fsm.ac.in"
-  },
-  {
-    "name": "Administration Office",
-    "phone": "+91-11-41242421, +91-11-41242422, +91-11-46485546",
-    "email": "fore@fsm.ac.in"
-  },
-  {
-    "name": "Reception Office",
-    "phone": "+91-11-41242424 to 33, +91-11-46485500"
-  },
-  {
-    "name": "Corporate Interaction Division",
-    "email": "cid@fsm.ac.in"
+    "name": "Tanishka Bisht",
+    "title": "SPOC for Retail, Real Estate, Travel, Hospitality & Fintech",
+    "email": "fore.corporatedivision@fsm.ac.in"
   }
 ]

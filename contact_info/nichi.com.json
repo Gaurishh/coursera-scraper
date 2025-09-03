@@ -1,8 +1,8 @@
 [
   {
     "title": "Marketing & Sales Enquiries",
-    "email": "sales@nichi.com",
-    "phone": "+91-80-26720882/3/4"
+    "phone": "+91-80-26720882/3/4",
+    "email": "sales@nichi.com"
   },
   {
     "title": "Website related Enquiries",
@@ -10,8 +10,8 @@
   },
   {
     "title": "General Information & Enquiries",
-    "email": "contact@nichi.com",
-    "phone": "+91-80-26720882/3/4"
+    "phone": "+91-80-26720882/3/4",
+    "email": "contact@nichi.com"
   },
   {
     "title": "Nichi-In Software Solutions – USA",
@@ -20,42 +20,5 @@
   {
     "title": "Career Information & Enquiries",
     "email": "hrd@nichi.com"
-  },
-  {
-    "name": "Takatsugu Nagahara",
-    "title": "Founder and Chairman"
-  },
-  {
-    "name": "S N Giri",
-    "title": "Co-Founder, Managing Director & CEO"
-  },
-  {
-    "name": "Dinesh Karnik",
-    "title": "President & CEO- Nichi-In Software Solutions – USA",
-    "phone": "+1(832) 241 2236"
-  },
-  {
-    "name": "Narendra Kumar K",
-    "title": "Sr. AVP & HEAD-Application Development Department-1"
-  },
-  {
-    "name": "Yeshwanth I N",
-    "title": "AVP & HEAD-Application Development Department-2"
-  },
-  {
-    "name": "Rajendra Patnashetty",
-    "title": "AVP & HEAD-Industrial Automation Software Department"
-  },
-  {
-    "name": "Manjunath P",
-    "title": "Sr. AVP & HEAD-Finance & Human Resources / Sr. AVP -Business Development"
-  },
-  {
-    "name": "Venugopal D R",
-    "title": "AVP-Business Development (Japan, APAC, India) / AVP & HEAD-Application Development Department-3"
-  },
-  {
-    "name": "Ryuzo Araki",
-    "title": "AVP & HEAD-Japanese Language Training"
   }
 ]

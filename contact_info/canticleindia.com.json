@@ -1,15 +1,16 @@
 [
   {
-    "name": "V Mahajan",
-    "phone": "(+91)011-41811161 / +91-9212763762",
+    "name": "vmahajan",
+    "phone": "+91 9212763762",
     "email": "vmahajan@canticleindia.in"
   },
   {
-    "title": "General Contact",
+    "phone": "(+91)011-41811161"
+  },
+  {
     "phone": "+91-8851337649"
   },
   {
-    "title": "HR Department",
     "email": "hr@canticleindia.com"
   }
 ]

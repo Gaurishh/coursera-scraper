@@ -12,6 +12,15 @@ except ImportError:
     # python-dotenv not installed, continue without it
     pass
 
+# Import constants
+from constants import (
+    GOOGLE_PLACES_API_KEY, GOOGLE_PLACES_DETAILS_URL, GOOGLE_PLACES_TEXT_SEARCH_URL,
+    PLACE_DETAILS_FIELDS, GOOGLE_PLACES_RATE_LIMIT_DELAY, PAGINATION_DELAY,
+    CITIES_TO_SEARCH, INSTITUTION_TYPES, MAX_PAGES_PER_QUERY,
+    BANGALORE_KEYWORDS, DEFAULT_LOCATION, INITIAL_LEADS_OUTPUT_FILE,
+    DEFAULT_REQUEST_TIMEOUT
+)
+
 def categorize_location(location_string):
     """
     Categorizes a location string based on keywords.
@@ -23,16 +32,15 @@ def categorize_location(location_string):
         str: "Bangalore" if the location contains Bangalore/Bengaluru/Karnataka keywords, otherwise "Delhi"
     """
     if not location_string or location_string == "N/A":
-        return "Delhi"
+        return DEFAULT_LOCATION
     
     location_lower = location_string.lower()
-    bangalore_keywords = ["bangalore", "bengaluru", "karnataka"]
     
-    for keyword in bangalore_keywords:
+    for keyword in BANGALORE_KEYWORDS:
         if keyword in location_lower:
             return "Bangalore"
     
-    return "Delhi"
+    return DEFAULT_LOCATION
 
 def get_place_details(api_key, place_id):
     """
@@ -43,18 +51,16 @@ def get_place_details(api_key, place_id):
         place_id (str): The place ID to get details for
         
     Returns:
-        dict: Place details including website, phone, rating, etc.
+        dict: Place details including website, phone, etc.
     """
-    details_url = "https://maps.googleapis.com/maps/api/place/details/json"
-    
     params = {
         "place_id": place_id,
         "key": api_key,
-        "fields": "name,website,formatted_phone_number,rating,formatted_address,types"
+        "fields": PLACE_DETAILS_FIELDS
     }
     
     try:
-        response = requests.get(details_url, params=params, timeout=10)
+        response = requests.get(GOOGLE_PLACES_DETAILS_URL, params=params, timeout=DEFAULT_REQUEST_TIMEOUT)
         response.raise_for_status()
         result = response.json()
         
@@ -78,24 +84,24 @@ def fetch_institutions(api_key, cities, institution_types):
         institution_types (list): A list of types to search for (e.g., ["Corporates", "Schools"]).
 
     Returns:
-        list: A list of tuples, where each tuple contains (Institution Name, Type, Website, Location, Phone, Rating).
+        list: A list of tuples, where each tuple contains (Institution Name, Type, Website, Location, Phone).
     """
-    base_url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
+    base_url = GOOGLE_PLACES_TEXT_SEARCH_URL
     all_institutions = []
     
     # 1. More precise search queries targeted for Programming and Sales courses
     search_queries = {
         "Corporates": [
             # Queries for Programming course leads
-            "Tech companies in {}",
+            "Software companies in {}",
             # Queries for Sales course leads
-            "Top sales companies in {}",
+            "Sales and marketing companies in {}",
         ],
         "Schools": [
             # Queries for Programming course leads
-            "Top engineering colleges in {}",
+            "Engineering colleges in {}",
             # Queries for Sales course leads
-            "Top Marketing and Sales colleges in {}",
+            "Business schools in {}",
         ]
     }
 
@@ -114,13 +120,13 @@ def fetch_institutions(api_key, cities, institution_types):
                         "key": api_key
                     }
                     
-                    # Loop to handle pagination (limited to 3 pages)
+                    # Loop to handle pagination (limited to max pages)
                     page_count = 1  # Start with page 1
-                    max_pages = 3
+                    max_pages = MAX_PAGES_PER_QUERY
                     
                     while page_count <= max_pages:
                         try:
-                            response = requests.get(base_url, params=params, timeout=10)
+                            response = requests.get(base_url, params=params, timeout=DEFAULT_REQUEST_TIMEOUT)
                             response.raise_for_status()
                             results = response.json()
                         except requests.exceptions.RequestException as e:
@@ -145,7 +151,6 @@ def fetch_institutions(api_key, cities, institution_types):
                                     # Extract website and other details
                                     website = place_details.get("website", "")
                                     phone = place_details.get("formatted_phone_number", "N/A")
-                                    rating = place_details.get("rating", "N/A")
                                     
                                     # Only add institutions that have valid websites
                                     if website and website.strip() and website.lower() not in ['n/a', 'na', '']:
@@ -158,8 +163,7 @@ def fetch_institutions(api_key, cities, institution_types):
                                             inst_type, 
                                             website, 
                                             categorized_location,
-                                            phone,
-                                            rating
+                                            phone
                                         )
                                         all_institutions.append(institution_data)
                                         print(f"INFO: Added {name} with website: {website}")
@@ -169,7 +173,7 @@ def fetch_institutions(api_key, cities, institution_types):
                                     processed_place_ids.add(place_id)
                                     
                                     # Rate limiting - Google allows 100 requests per 100 seconds
-                                    time.sleep(0.1)  # 100ms delay between requests
+                                    time.sleep(GOOGLE_PLACES_RATE_LIMIT_DELAY)
                                     
                                 except Exception as e:
                                     print(f"WARN: Error processing place: {place.get('name', 'Unknown')}. Details: {e}")
@@ -180,7 +184,7 @@ def fetch_institutions(api_key, cities, institution_types):
                             params['pagetoken'] = next_page_token
                             page_count += 1
                             print(f"INFO: Moving to page {page_count}...")
-                            time.sleep(2) 
+                            time.sleep(PAGINATION_DELAY) 
                         else:
                             if page_count >= max_pages:
                                 print(f"INFO: Reached maximum page limit ({max_pages}) for query: {query}")
@@ -192,7 +196,7 @@ def fetch_institutions(api_key, cities, institution_types):
 
     return all_institutions
 
-def save_to_csv(data, filename="1_discovered_leads.csv"):
+def save_to_csv(data, filename=INITIAL_LEADS_OUTPUT_FILE):
     """
     Saves the provided data to a CSV file.
 
@@ -209,7 +213,7 @@ def save_to_csv(data, filename="1_discovered_leads.csv"):
         with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.writer(csvfile)
             # Write header with new columns
-            writer.writerow(['Institution Name', 'Institution Type', 'Website', 'Location', 'Phone', 'Rating'])
+            writer.writerow(['Institution Name', 'Institution Type', 'Website', 'Location', 'Phone'])
             # Write data rows
             writer.writerows(data)
         print(f"\nSUCCESS: Successfully saved {len(data)} leads with valid websites to {filename}")
@@ -224,15 +228,13 @@ if __name__ == "__main__":
     print("Starting Coursera Lead Generation Script...")
     print("=" * 60)
     
-    API_KEY = os.environ.get("GOOGLE_PLACES_API_KEY", "YOUR_API_KEY_HERE")
-    
-    if API_KEY == "YOUR_API_KEY_HERE":
+    if GOOGLE_PLACES_API_KEY == "YOUR_API_KEY_HERE":
         print("ERROR: Please replace 'YOUR_API_KEY_HERE' with your actual Google Places API key or set the GOOGLE_PLACES_API_KEY environment variable.")
     else:
-        cities_to_search = ["Bangalore", "Delhi"]
-        types_to_search = ["Corporates", "Schools"]
+        cities_to_search = CITIES_TO_SEARCH
+        types_to_search = INSTITUTION_TYPES
         
-        discovered_leads = fetch_institutions(API_KEY, cities_to_search, types_to_search)
+        discovered_leads = fetch_institutions(GOOGLE_PLACES_API_KEY, cities_to_search, types_to_search)
         
         # 3. Save the final output to a CSV file
         save_to_csv(discovered_leads)

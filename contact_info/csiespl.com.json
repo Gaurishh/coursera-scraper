@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Hemant Kumar",
+    "title": "Director",
+    "phone": "+011-41646528",
+    "email": "admin@csiespl.in"
+  },
+  {
+    "title": "General Contact / Admin",
+    "phone": "+91 11 41646528",
+    "email": "admin@csiespl.in"
+  },
+  {
+    "title": "Headquarters Fax",
+    "phone": "+91 11 41646124"
+  },
+  {
+    "title": "Product Sales and Information",
+    "phone": "+91 11 41646528",
+    "email": "Sales@csiespl.in"
+  },
+  {
+    "title": "Technical Support",
+    "phone": "+91 9811927135, +91 11 46056465",
+    "email": "support@csiespl.in"
+  },
+  {
+    "title": "Licensing and Installation / Installation Help Line",
+    "phone": "+91 9999552138, +91 8586809550",
+    "email": "license@csiespl.in"
+  }
+]

@@ -1,24 +1,23 @@
 [
   {
-    "name": "Helpdesk",
-    "email": "info@sjim.edu.in",
-    "phone": "080-25597781 / 25597791"
+    "title": "Helpdesk",
+    "phone": "080-25597781 / 25597791",
+    "email": "info@sjim.edu.in"
   },
   {
-    "name": "Director's Office",
-    "title": "(faculty positions)",
-    "email": "office@sjim.edu.in",
-    "phone": "080-25597781"
+    "title": "Director's Office (faculty positions)",
+    "phone": "080-25597781",
+    "email": "office@sjim.edu.in"
   },
   {
-    "name": "PGDM Admissions",
-    "email": "admissions@sjim.edu.in",
-    "phone": "9972252765"
+    "title": "PGDM Admissions",
+    "phone": "9972252765",
+    "email": "admissions@sjim.edu.in"
   },
   {
-    "name": "PGDM Placements",
-    "email": "placements@sjim.edu.in",
-    "phone": "9591518855"
+    "title": "PGDM Placements",
+    "phone": "9591518855",
+    "email": "placements@sjim.edu.in"
   },
   {
     "name": "Mr. S. Prabhu",
@@ -92,191 +91,7 @@
     "email": "roshan@sjim.edu.in"
   },
   {
-    "name": "Rev. Dr Roshan David Pereira SJ",
-    "title": "Director"
-  },
-  {
-    "name": "Dr Rajiv Noronha",
-    "title": "Dean"
-  },
-  {
-    "name": "Mr V J Lawrence",
-    "title": "Dean Academics"
-  },
-  {
-    "name": "Dr Anup Krishnamurthy",
-    "title": "Associate Dean"
-  },
-  {
-    "name": "Prof Parthasarathi Shome",
-    "title": "Distinguished Professor"
-  },
-  {
-    "name": "Prof Vivek Moorthy",
-    "title": "Distinguished Professor"
-  },
-  {
-    "name": "Dr Nirmala Joseph",
-    "title": "Area Coordinator-Finance"
-  },
-  {
-    "name": "Mr Suresh Herur",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Ravi Darshini",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Binny Cherian",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Maria Immanuvel",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Vikku Agrawal",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr J Peter Leo Deepak",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Gagandeep Sharma",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Jessy Nair",
-    "title": "Area Coordinator-Marketing"
-  },
-  {
-    "name": "Dr Avil Saldanha",
-    "title": "Faculty"
-  },
-  {
-    "name": "Mr Abraham Karimpanal",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Syam Kumar",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Caren Rodrigues",
-    "title": "Area Coordinator-HR"
-  },
-  {
-    "name": "Dr Anantharaman",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Ananda Das Gupta",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Nazia Zabin Memon",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Dr Ayushi Shukla",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Deepika Joshi",
-    "title": "Area Coordinator-Operations"
-  },
-  {
-    "name": "Mr. Rajendra Desai",
-    "title": "Faculty"
-  },
-  {
-    "name": "Mr V K Anand",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Sarin Raju",
-    "title": "Faculty, Visiting Faculty"
-  },
-  {
-    "name": "Dr Komal J D’Souza",
-    "title": "Faculty"
-  },
-  {
-    "name": "Mr. Abraham Karimpanal",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Ashwin Randolph John",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Avil Terrance Saldanha",
-    "title": "Faculty"
-  },
-  {
-    "name": "Rev. Dr Cyprian Tellis SJ",
-    "title": "Faculty"
-  },
-  {
-    "name": "Fr. Manoj D'Souza SJ",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr R. Narasimhan",
-    "title": "Faculty"
-  },
-  {
-    "name": "Rev Fr Olvin Veigas, SJ",
-    "title": "Faculty"
-  },
-  {
-    "name": "Fr. Prashanth Wesly D’Souza",
-    "title": "Faculty"
-  },
-  {
-    "name": "Mr. Pradeep Seraphim",
-    "title": "Faculty"
-  },
-  {
-    "name": "Dr Rashmi Nakra",
-    "title": "Faculty"
-  },
-  {
-    "name": "Mr Joy Cheruvathoor",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr Anil Shenoy",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr Anik Saha",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr Anvith Murthy",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr Natarajan",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr Harsh Kumar Johari",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr Ajit Rao",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr. Tobby Zacharias Kakkamthottil",
-    "title": "Visiting Faculty"
-  },
-  {
-    "name": "Mr Christopher Anand",
-    "title": "Visiting Faculty"
+    "title": "MDP/FDP/PDW Enquiries",
+    "email": "rajendra@sjim.edu.in"
   }
 ]

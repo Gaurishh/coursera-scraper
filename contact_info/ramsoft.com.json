@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Sales Department",
+    "phone": "+1 888 343 9146",
+    "email": "sales@ramsoft.com"
+  },
+  {
+    "title": "Support Department",
+    "phone": "+1 888 343 9146",
+    "email": "support@ramsoft.com"
+  },
+  {
+    "title": "Billing Department",
+    "email": "billing@ramsoft.com"
+  },
+  {
+    "title": "Partnerships Department",
+    "email": "partners@ramsoft.com"
+  },
+  {
+    "title": "Corporate Sales",
+    "phone": "+1 888 343 9146",
+    "email": "contactsales@ramsoft.com"
+  }
+]

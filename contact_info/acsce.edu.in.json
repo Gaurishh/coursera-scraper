@@ -1,233 +1,60 @@
 [
   {
-    "title": "Admission",
-    "phone": "9008545678",
+    "title": "Admissions/General Enquiries",
+    "phone": "9008545678, 9900500028, +91-80-29748777, +91-80-29748333",
     "email": "admission@acsce.edu.in"
-  },
-  {
-    "title": "Admission",
-    "phone": "9900500028",
-    "email": "admission@acsce.edu.in"
-  },
-  {
-    "title": "Campus",
-    "phone": "+91-80-29748777 / 333"
   },
   {
     "title": "Principal",
     "phone": "080-29748999"
   },
   {
-    "name": "Dr.A.C.Shanmugam",
-    "title": "Chairman, RajaRajeswari Group of Institutions"
-  },
-  {
-    "name": "Sri A.C.S.Arunkumar",
-    "title": "President, RajaRajeswari Group of Institutions"
-  },
-  {
-    "name": "Premavathi S",
-    "title": "Placement Executive, ACS College of Engineering",
-    "phone": "+91-9482896935",
-    "email": "premavathi@acsce.edu.in"
-  },
-  {
     "name": "Mrs. Sushmitha",
-    "title": "Department Placement Coordinator, Electronics and Communication Engineering",
+    "title": "Placement Coordinator, Electronics and Communication Engineering",
     "phone": "9844638928",
     "email": "bc.susmitha@gmail.com"
   },
   {
     "name": "Mrs. Sowmya",
-    "title": "Department Placement Coordinator, Bio-Medical Engineering",
+    "title": "Placement Coordinator, Bio-Medical Engineering",
     "phone": "7019696029"
   },
   {
     "name": "Mr. Albert",
-    "title": "Department Placement Coordinator, Aeronautical Engineering",
+    "title": "Placement Coordinator, Aeronautical Engineering",
     "phone": "8123965897",
     "email": "albertallen.aero@gmail.com"
   },
   {
     "name": "Mr. Vijay",
-    "title": "Department Placement Coordinator, Aerospace Engineering",
+    "title": "Placement Coordinator, Aerospace Engineering",
     "phone": "9500661423"
   },
   {
-    "name": "Dr.Sunil",
-    "title": "Department Placement Coordinator, Mechanical Engineering",
+    "name": "Dr. Sunil",
+    "title": "Placement Coordinator, Mechanical Engineering",
     "phone": "9844752319",
     "email": "sunilaswath@gmail.com"
   },
   {
     "name": "Dr. Janani",
-    "title": "Department Placement Coordinator, Computer Science & Engineering",
+    "title": "Placement Coordinator, Computer Science & Engineering",
     "phone": "9944803549"
   },
   {
     "name": "Mrs. Arthi",
-    "title": "Department Placement Coordinator, Data Science Engineering",
+    "title": "Placement Coordinator, Data Science Engineering",
     "phone": "9894590393"
   },
   {
     "name": "Mrs. Sujatha",
-    "title": "Department Placement Coordinator, Cyber Security Engineering",
+    "title": "Placement Coordinator, Cyber Security Engineering",
     "phone": "9717450175"
   },
   {
-    "name": "Dr. T Senthil Kumaran",
-    "title": "Professor & HOD, Computer Science And Engineering"
-  },
-  {
-    "name": "Dr. C.S. Pillai",
-    "title": "Professor, Computer Science And Engineering"
-  },
-  {
-    "name": "Dr. Ashok Kumar P S",
-    "title": "Professor, Computer Science And Engineering"
-  },
-  {
-    "name": "Dr. S Meenakshi Sundaram",
-    "title": "Professor, Computer Science And Engineering"
-  },
-  {
-    "name": "Dr. A Krishna Kumar",
-    "title": "Assoc. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Dr. Vasudha M P",
-    "title": "Assoc. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Dr Sree Ranjani N Y",
-    "title": "Assoc. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Dr.Durga Indira N",
-    "title": "Assoc. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs.Aswini S",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs. Lakshmipriya P",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr. Santhosh D R",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs. Ganga B M",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr. Panchaxari Mamdapur",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.Satheesh Kumar M",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.Jeyakumar K",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr. Venkatesh Kumar M",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs.Sandyarani H G",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr. SivaramanGanesan",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs. Divya P",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr. Shiva Prasad K H",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.Santhosh V",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs. Lakshmi G",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Ms. Nagaveni G",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.Bakkiya Raj",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Ms. Rajitha P",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Ms.M Krithiga",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.Aneesh Gupta",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Manjushree G",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs. Thamaraiselvi V",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Ms.K P Sangeetha",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs. Keerthi G S",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs.Kayalvizhi S",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Ms. Deepa Srinivasa",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mrs. M Vani",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.J Durga Prasad",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Ms.Stephy sharmila",
-    "title": "Asst. Prof, Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.Muhammad Owais A",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Mr.Nitin M",
-    "title": "Asst. Prof., Computer Science And Engineering"
-  },
-  {
-    "name": "Ms.Vishakarani Chandramule",
-    "title": "Asst. Prof., Computer Science And Engineering"
+    "name": "Premavathi S",
+    "title": "Placement Executive, ACS College of Engineering / Training and Placements Officer",
+    "phone": "+91-9482896935",
+    "email": "premavathi@acsce.edu.in"
   }
 ]

@@ -1,118 +1,20 @@
 [
   {
-    "title": "Admissions Hotline",
     "phone": "+91 74066-44449"
   },
   {
-    "title": "Admissions Hotline",
     "phone": "+91 97317-97677"
   },
   {
-    "title": "International Whatsapp Call",
     "phone": "+91 97317-79233"
   },
   {
-    "title": "Other Enquiries",
     "phone": "+91 80225-55555"
   },
   {
-    "title": "Admission Enquiry",
     "email": "admissions@acharya.ac.in"
   },
   {
-    "title": "International Admission Enquiry",
     "email": "international@acharya.ac.in"
-  },
-  {
-    "name": "Mr. B Premnath Reddy",
-    "title": "Founder Chairman, Acharya Group"
-  },
-  {
-    "name": "Mrs. Shalini Reddy",
-    "title": "Executive Director, Acharya"
-  },
-  {
-    "name": "Dr. C K Marigowda",
-    "title": "Principal, Institute of Technology"
-  },
-  {
-    "name": "Prof. Gurunath Rao Vaidya",
-    "title": "Principal, Institute of Graduate Studies"
-  },
-  {
-    "name": "Prof. Syed Sheeraz Zaidi",
-    "title": "Principal, School of Design"
-  },
-  {
-    "name": "Dr. Sapna Papu",
-    "title": "Principal, School of Architecture"
-  },
-  {
-    "name": "Prof. Devi Nanjappan",
-    "title": "Principal, School & College of Nursing"
-  },
-  {
-    "name": "Dr. Mallikarjunaiah HS",
-    "title": "Principal, Institute of Physiotherapy"
-  },
-  {
-    "name": "Dr. Venkatesh Jayadutt",
-    "title": "Principal, Allied Health Sciences"
-  },
-  {
-    "name": "Dr. Manjunatha PM",
-    "title": "Principal, College of Pharmacy"
-  },
-  {
-    "name": "Dr. Prashanth K P",
-    "title": "Principal, Polytechnic"
-  },
-  {
-    "name": "Dr. Riyaz ur Rahaman Khan",
-    "title": "Principal, Acharya Pre-University College"
-  },
-  {
-    "name": "Mr. Vishesh Chandrashekar",
-    "title": "Director, Corporate & Public Relation"
-  },
-  {
-    "name": "Mr.CBM Bhooshan",
-    "title": "Director, Training & Placements"
-  },
-  {
-    "name": "Dr. Bhagirathi Bai V",
-    "title": "Director Academics"
-  },
-  {
-    "name": "Dr. Iqbal Ahmed",
-    "title": "Director-Collaborations & Growth"
-  },
-  {
-    "name": "Dr. Manish Kumar Thakur",
-    "title": "Chief Operating Officer"
-  },
-  {
-    "name": "Dr. Raajshekar Patil",
-    "title": "Head Quality Assurance"
-  },
-  {
-    "name": "Prof. Amshumali A",
-    "title": "Head IPR"
-  },
-  {
-    "name": "Prof. Devasis Pradhan",
-    "title": "Asst. Director of Research"
-  },
-  {
-    "name": "Dr. Pakkirappa H",
-    "title": "Head Incubation"
-  },
-  {
-    "name": "Mr. Preeth Mathew Zachariah",
-    "title": "Placement team leadership"
-  },
-  {
-    "name": "Basavadarshan G N",
-    "title": "Expert Talk Leader on MongoDB"
   }
 ]

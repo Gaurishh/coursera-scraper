@@ -1,60 +1,12 @@
 [
   {
-    "title": "Business Queries",
-    "phone": "888 433 0607",
-    "email": "contact@digimarkagency.com"
+    "title": "General Business Inquiries",
+    "phone": "+91 8884330607",
+    "email": "info@digimarkagency.com"
   },
   {
-    "title": "Careers",
+    "title": "Careers / Hiring Inquiries",
     "phone": "+91 81232 25614",
-    "email": "hr@digimarkagency.com"
-  },
-  {
-    "name": "Ranjith Reddy",
-    "title": "Founder, CEO"
-  },
-  {
-    "name": "Rajitha Gopu",
-    "title": "Managing Director"
-  },
-  {
-    "name": "Shaikshavali",
-    "title": "CFO | HR Manager"
-  },
-  {
-    "name": "Animesh Kumar",
-    "title": "PPC Manager"
-  },
-  {
-    "name": "Deepak Aravindan",
-    "title": "Web Development Head"
-  },
-  {
-    "name": "Kiran Kumar",
-    "title": "SEO Manager"
-  },
-  {
-    "name": "Kavya Srinivas",
-    "title": "SEO Executive"
-  },
-  {
-    "name": "Salma Syed",
-    "title": "SEO Specialist"
-  },
-  {
-    "name": "Khushboo Chandra",
-    "title": "SEO Manager"
-  },
-  {
-    "name": "Samriti Gambhir",
-    "title": "SEO Expert"
-  },
-  {
-    "name": "Meghana SJ",
-    "title": "PPC Intern"
-  },
-  {
-    "name": "Kiran Nilajkar",
-    "title": "SEO Expert"
+    "email": "careers@digimarkagency.com"
   }
 ]

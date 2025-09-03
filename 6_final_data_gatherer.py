@@ -13,58 +13,16 @@ try:
 except ImportError:
     pass
 
-# --- Configuration ---
-# Input file from the previous classification step
-INPUT_CSV = "2_leads_classified.csv"
-# Input directory from the contact info URL selection step
-CONTACT_URLS_DIR = "top_5_urls_for_contact_info"
-# Output directory for contact information JSON files
-OUTPUT_DIR = "contact_info"
-API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-06-05:generateContent?key={API_KEY}"
+# Import constants
+from constants import (
+    GEMINI_API_KEY, GEMINI_API_URL, FINAL_GATHERER_INPUT_CSV,
+    FINAL_GATHERER_CONTACT_URLS_DIR, FINAL_GATHERER_OUTPUT_DIR,
+    FINAL_GATHERER_MAX_WORKERS, DEFAULT_REQUEST_TIMEOUT, LONG_API_REQUEST_TIMEOUT,
+    DEFAULT_MAX_RETRIES, CONTACT_EXTRACTION_PROMPT_TEMPLATE
+)
 
 # --- LLM Master Prompt for Contact Information Extraction ---
-CONTACT_EXTRACTION_PROMPT_TEMPLATE = """
-Persona: 
-You are an expert data extraction specialist specializing in contact information discovery from website content.
-
-Context: 
-Your goal is to analyze the provided text from an institution's website and extract all relevant contact information including names, titles/positions, phone numbers, and email addresses.
-
-Rules:
-1. Extract ALL contact information found in the provided website content.
-2. Look for names of people, their titles/positions, phone numbers, and email addresses.
-3. Focus on key personnel such as directors, managers, coordinators, heads of departments, etc.
-4. Include both individual contacts and general contact information.
-5. If you find multiple contacts for the same person, combine them into one entry.
-6. If some information is missing (e.g., only name and title, no phone/email), still include the contact.
-7. Be thorough but accurate - only extract information that is clearly present in the text.
-
-Website Content:
-{website_content}
-
-Your Task:
-Respond ONLY with a valid JSON object containing an array of contact objects. Each contact object should have the following structure (include only the fields that are available):
-{{
-    "contacts": [
-        {{
-            "name": "Full Name",
-            "title": "Job Title/Position",
-            "phone": "Phone Number",
-            "email": "Email Address"
-        }},
-        {{
-            "name": "Another Person",
-            "title": "Another Title",
-            "phone": "Another Phone"
-        }},
-        ...
-    ]
-}}
-
-Note: Only include the fields that are available in the source text. If a field is not available, simply omit it from the contact object.
-If no contact information is found, return: {{"contacts": []}}
-"""
+# (Prompt template is now imported from constants.py)
 
 # --- Helper Functions ---
 
@@ -90,7 +48,7 @@ def scrape_and_format_content(url_list):
 
     for url in url_list:
         try:
-            response = requests.get(url, headers=headers, timeout=10)
+            response = requests.get(url, headers=headers, timeout=DEFAULT_REQUEST_TIMEOUT)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, 'html.parser')
             
@@ -124,7 +82,7 @@ def process_single_lead(lead):
         return None
 
     # Check if the contact URL file exists
-    contact_url_filepath = os.path.join(CONTACT_URLS_DIR, filename)
+    contact_url_filepath = os.path.join(FINAL_GATHERER_CONTACT_URLS_DIR, filename)
     if not os.path.exists(contact_url_filepath):
         print(f"WARN: Contact URL file not found for {website_url}. Skipping.")
         return None
@@ -153,11 +111,11 @@ def process_single_lead(lead):
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
 
     # Retry mechanism for LLM calls
-    max_retries = 3
+    max_retries = DEFAULT_MAX_RETRIES
     for attempt in range(max_retries):
         try:
             print(f"🤖 LLM attempt {attempt + 1}/{max_retries} for {website_url}")
-            response = requests.post(API_URL, json=payload, timeout=90)
+            response = requests.post(GEMINI_API_URL, json=payload, timeout=LONG_API_REQUEST_TIMEOUT)
             response.raise_for_status()
             response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
             
@@ -176,7 +134,7 @@ def process_single_lead(lead):
             # Create output filename
             domain = urlparse(website_url).netloc.replace('www.', '')
             output_filename = f"{domain}.json"
-            output_filepath = os.path.join(OUTPUT_DIR, output_filename)
+            output_filepath = os.path.join(FINAL_GATHERER_OUTPUT_DIR, output_filename)
             
             # Save the contact information to JSON file
             with open(output_filepath, 'w', encoding='utf-8') as f:
@@ -239,31 +197,31 @@ def gather_contact_information():
     # Start timing
     start_time = time.time()
     
-    if not os.path.exists(INPUT_CSV):
-        print(f"ERROR: Input CSV file '{INPUT_CSV}' not found.")
+    if not os.path.exists(FINAL_GATHERER_INPUT_CSV):
+        print(f"ERROR: Input CSV file '{FINAL_GATHERER_INPUT_CSV}' not found.")
         return
     
-    if not os.path.exists(CONTACT_URLS_DIR):
-        print(f"ERROR: Contact URLs directory '{CONTACT_URLS_DIR}' not found.")
+    if not os.path.exists(FINAL_GATHERER_CONTACT_URLS_DIR):
+        print(f"ERROR: Contact URLs directory '{FINAL_GATHERER_CONTACT_URLS_DIR}' not found.")
         return
 
     # Create output directory if it doesn't exist
-    if not os.path.exists(OUTPUT_DIR):
-        print(f"INFO: Output directory '{OUTPUT_DIR}' not found. Creating it.")
-        os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(FINAL_GATHERER_OUTPUT_DIR):
+        print(f"INFO: Output directory '{FINAL_GATHERER_OUTPUT_DIR}' not found. Creating it.")
+        os.makedirs(FINAL_GATHERER_OUTPUT_DIR)
 
     try:
-        leads_df = pd.read_csv(INPUT_CSV)
+        leads_df = pd.read_csv(FINAL_GATHERER_INPUT_CSV)
         leads_to_process = leads_df.to_dict('records')
     except Exception as e:
-        print(f"ERROR: Could not read CSV file '{INPUT_CSV}'. Error: {e}")
+        print(f"ERROR: Could not read CSV file '{FINAL_GATHERER_INPUT_CSV}'. Error: {e}")
         return
     
     all_results = []
     
     print(f"--- Starting Contact Information Extraction for {len(leads_to_process)} Leads ---")
     
-    with ThreadPoolExecutor(max_workers=6) as executor:
+    with ThreadPoolExecutor(max_workers=FINAL_GATHERER_MAX_WORKERS) as executor:
         future_to_lead = {executor.submit(process_single_lead, lead): lead for lead in leads_to_process}
         
         for future in as_completed(future_to_lead):
@@ -289,7 +247,7 @@ def gather_contact_information():
     print(f"Total contacts extracted: {total_contacts}")
     print(f"Programming course leads: {programming_leads}")
     print(f"Sales course leads: {sales_leads}")
-    print(f"Contact information saved in '{OUTPUT_DIR}/' directory")
+    print(f"Contact information saved in '{FINAL_GATHERER_OUTPUT_DIR}/' directory")
     print(f"⏱️  Total Execution Time: {execution_time:.2f} seconds")
     
     if len(all_results) > 0:
@@ -298,7 +256,7 @@ def gather_contact_information():
 
 # --- Execution ---
 if __name__ == "__main__":
-    if API_KEY == "YOUR_API_KEY_HERE":
+    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
         print("ERROR: Please set your Gemini API key as an environment variable (GEMINI_API_KEY).")
     else:
         gather_contact_information()

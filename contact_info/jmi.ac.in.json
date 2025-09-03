@@ -1,71 +1,7 @@
 [
   {
     "name": "Jamia Millia Islamia",
-    "title": "General Contact",
-    "phone": "+91(11)26981717, 26984617, 26984658, 26988044, 26987183, +91(11)2698 0229"
-  },
-  {
-    "name": "Prof. SA Ansari",
-    "title": "IQAC"
-  },
-  {
-    "name": "Prof. Iqtidar Mohd. Khan",
-    "title": "Dean, Faculty of Humanities and Languages",
-    "email": "imkhan@jmi.ac.in"
-  },
-  {
-    "name": "Prof. Mohd. Muslim Khan",
-    "title": "Dean, Faculty of Social Sciences",
-    "email": "mmuslim@jmi.ac.in"
-  },
-  {
-    "name": "Prof. Saeed Uddin",
-    "title": "Dean, Faculty of Sciences",
-    "email": "suddin@jmi.ac.in"
-  },
-  {
-    "name": "Dr. Jessy Abraham",
-    "title": "Dean, Faculty of Education",
-    "email": "jabraham@jmi.ac.in"
-  },
-  {
-    "name": "Dr. Mohammad Sharif",
-    "title": "Dean, Faculty of Engineering and Technology",
-    "email": "msharif@jmi.ac.in"
-  },
-  {
-    "name": "Dr. Ghulam Yazdani",
-    "title": "Dean, Faculty of Law",
-    "email": "gyazdani@jmi.ac.in"
-  },
-  {
-    "name": "Prof. (Dr.) Qamar Irshad",
-    "title": "Dean, Faculty of Architecture and Ekistics",
-    "email": "qirshad@jmi.ac.in"
-  },
-  {
-    "name": "Dr. Keya Sircar",
-    "title": "Dean, Faculty of Dentistry",
-    "email": "ksircar@jmi.ac.in"
-  },
-  {
-    "name": "Prof. Bindulika Sharma",
-    "title": "Dean, Faculty of Fine Arts",
-    "email": "bsharma2@jmi.ac.in"
-  },
-  {
-    "name": "Prof. Neelofer Afzal",
-    "title": "Dean Students' Welfare, DSW Office",
-    "email": "nafzal@jmi.ac.in"
-  },
-  {
-    "name": "Dr. Pankaj Kumar Gupta",
-    "title": "Dean, Faculty of Management Studies",
-    "email": "pgupta@jmi.ac.in"
-  },
-  {
-    "name": "Prof. Mohammad Zahid Ashraf",
-    "title": "Dean, Faculty of Life Sciences",
-    "email": "zashraf@jmi.ac.in"
+    "title": "General Contact/University Main Line",
+    "phone": "+91(11)26981717, +91(11)26984617, +91(11)26984658, +91(11)26988044, +91(11)26987183, +91(11)26980229"
   }
 ]

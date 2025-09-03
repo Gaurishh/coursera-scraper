@@ -1,34 +1,34 @@
 [
   {
-    "name": "United States Sales",
-    "email": "ussales@aquevix.com",
-    "phone": "+1 (720) 605-9012"
+    "name": "Sales - United States",
+    "phone": "+1 (720) 605-9012",
+    "email": "ussales@aquevix.com"
   },
   {
-    "name": "UK/Europe Sales",
-    "email": "uksales@aquevix.com",
-    "phone": "+1 (720) 605-9012"
+    "name": "Sales - UK/Europe",
+    "phone": "+1 (720) 605-9012",
+    "email": "uksales@aquevix.com"
   },
   {
-    "name": "Canada Sales",
+    "name": "Sales - Canada",
     "email": "canada@aquevix.com"
   },
   {
-    "name": "Australia Sales",
+    "name": "Sales - Australia",
     "email": "australia@aquevix.com"
   },
   {
-    "name": "Singapore Sales",
+    "name": "Sales - Singapore",
     "email": "singapore@aquevix.com"
   },
   {
-    "name": "Dubai Sales",
+    "name": "Sales - Dubai",
     "email": "dubai@aquevix.com"
   },
   {
-    "name": "India Development Office",
-    "email": "india@aquevix.com",
-    "phone": "+91 (11) 4560-0412"
+    "name": "Sales - India Development Office",
+    "phone": "+91 (11) 4560-0412",
+    "email": "india@aquevix.com"
   },
   {
     "name": "Technical Support",
@@ -36,11 +36,7 @@
     "email": "hello@aquevix.com"
   },
   {
-    "name": "Legal",
+    "name": "Legal Department",
     "email": "legal@aquevix.com"
-  },
-  {
-    "name": "Amit Jindal",
-    "title": "Founder"
   }
 ]

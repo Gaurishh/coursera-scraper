@@ -1,33 +1,20 @@
 [
   {
-    "name": "IGeekS Technologies",
-    "title": "General Enquiry",
-    "phone": "7019280372 / 9590544567",
-    "email": "info@igeekstechnologies.com"
-  },
-  {
     "name": "Nandu",
-    "title": "Job Seeker for Career Options / Corporate IT Training",
+    "title": "Corporate Training / Career Options",
     "phone": "9590544567",
     "email": "nandu@igeekstechnologies.com"
   },
   {
     "name": "Hari",
     "title": "Recruitment Service / Partnership",
-    "phone": "9590544567 / 7019280372",
+    "phone": "9590544567, 7019280372",
     "email": "hari@igeekstechnologies.com"
   },
   {
-    "title": "Recruitment Service / Partnership",
-    "phone": "9590544567 / 7019280372",
-    "email": "training@igeekstechnologies.com"
-  },
-  {
-    "name": "Mr. Sharath",
-    "title": "Mentor"
-  },
-  {
-    "name": "Somasekhar",
-    "title": "Mentor"
+    "name": "IGeekS Technologies",
+    "title": "General Enquiries",
+    "phone": "7019280372, 9590544567, 9110457591",
+    "email": "info@igeekstechnologies.com, training@igeekstechnologies.com"
   }
 ]

@@ -1,34 +1,18 @@
 [
   {
-    "name": "India Office",
     "phone": "+91-859-538-2420",
     "email": "info@arramton.com"
   },
   {
-    "name": "UK Office",
     "phone": "+44 7833610451",
     "email": "info@arramton.com"
   },
   {
-    "name": "USA Office",
     "phone": "+44 7833610451",
     "email": "info@arramton.com"
   },
   {
-    "name": "Dubai Office",
     "phone": "+44 7833610451",
     "email": "info@arramton.com"
-  },
-  {
-    "name": "Umang Marwah",
-    "title": "Founder & CEO"
-  },
-  {
-    "name": "Mayank Bhatnagar",
-    "title": "Co-Founder CTO"
-  },
-  {
-    "name": "Mr. G.S. Marwah",
-    "title": "Chairman"
   }
 ]

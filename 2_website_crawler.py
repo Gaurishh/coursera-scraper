@@ -8,6 +8,14 @@ from collections import deque
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+# Import constants
+from constants import (
+    WEBSITE_CRAWLER_INPUT_CSV, WEBSITE_CRAWLER_OUTPUT_DIR, WEBSITE_CRAWLER_MAX_WORKERS,
+    MAX_WEBSITES_LIMIT, MAX_URLS_PER_WEBSITE, MAX_CONSECUTIVE_FAILURES,
+    WEBSITE_CRAWLER_TIMEOUT, WEBSITE_CRAWLER_DELAY, MAX_BACKOFF_TIME,
+    ALLOWED_WEB_EXTENSIONS, SKIP_URL_PATTERNS
+)
+
 # Global domain blacklist to prevent retrying problematic domains across threads
 failed_domains = set()
 domain_lock = threading.Lock()
@@ -74,21 +82,20 @@ def crawl_website_iterative(start_url):
     normalized_urls = {normalize_url_for_storage(start_url)}
     
     # Safety limit to prevent infinite loops
-    MAX_URLS = 100
+    max_urls = MAX_URLS_PER_WEBSITE
     
     # Track connection failures for this domain
     consecutive_failures = 0
-    MAX_CONSECUTIVE_FAILURES = 5  # Stop crawling after 5 consecutive failures
     
     # Continue as long as there are URLs in the queue and we haven't hit the limit
-    while urls_to_crawl and len(found_urls) < MAX_URLS and consecutive_failures < MAX_CONSECUTIVE_FAILURES:
+    while urls_to_crawl and len(found_urls) < max_urls and consecutive_failures < MAX_CONSECUTIVE_FAILURES:
         # Get the next URL from the left of the queue
         current_url = urls_to_crawl.popleft()
         print(f"Crawling: {current_url} (Found: {len(found_urls)})")
 
         try:
             # Use session for connection reuse - much faster than individual requests
-            response = session.get(current_url, timeout=5)  # Shorter timeout for better performance
+            response = session.get(current_url, timeout=WEBSITE_CRAWLER_TIMEOUT)
             response.raise_for_status()
             
             # Reset failure counter on successful request
@@ -108,7 +115,7 @@ def crawl_website_iterative(start_url):
                 
             # Add exponential backoff for temporary failures
             if consecutive_failures > 1:
-                backoff_time = min(2 ** consecutive_failures, 10)  # Max 10 seconds
+                backoff_time = min(2 ** consecutive_failures, MAX_BACKOFF_TIME)
                 print(f"⏳ Waiting {backoff_time} seconds before retrying...")
                 time.sleep(backoff_time)
             
@@ -121,7 +128,7 @@ def crawl_website_iterative(start_url):
             href = a_tag['href']
             
             # Early filtering - skip problematic URLs before processing
-            if any(skip in href.lower() for skip in ['javascript:', 'mailto:', 'tel:', '#']):
+            if any(skip in href.lower() for skip in SKIP_URL_PATTERNS):
                 continue
                 
             # Build URL more efficiently
@@ -135,7 +142,7 @@ def crawl_website_iterative(start_url):
                 
             # Skip files with extensions (but allow common web page extensions)
             file_ext = os.path.splitext(parsed_url.path)[1].lower()
-            if file_ext and file_ext not in ['.html', '.htm', '.php', '.asp', '.aspx', '.jsp']:
+            if file_ext and file_ext not in ALLOWED_WEB_EXTENSIONS:
                 continue
                 
             # Remove fragment for comparison - more efficient than _replace()
@@ -153,11 +160,11 @@ def crawl_website_iterative(start_url):
                 urls_to_crawl.append(clean_url)
         
         # Small delay to be respectful to the server
-        time.sleep(0.1)
+        time.sleep(WEBSITE_CRAWLER_DELAY)
         
     # Warn if we hit the limit or stopped due to failures
-    if len(found_urls) >= MAX_URLS:
-        print(f"⚠️  WARNING: Hit maximum URL limit ({MAX_URLS}). There may be more routes on this website.")
+    if len(found_urls) >= max_urls:
+        print(f"⚠️  WARNING: Hit maximum URL limit ({max_urls}). There may be more routes on this website.")
     elif consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
         print(f"⚠️  WARNING: Stopped crawling due to {consecutive_failures} consecutive connection failures.")
                 
@@ -305,19 +312,19 @@ def main():
     """
     Main function with multithreaded website crawling.
     """
-    csv_filename = '1_discovered_leads.csv'
-    output_dir = 'websites'
+    csv_filename = WEBSITE_CRAWLER_INPUT_CSV
+    output_dir = WEBSITE_CRAWLER_OUTPUT_DIR
     
     # Configuration
-    MAX_WORKERS = 10  # Number of concurrent threads
-    MAX_WEBSITES = 1000  # Limit for testing (set to None for all websites)
+    max_workers = WEBSITE_CRAWLER_MAX_WORKERS
+    max_websites = MAX_WEBSITES_LIMIT
     
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
     print("🚀 Starting Multithreaded Website Crawler")
     print("=" * 60)
-    print(f"📊 Max Workers: {MAX_WORKERS}")
+    print(f"📊 Max Workers: {max_workers}")
     print(f"📁 Output Directory: {output_dir}")
     print("=" * 60)
 
@@ -328,7 +335,7 @@ def main():
             reader = csv.DictReader(csvfile)
             for row in reader:
                 websites_to_process.append(row)
-                if MAX_WEBSITES and len(websites_to_process) >= MAX_WEBSITES:
+                if max_websites and len(websites_to_process) >= max_websites:
                     break
         
         print(f"📋 Found {len(websites_to_process)} websites to process")
@@ -338,7 +345,7 @@ def main():
         successful_crawls = 0
         total_routes = 0
         
-        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
             # Submit all tasks
             future_to_website = {
                 executor.submit(process_single_website, row, output_dir): row 

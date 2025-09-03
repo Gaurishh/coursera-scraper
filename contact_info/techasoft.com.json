@@ -1,25 +1,23 @@
 [
   {
-    "title": "General Contact",
-    "phone": "+1 610 880 0144",
-    "email": "[email protected]"
+    "title": "General Inquiries (USA)",
+    "phone": "+1 610 880 0144"
   },
   {
-    "title": "General Contact",
-    "phone": "+971 507557789",
-    "email": "[email protected]"
+    "title": "General Inquiries (UAE / International)",
+    "phone": "+971 507557789"
   },
   {
-    "title": "General Contact",
+    "title": "General Inquiries (India)",
     "phone": "+91 8884 739 988",
-    "email": "[email protected]"
+    "email": "info@techasoft.com"
   },
   {
-    "title": "Contact HR",
+    "title": "HR Department (India)",
     "phone": "+91 8884 739 988"
   },
   {
-    "title": "Contact Us For Training",
+    "title": "Training Department (India)",
     "phone": "+91 8867 746 186"
   }
 ]

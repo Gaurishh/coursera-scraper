@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Helpdesk",
+    "email": "info@sjim.edu.in",
+    "phone": "080-25597781 / 25597791"
+  },
+  {
+    "name": "Director's Office",
+    "title": "(faculty positions)",
+    "email": "office@sjim.edu.in",
+    "phone": "080-25597781"
+  },
+  {
+    "name": "PGDM Admissions",
+    "email": "admissions@sjim.edu.in",
+    "phone": "9972252765"
+  },
+  {
+    "name": "PGDM Placements",
+    "email": "placements@sjim.edu.in",
+    "phone": "9591518855"
+  },
+  {
+    "name": "Mr. S. Prabhu",
+    "title": "Librarian",
+    "email": "prabhu@sjim.edu.in"
+  },
+  {
+    "name": "Ms. Clancy Mohan",
+    "title": "Office senior",
+    "email": "clancy@sjim.edu.in"
+  },
+  {
+    "name": "Ms. Shobha DV",
+    "title": "Placement coordinator",
+    "phone": "9591518855",
+    "email": "placements@sjim.edu.in"
+  },
+  {
+    "name": "Mr. Philip D’Souza",
+    "title": "Campus Manager",
+    "email": "dsouza.philip@sjim.edu.in"
+  },
+  {
+    "name": "Mr. Chandrakant Pattar",
+    "title": "Public Relations Officer",
+    "email": "chandrakant@sjim.edu.in"
+  },
+  {
+    "name": "Ms. Joyce",
+    "title": "Secretary & Front Office Executive",
+    "email": "joyce@sjim.edu.in"
+  },
+  {
+    "name": "Mr. Ravi Kumar",
+    "title": "Asst. Librarian",
+    "email": "ravi@sjim.edu.in"
+  },
+  {
+    "name": "Mr. JENA S",
+    "title": "Documentation Manager",
+    "email": "jena@sjim.edu.in"
+  },
+  {
+    "name": "Ms. Senalda Lora Pereira",
+    "title": "Accountant",
+    "email": "senalda@sjim.edu.in"
+  },
+  {
+    "name": "Ms. Christian Ashwin",
+    "title": "Assistant Placement Officer",
+    "email": "placementoffice@sjim.edu.in"
+  },
+  {
+    "name": "Ms. Sindhu David",
+    "title": "Counsellor",
+    "email": "sindhu@sjim.edu.in"
+  },
+  {
+    "name": "Annie Divya George",
+    "title": "Alumni Office",
+    "email": "alumnioffice@sjim.edu.in"
+  },
+  {
+    "name": "Mr. Umesh. E",
+    "title": "Office Assistant",
+    "email": "umesh@sjim.edu.in"
+  },
+  {
+    "name": "Mr. Roshan Dias",
+    "title": "Office Assistant",
+    "email": "roshan@sjim.edu.in"
+  },
+  {
+    "name": "Rev. Dr Roshan David Pereira SJ",
+    "title": "Director"
+  },
+  {
+    "name": "Dr Rajiv Noronha",
+    "title": "Dean"
+  },
+  {
+    "name": "Mr V J Lawrence",
+    "title": "Dean Academics"
+  },
+  {
+    "name": "Dr Anup Krishnamurthy",
+    "title": "Associate Dean"
+  },
+  {
+    "name": "Prof Parthasarathi Shome",
+    "title": "Distinguished Professor"
+  },
+  {
+    "name": "Prof Vivek Moorthy",
+    "title": "Distinguished Professor"
+  },
+  {
+    "name": "Dr Nirmala Joseph",
+    "title": "Area Coordinator-Finance"
+  },
+  {
+    "name": "Mr Suresh Herur",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Ravi Darshini",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Binny Cherian",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Maria Immanuvel",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Vikku Agrawal",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr J Peter Leo Deepak",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Gagandeep Sharma",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Jessy Nair",
+    "title": "Area Coordinator-Marketing"
+  },
+  {
+    "name": "Dr Avil Saldanha",
+    "title": "Faculty"
+  },
+  {
+    "name": "Mr Abraham Karimpanal",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Syam Kumar",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Caren Rodrigues",
+    "title": "Area Coordinator-HR"
+  },
+  {
+    "name": "Dr Anantharaman",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Ananda Das Gupta",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Nazia Zabin Memon",
+    "title": "Assistant Professor"
+  },
+  {
+    "name": "Dr Ayushi Shukla",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Deepika Joshi",
+    "title": "Area Coordinator-Operations"
+  },
+  {
+    "name": "Mr. Rajendra Desai",
+    "title": "Faculty"
+  },
+  {
+    "name": "Mr V K Anand",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Sarin Raju",
+    "title": "Faculty, Visiting Faculty"
+  },
+  {
+    "name": "Dr Komal J D’Souza",
+    "title": "Faculty"
+  },
+  {
+    "name": "Mr. Abraham Karimpanal",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Ashwin Randolph John",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Avil Terrance Saldanha",
+    "title": "Faculty"
+  },
+  {
+    "name": "Rev. Dr Cyprian Tellis SJ",
+    "title": "Faculty"
+  },
+  {
+    "name": "Fr. Manoj D'Souza SJ",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr R. Narasimhan",
+    "title": "Faculty"
+  },
+  {
+    "name": "Rev Fr Olvin Veigas, SJ",
+    "title": "Faculty"
+  },
+  {
+    "name": "Fr. Prashanth Wesly D’Souza",
+    "title": "Faculty"
+  },
+  {
+    "name": "Mr. Pradeep Seraphim",
+    "title": "Faculty"
+  },
+  {
+    "name": "Dr Rashmi Nakra",
+    "title": "Faculty"
+  },
+  {
+    "name": "Mr Joy Cheruvathoor",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr Anil Shenoy",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr Anik Saha",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr Anvith Murthy",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr Natarajan",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr Harsh Kumar Johari",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr Ajit Rao",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr. Tobby Zacharias Kakkamthottil",
+    "title": "Visiting Faculty"
+  },
+  {
+    "name": "Mr Christopher Anand",
+    "title": "Visiting Faculty"
+  }
+]

@@ -1,14 +1,12 @@
 [
   {
-    "name": "Business Inquiries - INDIA",
-    "email": "hello@opensenselabs.com"
+    "email": "india@opensenselabs.com"
   },
   {
-    "name": "Business Inquiries - EUROPE",
-    "email": "hallo@opensenselabs.com"
+    "phone": "+49 (0)69 2002 5450",
+    "email": "europe@opensenselabs.com"
   },
   {
-    "name": "Business Inquiries - USA",
-    "email": "hello@opensenselabs.com"
+    "email": "usa@opensenselabs.com"
   }
 ]

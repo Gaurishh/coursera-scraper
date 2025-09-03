@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Webenza Corporate Office",
+    "title": "General Enquiries (Bangalore)",
+    "phone": "+91 80 2521 0083, +91 96 8630 9988",
+    "email": "info@webenza.com"
+  },
+  {
+    "name": "Webenza Houston Office",
+    "title": "General Enquiries (United States)",
+    "phone": "+1 (786) 554-9799",
+    "email": "info@webenza.com"
+  },
+  {
+    "name": "Webenza Mumbai Office",
+    "title": "General Enquiries (Mumbai)",
+    "phone": "+91 96 8630 9988",
+    "email": "info@webenza.com"
+  },
+  {
+    "name": "Webenza Delhi NCR Office",
+    "title": "General Enquiries (Delhi NCR)",
+    "phone": "+91 96 8630 9988",
+    "email": "info@webenza.com"
+  },
+  {
+    "name": "Webenza Careers",
+    "title": "Human Resources / Recruitment",
+    "email": "careers@webenza.com"
+  }
+]

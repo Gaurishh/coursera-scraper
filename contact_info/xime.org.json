@@ -1,0 +1,34 @@
+[
+  {
+    "name": "XIME Bangalore General Enquiries",
+    "phone": "+9180-69549450"
+  },
+  {
+    "name": "XIME Kochi General Enquiries",
+    "phone": "0484 – 2972972 / 3"
+  },
+  {
+    "name": "XIME Chennai General Enquiries",
+    "phone": "044 – 67179400"
+  },
+  {
+    "name": "Admissions Bangalore",
+    "phone": "+9180-69549454",
+    "email": "admissions@xime.org"
+  },
+  {
+    "name": "Admissions Kochi",
+    "phone": "+9180-69549464",
+    "email": "admissionskochi@xime.org"
+  },
+  {
+    "name": "Admissions Chennai",
+    "phone": "+9180-69549474",
+    "email": "admissionchennai@xime.org"
+  },
+  {
+    "name": "Prof. J. Philip",
+    "title": "Principal Founder & Chairman, XIME Bangalore",
+    "email": "chairmanblr@xime.org"
+  }
+]

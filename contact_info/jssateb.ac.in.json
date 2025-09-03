@@ -1,24 +1,14 @@
 [
   {
-    "name": "JSS Academy of Technical Education (General)",
-    "phone": "080-28612565, 080-28611702, 6364771945, 9916253458, 9900928583",
-    "fax": "080-28612706, 080-28612646",
-    "email": "info@jssateb.ac.in"
-  },
-  {
-    "name": "Principal's Office",
-    "email": "principal@jssateb.ac.in"
-  },
-  {
-    "name": "Training and Placement Office",
-    "phone": "9480112279, 9686677263, 080-28612565 Ext: 174 / 700, 080-28611702 Ext: 174 / 700",
-    "email": "placements@jssateb.ac.in, jssate.placement@gmail.com"
+    "name": "JSS Academy of Technical Education, Bengaluru",
+    "email": "info@jssateb.ac.in, principal@jssateb.ac.in",
+    "phone": "08028612565, 08028611702, 6364771945, 9916253458, 9900928583"
   },
   {
     "name": "Dr. Bhimasen Soragaon",
-    "title": "Principal",
+    "title": "Principal, JSS Academy of Technical Education, Bengaluru",
     "phone": "9448234414",
-    "email": "principal@jssateb.ac.in"
+    "email": "principal@jssateb.ac.in, info@jssateb.ac.in"
   },
   {
     "name": "Dr. MAHESH B",
@@ -27,91 +17,13 @@
     "email": "dean_research@jssateb.ac.in"
   },
   {
-    "name": "Dr. Abhijith H V",
-    "title": "Training and Placement Officer, PLACEMENTOFFICER, Associate Professor",
-    "phone": "9480112279, 9686677263"
-  },
-  {
     "name": "Dr. Prabhudev Jagadeesh. M.P",
     "title": "Professor & Head, Department of Computer Science and Engineering",
-    "phone": "+91-9886893897",
+    "phone": "+919886893897",
     "email": "hodcse@jssateb.ac.in, prabhudevjagadeeshp@jssateb.ac.in"
   },
   {
-    "name": "Mrs. Gurpreeth Jaggi",
-    "title": "Director, HR & Operations"
-  },
-  {
-    "name": "Mrs. Parameshwari",
-    "title": "HR Team"
-  },
-  {
-    "name": "ER. Mohan Rao",
-    "title": "Hon. Chairman"
-  },
-  {
-    "name": "Mr. Girish Hiremath",
-    "title": "Chief Operating Officer"
-  },
-  {
-    "name": "Mrs. Anitha Kale",
-    "title": "Branch Manager"
-  },
-  {
-    "name": "Dr. Anand Kumar R. Annigeri",
-    "title": "Professor"
-  },
-  {
-    "name": "Mrs. Punitha M",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Mrs. Rashmi B N",
-    "title": "Assistant Professor",
-    "email": "rashmibn@jssateb.ac.in"
-  },
-  {
-    "name": "Mrs. Anuradha M G",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Mr. Prabhushankar M R",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Mrs. N Nagarathna",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Ms. Harshitha M N",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Dr. Chandrakala V G",
-    "title": "Assistant Professor"
-  },
-  {
-    "name": "Guruprasad H G",
-    "email": "guru34792@gmail.com"
-  },
-  {
-    "name": "Dr. Ramakanth Kumar P",
-    "title": "Professor and Head, Department of Computer Science, RVCE, Bengaluru"
-  },
-  {
-    "name": "Mr. Sridhar Govardhan",
-    "title": "Vice President and Head of Information Security, Large eCommerce Platform"
-  },
-  {
-    "name": "Mr. Prasad K",
-    "title": "Engineer, Indian Air Force, Bengaluru"
-  },
-  {
-    "name": "Ms. Preethi K",
-    "title": "Director, Target Corporation"
-  },
-  {
-    "name": "Dr. Mallikarjuna P B",
+    "name": "Dr. P.B. Mallikarjuna",
     "title": "Professor, Department of Computer Science and Engineering",
     "phone": "8861004385",
     "email": "pbmalli2020@gmail.com, mallikarjunapb@jssateb.ac.in"
@@ -122,97 +34,93 @@
     "email": "nagasundarakb@jssateb.ac.in"
   },
   {
-    "name": "Dr. P.B. Mallikarjuna",
-    "title": "Professor, Department of Computer Science and Engineering",
-    "email": "mallikarjunapb@jssateb.ac.in"
-  },
-  {
     "name": "Dr. H.K. Pradeep",
-    "title": "Associate Professor, Department of Computer Science and Engineering",
+    "title": "Associate Professor",
     "email": "hkpradeep@jssateb.ac.in"
   },
   {
     "name": "Dr. Rohitaksha. K",
-    "title": "Associate Professor, Department of Computer Science and Engineering",
+    "title": "Associate Professor",
     "email": "rohithakshak@jssateb.ac.in"
   },
   {
     "name": "Dr. Sharana Basavana Gowda",
-    "title": "Associate Professor, Department of Computer Science and Engineering",
+    "title": "Associate Professor",
     "email": "sharanabg@jssateb.ac.in"
   },
   {
-    "name": "Dr. Manjunath. B.Talawar",
-    "title": "Associate Professor, Department of Computer Science and Engineering"
-  },
-  {
     "name": "Dr. Niranjan Chanabasappa Kundur",
-    "title": "Associate Professor, Department of Computer Science and Engineering",
+    "title": "Associate Professor",
     "email": "niranjanckundur@jssateb.ac.in"
   },
   {
     "name": "Dr. Abhilash. C.B",
-    "title": "Associate Professor, Department of Computer Science and Engineering",
+    "title": "Associate Professor",
     "email": "abhilashcb@jssateb.ac.in"
   },
   {
     "name": "Dr. K.S. Rajeshwari",
-    "title": "Associate Professor, Department of Computer Science and Engineering",
+    "title": "Associate Professor",
     "email": "ksrajeshwari@jssateb.ac.in"
   },
   {
     "name": "Dr. Pooja.H",
-    "title": "Associate Professor, Department of Computer Science and Engineering",
+    "title": "Associate Professor",
     "email": "poojah@jssateb.ac.in"
   },
   {
     "name": "Mrs. Snehalatha .N",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "nsnehalatha@jssateb.ac.in"
   },
   {
     "name": "Mrs. Bhavani .B.H",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "bhavanibh@jssateb.ac.in"
   },
   {
     "name": "Ms. K.V. Shanthala",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "kvshanthala@jssateb.ac.in"
   },
   {
     "name": "Dr. Shweta S. Kaddi",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "swethaskaddi@jssateb.ac.in"
   },
   {
+    "name": "Mrs. Rashmi . B.N",
+    "title": "Assistant Professor",
+    "email": "rashmibn@jssateb.ac.in"
+  },
+  {
     "name": "Mrs. Renukamba.P",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "renukambap@jssateb.ac.in"
   },
   {
     "name": "Mrs. Ranjitha S R",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "ranjithasr@jssateb.ac.in"
   },
   {
     "name": "Mrs.Impana K P",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "impanaraj@jssateb.ac.in"
   },
   {
     "name": "Dr.Supriya B N",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "supriyabn@jssateb.ac.in"
   },
   {
     "name": "Mrs.Shruti Tavaragundi",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "shrutitavaragundi@jssateb.ac.in"
   },
   {
     "name": "Mrs.Bhavana H V",
-    "title": "Assistant Professor, Department of Computer Science and Engineering",
+    "title": "Assistant Professor",
     "email": "bhavanahv@jssateb.ac.in"
   },
   {
@@ -274,21 +182,5 @@
     "name": "Mr. B.Basava Rajendra Prasad",
     "title": "Attender",
     "email": "brajendraprasad@jssateb.ac.in"
-  },
-  {
-    "name": "Ms. Merllin M",
-    "title": "3rd Year Students – CSE"
-  },
-  {
-    "name": "Mr. Abhishek N",
-    "title": "3rd Year Students – CE"
-  },
-  {
-    "name": "Mr. Shubham Pandey",
-    "title": "4th Year, CSE, JSS Academy of Technical Education, Bengaluru"
-  },
-  {
-    "name": "Ms. Kruthika G",
-    "title": "3rd Year, CSE, JSS Academy of Technical Education, Bengaluru"
   }
 ]
