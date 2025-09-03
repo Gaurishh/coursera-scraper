@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.digitalmarkitors.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Digital Markitors is a digital marketing agency whose services are entirely focused on generating leads, increasing sales, and boosting revenue for their clients through various online strategies."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "hello@digitalmarkitors.com",
+        "phone": "+91 9818888064"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

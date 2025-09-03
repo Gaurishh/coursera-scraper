@@ -1,0 +1,25 @@
+[
+  {
+    "website": "http://www.apsce.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "APS College of Engineering is an engineering institution with a strong focus on Computer Science, AI/ML, Cyber Security, and various other technical fields, explicitly aiming to develop 'competent technocrats' and 'next-level engineers'."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "apsceoffice@gmail.com",
+        "phone": "91-9448452508"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Dr. K.S Anand",
+          "title": "Principal I/C",
+          "email": "principal.apsce@gmail.com",
+          "phone": "+91 9035994160"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

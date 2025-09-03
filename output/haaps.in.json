@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://haaps.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "HAAPS is a digital marketing agency whose success hinges on acquiring new clients and helping existing ones boost their conversions, leads, and sales, making robust sales skills critical for their own growth."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@haaps.in, support@haaps.in",
+        "phone": "(+91) 84311 61621"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

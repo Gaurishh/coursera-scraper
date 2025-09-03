@@ -1,0 +1,26 @@
+[
+  {
+    "website": "https://jagsom.edu.in/?utm_source=Google&utm_medium=organic&utm_campaign=gmb",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "JAGSoM is explicitly a business school offering a wide range of management programs, including a strong focus on Marketing, which prepares students for roles requiring sales and client engagement skills."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "JAGSoM Admissions - General Admissions",
+          "email": "admissions@jagsom.edu.in",
+          "phone": "+91 8147973132"
+        },
+        {
+          "description": "JAGSoM Grievance Helpline - 24/7 Helpline for Women and any other grievance",
+          "email": "grievance@jagsom.edu.in",
+          "phone": "+91 7349103007, 080 41432816"
+        }
+      ]
+    }
+  }
+]

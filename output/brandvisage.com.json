@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://brandvisage.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Brand Visage Communications is a digital marketing agency whose primary objective is to drive client business growth, maximize ROI, generate sales-ready leads, and increase profits through various marketing strategies, directly aligning with sales-driven outcomes."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "business@brandvisage.com, info@brandvisage.com",
+        "phone": "+91 9717580410, 011 4132 6479"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

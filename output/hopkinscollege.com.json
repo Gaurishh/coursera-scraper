@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.hopkinscollege.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "St. Hopkins is explicitly a 'School of Business' with a strong emphasis on MBA programs, entrepreneurship, and features a dedicated, detailed section on 'How We Teach Sales' through practical workshops."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admissions@hopkinscollege.com",
+        "phone": "+91 80 22113435, 080-22225285, +91 9591069611"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://aimglobal.digital/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "AimGlobal Digital is a digital marketing agency whose entire mission and service offerings, including SEO, SMM, campaign management, and CRM integration, are directly aimed at driving sales, lead generation, and maximizing ROI for their diverse clientele."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@aimglobal.digital",
+        "phone": "+91 87923 81091, +91 80831 68434"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.aquevix.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Aquevix is a dedicated software development company that explicitly states its focus on building mobile, web, and cloud applications, uses an extensive array of programming technologies, and seeks to hire individuals looking to 'take their programming to the next level.'"
+    },
+    "contactDetails": {
+      "general": {
+        "email": "ussales@aquevix.com",
+        "phone": "+1 (720) 605-9012"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

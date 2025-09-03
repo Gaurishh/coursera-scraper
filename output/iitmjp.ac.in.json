@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.iitmjp.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 90,
+      "reasoning": "The institution, IITM, has a significant focus on Management, Business Administration (BBA), and Commerce (B.Com(H)) programs, with a stated mission to develop 'World Class Managers', making sales skills highly relevant for its graduates."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "011-28520894 / 28520890",
+        "email": "director@iitmjp.ac.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

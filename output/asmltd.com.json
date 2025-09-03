@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.asmltd.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "ASM Technologies Ltd is a technology and engineering services company specializing in product R&D, digital engineering, and custom software engineering across high-tech industries, indicating a strong need for programming expertise."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "inquiry@asmltd.com",
+        "phone": "+91 80 669 62301, +91 80 669 62304, +91 80 669 62302, +91 80 284 13355, +1 416 979 7800, +52 33 3678 9299, +44 2476 15 8620, +44 20 935 7616"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

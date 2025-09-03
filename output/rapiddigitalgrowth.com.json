@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.rapiddigitalgrowth.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Rapid Digital Growth is a digital marketing agency whose services, mission, and course offerings are all centered on helping businesses grow, generate leads, and drive sales through various online strategies, making it a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@rapiddigitalgrowth.com",
+        "phone": "+91 8368123312"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

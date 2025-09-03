@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://excelfore.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Excelfore is a deep-tech company specializing in software-defined vehicle connectivity, in-vehicle networking, and OTA software updates, requiring a strong focus on advanced programming and engineering skills."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "support@excelfore.com, sales@excelfore.com",
+        "phone": "+1.510.573.1311, +1-510-868-2500"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

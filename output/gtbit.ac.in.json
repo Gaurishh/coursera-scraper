@@ -1,0 +1,43 @@
+[
+  {
+    "website": "http://gtbit.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "GTBIT is a technical institute offering numerous engineering disciplines with a strong emphasis on Computer Science, AI/ML, Data Science, and Electronics, and places students predominantly in IT and tech roles, indicating a clear tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "contactus@gtbit.ac.in, gtbit@rediffmail.com, contact@gtbit.ac.in",
+        "phone": "+91 011 455 999 00"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Mukesh Sahu",
+          "title": "HOD (IIPC-GTBIT)",
+          "email": "mukeshsahu@ieee.org",
+          "phone": "+91-9212425434"
+        },
+        {
+          "name": "Dr. Aashish Bhardwaj",
+          "title": "HOD - CSE/CSE-DS",
+          "email": "aashish@gtbit.ac.in",
+          "phone": "+91-9868093474"
+        },
+        {
+          "name": "Dr. Savneet Kaur",
+          "title": "HOD - IT",
+          "email": "savneet@gtbit.ac.in",
+          "phone": null
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Ms. Rashmi Arora - SPOC (ICT Academy)",
+          "email": "rashmiarora@gtbit.ac.in",
+          "phone": null
+        }
+      ]
+    }
+  }
+]

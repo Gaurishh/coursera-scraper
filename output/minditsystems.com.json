@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://minditsystems.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Mind IT Systems is a software development and IT solutions company that specializes in custom application development, product engineering, and leveraging a wide array of programming technologies across various industries."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@minditsystems.com",
+        "phone": "+91 730 746 7777"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

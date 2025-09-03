@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://highonrank.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "HighOnRank is a digital marketing and e-commerce service provider explicitly focused on helping businesses grow sales, manage online marketplaces, and optimize for profit, directly aligning with sales-driven industries."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "contact@highonrank.com",
+        "phone": "+91 9654078140, +1 (872) 278-3586, +91 9667482591, +971 52 279 6549"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

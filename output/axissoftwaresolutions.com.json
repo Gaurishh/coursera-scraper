@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://axissoftwaresolutions.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Axis Software Solutions is a digital agency specializing in web software development, custom solutions, and IT services, with a team comprising full-stack developers and an AI data scientist, indicating a strong internal need for programming and technical skills."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "hello@axissoftwaresolutions.com",
+        "phone": "+91-7838-626-861"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

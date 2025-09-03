@@ -1,0 +1,25 @@
+[
+  {
+    "website": "https://www.logsafe.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Logsafe explicitly identifies as a 'Software Development Company' and their core product, an HRMS with advanced face recognition and cloud features, demonstrates a strong tech and programming focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@logsafe.in, contact@logsafe.in",
+        "phone": "080-29905860, +91 96067 99418, 080-29905862, 080-29905863"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Nithin N Patil",
+          "title": "Founder CEO",
+          "email": "nithin@logsafe.in",
+          "phone": null
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.binarysoft.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Binarysoft Technologies is a 360-degree technology solution provider specializing in customized software development, web development, mobile app development, and IT consulting, indicating a strong tech and programming focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@binarysoft.com",
+        "phone": "+1 646 4616 296"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

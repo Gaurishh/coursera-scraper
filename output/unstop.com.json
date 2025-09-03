@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://unstop.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The platform explicitly mentions \"Hackathons\" as a core offering, strongly indicating a focus on technical skills and programming for the corporates and students it serves."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

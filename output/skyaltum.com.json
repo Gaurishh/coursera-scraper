@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://skyaltum.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Skyaltum is a digital marketing company whose core services are designed to increase lead generation, customer engagement, and ultimately sales for their clients, placing them squarely within a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@skyaltum.com",
+        "phone": "+917349049861, +918431497165, +919008151165"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

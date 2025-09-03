@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://www.esi-group.com/company/worldwide/india",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "ESI Group, a part of Keysight Technologies, is a software company that develops advanced engineering simulation and virtual prototyping solutions for high-performance industries, indicating a strong tech focus requiring programming expertise."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

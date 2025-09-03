@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.aiactr.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "The institution is an engineering college (NSUT East Campus, formerly AIACTR) with departments in Computer Science and Engineering and Electronics and Communication Engineering, offering specialized M.Tech and B.Tech programs in advanced technical fields like Big Data Analytics, AI/ML, IOT, Information Security, and Digital Communication."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "011 2732 3161",
+        "email": "tpo@aiactr.ac.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

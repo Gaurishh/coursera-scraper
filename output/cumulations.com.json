@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.cumulations.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Cumulations is a technology-driven company specializing in mobile app development, digital transformation, cloud enablement, and AI/IoT solutions, with services and job openings heavily focused on programming and engineering skills."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@cumulations.com",
+        "phone": "+91-984-5825982, +91-996-4689921, +1 (408) 878-6871"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "website": "http://www.ministryofmarketing.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 92,
+      "reasoning": "Ministry of Marketing is an advertising and performance marketing agency that explicitly specializes in B2B lead generation, building sales pipelines, and is focused on ROI, making it a quintessential sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "Ministryofmarketing.in@gmail.com",
+        "phone": "+91-8700089990"
+      },
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "Mr. Matthew - Associate",
+          "email": null,
+          "phone": "+61 – 401849172"
+        }
+      ]
+    }
+  }
+]

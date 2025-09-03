@@ -1,0 +1,187 @@
+[
+  {
+    "website": "https://www.fsm.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "FSM is explicitly identified as a 'B-School' and 'Management Institute,' preparing future business leaders with a focus on management education, research, training, and corporate interaction, making sales skills highly relevant for its graduates."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "fore@fsm.ac.in",
+        "phone": "+91-11-41242424 to 33, +91-11-46485500 to 30"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Prof. Sriparna Basu",
+          "title": "Dean (Academics)",
+          "email": "deanacademics@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Prof. Shilpi Jain",
+          "title": "Dean (Corporate Relations, Placements & Alumni)",
+          "email": "deancorporaterelations@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Puneet Garg",
+          "title": "Manager (Executive Education)",
+          "email": "puneet.garg@fsm.ac.in",
+          "phone": "+91 9810875278"
+        },
+        {
+          "name": "Mr. Brijesh Ramtani",
+          "title": "Assistant General Manager - Placement / Member Secretary (Corporate Relations & Placement Committee)",
+          "email": "brijesh@fsm.ac.in",
+          "phone": "9654482676, 011-41242472"
+        },
+        {
+          "name": "Mr. Vaibhav Arora",
+          "title": "Sr. Manager Corporate Relations and Placements",
+          "email": "vaibhav.arora@fsm.ac.in",
+          "phone": "9368170652, 011-41242423"
+        },
+        {
+          "name": "Ms. Anisha Singh",
+          "title": "Assistant Manager- Corporate Relations",
+          "email": "anisha.singh@fsm.ac.in",
+          "phone": "9026345233, 011-41242412"
+        },
+        {
+          "name": "Shubhankar Chaudhary",
+          "title": "SPOC for Energy, Telecommunications & Semi-conductors",
+          "email": "Fore.careerdivision@fsm.ac.in",
+          "phone": null
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Prof. Tarun Kumar Singhal - Chair (Academic Services)",
+          "email": "chair-academicservices@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Prof. Tarun K Soni - Chair (Research & Publications)",
+          "email": "chair-researchpublications@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Sunil Kumar Singh - Administration Office Personnel",
+          "email": "sunilkumar.singh@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Shailendra - Administration Office Personnel",
+          "email": "shailendra@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Prof. Saurabh Mittal - Chairperson, Executive Education / Chair (In-company programmes)",
+          "email": "saurabh.mittal@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Ms. Shweta Sharma - Placements & Corporate Relations Associate",
+          "email": "Shweta.sharma@fsm.ac.in",
+          "phone": "9911837929, 011-41242409"
+        },
+        {
+          "description": "Madhavi Sharma - SPOC for Automobile",
+          "email": "placementdivision.fore@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Nimish Grover - SPOC for Banking",
+          "email": "fore.corporatecell@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Ayushi Chaudhary - SPOC for Banking",
+          "email": "fore.corporatecell@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Aditi Sharma - SPOC for E-Commerce, Media & Education",
+          "email": "careerdivision.fore@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Isha Joshi - SPOC for E-Commerce, Media & Education",
+          "email": "careerdivision.fore@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Somya Shree - SPOC for FMCG",
+          "email": "fore.placementcell@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Lavisha Mehta - SPOC for FMCG",
+          "email": "fore.placementcell@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Kapil Dev Singh - SPOC for FMCD",
+          "email": "fore.placement@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Hiten Panwar - SPOC for FSI",
+          "email": "placementcell.fore@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Aditi Tomar - SPOC for FSI",
+          "email": "placementcell.fore@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Aryan Khanna - SPOC for IT/ITES",
+          "email": "fore.corporaterelations@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Sanya Malik - SPOC for IT/ITES",
+          "email": "fore.corporaterelations@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Sonika Chhatwal - SPOC for Manufacturing & Logistics",
+          "email": "fore.placementdivision@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Omkar Jayadeo Avhad - SPOC for Manufacturing & Logistics",
+          "email": "fore.placementdivision@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Sandhya Kumari - SPOC for Market Research & Consulting",
+          "email": "fore.careercell@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Aditya Sand - SPOC for Market Research & Consulting",
+          "email": "fore.careercell@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Jagriti - SPOC for Market Research & Consulting",
+          "email": "fore.careercell@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Aditya Kapoor - SPOC for Pharma",
+          "email": "fore.corporateconnect@fsm.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Tanishka Bisht - SPOC for Retail, Real Estate, Travel, Hospitality & Fintech",
+          "email": "fore.corporatedivision@fsm.ac.in",
+          "phone": null
+        }
+      ]
+    }
+  }
+]

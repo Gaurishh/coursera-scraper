@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.digiworq.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "As a 'webdesign company', Digiworq's core business relies heavily on technical and programming skills for creating and maintaining websites."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@digiworq.com",
+        "phone": "+91 9742493540"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

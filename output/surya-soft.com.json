@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.surya-soft.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Surya Software Systems is a company with a profound technology focus, specializing in software engineering, digital solutions, and product development for the financial sector, as evidenced by their job openings, product descriptions, and core values."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@surya-soft.com",
+        "phone": "+91 80 4225 6000"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

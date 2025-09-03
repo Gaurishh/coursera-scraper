@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.corewave.io/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Corewave is a software, mobile, and web application development company with a strong focus on programming, AI/ML, cloud technologies, and delivering custom technical solutions to its clients."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "corporate@corewave.io",
+        "phone": "+91 98106 76072, +91 99997 30515"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

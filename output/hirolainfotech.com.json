@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://www.hirolainfotech.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 15,
+      "reasoning": "While the website content was inaccessible, the company name 'hirolainfotech.com' suggests a focus on information technology, leading to a low-confidence recommendation for Programming."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

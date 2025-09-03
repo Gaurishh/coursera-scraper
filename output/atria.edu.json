@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.atria.edu/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Atria Institute of Technology is an engineering college with a strong tech focus, offering numerous undergraduate and postgraduate programs in computer science, engineering, and artificial intelligence, and explicitly promoting cutting-edge technologies and innovation."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admissions@atria.edu",
+        "phone": "+91 7090329032, +91 9666247700"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

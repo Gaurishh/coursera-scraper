@@ -1,0 +1,17 @@
+[
+  {
+    "website": "https://www.nexgi.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "NexGen Innovators is explicitly a 'human-centered tech company' that primarily offers design, development, marketing, and security IT services, with numerous developer roles listed in their careers section."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@nexgi.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

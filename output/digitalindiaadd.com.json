@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.digitalindiaadd.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The company's core business as a digital marketing agency is inherently focused on generating leads, optimizing conversions, and ultimately increasing sales for its clients, making sales expertise crucial for both service delivery and client acquisition."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@digitalindiaadd.com",
+        "phone": "+91 6360807351"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

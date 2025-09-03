@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.globalinfoedge.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Global Info Edge is a digital marketing agency with a core focus on lead generation, performance marketing, conversions, and driving client growth and profits, which are all directly tied to sales outcomes."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "contact@globalinfoedge.com",
+        "phone": "091559 93311"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "website": "https://www.soil.edu.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "SOIL is clearly identified as an 'Institute of Management' offering Post Graduate Programs in Management (PGPM, PGDM, PGPM-HR) with a strong emphasis on business, leadership, and career development, making a Sales course highly relevant for its curriculum and student placements."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "connect@soilindia.net",
+        "phone": "9205333417, 9289270707"
+      },
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "Prof. AN Bhattachraya - Program Chair, Marketing, 1 Year PGPM",
+          "email": "an.bhattachraya@soilindia.net",
+          "phone": null
+        }
+      ]
+    }
+  }
+]

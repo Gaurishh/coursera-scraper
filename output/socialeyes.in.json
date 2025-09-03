@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://socialeyes.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Social Eyes is a digital marketing agency whose entire business model and services are dedicated to driving leads, conversions, and sales growth for its clients, making it a highly sales-driven organization operating in a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@socialeyes.in",
+        "phone": "+91-99207-77141"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

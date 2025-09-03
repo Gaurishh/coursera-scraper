@@ -1,0 +1,193 @@
+[
+  {
+    "website": "https://www.iimb.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "IIM Bangalore is a leading graduate school of management, offering numerous MBA and business-focused programs, with areas like Marketing and Entrepreneurship, making a Sales course highly relevant to its core mission and student profiles."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@iimb.ac.in",
+        "phone": "+91-80-26993000, +91-80-26582450"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Professor U Dinesh Kumar",
+          "title": "Director In-charge",
+          "email": "director@iimb.ac.in",
+          "phone": "+91-80-26993002, +91-80-26993493"
+        },
+        {
+          "name": "Rashmi Mahadev Lad",
+          "title": "Director's Office Contact",
+          "email": "rashmi.lad@iimb.ac.in",
+          "phone": "+91-80-26993002, +91-80-26993493"
+        },
+        {
+          "name": "Professor Sourav Mukherji",
+          "title": "Dean, Faculty; Dean, Alumni Relations & Development",
+          "email": "dean.faculty@iimb.ac.in, dean.ard@iimb.ac.in",
+          "phone": "+91-80-26993006, +91-80-26993003"
+        },
+        {
+          "name": "Boby George",
+          "title": "Senior Manager, Office of the Dean, Faculty",
+          "email": "boby.george@iimb.ac.in",
+          "phone": "+91-80-26993006"
+        },
+        {
+          "name": "Professor Mukta Kulkarni",
+          "title": "Dean, Programmes",
+          "email": "dean.programmes@iimb.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Professor M Jayadev",
+          "title": "Dean, Administration",
+          "email": "dean.admin@iimb.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Col. (Retd.) S.D. Aravendan",
+          "title": "Chief Administrative Officer",
+          "email": "cao@iimb.ac.in",
+          "phone": "+91-80-26993011"
+        },
+        {
+          "name": "Arvind Soundararajan",
+          "title": "Chief Human Resources Officer",
+          "email": "chro@iimb.ac.in",
+          "phone": "+91-80-26993358"
+        },
+        {
+          "name": "Bhavani Karthikeyan",
+          "title": "Chief Finance Officer, Finance & Accounts",
+          "email": "bhavani.karthikeyan@iimb.ac.in",
+          "phone": "+91-80-26993012"
+        },
+        {
+          "name": "Savithri HD",
+          "title": "Senior Manager, Finance & Accounts",
+          "email": "savithri.hd@iimb.ac.in",
+          "phone": "+91-80-26993025"
+        },
+        {
+          "name": "M Vasudeva",
+          "title": "Chief Manager (Infrastructure)",
+          "email": "vasudeva.m@iimb.ac.in",
+          "phone": "+91-80-26993294"
+        },
+        {
+          "name": "Tapas Ranjan Pati",
+          "title": "Head, Career Development Services",
+          "email": "tapasr.pati@iimb.ac.in",
+          "phone": "+91-80-26993357"
+        },
+        {
+          "name": "Rashmita Prusty",
+          "title": "Associate Manager, Career Development Services",
+          "email": "rashmita.prusty@iimb.ac.in",
+          "phone": "+91-80-26993165"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Professor Nishant Kumar Verma - Chairperson, Career Development Services",
+          "email": "nishant.verma@iimb.ac.in",
+          "phone": "+91-80-26993047"
+        },
+        {
+          "description": "Anmol Sharma - PGP Placement Representative",
+          "email": "anmol.sharma24@iimb.ac.in",
+          "phone": "7251844502"
+        },
+        {
+          "description": "Husain Chhawniwala - PGP Placement Representative",
+          "email": "husain.chhawniwala24@iimb.ac.in",
+          "phone": "9082626762"
+        },
+        {
+          "description": "Tanish Verma - PGP Placement Representative",
+          "email": "tanish.verma24@iimb.ac.in",
+          "phone": "8408004487"
+        },
+        {
+          "description": "Adarsh Krishnaa V - PGP Placement Representative",
+          "email": "adarsh.krishnaa24@iimb.ac.in",
+          "phone": "9585556869"
+        },
+        {
+          "description": "Aman K Santhosh - PGP Placement Representative",
+          "email": "aman.santhosh24@iimb.ac.in",
+          "phone": "7907656730"
+        },
+        {
+          "description": "Arun Eashwar R K - PGP Placement Representative",
+          "email": "arun.eashwar24@iimb.ac.in",
+          "phone": "9790870326"
+        },
+        {
+          "description": "Monish Ahmad - PGP Placement Representative",
+          "email": "monish.ahmad24@iimb.ac.in",
+          "phone": "7355120787"
+        },
+        {
+          "description": "Reshma Hari - PGP Placement Representative",
+          "email": "reshma.hari24@iimb.ac.in",
+          "phone": "9188873051"
+        },
+        {
+          "description": "Sakshi Tambat - PGP Placement Representative",
+          "email": "sakshi.tambat24@iimb.ac.in",
+          "phone": "7887687333"
+        },
+        {
+          "description": "Shyaam M - PGP Placement Representative",
+          "email": "shyaam.muthusamy24@iimb.ac.in",
+          "phone": "9087500699"
+        },
+        {
+          "description": "Sowmya Vadakam - PGP Placement Representative",
+          "email": "sowmya.vadakam24@iimb.ac.in",
+          "phone": "8919490202"
+        },
+        {
+          "description": "Surajit Saha - EPGP Placement Representative",
+          "email": "surajit.saha25@iimb.ac.in",
+          "phone": "8348084027"
+        },
+        {
+          "description": "Hemprashadhsachin Regupathy - EPGP Placement Representative",
+          "email": "hemprashadhsachin.regupathy25@iimb.ac.in",
+          "phone": "8072327236"
+        },
+        {
+          "description": "Sanjay Yadav - EPGP Placement Representative",
+          "email": "sanjay.yadav25@iimb.ac.in",
+          "phone": "9796275030"
+        },
+        {
+          "description": "Anshul Chatter - EPGP Placement Representative",
+          "email": "anshul.chatter25@iimb.ac.in",
+          "phone": "9512535638"
+        },
+        {
+          "description": "Ketavarapu Sravya - EPGP Placement Representative",
+          "email": "ketavarapu.sravya25@iimb.ac.in",
+          "phone": "8500892434"
+        },
+        {
+          "description": "Kaajal Negi - EPGP Placement Representative",
+          "email": "kaajal.negi25@iimb.ac.in",
+          "phone": "8384071219"
+        },
+        {
+          "description": "Varun Rai - EPGP Placement Representative",
+          "email": "varun.rai25@iimb.ac.in",
+          "phone": "8454982597"
+        }
+      ]
+    }
+  }
+]

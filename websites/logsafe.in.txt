@@ -1,0 +1,12 @@
+logsafe.in/
+logsafe.in/blog.php
+logsafe.in/blog1.php
+logsafe.in/blog2.php
+logsafe.in/blog3.php
+logsafe.in/blog4.php
+logsafe.in/blog5.php
+logsafe.in/blog6.php
+logsafe.in/demo.php
+logsafe.in/index-2.html
+logsafe.in/index.php
+logsafe.in/privacy-policy.php

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.skit.org.in/index.html",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "The institution is an engineering college with a vision to produce competent engineers, offering various technology and engineering-focused programs like Computer Science, AI/ML, and Electronics, with placements primarily in IT and core engineering companies."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+919606091262, 08028392221",
+        "email": "principal@skit.org.in, skit1princi@gmail.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.isme.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 92,
+      "reasoning": "ISME is primarily identified as a 'leading Business School' with an MBA-equivalent PGDM program featuring 'Marketing' and 'Professional Selling' specializations, indicating a strong focus on sales-driven business careers."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "contact@isme.in",
+        "phone": "8880612345"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

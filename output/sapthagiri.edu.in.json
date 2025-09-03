@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.sapthagiri.edu.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Sapthagiri College of Engineering is an engineering institution with a clear focus on various technical and engineering disciplines, research, and producing skilled engineers."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "principal@sapthagiri.edu.in",
+        "phone": "080-28 372800, 080-28 372797"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

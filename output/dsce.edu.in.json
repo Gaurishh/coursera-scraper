@@ -1,0 +1,245 @@
+[
+  {
+    "website": "http://www.dsce.edu.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Dayananda Sagar College of Engineering is a highly-ranked engineering institution offering a wide range of undergraduate and postgraduate programs in computer science, AI, robotics, and other technical fields, indicating a strong tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "080-42161708"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Ms. Meera",
+          "title": "Reception Coordinator",
+          "email": null,
+          "phone": "080-42161708"
+        },
+        {
+          "name": "Dr. B G Prasad",
+          "title": "Principal, DSCE",
+          "email": null,
+          "phone": "080-42161753, 080-26662226"
+        },
+        {
+          "name": "Mrs. Prema David",
+          "title": "Director-Admissions, Assistant Director Admissions",
+          "email": null,
+          "phone": "9741882324, 9741889394, 9741214448, 9916075170, +91-80-42161751, +91-80-42161750"
+        },
+        {
+          "name": "Mr. Ranjankumar Jha",
+          "title": "Exam Section Coordinator",
+          "email": null,
+          "phone": "080-42161770"
+        },
+        {
+          "name": "Mr. Gopalakrishna Murthy",
+          "title": "Manager - HR",
+          "email": null,
+          "phone": "080-26662226"
+        },
+        {
+          "name": "Mr. Kumar M.P.",
+          "title": "Fee Section Coordinator",
+          "email": null,
+          "phone": "080-26662226"
+        },
+        {
+          "name": "Mr. Karigowda",
+          "title": "Scholarship Section Coordinator",
+          "email": null,
+          "phone": "080-26662226"
+        },
+        {
+          "name": "Dr. Johnson David",
+          "title": "Chief Librarian",
+          "email": null,
+          "phone": "080-42161739"
+        },
+        {
+          "name": "Mr. M.N Guruvenkatesh",
+          "title": "Senior Vice President - Placements & Skill Development, Chief Academic Officer (CAO) - DSCE",
+          "email": null,
+          "phone": "+91-80-26663981, +91-80-42161497, +91-9844165956"
+        },
+        {
+          "name": "Mr. Narasimha Swamy H R",
+          "title": "First Year Office Coordinator",
+          "email": null,
+          "phone": "080-42161763"
+        },
+        {
+          "name": "Dr. Hareesha N.G.",
+          "title": "Head of the Dept., Aeronautical Engineering",
+          "email": null,
+          "phone": "080-42096324"
+        },
+        {
+          "name": "Dr. Vijay Tambrallimath",
+          "title": "Head of the Dept., Automobile Engineering",
+          "email": null,
+          "phone": "080-41155890"
+        },
+        {
+          "name": "Dr. Vindhya P Malagi",
+          "title": "Head of the Dept., Artificial Intelligence and Machine Learning",
+          "email": null,
+          "phone": "080-42161753"
+        },
+        {
+          "name": "Dr. N. Rajeswari",
+          "title": "Head of the Dept., Biotechnology",
+          "email": null,
+          "phone": "080-42161748"
+        },
+        {
+          "name": "Dr. Dattatreya P Mankame",
+          "title": "Head of the Dept., Computer Science and Business Systems",
+          "email": null,
+          "phone": "080-42161753"
+        },
+        {
+          "name": "Dr. Mohammed Tajuddin",
+          "title": "Head of the Dept., Computer Science (Cyber Security)",
+          "email": null,
+          "phone": "080-42161753"
+        },
+        {
+          "name": "Dr. Rashmi S",
+          "title": "Head of the Dept., Computer Science (Data Science)",
+          "email": null,
+          "phone": "080-42161753"
+        },
+        {
+          "name": "Dr. Suma V",
+          "title": "Vice Principal & Head of the Dept., Computer Science and Design",
+          "email": null,
+          "phone": "080-42161753"
+        },
+        {
+          "name": "Dr. D.R. Ramesh Babu",
+          "title": "Vice-Principal, Professor & Head of the Department, Computer Science & Engineering",
+          "email": null,
+          "phone": "+91-80-42161726"
+        },
+        {
+          "name": "Dr. H.K. Ramaraju",
+          "title": "Head of the Dept., Civil Engineering",
+          "email": null,
+          "phone": "080-42219194"
+        },
+        {
+          "name": "Dr. R. Ravishankar",
+          "title": "Head of the Dept., Chemical Engineering",
+          "email": null,
+          "phone": "080-42161740"
+        },
+        {
+          "name": "Dr. P. Prakash",
+          "title": "Head of the Dept., Construction Technology & Management",
+          "email": null,
+          "phone": "080-42161093"
+        },
+        {
+          "name": "Dr. PremKumar M",
+          "title": "Head of the Dept., Electrical & Electronics Engineering",
+          "email": null,
+          "phone": "080-42161743"
+        },
+        {
+          "name": "Dr. Shobha K R",
+          "title": "Head of the Dept., Electronics & Communication Engineering",
+          "email": null,
+          "phone": "080-42161731"
+        },
+        {
+          "name": "Dr. J.S. Rajashekar",
+          "title": "Head of the Dept., Electronics & Instrumentation Engineering",
+          "email": null,
+          "phone": "080-42161735"
+        },
+        {
+          "name": "Dr. Anju V Kulkarni",
+          "title": "Head of the Dept., Electronics & Telecommunication Engineering",
+          "email": null,
+          "phone": "080-42161728"
+        },
+        {
+          "name": "Dr. Vasanth Kumar",
+          "title": "Head of the Dept., Industrial Engineering & Management",
+          "email": null,
+          "phone": "080-42161741"
+        },
+        {
+          "name": "Dr. Rajeshwari J",
+          "title": "Head of the Dept., Information Science & Engineering",
+          "email": null,
+          "phone": "080-42161725"
+        },
+        {
+          "name": "Dr. Keshavamurthy R",
+          "title": "Head of the Dept., Mechanical Engineering",
+          "email": null,
+          "phone": "080-42161742"
+        },
+        {
+          "name": "Dr. A.R. Aswatha",
+          "title": "Head of the Dept., Medical Electronics",
+          "email": null,
+          "phone": "080-42161733"
+        },
+        {
+          "name": "Dr. K.G. Hemalatha",
+          "title": "Head of the Dept., Master of Business Administration (MBA)",
+          "email": null,
+          "phone": "080-42161096"
+        },
+        {
+          "name": "Dr. Samitha Khaiyum",
+          "title": "Head of the Dept., Master of Computer Applications (MCA)",
+          "email": null,
+          "phone": "080-42161768"
+        },
+        {
+          "name": "Dr. C.M. Joseph",
+          "title": "Head of the Dept., Physics",
+          "email": null,
+          "phone": "080-42161729"
+        },
+        {
+          "name": "Dr. K.S. Anantha Raju",
+          "title": "Head of the Dept., Chemistry",
+          "email": null,
+          "phone": "080-42161700"
+        },
+        {
+          "name": "Dr. Radha Gupta",
+          "title": "Head of the Dept., Mathematics",
+          "email": null,
+          "phone": "080-42161730"
+        },
+        {
+          "name": "Mr. Nagesh Puranik",
+          "title": "Director - Training & Placements",
+          "email": null,
+          "phone": "+91-80-26663981, +91-9739213552"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Mr. Gopal Krishna - Human Resources Department",
+          "email": null,
+          "phone": "080-42161720"
+        },
+        {
+          "description": "Ms. Sangeetha - Convenor",
+          "email": null,
+          "phone": "080-42161758"
+        }
+      ]
+    }
+  }
+]

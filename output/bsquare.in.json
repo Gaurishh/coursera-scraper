@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.bsquare.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "B-Square is explicitly a software development company offering a wide array of IT solutions including mobile app development, web development, and business intelligence tools, demonstrating a strong technical core."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@bsquare.in",
+        "phone": "+91-9560454805"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

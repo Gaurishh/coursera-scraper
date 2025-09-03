@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.bestwebs.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "BestWebs is a digital solutions company with a strong tech focus, offering services in web development, mobile app development, AI/ML solutions, and CRM/ERP system building, which are all programming-intensive areas."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@bestwebs.in",
+        "phone": "+91 9718181389"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

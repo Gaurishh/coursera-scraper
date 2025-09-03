@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://digidzn.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 5,
+      "reasoning": "The provided website content is a technical error message related to JavaScript, offering no direct insight into the institution's primary business but vaguely hinting at web technology."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

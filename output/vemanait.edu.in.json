@@ -1,0 +1,25 @@
+[
+  {
+    "website": "https://vemanait.edu.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Vemana Institute of Technology is an engineering college with a strong and exclusive focus on technical education, research, and placements in various programming and engineering disciplines, including Computer Science, AI, and Data Science."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@vemanait.edu.in",
+        "phone": "+91 9535444571"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Dr. Ramakrishna M",
+          "title": "Professor & Head",
+          "email": "hodcse@vemanait.edu.in",
+          "phone": "+91 9686725572"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

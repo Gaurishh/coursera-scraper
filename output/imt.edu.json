@@ -1,0 +1,295 @@
+[
+  {
+    "website": "http://www.imt.edu/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "IMT Ghaziabad is a premier AACSB accredited management school focused on grooming leaders for business functions such as sales, marketing, and finance, as evidenced by its PGDM programs, alumni roles, and explicit mentions of 'Solution Sales' in placement statistics."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 120 4083200, +91 120 2827895",
+        "email": "placement@imt.edu"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Ms. Manju Singhal",
+          "title": "Secretary to Director (Director’s Office)",
+          "email": "diroffice@imt.edu",
+          "phone": "0120 4083202"
+        },
+        {
+          "name": "Dr. Amit Sareen",
+          "title": "Dean, Internationalization; Dean – Accreditations, Rankings & Quality Assurance",
+          "email": "amit.sareen@imt.edu",
+          "phone": null
+        },
+        {
+          "name": "Prof. Abhishek",
+          "title": "Associate Dean, New Initiatives",
+          "email": "abhishek@imt.edu",
+          "phone": null
+        },
+        {
+          "name": "Dr. Anjali Malik",
+          "title": "Associate Dean, Executive Education; Chairperson-PGDM (Executive)",
+          "email": "amalik@imt.edu",
+          "phone": null
+        },
+        {
+          "name": "Prof. Barnali Chaklader",
+          "title": "Dean, Programs and Academics",
+          "email": "bchaklader@imt.edu",
+          "phone": null
+        },
+        {
+          "name": "Prof. Harsimran Sandhu",
+          "title": "Associate Dean, PGDM BFS Program",
+          "email": "hsandhu@imt.edu",
+          "phone": null
+        },
+        {
+          "name": "Dr. Rakesh Kumar Singh",
+          "title": "Dean, Research and Fellow Program; Chairperson, Research and Development Cell",
+          "email": "rksingh@imt.edu",
+          "phone": "0120 4083364"
+        },
+        {
+          "name": "Mr. Raj Kishor Pandey",
+          "title": "Senior Manager - Administration",
+          "email": "rpandey@imt.edu",
+          "phone": "0120 4083220"
+        },
+        {
+          "name": "Ms. Priyanka",
+          "title": "Manager - Administration and Human Resources; Manager- HR, IMT Ghaziabad (Anti-Ragging Member)",
+          "email": "priyanka@imt.edu",
+          "phone": "0120 4083491"
+        },
+        {
+          "name": "Dr. Poonam Garg",
+          "title": "Coordinator (Convocation Committee); Chairperson – Placements, IMT Ghaziabad; Chairperson (Grievance Redressal Committee)",
+          "email": "pgarg@imt.edu",
+          "phone": null
+        },
+        {
+          "name": "Mr. Maneesh Jain",
+          "title": "Head – Examination",
+          "email": "mjain@imt.edu",
+          "phone": "0120 4083290"
+        },
+        {
+          "name": "Ms. Nidhi Singh",
+          "title": "Manager - Corporate Relations",
+          "email": "nsingh@imt.edu",
+          "phone": "0120 4083305"
+        },
+        {
+          "name": "Mr. Krishna Murari Sinha",
+          "title": "Assistant Manager - International Relations",
+          "email": "kmsinha@imt.edu",
+          "phone": "+91 0120 4083 270"
+        },
+        {
+          "name": "Mr. Mohit Ahuja",
+          "title": "Head - External Relations - PGDM Executive Program",
+          "email": "mohitahuja@imt.edu",
+          "phone": "0120 4083358"
+        },
+        {
+          "name": "Mr. B C Bahuguna",
+          "title": "Manager – PGP",
+          "email": "bcbahuguna@imt.edu",
+          "phone": "0120 4083207"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Dr. Gurmeet Singh - Chairperson-PGDM (2 Years Programmes); Assistant Professor, IMT Ghaziabad (Anti-Ragging Member)",
+          "email": "gsingh@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Prof. Reema Khurana - Chairperson – PGDM (DCP)",
+          "email": "rkhurana@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Dr. Gunjan Malhotra - Chairperson FPM",
+          "email": "gmalhotra@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Dr. Garima Saxena - Chairperson, International Pathway Program; Chairperson, International Relations",
+          "email": "gsaxena@imt.edu, irc@imt.edu",
+          "phone": "+91 0120 4083 312"
+        },
+        {
+          "description": "Dr. Nivisha Singh - Chairperson, Long Duration Online Program; Chairperson, Strategy, Innovation & Entrepreneurship",
+          "email": "nivisha.singh@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Prof. Shailja Agarwal - Chairperson MDPs; Chairperson Management Development Programs (MDPs); Professor: Business Communication Area; Chairperson, Business Communication",
+          "email": "sagarwal@imt.edu",
+          "phone": "0120-4083260"
+        },
+        {
+          "description": "Dr. Arit Chaudhury - Chairperson, Finance Management",
+          "email": "achaudhury@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Dr. Manas Paul - Chairperson, Economics and Sustainability",
+          "email": "mpaul@imt.edu",
+          "phone": "0120 4083390"
+        },
+        {
+          "description": "Prof. Mrinalini Shah - Chairperson, Operations Management",
+          "email": "mrinalini@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Dr. Richa Saxena - Chairperson, Human Resource Management; Member (Grievance Redressal Committee)",
+          "email": "rsaxena@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Dr. Santosh Kumar Srivastava - Chairperson, Business Analytics; Assistant Professor, IMT Ghaziabad (Anti-Ragging Member)",
+          "email": "sksrivastava@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Prof. Sapna Popli - Chairperson, Marketing Management; Chairperson Alumni Relation Committee; Professor, IMT Ghaziabad (Anti-Ragging Member); Chairperson Internal Committee",
+          "email": "spopli@imt.edu, icc@imt.edu",
+          "phone": "0120-4083200"
+        },
+        {
+          "description": "Dr. Susmi Routray - Chairperson, Information Technology Management; Professor, IMT Ghaziabad (Board of Governors)",
+          "email": "sroutray@imt.edu",
+          "phone": "0120 4083209"
+        },
+        {
+          "description": "Mr. Saugata Sarkar - DGM - Administration and Facilities",
+          "email": "ssarkar@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "IMT Admissions Team - Admissions",
+          "email": "admissions@imt.edu",
+          "phone": "0120-4083306, 0120-4083380, 9810214551"
+        },
+        {
+          "description": "PGDM Executive Admissions - Admissions",
+          "email": "pgdmexp@imt.edu",
+          "phone": "0120-4083447"
+        },
+        {
+          "description": "FPM Admissions - Admissions",
+          "email": "fpmadmissions@imt.edu",
+          "phone": "0120-4083306"
+        },
+        {
+          "description": "Mr Praveen Chaudhary - Parent Representative (Anti-Ragging Committee)",
+          "email": "praveenchau28@gmail.com",
+          "phone": "9810093574"
+        },
+        {
+          "description": "Mr Edwin Raj Joseph - Student, 2024-26 Batch (Student Representative of IMT Ghaziabad, Anti-Ragging Committee)",
+          "email": "pgp24edwinrajjoseph@imt.ac.in",
+          "phone": "9496110449"
+        },
+        {
+          "description": "Ms Bhavya Batra - Student, 2024-26 Batch (Student Representative of IMT Ghaziabad, Anti-Ragging Committee)",
+          "email": "pgp24bhavyabatra@imt.ac.in",
+          "phone": "9872431355"
+        },
+        {
+          "description": "Examination Verification - Examination Department (for regular courses)",
+          "email": "verification@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "IMT CDL Verification - Query & Verification for Distance Learning Course",
+          "email": "verifications@imtcdl.ac.in",
+          "phone": "0120-4622447, 0120-4622449"
+        },
+        {
+          "description": "Mr. N. C. Nath - AGM (Finance & Accounts)",
+          "email": "ncnath@imt.edu",
+          "phone": "0120 4083278"
+        },
+        {
+          "description": "Mr. Inderjeet Singh - AGM - IT",
+          "email": "isingh@imt.edu",
+          "phone": "0120 4083264"
+        },
+        {
+          "description": "Prof. Puja Aggarwal - Chairperson (Library); Associate Professor, IMT Ghaziabad (Board of Governors)",
+          "email": "pujaaggarwal@imt.edu",
+          "phone": "0120 4083382"
+        },
+        {
+          "description": "Dr. Akhtar Hussain - Librarian",
+          "email": "ahussain@imt.edu",
+          "phone": "0120 4083302"
+        },
+        {
+          "description": "Prof Sita Mishra - Member (Internal Committee)",
+          "email": "icc@imt.edu",
+          "phone": "0120-4083200"
+        },
+        {
+          "description": "Mr Utkarsh Chaudhary - IMTG Student (Internal Committee)",
+          "email": "icc@imt.edu, pgp24utkarshchaudhary@imt.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Ms Krishi R - IMTG Student (Internal Committee)",
+          "email": "icc@imt.edu, pgp24krishir@imt.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Ms Mala Bhandari - External Member (Internal Committee)",
+          "email": "icc@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Dr Sachin Chaudhry - Member (Internal Committee)",
+          "email": "icc@imt.edu",
+          "phone": "0120-4083200"
+        },
+        {
+          "description": "Mr Nalin Sharma - IMTG Student (Internal Committee)",
+          "email": "icc@imt.edu, pgp24nalinsharma@imt.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Ms Khushi Singh - IMTG Student (Internal Committee)",
+          "email": "icc@imt.edu, dcp24khushisingh@imt.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Prof Shalini Rahul Tiwari - Member (Internal Committee)",
+          "email": "icc@imt.edu",
+          "phone": "0120-4083200"
+        },
+        {
+          "description": "Dr Kanishka Pandey - Member (Internal Committee); Adjunct Faculty (Sports Research Centre)",
+          "email": "icc@imt.edu, kpandey@imt.edu",
+          "phone": "0120-4083200, 0120 4083488"
+        },
+        {
+          "description": "Internal Committee (ICC) - For Sexual Harassment Complaints",
+          "email": "icc@imt.edu",
+          "phone": null
+        },
+        {
+          "description": "Prof Amrita Kamalini Bhattacharyya - Chairperson (Student Activities & Welfare Committee)",
+          "email": "ambhattacharyy@imt.edu",
+          "phone": null
+        }
+      ]
+    }
+  }
+]

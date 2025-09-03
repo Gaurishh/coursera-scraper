@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.mindroit.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Mindroit Technologies Pvt Ltd is an IT company specializing in software, web, and mobile app development, with all listed job openings focused on various programming and development roles."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "services@mindroit.com",
+        "phone": "+91-7829652092"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

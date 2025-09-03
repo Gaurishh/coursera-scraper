@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://nsut.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Netaji Subhas University of Technology is explicitly described as a 'seat of higher technical education' and one of India's 'top engineering colleges,' with a strong focus on engineering, technology, and research, including programs in Computer Science Engineering and AI."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 11 2509 9017",
+        "email": "academic@nsut.ac.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://mathewdigital.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Mathew Digital is an ROI-driven digital marketing agency explicitly focused on creating 'online sales generating machines' and converting leads into customers for diverse businesses, making Sales highly relevant to their core mission and services."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "hello@mathewdigital.com",
+        "phone": "+91 9019888640"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

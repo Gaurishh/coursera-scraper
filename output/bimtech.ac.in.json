@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.bimtech.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The Birla Institute of Management Technology (BIMTECH) is explicitly a business school with a strong focus on various PGDM programs in management, retail, and international business, making sales skills highly relevant for its students."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@bimtech.ac.in",
+        "phone": "+91-120-6843000, 9355024501, 1800 5723 999 (Toll-free)"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

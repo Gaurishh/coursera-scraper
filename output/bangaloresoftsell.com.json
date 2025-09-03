@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.bangaloresoftsell.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Bangalore Softsell is a software engineering company specializing in bespoke solutions, full-stack development, AI & automation, and legacy modernization, indicating a strong technical and programming core."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "mail@bangaloresoftsell.com",
+        "phone": "+91 94813 14812, +91 80411 04111"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

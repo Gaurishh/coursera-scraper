@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://rpdsoftware.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The company identifies primarily as a 'Digital Marketing Agency' that leverages technology to help clients achieve business objectives, drive growth, boost brand visibility, and increase revenue, which are all core sales and marketing outcomes."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "contact@rpdsoftware.com",
+        "phone": "+91-9999591983, +91-8090706048"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

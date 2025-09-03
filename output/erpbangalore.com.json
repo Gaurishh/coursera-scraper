@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://erpbangalore.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "ERP Bangalore is an IT solutions company specializing in developing, implementing, and customizing ERP and CRM software and applications, indicating a strong tech focus and a need for programming skills among its 750+ skilled IT professionals."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@erpbangalore.com, erpbangaloreindia@gmail.com",
+        "phone": "+91-9739966977, 9035966966"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

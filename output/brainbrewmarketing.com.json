@@ -1,0 +1,17 @@
+[
+  {
+    "website": "https://brainbrewmarketing.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Brain Brew Marketing is a digital marketing agency explicitly focused on elevating brands, increasing revenue, and reaching target audiences, which are core objectives of sales-driven organizations."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91.8384090725"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

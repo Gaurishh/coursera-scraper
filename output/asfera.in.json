@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.asfera.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Asfera Technologies is primarily a Software Development Company specializing in Computer and Telephony Integration (CTI) solutions, with a stated mission to contribute through software development and expertise in major programming languages like Java and .NET."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@asfera.in, sales@asfera.in",
+        "phone": "+91-9066677770, +91-1146579777"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

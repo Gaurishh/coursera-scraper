@@ -1,0 +1,33 @@
+[
+  {
+    "website": "https://www.welixdigital.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Welix Digital is a digital marketing agency whose core mission is to transform businesses into 'sales-generating machines' by providing services explicitly aimed at lead generation, conversions, and boosting sales for their clients."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [
+        {
+          "name": "Welix Digital",
+          "title": "Head Office / General Enquiries",
+          "email": "hello@welixdigital.com",
+          "phone": "+917090170524"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Welix Digital - Mysuru Branch Office",
+          "email": "hello@welixdigital.com",
+          "phone": "+917090334466"
+        },
+        {
+          "description": "Welix Digital - Tumakuru Branch Office",
+          "email": "hello@welixdigital.com",
+          "phone": "+919844440022"
+        }
+      ]
+    }
+  }
+]

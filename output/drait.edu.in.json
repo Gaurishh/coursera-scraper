@@ -1,0 +1,25 @@
+[
+  {
+    "website": "https://drait.edu.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Dr. Ambedkar Institute of Technology is a highly-ranked engineering college with a strong focus on technical programs, computer science, AI/ML, and actively recruits for tech-centric companies like TCS, Infosys, and Wipro."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "9741940511 / 9448920704",
+        "email": "placements@drait.edu.in"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Dr. M. N. Thippeswamy",
+          "title": "Principal",
+          "email": "principal@drait.edu.in",
+          "phone": "9741940511 / 9448920704"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.cloudsoftwaresolution.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Cloud Software Solution is an IT services company specializing in web, mobile, and software development, indicating a strong technical and programming focus across all its offerings."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "support@cloudsoftwaresolution.in",
+        "phone": "+91 9972326812"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

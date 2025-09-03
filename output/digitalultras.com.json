@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://digitalultras.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Digital Ultras' core business as a digital marketing agency is explicitly focused on generating leads, conversions, and sales for its clients through services like Google Ads, SEO, and performance marketing, making it fundamentally a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@digitalultras.com",
+        "phone": "+91 7042840441"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

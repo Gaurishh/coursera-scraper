@@ -1,0 +1,25 @@
+[
+  {
+    "website": "https://www.csiespl.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "CSIESPL is an exclusive channel partner for highly acclaimed Structural and Earthquake Engineering software packages, providing technical support and training focused on the usage and application of these sophisticated engineering tools, indicating a strong tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admin@csiespl.in",
+        "phone": "+91 11 41646528"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Hemant Kumar",
+          "title": "Director",
+          "email": "admin@csiespl.in",
+          "phone": "+011-41646528"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.digitalsdaddy.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Digital Daddy is a full-service digital agency with a strong emphasis on Web & App Development, API Integration, and AI, explicitly mentioning programming languages and a 'tech team' with 'technical expertise'."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "support@digitalsdaddy.com",
+        "phone": "+91 9818286609"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

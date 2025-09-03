@@ -1,0 +1,17 @@
+[
+  {
+    "website": "https://www.infosys.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Infosys is a global leader in IT consulting and digital services, with its core business, partnerships, and client solutions overwhelmingly focused on advanced technology, software development, cloud, AI, and digital transformation."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+55 31 3306 8900, Fax: +55 31 3306 8901"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

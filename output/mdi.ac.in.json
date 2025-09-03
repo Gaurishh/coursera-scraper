@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.mdi.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "MDI Gurgaon consistently identifies itself as a 'Top B-School in India' offering various Post Graduate Diploma in Management (PGDM) and MBA programs, indicating a strong focus on business and management education where sales skills are highly relevant."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "[email protected]",
+        "phone": "+91-124-4560000"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

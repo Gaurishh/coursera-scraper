@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://brandelite.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Brand Elite is a digital marketing and web development agency whose core business involves selling their services to clients and helping those clients achieve sales-related outcomes, further supported by explicit 'Sales Executive & Manager' roles on their careers page."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@brandelite.in",
+        "phone": "+91 86607 38354"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

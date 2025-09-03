@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://www.campionsoftware.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Campion Software is explicitly a global tech solutions company specializing in custom software development, cloud-native applications, AI services, and various programming-intensive solutions."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

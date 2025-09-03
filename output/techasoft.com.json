@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.techasoft.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Techasoft is an IT company with an explicit focus on providing holistic IT solutions, including extensive software, web, and mobile application development, backed by a wide array of programming technologies and dedicated developer roles."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+1 610 880 0144",
+        "email": "info@techasoft.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

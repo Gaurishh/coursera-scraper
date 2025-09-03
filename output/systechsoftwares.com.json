@@ -1,0 +1,66 @@
+[
+  {
+    "website": "https://systechsoftwares.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "SYSTECH Softwares is a software solutions provider with a strong focus on acquiring and maintaining a large client base, evidenced by dedicated sales teams, explicit sales job postings for promoting and selling software products, and a mission centered on partnering with businesses."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@systechsoftwares.com",
+        "phone": "9341225269"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Vivek Shah",
+          "title": "Managing Director",
+          "email": "vivekshah@systechsoftwares.com",
+          "phone": "9341225269"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Janavi - Sales Team",
+          "email": null,
+          "phone": "7483800029"
+        },
+        {
+          "description": "Anusha - Support Team",
+          "email": null,
+          "phone": "8431906461"
+        },
+        {
+          "description": "Jaganath - Support Team",
+          "email": null,
+          "phone": "7483800026"
+        },
+        {
+          "description": "Shylaja - Support Team",
+          "email": null,
+          "phone": "7483800025"
+        },
+        {
+          "description": "Suresh - Support Team",
+          "email": null,
+          "phone": "7483800047"
+        },
+        {
+          "description": "Gayithri - Support Team",
+          "email": null,
+          "phone": "7483800021"
+        },
+        {
+          "description": "Soundarya - ETds Outsourcing & DSC Team",
+          "email": null,
+          "phone": "8431906460"
+        },
+        {
+          "description": "Keerthana - ETds Outsourcing & DSC Team",
+          "email": null,
+          "phone": "8431906462"
+        }
+      ]
+    }
+  }
+]

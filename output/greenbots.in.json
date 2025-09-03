@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.greenbots.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 100,
+      "reasoning": "Greenbots Software is a custom software development company that exclusively offers IT services and technical solutions, requiring a strong and continuous focus on programming expertise for its workforce."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@greenbots.in",
+        "phone": "+91 9986866889"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

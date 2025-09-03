@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://digitalcorsel.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 88,
+      "reasoning": "The institution's name \"digitalcorsel.com\" strongly suggests a focus on digital technology, making programming skills highly relevant for their corporate needs."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@digitalcorsel.com",
+        "phone": "9901592311"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

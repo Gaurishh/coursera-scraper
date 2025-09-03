@@ -1,0 +1,93 @@
+[
+  {
+    "website": "http://www.sjim.edu.in/?utm_source=GMBListing&utm_medium=organic",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "St. Joseph's Institute of Management is clearly a business school offering PGDM and MBA-equivalent programs, with a curriculum that includes dedicated Sales and Marketing courses and a 'Marketing Club' explicitly focusing on 'Sales Meets Marketing' conclaves."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@sjim.edu.in",
+        "phone": "080-25597781 / 25597791"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Ms. Shobha DV",
+          "title": "Placement coordinator",
+          "email": "placements@sjim.edu.in",
+          "phone": "9591518855"
+        },
+        {
+          "name": "Mr. Philip D’Souza",
+          "title": "Campus Manager",
+          "email": "dsouza.philip@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "name": "Mr. JENA S",
+          "title": "Documentation Manager",
+          "email": "jena@sjim.edu.in",
+          "phone": null
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Mr. S. Prabhu - Librarian",
+          "email": "prabhu@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Ms. Clancy Mohan - Office senior",
+          "email": "clancy@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. Chandrakant Pattar - Public Relations Officer",
+          "email": "chandrakant@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Ms. Joyce - Secretary & Front Office Executive",
+          "email": "joyce@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. Ravi Kumar - Asst. Librarian",
+          "email": "ravi@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Ms. Senalda Lora Pereira - Accountant",
+          "email": "senalda@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Ms. Christian Ashwin - Assistant Placement Officer",
+          "email": "placementoffice@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Ms. Sindhu David - Counsellor",
+          "email": "sindhu@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Annie Divya George - Alumni Office",
+          "email": "alumnioffice@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. Umesh. E - Office Assistant",
+          "email": "umesh@sjim.edu.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. Roshan Dias - Office Assistant",
+          "email": "roshan@sjim.edu.in",
+          "phone": null
+        }
+      ]
+    }
+  }
+]

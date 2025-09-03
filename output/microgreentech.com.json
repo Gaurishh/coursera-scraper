@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.microgreentech.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Microgreen Technologies is a dedicated technology consulting and staffing company whose core services and solutions revolve around IT, application development, managed IT, and testing, demonstrating an exceptionally strong tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@microgreentech.com",
+        "phone": "+1-425-244-0993"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.digitalimac.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Digital iMac is a results-driven digital marketing agency explicitly focused on generating leads, increasing sales, and boosting revenue for its clients, making a Sales course highly relevant to their core business and client outcomes."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "meetdigitalimac@gmail.com",
+        "phone": "+91 9901306103"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

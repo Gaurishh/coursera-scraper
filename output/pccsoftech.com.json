@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.pccsoftech.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "PCC Softech is a technology solutions company that primarily offers software, web, and mobile application development services, explicitly listing numerous programming languages and tools used in their projects."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@pccsoftech.com",
+        "phone": "011-47064605/43572945"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

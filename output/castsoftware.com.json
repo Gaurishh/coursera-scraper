@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://www.castsoftware.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "CAST Software is a B2B company deeply focused on 'Software Intelligence,' providing tools and services for analyzing, understanding, and improving complex software applications, directly catering to engineers, architects, and developers."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

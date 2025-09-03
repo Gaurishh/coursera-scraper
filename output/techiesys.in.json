@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.techiesys.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Techiesys is fundamentally a software development company that offers web, mobile, and custom software solutions, along with extensive technical training in various programming languages and platforms, demonstrating a strong tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 9900004541",
+        "email": "sales@techiesys.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

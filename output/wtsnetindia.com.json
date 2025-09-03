@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.wtsnetindia.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The company, Webtech Solution.Net, is primarily a website and software development firm with services, products, and core job roles overwhelmingly centered on programming, API integration, and various forms of software engineering."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@webtechsolution.net",
+        "phone": "+91 8510064006"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

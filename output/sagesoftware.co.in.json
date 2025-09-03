@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.sagesoftware.co.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Sage Software Solutions is a distributor of ERP and CRM software, with its core business revolving around selling, implementing, and supporting these solutions, and their products include dedicated Sales Management and Lead Management modules."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@sagesoftware.co.in",
+        "phone": "+1800-1024-951"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

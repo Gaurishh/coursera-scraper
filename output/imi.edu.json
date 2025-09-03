@@ -1,0 +1,285 @@
+[
+  {
+    "website": "http://www.imi.edu/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "International Management Institute (IMI) is explicitly identified as a corporate-sponsored business school, consistently ranked among top business schools, offering various management programs, and engaging with sales-driven companies like Salesforce for industry connections."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "imiinfo@imi.edu",
+        "phone": "+91-11-47194100, +91-11-47194200, +91-11-46012729, +91-11-26528276, +91-11-26529237"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Dr. Himadri Das",
+          "title": "Director General",
+          "email": "dg@imi.edu",
+          "phone": null
+        },
+        {
+          "name": "Prof. Sonu Goyal",
+          "title": "Dean (Academics)",
+          "email": "deangp@imi.edu",
+          "phone": "+91-11-47194137"
+        },
+        {
+          "name": "Prof. Neena Sondhi",
+          "title": "Dean, Research, Accreditations and Regulatory Affairs",
+          "email": "deanresearch@imi.edu",
+          "phone": "+91-11-47194108"
+        },
+        {
+          "name": "Mr. Sundeep Yadav",
+          "title": "Head - Admissions & Outreach",
+          "email": "headadmissions@imi.edu",
+          "phone": "+91-11-47194227"
+        },
+        {
+          "name": "Mr. Amit Abrol",
+          "title": "Head- Career Services",
+          "email": "head.careerservices@imi.edu",
+          "phone": "+91-11-47194266"
+        },
+        {
+          "name": "Ms. Soma Jana",
+          "title": "Director General Office",
+          "email": "somajana@imi.edu",
+          "phone": "+91-11-47194102, +91-11-47194187"
+        },
+        {
+          "name": "Mr. R.K.Singh",
+          "title": "Chief Financial Officer",
+          "email": "rksingh@imi.edu",
+          "phone": "+91-11-47194163"
+        },
+        {
+          "name": "Mr. Vishwesh Ranjan",
+          "title": "Head-Executive Education",
+          "email": "mdp@imi.edu",
+          "phone": "+91-11-47194267"
+        },
+        {
+          "name": "Vibha Kumar",
+          "title": "Campus Head - Career Services",
+          "email": "vibha.kumar@imi.edu, campushead.delhi.careerservices@imi.edu",
+          "phone": "9999160550"
+        },
+        {
+          "name": "Piyusha Amre",
+          "title": "Regional Head - West",
+          "email": "piyusha.amre@imi.edu",
+          "phone": "8879421483"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Mr. Rajendra Singh - Registrar",
+          "email": "registrar@imi.edu",
+          "phone": "+91-11-47194103"
+        },
+        {
+          "description": "Prof. Himanshu Joshi - Programme Chair (FPM)",
+          "email": "chair-research.fpm@imi.edu",
+          "phone": "+91-11-47194119"
+        },
+        {
+          "description": "Prof. Arnab Deb - Programme Chair (PGDM)",
+          "email": "pgdmchair@imi.edu",
+          "phone": "+91-11-47194111"
+        },
+        {
+          "description": "Prof. Swati Dhir - Programme Chair (PGDM - HR)",
+          "email": "pgdmhrchair@imi.edu",
+          "phone": "+91-11-47194197"
+        },
+        {
+          "description": "Prof. Shikha Bhatia - Programme Chair (PGDM - Banking & Financial Services)",
+          "email": "pgpchairbfs@imi.edu",
+          "phone": "+91-11-47194117"
+        },
+        {
+          "description": "Prof. Monika Chopra - Programme Chair 18 Month PGDM, Area Chair (Finance)",
+          "email": "xpgdmchair@imi.edu, monika.chopra@imi.edu",
+          "phone": "+91-11-47194186"
+        },
+        {
+          "description": "Prof. Kakali Kanjilal - Editor (Global Business Review)",
+          "email": "kakali@imi.edu",
+          "phone": "+91-11-47194122"
+        },
+        {
+          "description": "Prof. Rajeev Anantaram - Area Chair (Economics)",
+          "email": "ranantaram@imi.edu",
+          "phone": "+91-11-47194155"
+        },
+        {
+          "description": "Prof. Prerna Lal - Area Chair (IT)",
+          "email": "prernalal@imi.edu",
+          "phone": "+91-11-47194127"
+        },
+        {
+          "description": "Prof. Pinaki Das Gupta - Area Chair (Marketing)",
+          "email": "dkbatra@imi.edu",
+          "phone": "+91-11-47194195"
+        },
+        {
+          "description": "Prof. Mamta Mohapatra - Area Chair (OB & HR)",
+          "email": "mamta@imi.edu",
+          "phone": "+91-11-47194106"
+        },
+        {
+          "description": "Prof. Ashutosh Khanna - Area Chair (Strategy & General Management)",
+          "email": "ashutosh@imi.edu",
+          "phone": "+91-11-47194123"
+        },
+        {
+          "description": "Prof. Kuldeep Lamba - Area Chair (Operations)",
+          "email": "kuldeep.lamba@imi.edu",
+          "phone": "+91-11-47194258"
+        },
+        {
+          "description": "Ms. Vandana Sehgal - Registrar Office",
+          "email": "vandana@imi.edu",
+          "phone": "+91-11-47194184"
+        },
+        {
+          "description": "Ms. Shalini Rawat - Graduate Programmes Incharge",
+          "email": "gpoffice@imi.edu",
+          "phone": "+91-11-47194179"
+        },
+        {
+          "description": "Mr. Pankaj Sharma - Programme Office- PGDM Second Year",
+          "email": "pgdm-ii@imi.edu",
+          "phone": "+91-11-47194313"
+        },
+        {
+          "description": "Ms. Nisha Sharma - Programme Office- PGDM First Year",
+          "email": "pgdm@imi.edu",
+          "phone": "+91-11-47194166"
+        },
+        {
+          "description": "Ms. Sanchali Sinha - Programme Office- PGDM (BFS)",
+          "email": "pgdmbfs@imi.edu",
+          "phone": "+91-11-47194199"
+        },
+        {
+          "description": "Ms Pushpa Vinod - Programme Office- PGDM (HRM)",
+          "email": "pgdm-hr@imi.edu",
+          "phone": "+91-11-47194191"
+        },
+        {
+          "description": "Ms. Mansi Dubey - Programme Office- 18 Month PGDM",
+          "email": "xpgdm@imi.edu",
+          "phone": "+91-11-47194109"
+        },
+        {
+          "description": "Ms. Kusum Rawat - Programme Office (FPM)",
+          "email": "fpmoffice@imi.edu",
+          "phone": "+91-11-47194196"
+        },
+        {
+          "description": "Ruby Thakur - Global Business Review Office",
+          "email": "globalbusinessreview@imi.edu",
+          "phone": "+91-11-47194173"
+        },
+        {
+          "description": "Mr. Ankit Ohjha - GM-Facilities",
+          "email": "headfacilities@imi.edu",
+          "phone": "+91-11-47194202"
+        },
+        {
+          "description": "Mr. Dinesh Sharma - Computer Centre",
+          "email": "dinesh@imi.edu",
+          "phone": "+91-11-47194167"
+        },
+        {
+          "description": "Ms Shilpi Tripathi - Library & Information Centre",
+          "email": "shilpi.tripathi@imi.edu",
+          "phone": "+91-11-47194169"
+        },
+        {
+          "description": "Aditya Garg - Students Placement Committee Member",
+          "email": null,
+          "phone": "9711119153"
+        },
+        {
+          "description": "Aman Gupta - Students Placement Committee Member",
+          "email": null,
+          "phone": "9999656379"
+        },
+        {
+          "description": "Anjali Singh - Students Placement Committee Member",
+          "email": null,
+          "phone": "9643799792"
+        },
+        {
+          "description": "Ayushi Yadav - Students Placement Committee Member",
+          "email": null,
+          "phone": "7827072951"
+        },
+        {
+          "description": "Chandrala Mudgalkar - Students Placement Committee Member",
+          "email": null,
+          "phone": "9643799790"
+        },
+        {
+          "description": "Harshita Pathak - Students Placement Committee Member",
+          "email": null,
+          "phone": "9711119154"
+        },
+        {
+          "description": "Khushi Gulati - Students Placement Committee Member",
+          "email": null,
+          "phone": "9643799794"
+        },
+        {
+          "description": "Monalisa Singh - Students Placement Committee Member",
+          "email": null,
+          "phone": "7827073544"
+        },
+        {
+          "description": "Parth Maheshwari - Students Placement Committee Member",
+          "email": null,
+          "phone": "9643799793"
+        },
+        {
+          "description": "Pranav Mehra - Students Placement Committee Member",
+          "email": null,
+          "phone": "9711119156"
+        },
+        {
+          "description": "Priyabrata Nayak - Students Placement Committee Member",
+          "email": null,
+          "phone": "9355300808"
+        },
+        {
+          "description": "Ritwik Rishi - Students Placement Committee Member",
+          "email": null,
+          "phone": "9711119157"
+        },
+        {
+          "description": "Sanjay Singh - Students Placement Committee Member",
+          "email": null,
+          "phone": "9643799793"
+        },
+        {
+          "description": "Shreya Agrawal - Students Placement Committee Member",
+          "email": null,
+          "phone": "9711119152"
+        },
+        {
+          "description": "Sumeet Singh Ghai - 18 Month PGDM - Placement Committee Member",
+          "email": null,
+          "phone": "7204597985"
+        },
+        {
+          "description": "Ayush Raj - 18 Month PGDM - Placement Committee Member",
+          "email": null,
+          "phone": "9759484453"
+        }
+      ]
+    }
+  }
+]

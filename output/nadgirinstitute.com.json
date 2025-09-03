@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.nadgirinstitute.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "The institution is an Engineering and Polytechnic college with a strong focus on technical education, offering various courses including Computer Science & Engineering and Information Science."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "8867065525",
+        "email": "nadgir.institute@gmail.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

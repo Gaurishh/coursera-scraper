@@ -1,0 +1,25 @@
+[
+  {
+    "website": "https://unisquareconcepts.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Uni Square Concepts is an advertising and marketing agency whose primary goal is to drive brand awareness, lead generation, and sales for its clients, making it inherently a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91-9212426895",
+        "email": "us@unisquareconcepts.com"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Uday Sonthalia",
+          "title": "Promoter & CEO",
+          "email": "us@unisquareconcepts.com",
+          "phone": null
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

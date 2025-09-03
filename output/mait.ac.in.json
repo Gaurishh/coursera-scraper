@@ -1,0 +1,31 @@
+[
+  {
+    "website": "https://www.mait.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Maharaja Agrasen Institute of Technology is an engineering college with numerous specialized technology departments, and its alumni consistently achieve roles as software and data engineers at prominent tech companies."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "mait@mait.ac.in",
+        "phone": "91-8448186942"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Prof. Neelam Sharma",
+          "title": "Director",
+          "email": null,
+          "phone": "91-8448186931"
+        },
+        {
+          "name": "Brig. S.K. Kakar",
+          "title": "Director, Career Development Cell; Convener, Industry-Institute Interaction Cell Committee",
+          "email": null,
+          "phone": "91-8448186933"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

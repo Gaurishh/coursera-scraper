@@ -1,0 +1,204 @@
+[
+  {
+    "website": "http://www.jssateb.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "JSSATEB is an engineering college with a primary focus on technical education, offering numerous undergraduate and postgraduate programs in Computer Science, Information Science, Electronics, and other engineering disciplines that require strong programming skills."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@jssateb.ac.in, principal@jssateb.ac.in",
+        "phone": "08028612565, 08028611702, 6364771945, 9916253458, 9900928583"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Dr. Bhimasen Soragaon",
+          "title": "Principal, JSS Academy of Technical Education, Bengaluru",
+          "email": "principal@jssateb.ac.in, info@jssateb.ac.in",
+          "phone": "9448234414"
+        },
+        {
+          "name": "Dr. MAHESH B",
+          "title": "Professor & Dean (Research)",
+          "email": "dean_research@jssateb.ac.in",
+          "phone": "9448210363"
+        },
+        {
+          "name": "Dr. Prabhudev Jagadeesh. M.P",
+          "title": "Professor & Head, Department of Computer Science and Engineering",
+          "email": "hodcse@jssateb.ac.in, prabhudevjagadeeshp@jssateb.ac.in",
+          "phone": "+919886893897"
+        },
+        {
+          "name": "Mr. Santosh T E",
+          "title": "Instructor",
+          "email": "santoshte@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Mr. Ashwin Kumar",
+          "title": "Instructor",
+          "email": "ashweenkumar@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Mrs Pavithra M S",
+          "title": "Instructor",
+          "email": "pavithrams@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Mr. Ananda B",
+          "title": "Instructor",
+          "email": "anandab@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Mr. Chennabasappa S",
+          "title": "Instructor",
+          "email": "chennabasappa@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "name": "Mrs. Vidya A V",
+          "title": "Instructor",
+          "email": "vidyaav@jssateb.ac.in",
+          "phone": null
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Dr. P.B. Mallikarjuna - Professor, Department of Computer Science and Engineering",
+          "email": "pbmalli2020@gmail.com, mallikarjunapb@jssateb.ac.in",
+          "phone": "8861004385"
+        },
+        {
+          "description": "Dr. Nagasundara K B - Associate Professor, Department of Computer Science and Engineering",
+          "email": "nagasundarakb@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. H.K. Pradeep - Associate Professor",
+          "email": "hkpradeep@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. Rohitaksha. K - Associate Professor",
+          "email": "rohithakshak@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. Sharana Basavana Gowda - Associate Professor",
+          "email": "sharanabg@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. Niranjan Chanabasappa Kundur - Associate Professor",
+          "email": "niranjanckundur@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. Abhilash. C.B - Associate Professor",
+          "email": "abhilashcb@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. K.S. Rajeshwari - Associate Professor",
+          "email": "ksrajeshwari@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. Pooja.H - Associate Professor",
+          "email": "poojah@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs. Snehalatha .N - Assistant Professor",
+          "email": "nsnehalatha@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs. Bhavani .B.H - Assistant Professor",
+          "email": "bhavanibh@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Ms. K.V. Shanthala - Assistant Professor",
+          "email": "kvshanthala@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr. Shweta S. Kaddi - Assistant Professor",
+          "email": "swethaskaddi@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs. Rashmi . B.N - Assistant Professor",
+          "email": "rashmibn@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs. Renukamba.P - Assistant Professor",
+          "email": "renukambap@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs. Ranjitha S R - Assistant Professor",
+          "email": "ranjithasr@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs.Impana K P - Assistant Professor",
+          "email": "impanaraj@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Dr.Supriya B N - Assistant Professor",
+          "email": "supriyabn@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs.Shruti Tavaragundi - Assistant Professor",
+          "email": "shrutitavaragundi@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs.Bhavana H V - Assistant Professor",
+          "email": "bhavanahv@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. H B Gangadhara Swamy - Senior System Analyst",
+          "email": "gangadharaswamyhb@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mrs. Geetha B - Programmer",
+          "email": "geethab@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. Mahesh H P - Lab Helper",
+          "email": "maheshhp@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. Dileep Kumar - Lab Helper",
+          "email": "dileepkumar@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. Sunil B - Lab Helper",
+          "email": "sunilb@jssateb.ac.in",
+          "phone": null
+        },
+        {
+          "description": "Mr. B.Basava Rajendra Prasad - Attender",
+          "email": "brajendraprasad@jssateb.ac.in",
+          "phone": null
+        }
+      ]
+    }
+  }
+]

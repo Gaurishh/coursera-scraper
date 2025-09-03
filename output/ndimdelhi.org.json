@@ -1,0 +1,25 @@
+[
+  {
+    "website": "https://www.ndimdelhi.org/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "NDIM is clearly identified as a premier B-School with a strong focus on management, marketing, and finance programs, explicitly offering a 'Programme on Sales Training for Beginners' and demonstrating successful placements in sales-driven industries."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@ndimdelhi.org",
+        "phone": "011-40111000, 1800-419-0606, 08882468367, 09910695359"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Bhumika Bansal",
+          "title": "Director, Corporate Relations",
+          "email": "crc@ndimdelhi.org",
+          "phone": "011-40111000"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

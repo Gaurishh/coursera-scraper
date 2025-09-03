@@ -1,0 +1,46 @@
+[
+  {
+    "website": "https://www.almondz.com/software-development.php",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Almondz Group's core business focuses on financial services, investment banking, wealth management, and strategic advisory, which are inherently sales and relationship-driven, further supported by explicit job postings for 'Relationship Managers - Sales'."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "Almondz Global Securities Ltd. - Registered Office - Mumbai",
+          "email": "info@almondz.com",
+          "phone": "+91 22 66437600, +91 22 66437700 (Fax), +91 22 67526603 (Fax)"
+        },
+        {
+          "description": "Almondz Global Securities Ltd. - Corporate Office - Delhi",
+          "email": "info@almondz.com",
+          "phone": "011-43500700"
+        },
+        {
+          "description": "Almondz Global Securities Ltd. - Branch Office - Mumbai",
+          "email": null,
+          "phone": "022-22870991, 022-22870992, 022-22870993"
+        },
+        {
+          "description": "Almondz Global Securities Ltd. - Branch Office - Ludhiana",
+          "email": null,
+          "phone": "0161-4646900, 0161-4646898"
+        },
+        {
+          "description": "Almondz Global Securities Ltd. - Branch Office - Kolkata",
+          "email": null,
+          "phone": "033-22820873, 033-22820875"
+        },
+        {
+          "description": "Almondz Global Securities Ltd. - General Inquiry",
+          "email": null,
+          "phone": "+91 8882472824"
+        }
+      ]
+    }
+  }
+]

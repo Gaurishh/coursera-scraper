@@ -1,0 +1,25 @@
+[
+  {
+    "website": "https://www.mvjce.edu.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 100,
+      "reasoning": "MVJ College of Engineering is a highly specialized engineering institution with numerous undergraduate, postgraduate, and Ph.D. programs across Computer Science, Electrical, Electronics, Mechanical, and Civil Engineering, coupled with research centers focused on advanced technical areas like AI, ML, IoT, Robotics, and LabVIEW programming."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "accounts@mvjce.edu.in",
+        "phone": "+91 8042991013"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Dr. Ajayan K. R.",
+          "title": "Principal, MVJ College of Engineering",
+          "email": "principal@mvjce.edu.in",
+          "phone": "+91 8042991000"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

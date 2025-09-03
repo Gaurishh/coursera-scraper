@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.cybrain.co.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Cybrain is explicitly an 'IT Software Development Company' with extensive offerings in custom software, web, mobile, and fintech development, utilizing a vast array of programming languages and technologies."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@cybrain.co.in",
+        "phone": "1800-891-3958"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

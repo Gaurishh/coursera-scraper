@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.perfectiongeeks.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "PerfectionGeeks is a software development agency specializing in custom software, mobile, web, and blockchain development, employing a wide array of programming languages and technologies, indicating a profound need for programming expertise."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 8920947884",
+        "email": "sales@perfectiongeeks.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

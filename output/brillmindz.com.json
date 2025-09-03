@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.brillmindz.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 99,
+      "reasoning": "Brill Mindz is a mobile app, web, and game development company, explicitly stating expertise in various programming languages and technologies, indicating a strong tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@brillmindz.com",
+        "phone": "+91 9538448421"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

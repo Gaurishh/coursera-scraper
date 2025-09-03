@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.slnsoftwares.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "SLN Softwares is a software development company whose core business, services, products, and team expertise are exclusively focused on building and maintaining software, web applications, and digital solutions, indicating a strong technical and programming foundation."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+919315898126, +911143305659",
+        "email": "vivek@slnsoftwares.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

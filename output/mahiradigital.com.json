@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.mahiradigital.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Mahira Digital is a B2B digital marketing agency focused on driving customer acquisition and boosting clients' online sales, making a 'Sales' course highly relevant for both their internal business development and client-facing service delivery."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@mahiradigital.com",
+        "phone": "+91 9953962966, +91 8285552527"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

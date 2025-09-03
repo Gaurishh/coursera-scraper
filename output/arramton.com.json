@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.arramton.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Arramton Infotech explicitly identifies as a web, app, and software development company, with its core services, history, and leadership demonstrating a clear and strong focus on technology and digital solutions."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@arramton.com",
+        "phone": "+91-859-538-2420"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

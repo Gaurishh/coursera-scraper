@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://tlstechnology.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "TLS Technology is a web development and digital marketing agency with a strong tech focus, offering extensive services in various programming languages, app development, and actively hiring software and web developers."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@tlstechnology.in",
+        "phone": "+91-9990725864"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

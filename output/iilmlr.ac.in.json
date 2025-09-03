@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://iilmlr.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The institution identifies itself as a leading business management school, offering PGDM and BBA programs focused on developing entrepreneurial and leadership competencies for the business world, making a sales course highly relevant to its students."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info.ubs@iilm.edu",
+        "phone": "+91-9999252406, +91-9311671741, +91-7827005579, +91-9811165146, 8810554738 (Whatsapp)"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://nxuniq.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "The company is a digital marketing agency whose primary services revolve around branding, SEO, social media, content, and performance marketing, all of which are sales-driven activities focused on client acquisition and growth."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "business@nxuniq.com",
+        "phone": "+91-8904909955"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

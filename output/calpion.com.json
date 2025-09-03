@@ -1,0 +1,26 @@
+[
+  {
+    "website": "http://www.calpion.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 99,
+      "reasoning": "Calpion Software Technologies is fundamentally a technology consulting company focused on providing AI, machine learning, deep learning, RPA, and custom software solutions across multiple industries, evidenced by its services, products, mission, and numerous tech-centric job openings."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "Calpion Inc. - General Inquiries",
+          "email": "info@calpion.com",
+          "phone": "(+1) 469 242 6052 (USA), 080 6976 5000 (Bangalore), 422 435 0017 (Coimbatore)"
+        },
+        {
+          "description": "Calpion Inc. - Career Inquiries",
+          "email": "indiatag@calpion.com",
+          "phone": null
+        }
+      ]
+    }
+  }
+]

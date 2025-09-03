@@ -1,0 +1,15 @@
+[
+  {
+    "website": "http://www.theteasercompany.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "The Teaser Company's core business is generating sales and optimizing marketing performance (CTRs, ROAS) for D2C brands through strategic ad creation and performance marketing, making sales a highly relevant course."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

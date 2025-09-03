@@ -1,0 +1,25 @@
+[
+  {
+    "website": "http://www.bmiet.net/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The institution is explicitly an 'Institute of Engineering & Technology' and an 'Engineering College', making programming skills highly relevant for its students."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91-9813010101",
+        "email": "info@bmiet.net"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Dr. Rahul Goyal",
+          "title": "Principal",
+          "email": "principal@bmiet.net",
+          "phone": "+91-9813010101"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

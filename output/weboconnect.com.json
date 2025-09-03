@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://weboconnect.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "WebOConnect is a software development company that explicitly offers services like web, mobile, and SaaS development, showcases expertise in numerous programming languages and frameworks, and publishes technical articles on topics such as AI, serverless architecture, and tech stacks."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "connect@weboconnect.com",
+        "phone": "+1 419 405 7399, +91 79 7239 8460"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://quickzee.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Quickzee Media is a digital marketing company focused on helping clients drive business, generate leads, increase sales, and improve ROI, making it a sales-driven industry where 'Sales' skills are paramount."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@quickzee.in",
+        "phone": "+91 9066805661, +91 9148986662"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

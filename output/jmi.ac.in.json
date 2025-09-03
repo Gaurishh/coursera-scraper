@@ -1,0 +1,21 @@
+[
+  {
+    "website": "http://www.jmi.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The university has a strong Faculty of Engineering and Technology, including dedicated departments for Computer Engineering and Computer Science, and an FTK Centre for Information Technology, indicating a robust tech focus."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "Jamia Millia Islamia - General Contact/University Main Line",
+          "email": null,
+          "phone": "+91(11)26981717, +91(11)26984617, +91(11)26984658, +91(11)26988044, +91(11)26987183, +91(11)26980229"
+        }
+      ]
+    }
+  }
+]

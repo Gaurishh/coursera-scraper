@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.marconix.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 100,
+      "reasoning": "Marconix Sales Solutions is explicitly a 'premier sales outsourcing company' with services entirely focused on sales, marketing, and revenue generation across various industries, making a Sales course highly relevant to their core business and client needs."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "reachus@marconix.in",
+        "phone": "+91 93413 72105"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

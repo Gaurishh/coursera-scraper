@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://easysolutions360.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 100,
+      "reasoning": "Easy Solutions 360 identifies as a team of passionate developers and tech enthusiasts, offering comprehensive web and mobile app development services, with their entire business focused on leveraging programming languages and digital technologies."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@easysolutions360.com",
+        "phone": "+91-8368879567, 8299054269"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

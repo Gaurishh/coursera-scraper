@@ -1,0 +1,49 @@
+[
+  {
+    "website": "http://www.msec.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 100,
+      "reasoning": "M. S. Engineering College is an engineering institution with a strong emphasis on technical disciplines like Computer Science, AI & Machine Learning, and Information Science, making Programming highly relevant to their core offerings."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [
+        {
+          "name": "Dr.N. Ranapratap Reddy",
+          "title": "Principal",
+          "email": "principal@msec.ac.in",
+          "phone": "+919591510211"
+        },
+        {
+          "name": "Mr. VALLIAPPAN J",
+          "title": "Director Training & Placement",
+          "email": "placement@msec.ac.in",
+          "phone": "+91 9920212389"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "M. S. Engineering College - General Contact",
+          "email": null,
+          "phone": "+91 80 4121 5454, +91 80 4131 5454"
+        },
+        {
+          "description": "M. S. Educational Trust - General Contact",
+          "email": null,
+          "phone": "+91 80 4121 5454, +91 80 4131 5454"
+        },
+        {
+          "description": "Mr. Kafeel - Admissions Contact",
+          "email": "admissions@msec.ac.in",
+          "phone": "+91 9342842666"
+        },
+        {
+          "description": "Mr. Nabi A - Training & Placement Officer",
+          "email": "tapc@msec.ac.in",
+          "phone": "+91 9035992785"
+        }
+      ]
+    }
+  }
+]

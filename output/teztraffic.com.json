@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://teztraffic.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Tez Traffic is a digital marketing company that explicitly focuses on generating leads, increasing brand awareness, improving conversion rates, and directly enhancing sales and ROI for its clients."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "enquiry@teztraffic.com",
+        "phone": "+91 9311710516"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

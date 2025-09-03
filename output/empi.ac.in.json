@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://empi.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "EMPI is explicitly a business school offering various PGDM programs with specializations like Marketing and Business Analytics, which directly list Sales Manager and Sales Analyst as career opportunities."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admission@empi.ac.in",
+        "phone": "+91 8800010971, +91 8800010972"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.brindavancollege.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The institution prominently features 'Brindavan College of Engineering' and 'Brindavan College of Polytechnic' and offers various technical programs, indicating a strong engineering and tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admissions@brindavancollege.com",
+        "phone": "91 80 2847 8388, 91 80 2847 8423, +91 9606487201, +91 9606487220"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

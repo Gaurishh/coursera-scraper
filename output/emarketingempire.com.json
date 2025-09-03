@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://emarketingempire.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The company is a digital marketing agency that explicitly focuses on generating leads, increasing conversions, and boosting sales and ROI for its clients, identifying it as a sales-driven corporation."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@emarketingempire.com",
+        "phone": "+91-9821692104"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

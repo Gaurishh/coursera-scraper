@@ -1,0 +1,17 @@
+[
+  {
+    "website": "https://www.deepspace9.tech/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "DeepSpace9 Technologies is a software development company that specializes in web & app development, UI/UX design, advanced SEO, and data visualization, explicitly detailing a strong technical stack and core services focused on programming and digital solutions."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "captain@deepspace9.tech"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

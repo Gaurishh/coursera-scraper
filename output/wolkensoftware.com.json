@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.wolkensoftware.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Wolken Software is an AI-powered B2B SaaS company specializing in enterprise software for ITSM and CSM, with a strong emphasis on low-code platforms, automation, integration, and a leadership team with deep technical expertise."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "408-973-7240",
+        "email": "careers@wolkensoftware.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

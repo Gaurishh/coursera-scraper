@@ -1,0 +1,17 @@
+[
+  {
+    "website": "http://www.watermarkexperience.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The company explicitly highlights 'Client Acquisition, Client Servicing, Relationship Management,' and leveraging technology to enhance customer experience and build relationships, indicating a strong sales-driven and customer-centric business model."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "contact@watermarkexperience.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

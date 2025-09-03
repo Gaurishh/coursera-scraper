@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.emvsoftwares.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "EMV Softwares Pvt. Ltd. is explicitly a software development company whose core business, services, products, and expertise are entirely centered around programming and advanced technologies."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@emvsoftwares.com",
+        "phone": "+91-9212345320"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

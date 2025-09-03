@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.acharya.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 92,
+      "reasoning": "Acharya Institutes demonstrate a strong tech focus with an Institute of Technology, numerous specialized programs in Computer Science, AI, Data Science, and extensive collaborations with major tech companies like IBM, Siemens, Red Hat, and Capgemini."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 74066-44449",
+        "email": "admissions@acharya.ac.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

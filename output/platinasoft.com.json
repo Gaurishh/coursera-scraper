@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://platinasoft.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Platina Software is an AI and Machine Learning driven software company, evidenced by its product suite and the extensive computer science and engineering backgrounds of its founders and key advisors from top tech companies."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@platinasoft.com",
+        "phone": "+91 (11) 4674-7700"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

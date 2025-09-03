@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://sunplussoftware.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Sunplus Software Technologies is a CMMI Level 5 certified IT services and software development company that specializes in application development, AI/ML solutions, ERP implementation, and digital transformation, indicating a strong technical and programming focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@sunplussoftware.com",
+        "phone": "+91 804 300 3225"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

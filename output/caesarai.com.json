@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://caesarai.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "CaesarAi explicitly identifies as a 'Sales Driven Influencer Marketing' company, directly aligning with the objectives of a Sales course."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "hello@caesarai.com",
+        "phone": "+91 7400300900"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

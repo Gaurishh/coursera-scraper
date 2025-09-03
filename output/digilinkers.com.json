@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://digilinkers.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Digilinkers is a digital marketing agency explicitly focused on driving client sales, leads, and ROI through services like SEO, SMM, and paid advertising, making a Sales course highly relevant to their core business objectives."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91-9818000334",
+        "email": "contactus@digilinkers.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

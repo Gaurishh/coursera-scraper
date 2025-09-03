@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://upfrontmarketings.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Up Front Marketings is a digital marketing agency with a primary focus on 'Sales Growth' and 'boosting leads and sales' for its clients, indicating a strong alignment with sales-driven objectives."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@upfrontmarketings.com",
+        "phone": "+91 86185 96509"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

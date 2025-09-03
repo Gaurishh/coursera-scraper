@@ -1,0 +1,46 @@
+[
+  {
+    "website": "https://www.alliance.edu.in/school/school-of-engineering-and-design",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Alliance University exhibits a very strong tech focus with dedicated schools for Advanced Computing and Applied Engineering, numerous tech-centric Centres of Excellence (e.g., IoT, Robotics, Cyber Security, AI), and corporate engagements centered on modern IT technologies and certifications."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "enquiry@alliance.edu.in",
+        "phone": "+91 80 4619 9000, +91 80 4619 9100, +91 80 4129 9200"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Mr. Vadivelan Gopal",
+          "title": "Associate Director, Office of Career Advancement and Networking",
+          "email": "vadivelan.gopal@alliance.edu.in",
+          "phone": "+91 96638 99990"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Prof. Premanand Shetty - Chancellor",
+          "email": "chancellor@alliance.edu.in",
+          "phone": "+91 80 4619 9100, +91 80 4129 9200"
+        },
+        {
+          "description": "Mr. Abhay G. Chebbi - Pro-Chancellor",
+          "email": "prochancellor@alliance.edu.in",
+          "phone": "+91 80 4619 9100, +91 80 4129 9200"
+        },
+        {
+          "description": "Dr. B. Priestly Shan - Vice-Chancellor",
+          "email": "vc@alliance.edu.in",
+          "phone": "+91 80 4619 9100, +91 80 4129 9200"
+        },
+        {
+          "description": "Ms. Surekha Shetty - Registrar General, Office of Career Advancement and Networking",
+          "email": "registrargeneral@alliance.edu.in, surekha.shetty@alliance.edu.in",
+          "phone": "+91 98451 17152, +91 80 4129 9200, +91 80 4619 9009"
+        }
+      ]
+    }
+  }
+]

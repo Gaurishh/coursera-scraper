@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://innovkraft.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Innovkraft Inc. is a digital marketing agency primarily focused on driving brand visibility, generating leads, and increasing sales for their clients, which aligns directly with a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "hello@innovkraft.com",
+        "phone": "+91 8310453193"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

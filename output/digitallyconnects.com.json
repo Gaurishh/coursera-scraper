@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://digitallyconnects.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Digitally Connects is a digital marketing agency explicitly focused on driving measurable growth, lead generation, and conversions, which directly supports and enhances sales for their clients."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "veer@digitallyconnects.com",
+        "phone": "+91 798 2009 803"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

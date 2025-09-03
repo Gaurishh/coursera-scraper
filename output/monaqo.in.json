@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://monaqo.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 92,
+      "reasoning": "Monaqo, while a growth marketing agency, prominently functions as a 'full-stack web development company' that details extensive technical capabilities, listing numerous programming languages, frameworks (e.g., React, Node.js, Laravel, Go), and architectural patterns, indicating a strong tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 7996 585956",
+        "email": "contact@monaqo.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

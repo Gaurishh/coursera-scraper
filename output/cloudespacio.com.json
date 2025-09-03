@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.cloudespacio.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Cloudespacio is a Salesforce consulting firm whose core services and products, including Sales Cloud and Revenue Cloud, are explicitly designed to help businesses streamline operations, enhance customer experiences, and drive sales growth for their clients."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@cloudespacio.com",
+        "phone": "+65 90669844"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

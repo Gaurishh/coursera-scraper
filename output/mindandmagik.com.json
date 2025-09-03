@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://mindandmagik.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Mind & Magik is a digital marketing agency explicitly focused on driving strategy, growth, revenue, leads, and conversions for their clients, making them a company in a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "subhasis@mindandmagik.com",
+        "phone": "+91 9663 465 465"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

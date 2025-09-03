@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.percoyo.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Percoyo is a digital marketing and digital transformation agency focused on generating leads, conversions, and ROI for its clients, explicitly listing a 'Sales' contact number and emphasizing market dominance and revenue growth."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "hello@percoyo.com",
+        "phone": "+91 76767 22000"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

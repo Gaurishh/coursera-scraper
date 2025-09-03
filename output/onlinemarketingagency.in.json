@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://onlinemarketingagency.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The company is an online marketing agency focused on services like social media marketing and strategy, which are directly aimed at driving sales and customer acquisition for their clients and themselves."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "onlinemarketingagencyin@gmail.com",
+        "phone": "(205) 555-0100"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

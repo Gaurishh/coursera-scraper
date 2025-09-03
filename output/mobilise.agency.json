@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://mobilise.agency/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Mobilise is a B2B Growth Marketing and Sales Enablement agency, with its core services and leadership explicitly focused on empowering sales teams, driving revenue, and implementing marketing and sales programs for predictable business growth."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@mobilise.agency",
+        "phone": "+1 (424) 543-6500"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

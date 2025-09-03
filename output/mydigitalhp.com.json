@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://mydigitalhp.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "MyDigitalHP is an IT company specializing in software, web, and mobile app development, cybersecurity, and IT consulting, indicating a very strong tech and programming focus."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 7007823374",
+        "email": "info@mydigitalhp.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

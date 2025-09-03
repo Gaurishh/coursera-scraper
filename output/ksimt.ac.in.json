@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.ksimt.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The institution offers a vast array of IT and Engineering programs, including numerous specializations in Computer Science, AI, Data Science, Cybersecurity, and Blockchain, indicating a strong tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "khatushyaminst@ksimt.ac.in",
+        "phone": "9953-20-3026"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "website": "http://sibmbengaluru.edu.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "SIBM Bengaluru is a business management institute focused on producing business leaders, and its MBA programs, including Business Analytics, explicitly prepare students for roles in sales, marketing, and market research."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admissions@sibm.edu.in",
+        "phone": "080-6713 9573, 080-6713 9575"
+      },
+      "keyPersonnel": [
+        {
+          "name": "Ms.Aditi Yadav",
+          "title": "Coordinator – Placements Team",
+          "email": "placecom@sibm.edu.in",
+          "phone": "+9149377919"
+        },
+        {
+          "name": "Mr. Harsh",
+          "title": "Coordinator – Placements Team",
+          "email": "placecom@sibm.edu.in",
+          "phone": "+91 8210679722"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "Ms. Sandhya CR - Sr. Placement Officer",
+          "email": "placementofficer@sibm.edu.in, placecom@sibm.edu.in",
+          "phone": "+91 9880613548, 8779644511"
+        }
+      ]
+    }
+  }
+]

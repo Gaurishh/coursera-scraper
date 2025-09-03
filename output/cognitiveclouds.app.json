@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.cognitiveclouds.app/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 100,
+      "reasoning": "CognitiveClouds is a custom software product development company, with its entire business model, services, technologies, and job openings centered around engineering and technical product development."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+1.415.234.3611",
+        "email": "jobs@cognitiveclouds.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

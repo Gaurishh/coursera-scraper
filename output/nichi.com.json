@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.nichi.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Nichi-In Software is a diversified IT services company with an explicit focus on custom software development, AI/ML solutions, IoT, enterprise applications, and digital transformation, indicating a strong technical core."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "sales@nichi.com",
+        "phone": "+91-80-26720882/3/4"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

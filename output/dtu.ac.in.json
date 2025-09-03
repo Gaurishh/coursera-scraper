@@ -1,0 +1,17 @@
+[
+  {
+    "website": "http://www.dtu.ac.in/Web/Departments/DSM/about/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 0,
+      "reasoning": "No content was retrieved from the provided web page, preventing an informed recommendation for either course."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "011-27871018"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

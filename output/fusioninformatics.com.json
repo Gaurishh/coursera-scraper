@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.fusioninformatics.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Fusion Informatics is a digital transformation and app development company specializing in mobile, web, AI/ML, IoT, and data solutions, indicating a core business and workforce heavily focused on programming and related technologies."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+1 512 601-5020",
+        "email": "sales@fusioninformatics.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

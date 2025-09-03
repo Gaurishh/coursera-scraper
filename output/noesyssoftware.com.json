@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.noesyssoftware.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "The company's core business revolves around developing software products, data analytics, automation, and digital enablement, demonstrating a strong emphasis on technical expertise and programming."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "contact@noesyssoftware.com",
+        "phone": "+91-8035010646"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

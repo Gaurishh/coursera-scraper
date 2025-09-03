@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://www.regortz.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Regortz is a digital marketing company whose core mission and services are explicitly centered on helping businesses generate leads, increase sales, boost conversions, and maximize ROI for their clients."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

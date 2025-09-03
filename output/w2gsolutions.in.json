@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://w2gsolutions.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "The company clearly identifies as a 'Software Development Company' with a strong emphasis on programming languages, IT consulting, and bespoke software solutions, indicating a core tech focus."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91-8595041598",
+        "email": "info@w2gsolutions.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

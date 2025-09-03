@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://iitm.net.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The institution offers prominent B.Tech in Computer Science Engineering and BCA programs, focuses on producing Information Technology professionals and Software Engineers, and hosts tech-specific events like 'Tech Hackers' and 'InternNexus Code Blitz 1.0'."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admission@iitm.tech",
+        "phone": "91-8368898387"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

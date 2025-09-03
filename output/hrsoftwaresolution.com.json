@@ -1,0 +1,46 @@
+[
+  {
+    "website": "https://www.hrsoftwaresolution.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "H.R. Software Solutions is a CMMI Level 3 certified 'Software Development Company' offering extensive services in software, web, and mobile app development, utilizing a broad array of programming technologies and aiming to strengthen knowledge in IT fields."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "H.R. Software Solutions - Delhi Office",
+          "email": "info@hrsoftwaresolution.com",
+          "phone": "+91-11-47350210/11, +91-931 190 3191, +91-931 190 3199"
+        },
+        {
+          "description": "H.R. Software Solutions - Mumbai Office",
+          "email": "info@hrsoftwaresolution.com",
+          "phone": "+91-931 190 3199, +91-22 22812220, +91-931 190 3191"
+        },
+        {
+          "description": "H.R. Software Solutions - Lucknow Office",
+          "email": "info@hrsoftwaresolution.com",
+          "phone": "+91-933 507 5959"
+        },
+        {
+          "description": "H.R. Software Solutions - Canada Office",
+          "email": "info@hrsoftwaresolution.com",
+          "phone": "+1 (647) 973 9609"
+        },
+        {
+          "description": "H.R. Software Solutions - Dubai Office",
+          "email": "info@hrsoftwaresolution.com",
+          "phone": "+971 4351 0009"
+        },
+        {
+          "description": "H.R. Software Solutions - Riyadh Office",
+          "email": "info@hrsoftwaresolution.com",
+          "phone": "+966 506 049 794"
+        }
+      ]
+    }
+  }
+]

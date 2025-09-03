@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.digitalteamindia.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Digital Team India's primary focus is to help businesses maximize sales, accelerate growth, and generate leads through e-commerce and digital marketing, making a Sales course directly relevant to their strategic goals and service offerings."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@digitalteamindia.com",
+        "phone": "+91 8826634562"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.checkpointsystems.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Checkpoint Systems demonstrates a strong tech focus through its development of cutting-edge RFID, RF, and software solutions, employing a significant number of R&D and software engineers, and explicitly stating it owns all stages of software development for its platforms."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@checkpointsystems.com",
+        "phone": "1 800 257 5540"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

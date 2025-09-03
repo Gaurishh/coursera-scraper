@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://adgips.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 0,
+      "reasoning": "The provided website content was a bot verification page, preventing any analysis of the institution's focus to recommend a suitable course."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

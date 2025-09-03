@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.bigcity.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "BigCity is a 'promotech' company that leverages technology to drive loyalty and promotional campaigns, with explicit services like 'Sales recognition programs' and 'Sales incentive programs' aimed at achieving '30% avg sales uplift' for its clients, firmly placing it in a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "feedback@bigcity.in",
+        "phone": "+91 80 4055 4800"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

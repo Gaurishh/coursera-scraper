@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://skillsify.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Skillsify is a digital marketing agency explicitly focused on helping its corporate clients drive sales, generate leads, and improve conversions, clearly positioning it within a sales-driven industry."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@skillsify.com, Info@skillsify.in",
+        "phone": "7703905638, 9310124267"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

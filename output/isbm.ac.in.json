@@ -1,0 +1,29 @@
+[
+  {
+    "website": "http://www.isbm.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The ISB&M School of Media & Communication explicitly focuses on preparing students for careers in Communication, Advertising, Public Relations, and Marketing Communication, which are all inherently sales-driven fields requiring strong persuasive and client-facing skills."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "admissions@isbm.ac.in",
+        "phone": "+91 7757029571, 02035012000/2001, 02035012006"
+      },
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "Anand Raj - Information Officer (Delhi & Lucknow)",
+          "email": null,
+          "phone": "7387755131"
+        },
+        {
+          "description": "Samir Samal - Information Officer (Bhubaneswar)",
+          "email": null,
+          "phone": "8483961600"
+        }
+      ]
+    }
+  }
+]

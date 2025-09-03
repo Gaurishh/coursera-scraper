@@ -1,0 +1,17 @@
+[
+  {
+    "website": "https://indussoft.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Indus Software Solutions is an IT company specializing in software solutions, including ERP and full-stack web development, demonstrating a strong technological and programming core."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "9811800740"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

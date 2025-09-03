@@ -1,0 +1,15 @@
+[
+  {
+    "website": "https://nexential.co.uk/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Nexential is fundamentally a custom software development company, deeply focused on engineering digital solutions and leveraging advanced technologies like AI, IoT, and machine learning, making programming skills central to their core business and offerings."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

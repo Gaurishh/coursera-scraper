@@ -1,0 +1,21 @@
+[
+  {
+    "website": "https://www.bharatsoftware.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Bharat Software is an IT firm focused on developing, customizing, and maintaining a wide range of logistics and transport management software solutions, employing a large team of developers and actively recruiting for programming roles."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": [
+        {
+          "description": "Bharat Software Solutions - Company Contact",
+          "email": "contact@bharatsoftware.com",
+          "phone": "+91-9821133250 (Hindi), +91-9821144250 (English)"
+        }
+      ]
+    }
+  }
+]

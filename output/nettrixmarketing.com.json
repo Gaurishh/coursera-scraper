@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.nettrixmarketing.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "Nettrix Marketing explicitly specializes in providing comprehensive marketing and sales strategies for real estate developers, with a strong focus on accelerating sales, maximizing revenue, and converting leads."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "Hello@nettrixmarketing.com",
+        "phone": "7905250336"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

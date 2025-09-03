@@ -1,0 +1,22 @@
+[
+  {
+    "website": "http://www.jmsit.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The institution explicitly identifies itself as an 'Institute of Technology' and prominently features a wide range of B.Tech (including Computer Science and AI/ML) and Master of Computer Application (MCA) programs, indicating a strong engineering and technology focus."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [
+        {
+          "name": "Ms. Tanvi Gaur",
+          "title": "Head, Department of Training & Placement",
+          "email": "placement@jmsit.ac.in",
+          "phone": "+91-8595803591"
+        }
+      ],
+      "otherContacts": []
+    }
+  }
+]

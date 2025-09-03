@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.illucus.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 92,
+      "reasoning": "Illucus is a creative marketing agency operating in a sales-driven industry that requires strong client acquisition and relationship management skills to thrive."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@illucus.com",
+        "phone": "+91 6364728007"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

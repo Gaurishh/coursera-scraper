@@ -1,0 +1,15 @@
+[
+  {
+    "website": "http://www.xlri.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The institution's stated mission of 'Nurturing Responsible Leaders' strongly aligns with the objectives of a business school and the development of skills relevant to sales and management."
+    },
+    "contactDetails": {
+      "general": {},
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

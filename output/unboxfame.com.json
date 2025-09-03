@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.unboxfame.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Unboxfame is a branding and digital marketing agency focused on helping businesses with brand recognition, lead generation, and market presence, making a Sales course highly relevant to their core operations and client services."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "enquiry@unboxfame.com",
+        "phone": "+91-8920173716"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

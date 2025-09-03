@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.fimt-ggsipu.org/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "The institution features a prominent 'School of Engineering & Technology' offering Bachelor of Technology (CSE/IT/ECE/AIML) and Computer Applications (BCA) degrees, with extensive placement records in major tech companies like Microsoft, Google, IBM, and Wipro."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "fimtnd@gmail.com",
+        "phone": "+91-9560596750"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

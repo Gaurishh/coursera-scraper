@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.dynamisers.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "The company is a digital marketing agency whose core business revolves around selling its services and generating leads/sales for its clients, making sales skills critical for its own growth and client success."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@dynamisers.com",
+        "phone": "+919899269989"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

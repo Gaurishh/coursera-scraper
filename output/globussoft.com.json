@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://globussoft.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Globussoft is a technology company with an explicit AI-first strategy, numerous software products, and a strong focus on software engineering, development, and AI-driven solutions."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 8767115115",
+        "email": "info@globussoft.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

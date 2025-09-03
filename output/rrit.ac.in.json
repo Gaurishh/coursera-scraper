@@ -1,0 +1,18 @@
+[
+  {
+    "website": "http://www.rrit.ac.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 100,
+      "reasoning": "The R.R. Institute of Technology is an engineering college with numerous departments and courses focused on Computer Science, Artificial Intelligence, Machine Learning, and various other technical and engineering disciplines."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "principal@rrit.ac.in",
+        "phone": "+91 888 000 1111"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

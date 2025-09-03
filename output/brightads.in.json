@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.brightads.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Bright Ads explicitly positions itself as a 'Digital Marketing and Web Development Company' with a strong emphasis on 'Lead Generation' and 'Performance Marketing,' directly addressing clients' needs to drive sales and business growth."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "+91 888 400 5400",
+        "email": "support@brightads.in"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

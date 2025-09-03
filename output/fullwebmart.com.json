@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://fullwebmart.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Full Web Mart is a digital marketing agency intensely focused on lead generation, maximizing client ROI, and boosting sales through various digital campaigns and specialized data extraction tools, making it a highly sales-driven organization."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "Info@fullwebmart.com",
+        "phone": "+91 8076315877"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

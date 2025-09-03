@@ -130,13 +130,13 @@ dmypy.json
 
 # Project-specific files
 # CSV data files (uncomment if you don't want to track data files)
-*.csv
-!sample_*.csv
+# *.csv
+# !sample_*.csv
 
 # Website content directories
-websites/
+# websites/
 websites_itr_*/
-top_5_urls_for_*/
+# top_5_urls_for_*/
 website_crawler_backup.py
 
 # API keys and sensitive configuration
@@ -188,6 +188,6 @@ backup_*
 *.model
 
 # Output directories that might contain large files
-output/
+# output/
 results/
 downloads/

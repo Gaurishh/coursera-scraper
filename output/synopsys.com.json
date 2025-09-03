@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.synopsys.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Synopsys is a leading provider of Electronic Design Automation (EDA) tools and Semiconductor IP, indicating a strong tech and engineering focus that heavily relies on advanced programming skills for product development and innovation."
+    },
+    "contactDetails": {
+      "general": {
+        "phone": "650-584-5000, 800-541-7737",
+        "email": "singapore_info@synopsys.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

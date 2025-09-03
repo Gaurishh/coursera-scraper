@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.4pz.in/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 98,
+      "reasoning": "4Pz is a retail branding and marketing agency whose services, including digital and offline marketing, visual merchandising, and brand activation, are explicitly aimed at driving customer acquisition, engagement, and ultimately sales for their clients."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "connect@4pz.in",
+        "phone": "+91-9811404043"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

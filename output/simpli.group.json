@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.simpli.group/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Simpli Group is an 'HR Tech platform' that built an 'indigenous HRMS Tool' through its 'Tech. Vertical,' demonstrating a core business focus on software development and innovative technology."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "hello@simpli.group",
+        "phone": "9650590202"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "website": "https://www.triconinfotech.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 95,
+      "reasoning": "Tricon Infotech is a custom software product developer with a strong focus on technology services, product engineering, AI, and data solutions, indicating a primary need for advanced programming and technical skills."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@triconinfotech.com"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

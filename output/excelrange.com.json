@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.excelrange.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 15,
+      "reasoning": "The website is a placeholder, offering no details on services; however, 'Media' companies often rely on sales for revenue generation."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@excelrange.com",
+        "phone": "+91-98703-76982"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

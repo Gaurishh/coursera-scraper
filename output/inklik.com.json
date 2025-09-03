@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://inklik.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Sales",
+      "confidenceScore": 95,
+      "reasoning": "Inklik is a digital marketing agency explicitly focused on lead generation, increasing conversions, and driving sales for its diverse range of clients, indicating a strong alignment with sales-driven industries."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "info@inklik.com",
+        "phone": "+91-9911840808, +91-8882354328"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]

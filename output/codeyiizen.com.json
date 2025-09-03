@@ -1,0 +1,18 @@
+[
+  {
+    "website": "https://www.codeyiizen.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Codeyiizen explicitly identifies as a web development and app development company, with services heavily focused on various programming languages and technologies, indicating a very strong tech-driven core business."
+    },
+    "contactDetails": {
+      "general": {
+        "email": "business@codeyiizen.com",
+        "phone": "+91 9266913291"
+      },
+      "keyPersonnel": [],
+      "otherContacts": []
+    }
+  }
+]
