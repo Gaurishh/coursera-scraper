@@ -530,7 +530,7 @@ project/
 ├── 2_leads_classified.csv          # AI-classified leads with course recommendations
 ├── output.json                     # Final comprehensive lead data with contacts
 ├── websites/                       # Website crawling results
-├── top_5_urls/                     # URLs selected for course analysis
-├── contact_urls/                   # URLs selected for contact extraction
+├── top_5_urls_for_recommendation/  # URLs selected for course analysis
+├── top_5_urls_for_contact_info/    # URLs selected for contact extraction
 └── contact_info/                   # Contact information in JSON format
 ```

@@ -3,43 +3,45 @@
 7_final_output_generator.py
 
 Final step of the Coursera Lead Generation Pipeline.
-Combines classified leads data with extracted contact information to create a comprehensive JSON output file.
+Combines classified leads data with extracted contact information to create individual JSON files for each website.
 
 This script:
 1. Reads all records from 2_leads_classified.csv
 2. Finds corresponding JSON files in contact_info directory
-3. Creates a structured output.json with sales recommendations and contact details
+3. Creates individual JSON files in output/ directory with sales recommendations and contact details
 
-Output Format:
-{
-  "website": "https://example.com/",
-  "salesRecommendation": {
-    "recommendedCourse": "Programming",
-    "confidenceScore": 98,
-    "reasoning": "Detailed reasoning for the recommendation"
-  },
-  "contactDetails": {
-    "general": {
-      "email": "contact@example.com",
-      "phone": "+1234567890"
+Output Format (each file contains an array with one entry):
+[
+  {
+    "website": "https://example.com/",
+    "salesRecommendation": {
+      "recommendedCourse": "Programming",
+      "confidenceScore": 98,
+      "reasoning": "Detailed reasoning for the recommendation"
     },
-    "keyPersonnel": [
-      {
-        "name": "John Doe",
-        "title": "CTO",
-        "email": "john@example.com",
+    "contactDetails": {
+      "general": {
+        "email": "contact@example.com",
         "phone": "+1234567890"
-      }
-    ],
-    "otherContacts": [
-      {
-        "description": "General Inquiry",
-        "email": "info@example.com",
-        "phone": "+1234567890"
-      }
-    ]
+      },
+      "keyPersonnel": [
+        {
+          "name": "John Doe",
+          "title": "CTO",
+          "email": "john@example.com",
+          "phone": "+1234567890"
+        }
+      ],
+      "otherContacts": [
+        {
+          "description": "General Inquiry",
+          "email": "info@example.com",
+          "phone": "+1234567890"
+        }
+      ]
+    }
   }
-}
+]
 """
 
 import os
@@ -174,7 +176,7 @@ def categorize_contacts(contact_data: List[Dict]) -> Dict[str, Any]:
 
 def process_leads():
     """
-    Main function to process leads and generate final output JSON.
+    Main function to process leads and generate individual output JSON files.
     """
     # Validate input files
     if not os.path.exists(CLASSIFICATION_OUTPUT_FILE):
@@ -185,10 +187,17 @@ def process_leads():
         print(f"❌ ERROR: Contact data directory '{FINAL_GATHERER_OUTPUT_DIR}' not found.")
         return
     
+    # Create output directory
+    output_dir = "output"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"📁 Created output directory: {output_dir}")
+    
     print("🚀 Starting Final Output Generator")
     print("=" * 60)
     print(f"📁 Reading classified leads from: {CLASSIFICATION_OUTPUT_FILE}")
     print(f"📁 Reading contact data from: {FINAL_GATHERER_OUTPUT_DIR}")
+    print(f"📁 Writing individual files to: {output_dir}/")
     print("=" * 60)
     
     # Read classified leads
@@ -218,7 +227,6 @@ def process_leads():
     print(f"📊 Processing {len(leads)} classified leads...")
     
     # Process each lead
-    output_data = []
     processed_count = 0
     contact_data_found = 0
     contact_data_missing = 0
@@ -257,42 +265,45 @@ def process_leads():
             "contactDetails": contact_details
         }
         
-        output_data.append(lead_entry)
+        # Write individual JSON file
+        output_filename = f"{domain}.json"
+        output_filepath = os.path.join(output_dir, output_filename)
+        
+        try:
+            with open(output_filepath, 'w', encoding='utf-8') as f:
+                json.dump([lead_entry], f, indent=2, ensure_ascii=False)
+            print(f"  💾 Saved: {output_filename}")
+        except Exception as e:
+            print(f"  ❌ Error saving {output_filename}: {e}")
+            continue
+        
         processed_count += 1
     
-    # Generate final output
-    output_file = "output.json"
-    try:
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, indent=2, ensure_ascii=False)
-        
-        print("\n" + "=" * 60)
-        print("🎉 FINAL OUTPUT GENERATION COMPLETE!")
-        print("=" * 60)
-        print(f"📊 Total Leads Processed: {processed_count}")
-        print(f"✅ Leads with Contact Data: {contact_data_found}")
-        print(f"⚠️  Leads without Contact Data: {contact_data_missing}")
-        print(f"📁 Output saved to: {output_file}")
-        
-        if contact_data_found > 0:
-            coverage_percentage = (contact_data_found / processed_count) * 100
-            print(f"📈 Contact Data Coverage: {coverage_percentage:.1f}%")
-        
-        # Calculate average confidence score
-        total_score = sum(lead['salesRecommendation']['confidenceScore'] for lead in output_data)
-        avg_confidence = total_score / len(output_data) if output_data else 0
-        print(f"📊 Average Confidence Score: {avg_confidence:.1f}")
-        
-        # Count by course type
-        programming_count = sum(1 for lead in output_data if lead['salesRecommendation']['recommendedCourse'].lower() == 'programming')
-        sales_count = sum(1 for lead in output_data if lead['salesRecommendation']['recommendedCourse'].lower() == 'sales')
-        print(f"💻 Programming Course Leads: {programming_count}")
-        print(f"💼 Sales Course Leads: {sales_count}")
-        
-        print("=" * 60)
-        
-    except Exception as e:
-        print(f"❌ ERROR: Could not write output file. Error: {e}")
+    # Display final statistics
+    print("\n" + "=" * 60)
+    print("🎉 INDIVIDUAL OUTPUT FILES GENERATION COMPLETE!")
+    print("=" * 60)
+    print(f"📊 Total Leads Processed: {processed_count}")
+    print(f"✅ Leads with Contact Data: {contact_data_found}")
+    print(f"⚠️  Leads without Contact Data: {contact_data_missing}")
+    print(f"📁 Individual files saved to: {output_dir}/")
+    
+    if contact_data_found > 0:
+        coverage_percentage = (contact_data_found / processed_count) * 100
+        print(f"📈 Contact Data Coverage: {coverage_percentage:.1f}%")
+    
+    # Count by course type
+    programming_count = sum(1 for lead in leads if lead['Course'].lower() == 'programming')
+    sales_count = sum(1 for lead in leads if lead['Course'].lower() == 'sales')
+    print(f"💻 Programming Course Leads: {programming_count}")
+    print(f"💼 Sales Course Leads: {sales_count}")
+    
+    # Calculate average confidence score
+    total_score = sum(int(lead['Score']) if lead['Score'].isdigit() else 0 for lead in leads)
+    avg_confidence = total_score / len(leads) if leads else 0
+    print(f"📊 Average Confidence Score: {avg_confidence:.1f}")
+    
+    print("=" * 60)
 
 if __name__ == "__main__":
     process_leads()
