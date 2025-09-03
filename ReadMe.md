@@ -436,13 +436,13 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 **Overview**: This script serves as the final step in the lead generation pipeline, combining classified leads data with extracted contact information to create a comprehensive JSON output file. It processes all records from the classified leads CSV, matches them with corresponding contact data files, and structures the information into a sales-ready format with recommendations and contact details.
 
-**Output**: Generates `output.json` containing structured lead data with website URLs, sales recommendations (course type, confidence score, reasoning), and comprehensive contact details (general contacts, key personnel, and other contacts) for each institution.
+**Output**: Generates individual JSON files in `output/` directory (e.g., `example.com.json`) containing structured lead data with website URLs, sales recommendations (course type, confidence score, reasoning), and comprehensive contact details (general contacts, key personnel, and other contacts) for each institution.
 
 **Quick Workflow**:
 
 1. **Data Integration**: Reads classified leads from CSV and matches each lead with its corresponding contact data JSON file based on domain name, processing all available leads systematically.
 2. **Contact Processing**: Structures raw contact data into organized categories (general contacts, key personnel, other contacts), cleaning and validating contact information for sales team consumption.
-3. **Final Output Generation**: Creates a comprehensive JSON file with complete lead information including sales recommendations and structured contact details, providing detailed statistics and coverage metrics.
+3. **Individual File Generation**: Creates individual JSON files for each website with complete lead information including sales recommendations and structured contact details, providing detailed statistics and coverage metrics.
 
 **Detailed Workflow/Algorithm**:
 
@@ -474,10 +474,10 @@ The system is specifically optimized for finding leads for **Programming** and *
    - **Data Validation**: Ensures all required fields are present and properly formatted
    - **Quality Assurance**: Validates data completeness and consistency
 
-5. **Output Generation and Statistics**
+5. **Individual File Generation and Statistics**
 
-   - **JSON Serialization**: Creates properly formatted JSON output with UTF-8 encoding
-   - **File Writing**: Saves final output to specified location with error handling
+   - **JSON Serialization**: Creates properly formatted JSON output with UTF-8 encoding for each website
+   - **File Writing**: Saves individual files to output directory with error handling
    - **Statistics Calculation**: Computes coverage metrics and processing statistics
    - **Summary Reporting**: Provides comprehensive execution summary
 
@@ -489,7 +489,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 **Features/Functionalities**:
 
-- **Comprehensive Data Integration**: Combines classified leads with extracted contact information into unified format
+- **Individual File Generation**: Creates separate JSON files for each website for easy management and processing
 - **Sales-Ready Output**: Structures data specifically for sales team consumption with clear recommendations
 - **Contact Organization**: Categorizes contacts into key personnel and general inquiries for targeted outreach
 - **Quality Metrics**: Provides coverage statistics and data quality assessments
@@ -520,7 +520,7 @@ The project uses a centralized `constants.py` file for all configuration paramet
 1. Configure API keys in `constants.py` or environment variables
 2. Run scripts in sequence: `1_institutions_list_fetcher.py` → `2_website_crawler.py` → `3_top_5_urls_for_recommendation_extractor.py` → `4_leads_classified_generator.py` → `5_top_5_urls_for_contact_info_extractor.py` → `6_final_data_gatherer.py` → `7_final_output_generator.py`
 3. Monitor output directories for generated files and processing results
-4. Review final output in `output.json` for sales team integration
+4. Review individual files in `output/` directory for sales team integration
 
 ## Output Structure
 
@@ -528,7 +528,7 @@ The project uses a centralized `constants.py` file for all configuration paramet
 project/
 ├── 1_discovered_leads.csv          # Initial institution discovery
 ├── 2_leads_classified.csv          # AI-classified leads with course recommendations
-├── output.json                     # Final comprehensive lead data with contacts
+├── output/                         # Individual JSON files for each website
 ├── websites/                       # Website crawling results
 ├── top_5_urls_for_recommendation/  # URLs selected for course analysis
 ├── top_5_urls_for_contact_info/    # URLs selected for contact extraction
