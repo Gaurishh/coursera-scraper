@@ -23,15 +23,15 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ## File Overview
 
-| File                                           | Purpose                                                     | Output                                                                     |
-| ---------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------- |
-| `1_institutions_list_fetcher.py`               | Discovers institutions using Google Places API              | `1_discovered_leads.csv` - Institution data with websites                  |
-| `2_website_crawler.py`                         | Crawls websites to extract all available URLs               | `websites/` directory - Text files with website URLs                       |
-| `3_top_5_urls_for_recommendation_extractor.py` | Selects top 5 URLs for course recommendation analysis       | `top_5_urls/` directory - Text files with selected URLs                    |
-| `4_leads_classified_generator.py`              | Classifies institutions and recommends courses using AI     | `2_leads_classified.csv` - Classified leads with course recommendations    |
-| `5_top_5_urls_for_contact_info_extractor.py`   | Selects top 5 URLs for contact information extraction       | `contact_urls/` directory - Text files with contact URLs                   |
-| `6_final_data_gatherer.py`                     | Extracts contact information from selected URLs             | `contact_info/` directory - JSON files with contact details                |
-| `7_final_output_generator.py`                  | Combines classified leads with contact data into final JSON | `output.json` - Complete lead data with sales recommendations and contacts |
+| File                                           | Purpose                                                     | Output                                                                              |
+| ---------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| `1_institutions_list_fetcher.py`               | Discovers institutions using Google Places API              | `1_discovered_leads.csv` - Institution data with websites                           |
+| `2_website_crawler.py`                         | Crawls websites to extract all available URLs               | `websites/` directory - Text files with website URLs                                |
+| `3_top_5_urls_for_recommendation_extractor.py` | Selects top 5 URLs for course recommendation analysis       | `top_5_urls/` directory - Text files with selected URLs                             |
+| `4_leads_classified_generator.py`              | Classifies institutions and recommends courses using AI     | `2_leads_classified.csv` - Classified leads with course recommendations             |
+| `5_top_5_urls_for_contact_info_extractor.py`   | Selects top 5 URLs for contact information extraction       | `contact_urls/` directory - Text files with contact URLs                            |
+| `6_final_data_gatherer.py`                     | Extracts contact information from selected URLs             | `contact_info/` directory - JSON files with contact details                         |
+| `7_final_output_generator.py`                  | Combines classified leads with contact data into final JSON | `output/` directory - Individual JSON files with sales recommendations and contacts |
 
 ---
 
@@ -434,7 +434,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ### 7_final_output_generator.py
 
-**Overview**: This script serves as the final step in the lead generation pipeline, combining classified leads data with extracted contact information to create a comprehensive JSON output file. It processes all records from the classified leads CSV, matches them with corresponding contact data files, and structures the information into a sales-ready format with recommendations and contact details.
+**Overview**: This script serves as the final step in the lead generation pipeline, combining classified leads data with extracted contact information to create individual JSON files for each website. It processes all records from the classified leads CSV, matches them with corresponding contact data files, and structures the information into a sales-ready format with recommendations and contact details.
 
 **Output**: Generates individual JSON files in `output/` directory (e.g., `example.com.json`) containing structured lead data with website URLs, sales recommendations (course type, confidence score, reasoning), and comprehensive contact details (general contacts, key personnel, and other contacts) for each institution.
 
