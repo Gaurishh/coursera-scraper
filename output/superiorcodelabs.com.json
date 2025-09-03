@@ -1,18 +1,18 @@
-[
-  {
-    "website": "http://www.superiorcodelabs.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Superior Codelabs is an IT services and technology consulting company with a core business in mobile app development, website design, cloud hosting, and technology consulting, explicitly mentioning various programming languages and developer job roles."
+{
+  "Website": "http://www.superiorcodelabs.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "096112 01204",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Superior Codelabs is an IT services and technology consulting company with a core business in mobile app development, website design, cloud hosting, and technology consulting, explicitly mentioning various programming languages and developer job roles.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9611201204",
+      "email": "info@superiorcodelabs.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@superiorcodelabs.com",
-        "phone": "+91 9611201204"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "shaikh@superiorcodelabs.com"
     }
-  }
-]
+  ]
+}

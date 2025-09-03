@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://webzplot.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "WebzPlot identifies as an 'E-Commerce & Shopify Expert Agency' that 'builds the tech' with a focus on 'Shopify Development Service', 'App Development', and 'building systems that think, automate, and adapt' using AI, indicating a strong technical and programming core."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@webzplot.com",
-        "phone": "+91-9555-993-311"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://webzplot.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099723 18316",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "WebzPlot identifies as an 'E-Commerce & Shopify Expert Agency' that 'builds the tech' with a focus on 'Shopify Development Service', 'App Development', and 'building systems that think, automate, and adapt' using AI, indicating a strong technical and programming core.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9555-993-311",
+      "email": "info@webzplot.com"
     }
-  }
-]
+  ]
+}

@@ -1,25 +1,43 @@
-[
-  {
-    "website": "http://www.xime.org/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "XIME is a management institute (business school) focused on developing leaders and entrepreneurs with specializations like Marketing, making sales skills highly relevant for its graduates."
+{
+  "Website": "http://www.xime.org/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "080 2852 8477",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "XIME is a management institute (business school) focused on developing leaders and entrepreneurs with specializations like Marketing, making sales skills highly relevant for its graduates.",
+  "extracted_contact_details": [
+    {
+      "name": "XIME Bangalore General Enquiries",
+      "phone": "+9180-69549450"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+9180-69549450",
-        "email": "admissions@xime.org"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Prof. J. Philip",
-          "title": "Principal Founder & Chairman, XIME Bangalore",
-          "email": "chairmanblr@xime.org",
-          "phone": null
-        }
-      ],
-      "otherContacts": []
+    {
+      "name": "XIME Kochi General Enquiries",
+      "phone": "0484 – 2972972 / 3"
+    },
+    {
+      "name": "XIME Chennai General Enquiries",
+      "phone": "044 – 67179400"
+    },
+    {
+      "name": "Admissions Bangalore",
+      "phone": "+9180-69549454",
+      "email": "admissions@xime.org"
+    },
+    {
+      "name": "Admissions Kochi",
+      "phone": "+9180-69549464",
+      "email": "admissionskochi@xime.org"
+    },
+    {
+      "name": "Admissions Chennai",
+      "phone": "+9180-69549474",
+      "email": "admissionchennai@xime.org"
+    },
+    {
+      "name": "Prof. J. Philip",
+      "title": "Principal Founder & Chairman, XIME Bangalore",
+      "email": "chairmanblr@xime.org"
     }
-  }
-]
+  ]
+}

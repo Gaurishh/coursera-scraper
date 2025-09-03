@@ -1,18 +1,15 @@
-[
-  {
-    "website": "http://www.sparklesnetwork.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Sparkles Network is an advertising and marketing agency explicitly offering a 'Sales Force' service and consistently emphasizing client ROI, customer acquisition, and driving product sales through their strategic campaigns."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@sparklesnetwork.com, sparklesnetwork@gmail.com",
-        "phone": "+91 96639 84711, +91 91423 71423, 080 4207 8060"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://www.sparklesnetwork.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "096639 84711",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Sparkles Network is an advertising and marketing agency explicitly offering a 'Sales Force' service and consistently emphasizing client ROI, customer acquisition, and driving product sales through their strategic campaigns.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 96639 84711, +91 91423 71423, 080 4207 8060",
+      "email": "info@sparklesnetwork.com, sparklesnetwork@gmail.com"
     }
-  }
-]
+  ]
+}

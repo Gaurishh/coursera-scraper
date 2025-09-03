@@ -1,18 +1,33 @@
-[
-  {
-    "website": "https://www.acem.edu.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The institution, Aravali College of Engineering and Management, offers a robust suite of B.Tech (CSE, AI & ML, ECE) and BCA (Computer Applications, Data Science) programs, with the BCA course detailing strong emphasis on software design, algorithms, data structures, and programming languages, indicating a significant and sustained focus on technical and programming education."
+{
+  "Website": "https://www.acem.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "085275 38785",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution, Aravali College of Engineering and Management, offers a robust suite of B.Tech (CSE, AI & ML, ECE) and BCA (Computer Applications, Data Science) programs, with the BCA course detailing strong emphasis on software design, algorithms, data structures, and programming languages, indicating a significant and sustained focus on technical and programming education.",
+  "extracted_contact_details": [
+    {
+      "title": "Admission Enquiry",
+      "phone": "+91-8527538785, 9310931272",
+      "email": "admissions@acem.edu.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admissions@acem.edu.in",
-        "phone": "+91-8527538785, 9310931272"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Placement Office",
+      "phone": "9310961228"
+    },
+    {
+      "title": "Registrar Office",
+      "phone": "7290082844",
+      "email": "registrar@acem.edu.in"
+    },
+    {
+      "title": "Accounts",
+      "phone": "9810029507"
+    },
+    {
+      "title": "Transport Incharge",
+      "phone": "7290082848"
     }
-  }
-]
+  ]
+}

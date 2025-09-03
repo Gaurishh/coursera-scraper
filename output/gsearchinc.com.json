@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.gsearchinc.com/digital-marketing-company-in-bangalore/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "The company is a digital marketing agency whose services and training are explicitly aimed at generating leads, boosting conversions, and increasing sales for businesses, making a 'Sales' course highly relevant."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@gsearchinc.com",
-        "phone": "+91 9902362006"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.gsearchinc.com/digital-marketing-company-in-bangalore/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099023 62006",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "The company is a digital marketing agency whose services and training are explicitly aimed at generating leads, boosting conversions, and increasing sales for businesses, making a 'Sales' course highly relevant.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9902362006",
+      "email": "info@gsearchinc.com"
     }
-  }
-]
+  ]
+}

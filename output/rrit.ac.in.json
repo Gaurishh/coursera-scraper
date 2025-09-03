@@ -1,18 +1,20 @@
-[
-  {
-    "website": "http://www.rrit.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 100,
-      "reasoning": "The R.R. Institute of Technology is an engineering college with numerous departments and courses focused on Computer Science, Artificial Intelligence, Machine Learning, and various other technical and engineering disciplines."
+{
+  "Website": "http://www.rrit.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "088800 01111",
+  "Course": "Programming",
+  "Score": 100,
+  "Reasoning": "The R.R. Institute of Technology is an engineering college with numerous departments and courses focused on Computer Science, Artificial Intelligence, Machine Learning, and various other technical and engineering disciplines.",
+  "extracted_contact_details": [
+    {
+      "title": "Principal",
+      "phone": "+91 888 000 1111",
+      "email": "principal@rrit.ac.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "principal@rrit.ac.in",
-        "phone": "+91 888 000 1111"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 888 000 1111",
+      "email": "rrit@rrinstitutions.com"
     }
-  }
-]
+  ]
+}

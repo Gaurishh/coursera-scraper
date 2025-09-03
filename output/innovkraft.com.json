@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://innovkraft.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Innovkraft Inc. is a digital marketing agency primarily focused on driving brand visibility, generating leads, and increasing sales for their clients, which aligns directly with a sales-driven industry."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "hello@innovkraft.com",
-        "phone": "+91 8310453193"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://innovkraft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "083104 53193",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Innovkraft Inc. is a digital marketing agency primarily focused on driving brand visibility, generating leads, and increasing sales for their clients, which aligns directly with a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8310453193",
+      "email": "hello@innovkraft.com"
     }
-  }
-]
+  ]
+}

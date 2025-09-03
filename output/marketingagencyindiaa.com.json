@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://marketingagencyindiaa.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The institution is a marketing agency explicitly focused on SEO and online strategies, which are core functions in driving lead generation and ultimately sales for businesses."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://marketingagencyindiaa.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "076785 41983",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The institution is a marketing agency explicitly focused on SEO and online strategies, which are core functions in driving lead generation and ultimately sales for businesses.",
+  "extracted_contact_details": []
+}

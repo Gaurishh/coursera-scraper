@@ -1,18 +1,20 @@
-[
-  {
-    "website": "https://nxuniq.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "The company is a digital marketing agency whose primary services revolve around branding, SEO, social media, content, and performance marketing, all of which are sales-driven activities focused on client acquisition and growth."
+{
+  "Website": "https://nxuniq.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "089049 09955",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "The company is a digital marketing agency whose primary services revolve around branding, SEO, social media, content, and performance marketing, all of which are sales-driven activities focused on client acquisition and growth.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-8904909955",
+      "email": "business@nxuniq.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "business@nxuniq.com",
-        "phone": "+91-8904909955"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "HR",
+      "phone": "9980412441",
+      "email": "careers@nxuniq.com"
     }
-  }
-]
+  ]
+}

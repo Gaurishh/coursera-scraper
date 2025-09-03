@@ -1,18 +1,31 @@
-[
-  {
-    "website": "https://www.aziels.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Aziels Technologies, despite its tech focus, exhibits a strong sales-driven business model for client acquisition and growth, as evidenced by active hiring for BDM/BDE roles, a dedicated Business Head, and the CEO's involvement in Business Development to sell their IT products and solutions B2B."
+{
+  "Website": "https://www.aziels.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "084479 68167",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Aziels Technologies, despite its tech focus, exhibits a strong sales-driven business model for client acquisition and growth, as evidenced by active hiring for BDM/BDE roles, a dedicated Business Head, and the CEO's involvement in Business Development to sell their IT products and solutions B2B.",
+  "extracted_contact_details": [
+    {
+      "title": "Business Query",
+      "phone": "+91-8447-935-849"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91-8447-935-849",
-        "email": "info@aziels.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "General Phone",
+      "phone": "+91-8447-935-823"
+    },
+    {
+      "title": "General Information",
+      "email": "info@aziels.com"
+    },
+    {
+      "title": "HR Department",
+      "email": "hr@aziels.com"
+    },
+    {
+      "title": "Business Query",
+      "phone": "+91-8447-968-167"
     }
-  }
-]
+  ]
+}

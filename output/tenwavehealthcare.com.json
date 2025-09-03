@@ -1,18 +1,23 @@
-[
-  {
-    "website": "https://www.tenwavehealthcare.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Tenwave is an 'Infotech Executive Team - Healthcare IT Company' that develops complex software solutions using advanced technologies like AI, IOMT, and Blockchain, indicating a strong tech focus."
+{
+  "Website": "https://www.tenwavehealthcare.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070116 57478",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Tenwave is an 'Infotech Executive Team - Healthcare IT Company' that develops complex software solutions using advanced technologies like AI, IOMT, and Blockchain, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-7011657478, 9891599309",
+      "email": "info@tenwaveinfo.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@tenwaveinfo.com",
-        "phone": "+91-7011657478, 9891599309"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+65 6396 0605",
+      "email": "singapore@tenwaveinfo.com"
+    },
+    {
+      "phone": "+61423513163",
+      "email": "victoria@tenwaveinfo.com"
     }
-  }
-]
+  ]
+}

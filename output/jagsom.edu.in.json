@@ -1,26 +1,23 @@
-[
-  {
-    "website": "https://jagsom.edu.in/?utm_source=Google&utm_medium=organic&utm_campaign=gmb",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "JAGSoM is explicitly a business school offering a wide range of management programs, including a strong focus on Marketing, which prepares students for roles requiring sales and client engagement skills."
+{
+  "Website": "https://jagsom.edu.in/?utm_source=Google&utm_medium=organic&utm_campaign=gmb",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "081479 73132",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "JAGSoM is explicitly a business school offering a wide range of management programs, including a strong focus on Marketing, which prepares students for roles requiring sales and client engagement skills.",
+  "extracted_contact_details": [
+    {
+      "name": "JAGSoM Admissions",
+      "title": "General Admissions",
+      "phone": "+91 8147973132",
+      "email": "admissions@jagsom.edu.in"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "JAGSoM Admissions - General Admissions",
-          "email": "admissions@jagsom.edu.in",
-          "phone": "+91 8147973132"
-        },
-        {
-          "description": "JAGSoM Grievance Helpline - 24/7 Helpline for Women and any other grievance",
-          "email": "grievance@jagsom.edu.in",
-          "phone": "+91 7349103007, 080 41432816"
-        }
-      ]
+    {
+      "name": "JAGSoM Grievance Helpline",
+      "title": "24/7 Helpline for Women and any other grievance",
+      "phone": "+91 7349103007, 080 41432816",
+      "email": "grievance@jagsom.edu.in"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,21 @@
-[
-  {
-    "website": "https://optmumdigitalmarketing.com/delhi/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Optmum Digital Marketing is a digital marketing agency whose primary function is to generate leads, drive conversions, and increase ROI for its clients, fundamentally operating within a sales-driven industry, and they are actively hiring sales executives."
+{
+  "Website": "https://optmumdigitalmarketing.com/delhi/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "080873 12207",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Optmum Digital Marketing is a digital marketing agency whose primary function is to generate leads, drive conversions, and increase ROI for its clients, fundamentally operating within a sales-driven industry, and they are actively hiring sales executives.",
+  "extracted_contact_details": [
+    {
+      "title": "General Enquiries / Sales",
+      "phone": "+91-8087312207, +91-7982614387",
+      "email": "info@optmumdigital.com, sales@optmumdigital.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@optmumdigital.com, sales@optmumdigital.com",
-        "phone": "+91-8087312207, +91-7982614387"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "HR Department",
+      "phone": "+91-9967074137",
+      "email": "hr@optmumdigital.com"
     }
-  }
-]
+  ]
+}

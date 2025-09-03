@@ -1,17 +1,15 @@
-[
-  {
-    "website": "http://www.gopalancolleges.com/gsap/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Gopalan School of Architecture and Planning heavily emphasizes 'cutting-edge software and technological integration' for design and construction project management, indicating a strong need for digital and technical skills."
-    },
-    "contactDetails": {
-      "general": {
-        "phone": "+91-95358 36886/87927 47575"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://www.gopalancolleges.com/gsap/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "087927 47575",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Gopalan School of Architecture and Planning heavily emphasizes 'cutting-edge software and technological integration' for design and construction project management, indicating a strong need for digital and technical skills.",
+  "extracted_contact_details": [
+    {
+      "name": "Admission",
+      "phone": "+91-95358 36886/87927 47575"
     }
-  }
-]
+  ]
+}

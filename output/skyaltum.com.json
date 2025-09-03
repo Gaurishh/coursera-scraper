@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://skyaltum.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Skyaltum is a digital marketing company whose core services are designed to increase lead generation, customer engagement, and ultimately sales for their clients, placing them squarely within a sales-driven industry."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@skyaltum.com",
-        "phone": "+917349049861, +918431497165, +919008151165"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://skyaltum.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "084314 97165",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Skyaltum is a digital marketing company whose core services are designed to increase lead generation, customer engagement, and ultimately sales for their clients, placing them squarely within a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+917349049861, +918431497165, +919008151165",
+      "email": "info@skyaltum.com"
     }
-  }
-]
+  ]
+}

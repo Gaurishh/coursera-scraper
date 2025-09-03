@@ -1,18 +1,19 @@
-[
-  {
-    "website": "https://nexgenmarketing.in/?utm_source=gmb&utm_medium=cpc&utm_term=digital_marketing_serives&utm_campaign=services",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 90,
-      "reasoning": "NexGen Marketing is a digital marketing agency whose services and client testimonials overwhelmingly focus on driving leads, conversions, and sales for their clients, indicating a strong presence in a sales-driven industry."
+{
+  "Website": "https://nexgenmarketing.in/?utm_source=gmb&utm_medium=cpc&utm_term=digital_marketing_serives&utm_campaign=services",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "076786 44182",
+  "Course": "Sales",
+  "Score": 90,
+  "Reasoning": "NexGen Marketing is a digital marketing agency whose services and client testimonials overwhelmingly focus on driving leads, conversions, and sales for their clients, indicating a strong presence in a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 76786 44182",
+      "email": "nexgen-marketing@hotmail.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "nexgen-marketing@hotmail.com",
-        "phone": "+91 76786 44182"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 76786 44182",
+      "email": "info@nexgenmarketing.in"
     }
-  }
-]
+  ]
+}

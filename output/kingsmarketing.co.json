@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://kingsmarketing.co/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The company's name, 'King's Marketing', clearly indicates a focus on marketing, a field intrinsically linked to sales within a sales-driven industry."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://kingsmarketing.co/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "081236 32363",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company's name, 'King's Marketing', clearly indicates a focus on marketing, a field intrinsically linked to sales within a sales-driven industry.",
+  "extracted_contact_details": []
+}

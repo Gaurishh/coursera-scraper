@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.meridatechminds.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The institution's name, 'Merida Tech Minds,' explicitly indicates a strong focus on technology and innovation, aligning perfectly with programming courses."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@meridatechminds.com",
-        "phone": "+923062332811"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.meridatechminds.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "089045 99283",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution's name, 'Merida Tech Minds,' explicitly indicates a strong focus on technology and innovation, aligning perfectly with programming courses.",
+  "extracted_contact_details": [
+    {
+      "phone": "+923062332811",
+      "email": "info@meridatechminds.com"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://hitupsolutions.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "HitupSolutions is a digital marketing agency that specializes in driving business growth, lead generation, and online sales for its clients through services like SEO, PPC, social media, and e-commerce account management."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@hitupsolutions.com",
-        "phone": "7983772834"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://hitupsolutions.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "084499 43709",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "HitupSolutions is a digital marketing agency that specializes in driving business growth, lead generation, and online sales for its clients through services like SEO, PPC, social media, and e-commerce account management.",
+  "extracted_contact_details": [
+    {
+      "phone": "7983772834",
+      "email": "info@hitupsolutions.com"
     }
-  }
-]
+  ]
+}

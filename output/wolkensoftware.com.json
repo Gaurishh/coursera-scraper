@@ -1,18 +1,23 @@
-[
-  {
-    "website": "http://www.wolkensoftware.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Wolken Software is an AI-powered B2B SaaS company specializing in enterprise software for ITSM and CSM, with a strong emphasis on low-code platforms, automation, integration, and a leadership team with deep technical expertise."
+{
+  "Website": "http://www.wolkensoftware.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "096069 50857",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Wolken Software is an AI-powered B2B SaaS company specializing in enterprise software for ITSM and CSM, with a strong emphasis on low-code platforms, automation, integration, and a leadership team with deep technical expertise.",
+  "extracted_contact_details": [
+    {
+      "name": "Wolken Software Inc.",
+      "phone": "408-973-7240"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "408-973-7240",
-        "email": "careers@wolkensoftware.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Wolken Software (India)",
+      "phone": "91 080 4174 1019"
+    },
+    {
+      "name": "Wolken Software Careers",
+      "email": "careers@wolkensoftware.com"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,42 @@
-[
-  {
-    "website": "https://www.skit.org.in/index.html",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "The institution is an engineering college with a vision to produce competent engineers, offering various technology and engineering-focused programs like Computer Science, AI/ML, and Electronics, with placements primarily in IT and core engineering companies."
+{
+  "Website": "https://www.skit.org.in/index.html",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "096060 91262",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The institution is an engineering college with a vision to produce competent engineers, offering various technology and engineering-focused programs like Computer Science, AI/ML, and Electronics, with placements primarily in IT and core engineering companies.",
+  "extracted_contact_details": [
+    {
+      "title": "Admission",
+      "phone": "+919606091262, 08028392221"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+919606091262, 08028392221",
-        "email": "principal@skit.org.in, skit1princi@gmail.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Principal's Office",
+      "phone": "08023721315, +919148760346, 08023721477",
+      "email": "principal@skit.org.in, skit1princi@gmail.com"
+    },
+    {
+      "title": "Admin / HR Related",
+      "phone": "+919148760326, 08028392221",
+      "email": "admin@skit.org.in"
+    },
+    {
+      "title": "Scholarship Related",
+      "phone": "+919148760426"
+    },
+    {
+      "title": "Placements",
+      "phone": "+919606091258",
+      "email": "placement@skit.org.in"
+    },
+    {
+      "title": "Fax",
+      "phone": "08023721477"
+    },
+    {
+      "title": "General Information",
+      "email": "info@skit.org.in"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,23 @@
-[
-  {
-    "website": "https://www.slnsoftwares.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "SLN Softwares is a software development company whose core business, services, products, and team expertise are exclusively focused on building and maintaining software, web applications, and digital solutions, indicating a strong technical and programming foundation."
+{
+  "Website": "https://www.slnsoftwares.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093158 98126",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "SLN Softwares is a software development company whose core business, services, products, and team expertise are exclusively focused on building and maintaining software, web applications, and digital solutions, indicating a strong technical and programming foundation.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales Team",
+      "phone": "+919315898126, +911143305659"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+919315898126, +911143305659",
-        "email": "vivek@slnsoftwares.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Customer Relations Manager",
+      "email": "vivek@slnsoftwares.com"
+    },
+    {
+      "title": "Career Enquiries",
+      "email": "hr@slnsoftwares.com"
     }
-  }
-]
+  ]
+}

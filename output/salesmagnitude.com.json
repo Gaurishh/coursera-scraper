@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.salesmagnitude.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Sales Magnitude is a performance marketing agency whose primary objective, as repeatedly stated throughout their website, is to generate quality leads and increase sales for their clients."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@salesmagnitude.com",
-        "phone": "+91 8394997177"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.salesmagnitude.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "083949 97177",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Sales Magnitude is a performance marketing agency whose primary objective, as repeatedly stated throughout their website, is to generate quality leads and increase sales for their clients.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8394997177",
+      "email": "info@salesmagnitude.com"
     }
-  }
-]
+  ]
+}

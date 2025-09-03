@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.appsplusweb.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "AppsPlusWeb is primarily a mobile and web application development company with a strong focus on advanced technologies like AI, ML, and various programming frameworks, making a Programming course highly relevant to their core business and employee skill sets."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@appsplusweb.com",
-        "phone": "+91 9899778847"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.appsplusweb.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098997 78847",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "AppsPlusWeb is primarily a mobile and web application development company with a strong focus on advanced technologies like AI, ML, and various programming frameworks, making a Programming course highly relevant to their core business and employee skill sets.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9899778847",
+      "email": "info@appsplusweb.com"
     }
-  }
-]
+  ]
+}

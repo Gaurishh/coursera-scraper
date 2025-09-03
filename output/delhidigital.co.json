@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://delhidigital.co/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "As a leading digital marketing agency, Delhi Digital Co's services directly support client sales and lead generation through online strategies, making sales-focused training highly relevant to their core business."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@delhidigital.co",
-        "phone": "+91 97177 56860"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://delhidigital.co/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092051 10208",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "As a leading digital marketing agency, Delhi Digital Co's services directly support client sales and lead generation through online strategies, making sales-focused training highly relevant to their core business.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 97177 56860",
+      "email": "info@delhidigital.co"
     }
-  }
-]
+  ]
+}

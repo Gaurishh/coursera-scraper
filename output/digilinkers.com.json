@@ -1,18 +1,20 @@
-[
-  {
-    "website": "https://digilinkers.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Digilinkers is a digital marketing agency explicitly focused on driving client sales, leads, and ROI through services like SEO, SMM, and paid advertising, making a Sales course highly relevant to their core business objectives."
+{
+  "Website": "https://digilinkers.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098180 00334",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Digilinkers is a digital marketing agency explicitly focused on driving client sales, leads, and ROI through services like SEO, SMM, and paid advertising, making a Sales course highly relevant to their core business objectives.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9818000334"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91-9818000334",
-        "email": "contactus@digilinkers.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "contactus@digilinkers.com"
+    },
+    {
+      "email": "info@digilinkers.com"
     }
-  }
-]
+  ]
+}

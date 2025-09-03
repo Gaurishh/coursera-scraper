@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.zamstars.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 90,
-      "reasoning": "Zamstars is a 'business first, creative enabled, outcome focused consulting firm' that explicitly offers 'Sales Enablement,' measures success by 'converting leads to new business' and 'generated through sales solutions,' and operates in a sales-driven industry."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@zamstars.com",
-        "phone": "+91 97 4147 1391"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.zamstars.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "097414 71391",
+  "Course": "Sales",
+  "Score": 90,
+  "Reasoning": "Zamstars is a 'business first, creative enabled, outcome focused consulting firm' that explicitly offers 'Sales Enablement,' measures success by 'converting leads to new business' and 'generated through sales solutions,' and operates in a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 97 4147 1391",
+      "email": "info@zamstars.com"
     }
-  }
-]
+  ]
+}

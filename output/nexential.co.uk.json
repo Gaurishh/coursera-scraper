@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://nexential.co.uk/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Nexential is fundamentally a custom software development company, deeply focused on engineering digital solutions and leveraging advanced technologies like AI, IoT, and machine learning, making programming skills central to their core business and offerings."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://nexential.co.uk/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "095008 64111",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Nexential is fundamentally a custom software development company, deeply focused on engineering digital solutions and leveraging advanced technologies like AI, IoT, and machine learning, making programming skills central to their core business and offerings.",
+  "extracted_contact_details": []
+}

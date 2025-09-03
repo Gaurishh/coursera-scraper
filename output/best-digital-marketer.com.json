@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.best-digital-marketer.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "The company is a Digital Marketing Agency explicitly focused on 'generating genuine leads for your Business,' 'driving sales with customer loyalty,' and 'boosting their leads or sales online' for its clients."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@best-digital-marketer.com",
-        "phone": "8904292528, 8073291493"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.best-digital-marketer.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "089042 92528",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "The company is a Digital Marketing Agency explicitly focused on 'generating genuine leads for your Business,' 'driving sales with customer loyalty,' and 'boosting their leads or sales online' for its clients.",
+  "extracted_contact_details": [
+    {
+      "phone": "8904292528, 8073291493",
+      "email": "info@best-digital-marketer.com"
     }
-  }
-]
+  ]
+}

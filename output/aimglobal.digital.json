@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://aimglobal.digital/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "AimGlobal Digital is a digital marketing agency whose entire mission and service offerings, including SEO, SMM, campaign management, and CRM integration, are directly aimed at driving sales, lead generation, and maximizing ROI for their diverse clientele."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "sales@aimglobal.digital",
-        "phone": "+91 87923 81091, +91 80831 68434"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://aimglobal.digital/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "087923 81091",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "AimGlobal Digital is a digital marketing agency whose entire mission and service offerings, including SEO, SMM, campaign management, and CRM integration, are directly aimed at driving sales, lead generation, and maximizing ROI for their diverse clientele.",
+  "extracted_contact_details": [
+    {
+      "name": "AimGlobal Digital",
+      "phone": "+91 87923 81091, +91 80831 68434",
+      "email": "sales@aimglobal.digital"
     }
-  }
-]
+  ]
+}

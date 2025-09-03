@@ -1,18 +1,35 @@
-[
-  {
-    "website": "https://www.bimtech.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The Birla Institute of Management Technology (BIMTECH) is explicitly a business school with a strong focus on various PGDM programs in management, retail, and international business, making sales skills highly relevant for its students."
+{
+  "Website": "https://www.bimtech.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "093550 24501",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The Birla Institute of Management Technology (BIMTECH) is explicitly a business school with a strong focus on various PGDM programs in management, retail, and international business, making sales skills highly relevant for its students.",
+  "extracted_contact_details": [
+    {
+      "name": "Birla Institute of Management Technology (BIMTECH)",
+      "email": "info@bimtech.ac.in",
+      "phone": "+91-120-6843000, 9355024501, 1800 5723 999 (Toll-free)"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@bimtech.ac.in",
-        "phone": "+91-120-6843000, 9355024501, 1800 5723 999 (Toll-free)"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Birla Institute of Management Technology (BIMTECH)",
+      "email": "admissions@bimtech.ac.in",
+      "phone": "+91-120-2323001"
+    },
+    {
+      "title": "Admissions Inquiries",
+      "email": "admissions@bimtech.ac.in",
+      "phone": "+91-120-6843000, 9355024501, 1800 5723 999 (Toll-free)"
+    },
+    {
+      "title": "24x7 Women Helpline Number for providing safety to female students, female faculty, and non-teaching Staff",
+      "phone": "0120-6843000"
+    },
+    {
+      "title": "Centre for Management Development and Consultancy",
+      "email": "cmdc@bimtech.ac.in, mdp@bimtech.ac.in, fdp@bimtech.ac.in",
+      "phone": "0120 684 3000 Extn 374/375"
     }
-  }
-]
+  ]
+}

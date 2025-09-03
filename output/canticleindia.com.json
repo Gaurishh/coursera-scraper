@@ -1,18 +1,25 @@
-[
-  {
-    "website": "http://www.canticleindia.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Canticle Technologies is a software development company that builds ERP, custom software, and mobile applications, showcasing a strong technology focus in its core business operations and services."
+{
+  "Website": "http://www.canticleindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092127 63762",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Canticle Technologies is a software development company that builds ERP, custom software, and mobile applications, showcasing a strong technology focus in its core business operations and services.",
+  "extracted_contact_details": [
+    {
+      "name": "vmahajan",
+      "phone": "+91 9212763762",
+      "email": "vmahajan@canticleindia.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "vmahajan@canticleindia.in",
-        "phone": "+91 9212763762"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "(+91)011-41811161"
+    },
+    {
+      "phone": "+91-8851337649"
+    },
+    {
+      "email": "hr@canticleindia.com"
     }
-  }
-]
+  ]
+}

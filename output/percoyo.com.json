@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://www.percoyo.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Percoyo is a digital marketing and digital transformation agency focused on generating leads, conversions, and ROI for its clients, explicitly listing a 'Sales' contact number and emphasizing market dominance and revenue growth."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "hello@percoyo.com",
-        "phone": "+91 76767 22000"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.percoyo.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "076767 22000",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Percoyo is a digital marketing and digital transformation agency focused on generating leads, conversions, and ROI for its clients, explicitly listing a 'Sales' contact number and emphasizing market dominance and revenue growth.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales",
+      "phone": "+91 76767 22000",
+      "email": "hello@percoyo.com"
     }
-  }
-]
+  ]
+}

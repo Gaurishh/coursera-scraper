@@ -1,18 +1,23 @@
-[
-  {
-    "website": "http://www.cloudespacio.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Cloudespacio is a Salesforce consulting firm whose core services and products, including Sales Cloud and Revenue Cloud, are explicitly designed to help businesses streamline operations, enhance customer experiences, and drive sales growth for their clients."
+{
+  "Website": "http://www.cloudespacio.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099585 84825",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Cloudespacio is a Salesforce consulting firm whose core services and products, including Sales Cloud and Revenue Cloud, are explicitly designed to help businesses streamline operations, enhance customer experiences, and drive sales growth for their clients.",
+  "extracted_contact_details": [
+    {
+      "phone": "+65 90669844",
+      "email": "info@cloudespacio.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@cloudespacio.com",
-        "phone": "+65 90669844"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 9958584825",
+      "email": "info@cloudespacio.com"
+    },
+    {
+      "phone": "+91 9958584825",
+      "email": "jobs@cloudespacio.com"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.globalinfoedge.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Global Info Edge is a digital marketing agency with a core focus on lead generation, performance marketing, conversions, and driving client growth and profits, which are all directly tied to sales outcomes."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "contact@globalinfoedge.com",
-        "phone": "091559 93311"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.globalinfoedge.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093135 12275",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Global Info Edge is a digital marketing agency with a core focus on lead generation, performance marketing, conversions, and driving client growth and profits, which are all directly tied to sales outcomes.",
+  "extracted_contact_details": [
+    {
+      "phone": "091559 93311",
+      "email": "contact@globalinfoedge.com"
     }
-  }
-]
+  ]
+}

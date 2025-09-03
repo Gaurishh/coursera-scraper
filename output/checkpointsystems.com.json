@@ -1,18 +1,211 @@
-[
-  {
-    "website": "http://www.checkpointsystems.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Checkpoint Systems demonstrates a strong tech focus through its development of cutting-edge RFID, RF, and software solutions, employing a significant number of R&D and software engineers, and explicitly stating it owns all stages of software development for its platforms."
+{
+  "Website": "http://www.checkpointsystems.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080665 95200",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Checkpoint Systems demonstrates a strong tech focus through its development of cutting-edge RFID, RF, and software solutions, employing a significant number of R&D and software engineers, and explicitly stating it owns all stages of software development for its platforms.",
+  "extracted_contact_details": [
+    {
+      "name": "Checkpoint Systems General Inquiries",
+      "phone": "1 800 257 5540",
+      "email": "info@checkpointsystems.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@checkpointsystems.com",
-        "phone": "1 800 257 5540"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Fenix Handels GmbH",
+      "phone": "+43 16162411",
+      "email": "office@fenix.at"
+    },
+    {
+      "name": "Shaheen Group",
+      "phone": "+973 36560513",
+      "email": "info@shaheengroup.net"
+    },
+    {
+      "name": "Belcomdata",
+      "phone": "+375 293 525 109",
+      "email": "info@belcomdata.by"
+    },
+    {
+      "name": "Retail Systems - Bulgaria. Ltd",
+      "phone": "+359 898 599 531",
+      "email": "info@retailsystems.bg"
+    },
+    {
+      "name": "Pro Alarm Rješenja d.o.o.",
+      "phone": "+38515603500",
+      "email": "info@pro-alarm.hr"
+    },
+    {
+      "name": "ScanPOS d.o.o.",
+      "phone": "+38516331540",
+      "email": "info@scanpos.hr"
+    },
+    {
+      "name": "C.N. Chip Security LTD.",
+      "phone": "+357 25377734",
+      "email": "chip@cytanet.com.cy"
+    },
+    {
+      "name": "CKP (CZ), s.r.o.",
+      "phone": "+421 917 142 357",
+      "email": "info@ckp-group.com"
+    },
+    {
+      "name": "Nordic Retail Aps (Denmark)",
+      "phone": "+45 44 84 14 44",
+      "email": "info@nordicretail.dk"
+    },
+    {
+      "name": "Neto Baltic OÜ",
+      "phone": "+372 650 4261",
+      "email": "info@netobaltic.ee"
+    },
+    {
+      "name": "Neosystem",
+      "phone": "0590 99 30 30",
+      "email": "contact@neosystem.fr"
+    },
+    {
+      "name": "Buropac Tahiti",
+      "phone": "+689 40 504 500",
+      "email": "buropac.tahiti@mail.pf"
+    },
+    {
+      "name": "G-SERVICE LLC",
+      "phone": "+995 595 90 13 57",
+      "email": "info@gservice.ge, d.gagua@gservice.ge"
+    },
+    {
+      "name": "Odesus",
+      "phone": "+30 210 3227140",
+      "email": "sales@odesus.gr"
+    },
+    {
+      "name": "CKP Hungary Kft.",
+      "phone": "+36 30 417 4456",
+      "email": "info@ckp-group.com"
+    },
+    {
+      "name": "A.HARTAA L.T.D",
+      "phone": "+972523639835",
+      "email": "ahartaa@gmail.com"
+    },
+    {
+      "name": "Tadabeir Soft",
+      "phone": "00962797928204",
+      "email": "info@tadabeir.com"
+    },
+    {
+      "name": "AntiKrazha LPP",
+      "phone": "+77017555550",
+      "email": "antikrazha.lpp@mail.ru"
+    },
+    {
+      "name": "Neto Baltic SIA",
+      "phone": "+371 6758 3518",
+      "email": "info@netobaltic.lv"
+    },
+    {
+      "name": "Creative Hardware For Integrated Products SAL",
+      "phone": "+961 1 573 573",
+      "email": "info@chip-lebanon.com"
+    },
+    {
+      "name": "Al Rkeeb Co.",
+      "phone": "+218912107208",
+      "email": "rkeb.co@yahoo.com"
+    },
+    {
+      "name": "Neto Baltic UAB",
+      "phone": "+370 70055575",
+      "email": "info@netobaltic.lt"
+    },
+    {
+      "name": "Computer Labelling Systems Ltd",
+      "phone": "+356 21581618",
+      "email": "sales@cls.com.mt"
+    },
+    {
+      "name": "Sprinx Solutions",
+      "phone": "+212 6 62 29 73 81",
+      "email": "contact@sprinxsolutions.com"
+    },
+    {
+      "name": "Perpetuumobile Security",
+      "phone": "+389 2 3109 993",
+      "email": "contact@perpetuumobile.mk"
+    },
+    {
+      "name": "Ennte AS",
+      "phone": "+47 22903300",
+      "email": "firmapost@ennte.no"
+    },
+    {
+      "name": "Bright Information Systems W.L.L.",
+      "phone": "+974 44323763",
+      "email": "info@bis.qa"
+    },
+    {
+      "name": "Integrated Communication and Technology Solutions",
+      "phone": "+974 4498 8280",
+      "email": "info@ictsolutions.com.qa"
+    },
+    {
+      "name": "Minerva Security SRL",
+      "phone": "+40 720 019 552",
+      "email": "office@minerva-security.ro"
+    },
+    {
+      "name": "A.T.N Electronics doo",
+      "phone": "+381 63 269116",
+      "email": "sale@atnelectronics.rs"
+    },
+    {
+      "name": "Craft studio doo",
+      "phone": "+381 11 2443 663",
+      "email": "office@craftstudio.rs"
+    },
+    {
+      "name": "CKP Slovakia s.r.o.",
+      "phone": "+421 905 323 880",
+      "email": "info@ckp-group.com"
+    },
+    {
+      "name": "Promotrade d.o.o.",
+      "phone": "+386 (0)3 713 15 30",
+      "email": "info@promotrade.si"
+    },
+    {
+      "name": "Nordic Retail Aps (Sweden)",
+      "phone": "+46 31 769 11 70",
+      "email": "info@nordicretail.se"
+    },
+    {
+      "name": "FMC Shrink Management GmbH",
+      "phone": "+41 44 744 58 00",
+      "email": "info@fmc.ch"
+    },
+    {
+      "name": "Detay A.S.",
+      "phone": "+90 212 234 02 80",
+      "email": "info@detayas.com.tr"
+    },
+    {
+      "name": "Business Automation & Security Systems LLC",
+      "phone": "+971569970772",
+      "email": "info@bass-uae.com"
+    },
+    {
+      "name": "Techsys Technology LLC",
+      "phone": "+971 55 989 8609",
+      "email": "sales@techsys.ae"
+    },
+    {
+      "name": "Bizerba Ukraine Limited Liability Company",
+      "phone": "+38 044 351 29 92",
+      "email": "ua-kiev@bizerba.com"
     }
-  }
-]
+  ]
+}

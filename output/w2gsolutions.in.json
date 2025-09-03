@@ -1,18 +1,18 @@
-[
-  {
-    "website": "https://w2gsolutions.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "The company clearly identifies as a 'Software Development Company' with a strong emphasis on programming languages, IT consulting, and bespoke software solutions, indicating a core tech focus."
+{
+  "Website": "https://w2gsolutions.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4556 2561",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The company clearly identifies as a 'Software Development Company' with a strong emphasis on programming languages, IT consulting, and bespoke software solutions, indicating a core tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-8595041598"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91-8595041598",
-        "email": "info@w2gsolutions.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91-11-45562561",
+      "email": "info@w2gsolutions.in"
     }
-  }
-]
+  ]
+}

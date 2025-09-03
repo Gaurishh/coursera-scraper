@@ -1,31 +1,29 @@
-[
-  {
-    "website": "https://www.igeekstechnologies.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "iGeeks Technologies is unequivocally a company with a strong tech focus, offering extensive training and internships in software development, data science, AI, and various engineering disciplines."
+{
+  "Website": "https://www.igeekstechnologies.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "095905 44567",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "iGeeks Technologies is unequivocally a company with a strong tech focus, offering extensive training and internships in software development, data science, AI, and various engineering disciplines.",
+  "extracted_contact_details": [
+    {
+      "name": "Nandu",
+      "title": "Corporate Training / Career Options",
+      "phone": "9590544567",
+      "email": "nandu@igeekstechnologies.com"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "Nandu - Corporate Training / Career Options",
-          "email": "nandu@igeekstechnologies.com",
-          "phone": "9590544567"
-        },
-        {
-          "description": "Hari - Recruitment Service / Partnership",
-          "email": "hari@igeekstechnologies.com",
-          "phone": "9590544567, 7019280372"
-        },
-        {
-          "description": "IGeekS Technologies - General Enquiries",
-          "email": "info@igeekstechnologies.com, training@igeekstechnologies.com",
-          "phone": "7019280372, 9590544567, 9110457591"
-        }
-      ]
+    {
+      "name": "Hari",
+      "title": "Recruitment Service / Partnership",
+      "phone": "9590544567, 7019280372",
+      "email": "hari@igeekstechnologies.com"
+    },
+    {
+      "name": "IGeekS Technologies",
+      "title": "General Enquiries",
+      "phone": "7019280372, 9590544567, 9110457591",
+      "email": "info@igeekstechnologies.com, training@igeekstechnologies.com"
     }
-  }
-]
+  ]
+}

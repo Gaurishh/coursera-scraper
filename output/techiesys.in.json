@@ -1,18 +1,29 @@
-[
-  {
-    "website": "https://www.techiesys.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Techiesys is fundamentally a software development company that offers web, mobile, and custom software solutions, along with extensive technical training in various programming languages and platforms, demonstrating a strong tech focus."
+{
+  "Website": "https://www.techiesys.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099000 04541",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Techiesys is fundamentally a software development company that offers web, mobile, and custom software solutions, along with extensive technical training in various programming languages and platforms, demonstrating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9900004541"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 9900004541",
-        "email": "sales@techiesys.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "sales@techiesys.in"
+    },
+    {
+      "email": "hr@techiesys.in"
+    },
+    {
+      "email": "info@techiesys.in"
+    },
+    {
+      "email": "techiesysitsolutions@gmail.com"
+    },
+    {
+      "phone": "+91-9900344725"
     }
-  }
-]
+  ]
+}

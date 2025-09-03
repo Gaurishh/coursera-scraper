@@ -1,18 +1,24 @@
-[
-  {
-    "website": "https://www.grocat.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "GroCat Digital is a digital marketing agency whose core mission is to drive client business growth, generate leads, and boost sales, making strong sales capabilities essential for both its own operations and its clients' success."
+{
+  "Website": "https://www.grocat.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "087925 59215",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "GroCat Digital is a digital marketing agency whose core mission is to drive client business growth, generate leads, and boost sales, making strong sales capabilities essential for both its own operations and its clients' success.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales",
+      "phone": "+91 87925 59215"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 87925 59215",
-        "email": "hr@grocat.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "HR",
+      "phone": "+91 81236 22615",
+      "email": "hr@grocat.in"
+    },
+    {
+      "title": "General Inquiry",
+      "email": "info@grocat.in"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.digiworq.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "As a 'webdesign company', Digiworq's core business relies heavily on technical and programming skills for creating and maintaining websites."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@digiworq.com",
-        "phone": "+91 9742493540"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.digiworq.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "096114 89001",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "As a 'webdesign company', Digiworq's core business relies heavily on technical and programming skills for creating and maintaining websites.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9742493540",
+      "email": "info@digiworq.com"
     }
-  }
-]
+  ]
+}

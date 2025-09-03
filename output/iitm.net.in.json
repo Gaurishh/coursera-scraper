@@ -1,18 +1,21 @@
-[
-  {
-    "website": "http://iitm.net.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The institution offers prominent B.Tech in Computer Science Engineering and BCA programs, focuses on producing Information Technology professionals and Software Engineers, and hosts tech-specific events like 'Tech Hackers' and 'InternNexus Code Blitz 1.0'."
+{
+  "Website": "http://iitm.net.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2852 0890",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution offers prominent B.Tech in Computer Science Engineering and BCA programs, focuses on producing Information Technology professionals and Software Engineers, and hosts tech-specific events like 'Tech Hackers' and 'InternNexus Code Blitz 1.0'.",
+  "extracted_contact_details": [
+    {
+      "title": "Admission Enquiry",
+      "phone": "91-8368898387",
+      "email": "admission@iitm.tech"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admission@iitm.tech",
-        "phone": "91-8368898387"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "General Enquiry",
+      "phone": "91-8368898387",
+      "email": "info@iitm.tech"
     }
-  }
-]
+  ]
+}

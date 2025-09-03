@@ -1,160 +1,136 @@
-[
-  {
-    "website": "https://shrideviengineering.org/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The institution is explicitly named an 'Institute of Engineering and Technology' with a primary aim to impart 'quality Technical Education' across numerous engineering and technology departments, including AI, Computer Science, and Cyber Security."
+{
+  "Website": "https://shrideviengineering.org/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "0816 221 2629",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution is explicitly named an 'Institute of Engineering and Technology' with a primary aim to impart 'quality Technical Education' across numerous engineering and technology departments, including AI, Computer Science, and Cyber Security.",
+  "extracted_contact_details": [
+    {
+      "title": "Admissions / Head Office",
+      "phone": "+91 9686687361, +91 9035052552",
+      "email": "admissions@shrideviengineering.org"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admissions@shrideviengineering.org",
-        "phone": "+91 9686687361, +91 9035052552"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Dr. M. R. Hulinaykar",
-          "title": "Founder and Chairman",
-          "email": "info@shrideviengineering.org",
-          "phone": null
-        },
-        {
-          "name": "Sri M.S. Patil",
-          "title": "Director- HR and IT",
-          "email": "info@shrideviengineering.org",
-          "phone": null
-        },
-        {
-          "name": "Dr. Narendra Viswanath",
-          "title": "Principal - SIET",
-          "email": "principal@shrideviengineering.org",
-          "phone": null
-        },
-        {
-          "name": "Dr. Chandrasekhar N",
-          "title": "Dean Academics",
-          "email": "hod.chemistry@shrideviengineering.org",
-          "phone": null
-        },
-        {
-          "name": "Dr. Basavesha.D",
-          "title": "HOD – Computer Science and Engineering",
-          "email": null,
-          "phone": "+91 9742504097"
-        },
-        {
-          "name": "Dr. G. Mahesh Kumar",
-          "title": "HOD – Civil Engineering",
-          "email": null,
-          "phone": "+91 9448587528"
-        },
-        {
-          "name": "Dr. Girish.L",
-          "title": "HOD – Artificial Intelligence and Data Science",
-          "email": null,
-          "phone": "+91 8970429399"
-        },
-        {
-          "name": "Prof. K. P. Chandraiah",
-          "title": "HOD – Mechanical Engineering and Management Representative",
-          "email": null,
-          "phone": "+91 8660369374"
-        },
-        {
-          "name": "Dr. Tanuja K S",
-          "title": "HOD – Electrical and Electronics Engineering",
-          "email": null,
-          "phone": "+91 9008681219"
-        },
-        {
-          "name": "Dr. Aijaz Ahamed Sharief",
-          "title": "HOD – Electronics and Communication Engineering",
-          "email": null,
-          "phone": "+91 9686114867"
-        },
-        {
-          "name": "Dr. Rekha H",
-          "title": "HOD – Information Science and Engineering",
-          "email": null,
-          "phone": "+91 9844040350"
-        },
-        {
-          "name": "Dr. Sadashivaiah. P. J.",
-          "title": "HOD – Physics",
-          "email": null,
-          "phone": "+91 9980951150"
-        },
-        {
-          "name": "Dr. Kishor Kumar M K",
-          "title": "HOD – Mathematics",
-          "email": null,
-          "phone": "+91 9686114911"
-        },
-        {
-          "name": "Dr. K. S. Ramakrishna",
-          "title": "HOD – Master of Business Administration",
-          "email": null,
-          "phone": "+91 9449863468"
-        },
-        {
-          "name": "Dr. Nagaraja C",
-          "title": "HOD – First Year UG Studies",
-          "email": null,
-          "phone": "+91 9740778145"
-        },
-        {
-          "name": "Prof. C V Shanmukha Swamy",
-          "title": "SIET Alumni Chief Coordinator",
-          "email": null,
-          "phone": "+91 9448175489"
-        },
-        {
-          "name": "Mr. Raghavendra. N",
-          "title": "IT Technical Support [L2 / L3] and Website Coordinator",
-          "email": null,
-          "phone": "+91 9886144733"
-        },
-        {
-          "name": "Mr. Yashawanth.R",
-          "title": "Website Coordinator",
-          "email": "sietskill@gmail.com",
-          "phone": null
-        },
-        {
-          "name": "Mr. Pavan Kumar A N",
-          "title": "Website Coordinator",
-          "email": "sietskill@gmail.com",
-          "phone": null
-        },
-        {
-          "name": "Mr. Chandra Mohan",
-          "title": "Maintaince Staff Supervisor",
-          "email": null,
-          "phone": "+91 8971438870"
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Er. Anjana Murthy M. - SIET Alumni & Training and Placement Officer",
-          "email": null,
-          "phone": "+91 8904547659"
-        },
-        {
-          "description": "Mr. Mantesh - Administrative Office Superintendent",
-          "email": null,
-          "phone": "+91 9686687361"
-        },
-        {
-          "description": "Mr. Satish. C. A. - IT Technical Support [L1 / L2] and Electronics Device Support",
-          "email": null,
-          "phone": "+91 9844327300"
-        },
-        {
-          "description": "Mr. Devraj - Network and Internet Technical Support [L1 / L2 / L3]",
-          "email": null,
-          "phone": "+91 8660633730"
-        }
-      ]
+    {
+      "name": "Dr. M. R. Hulinaykar",
+      "title": "Founder and Chairman",
+      "email": "info@shrideviengineering.org"
+    },
+    {
+      "name": "Sri M.S. Patil",
+      "title": "Director- HR and IT",
+      "email": "info@shrideviengineering.org"
+    },
+    {
+      "name": "Dr. Narendra Viswanath",
+      "title": "Principal - SIET",
+      "email": "principal@shrideviengineering.org"
+    },
+    {
+      "name": "Dr. Chandrasekhar N",
+      "title": "Dean Academics",
+      "email": "hod.chemistry@shrideviengineering.org"
+    },
+    {
+      "name": "Dr. Basavesha.D",
+      "title": "HOD – Computer Science and Engineering",
+      "phone": "+91 9742504097"
+    },
+    {
+      "name": "Dr. G. Mahesh Kumar",
+      "title": "HOD – Civil Engineering",
+      "phone": "+91 9448587528"
+    },
+    {
+      "name": "Dr. Girish.L",
+      "title": "HOD – Artificial Intelligence and Data Science",
+      "phone": "+91 8970429399"
+    },
+    {
+      "name": "Prof. K. P. Chandraiah",
+      "title": "HOD – Mechanical Engineering and Management Representative",
+      "phone": "+91 8660369374"
+    },
+    {
+      "name": "Dr. Tanuja K S",
+      "title": "HOD – Electrical and Electronics Engineering",
+      "phone": "+91 9008681219"
+    },
+    {
+      "name": "Dr. Aijaz Ahamed Sharief",
+      "title": "HOD – Electronics and Communication Engineering",
+      "phone": "+91 9686114867"
+    },
+    {
+      "name": "Dr. Rekha H",
+      "title": "HOD – Information Science and Engineering",
+      "phone": "+91 9844040350"
+    },
+    {
+      "name": "Dr. Sadashivaiah. P. J.",
+      "title": "HOD – Physics",
+      "phone": "+91 9980951150"
+    },
+    {
+      "name": "Dr. Kishor Kumar M K",
+      "title": "HOD – Mathematics",
+      "phone": "+91 9686114911"
+    },
+    {
+      "name": "Dr. K. S. Ramakrishna",
+      "title": "HOD – Master of Business Administration",
+      "phone": "+91 9449863468"
+    },
+    {
+      "name": "Dr. Nagaraja C",
+      "title": "HOD – First Year UG Studies",
+      "phone": "+91 9740778145"
+    },
+    {
+      "name": "Er. Anjana Murthy M.",
+      "title": "SIET Alumni & Training and Placement Officer",
+      "phone": "+91 8904547659"
+    },
+    {
+      "name": "Prof. C V Shanmukha Swamy",
+      "title": "SIET Alumni Chief Coordinator",
+      "phone": "+91 9448175489"
+    },
+    {
+      "name": "Mr. Mantesh",
+      "title": "Administrative Office Superintendent",
+      "phone": "+91 9686687361"
+    },
+    {
+      "name": "Mr. Raghavendra. N",
+      "title": "IT Technical Support [L2 / L3] and Website Coordinator",
+      "phone": "+91 9886144733"
+    },
+    {
+      "name": "Mr. Yashawanth.R",
+      "title": "Website Coordinator",
+      "email": "sietskill@gmail.com"
+    },
+    {
+      "name": "Mr. Pavan Kumar A N",
+      "title": "Website Coordinator",
+      "email": "sietskill@gmail.com"
+    },
+    {
+      "name": "Mr. Satish. C. A.",
+      "title": "IT Technical Support [L1 / L2] and Electronics Device Support",
+      "phone": "+91 9844327300"
+    },
+    {
+      "name": "Mr. Devraj",
+      "title": "Network and Internet Technical Support [L1 / L2 / L3]",
+      "phone": "+91 8660633730"
+    },
+    {
+      "name": "Mr. Chandra Mohan",
+      "title": "Maintaince Staff Supervisor",
+      "phone": "+91 8971438870"
     }
-  }
-]
+  ]
+}

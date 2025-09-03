@@ -1,18 +1,29 @@
-[
-  {
-    "website": "https://www.acharya.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 92,
-      "reasoning": "Acharya Institutes demonstrate a strong tech focus with an Institute of Technology, numerous specialized programs in Computer Science, AI, Data Science, and extensive collaborations with major tech companies like IBM, Siemens, Red Hat, and Capgemini."
+{
+  "Website": "https://www.acharya.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "074066 44449",
+  "Course": "Programming",
+  "Score": 92,
+  "Reasoning": "Acharya Institutes demonstrate a strong tech focus with an Institute of Technology, numerous specialized programs in Computer Science, AI, Data Science, and extensive collaborations with major tech companies like IBM, Siemens, Red Hat, and Capgemini.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 74066-44449"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 74066-44449",
-        "email": "admissions@acharya.ac.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 97317-97677"
+    },
+    {
+      "phone": "+91 97317-79233"
+    },
+    {
+      "phone": "+91 80225-55555"
+    },
+    {
+      "email": "admissions@acharya.ac.in"
+    },
+    {
+      "email": "international@acharya.ac.in"
     }
-  }
-]
+  ]
+}

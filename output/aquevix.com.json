@@ -1,18 +1,51 @@
-[
-  {
-    "website": "http://www.aquevix.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Aquevix is a dedicated software development company that explicitly states its focus on building mobile, web, and cloud applications, uses an extensive array of programming technologies, and seeks to hire individuals looking to 'take their programming to the next level.'"
+{
+  "Website": "http://www.aquevix.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4560 0412",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Aquevix is a dedicated software development company that explicitly states its focus on building mobile, web, and cloud applications, uses an extensive array of programming technologies, and seeks to hire individuals looking to 'take their programming to the next level.'",
+  "extracted_contact_details": [
+    {
+      "name": "Sales - United States",
+      "phone": "+1 (720) 605-9012",
+      "email": "ussales@aquevix.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "ussales@aquevix.com",
-        "phone": "+1 (720) 605-9012"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Sales - UK/Europe",
+      "phone": "+1 (720) 605-9012",
+      "email": "uksales@aquevix.com"
+    },
+    {
+      "name": "Sales - Canada",
+      "email": "canada@aquevix.com"
+    },
+    {
+      "name": "Sales - Australia",
+      "email": "australia@aquevix.com"
+    },
+    {
+      "name": "Sales - Singapore",
+      "email": "singapore@aquevix.com"
+    },
+    {
+      "name": "Sales - Dubai",
+      "email": "dubai@aquevix.com"
+    },
+    {
+      "name": "Sales - India Development Office",
+      "phone": "+91 (11) 4560-0412",
+      "email": "india@aquevix.com"
+    },
+    {
+      "name": "Technical Support",
+      "phone": "+91 (11) 4560 0412",
+      "email": "hello@aquevix.com"
+    },
+    {
+      "name": "Legal Department",
+      "email": "legal@aquevix.com"
     }
-  }
-]
+  ]
+}

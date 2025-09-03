@@ -1,18 +1,21 @@
-[
-  {
-    "website": "https://www.digitalindiaadd.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The company's core business as a digital marketing agency is inherently focused on generating leads, optimizing conversions, and ultimately increasing sales for its clients, making sales expertise crucial for both service delivery and client acquisition."
+{
+  "Website": "https://www.digitalindiaadd.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "063608 07351",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company's core business as a digital marketing agency is inherently focused on generating leads, optimizing conversions, and ultimately increasing sales for its clients, making sales expertise crucial for both service delivery and client acquisition.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 6360807351",
+      "email": "info@digitalindiaadd.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@digitalindiaadd.com",
-        "phone": "+91 6360807351"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "hello@digitalindiaadd.com"
+    },
+    {
+      "email": "hr@digitalindiaadd.com"
     }
-  }
-]
+  ]
+}

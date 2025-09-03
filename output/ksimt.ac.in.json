@@ -1,18 +1,24 @@
-[
-  {
-    "website": "https://www.ksimt.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The institution offers a vast array of IT and Engineering programs, including numerous specializations in Computer Science, AI, Data Science, Cybersecurity, and Blockchain, indicating a strong tech focus."
+{
+  "Website": "https://www.ksimt.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "099536 31363",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution offers a vast array of IT and Engineering programs, including numerous specializations in Computer Science, AI, Data Science, Cybersecurity, and Blockchain, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "title": "Admission & General Enquiries",
+      "phone": "9953-20-3026",
+      "email": "khatushyaminst@ksimt.ac.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "khatushyaminst@ksimt.ac.in",
-        "phone": "9953-20-3026"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Admission Team",
+      "phone": "+91 9953631363"
+    },
+    {
+      "title": "Examination Inquiry",
+      "phone": "011-45792309"
     }
-  }
-]
+  ]
+}

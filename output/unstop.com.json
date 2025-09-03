@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://unstop.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The platform explicitly mentions \"Hackathons\" as a core offering, strongly indicating a focus on technical skills and programming for the corporates and students it serves."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://unstop.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093117 77388",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The platform explicitly mentions \"Hackathons\" as a core offering, strongly indicating a focus on technical skills and programming for the corporates and students it serves.",
+  "extracted_contact_details": []
+}

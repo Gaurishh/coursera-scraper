@@ -1,18 +1,16 @@
-[
-  {
-    "website": "http://www.ewsa.edu.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 90,
-      "reasoning": "The East West School of Architecture is part of a larger group that includes engineering and technology colleges, and EWSA itself has a 'Voice IT' initiative, indicating a strong institutional focus on technology."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "dean@ewsa.edu.in, info@ewsa.edu.in",
-        "phone": "1800 123 8343, +91 9341781949, +91 9448224779, 080 23286732, 080 23288242, 080 23288899"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://www.ewsa.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "093417 81949",
+  "Course": "Programming",
+  "Score": 90,
+  "Reasoning": "The East West School of Architecture is part of a larger group that includes engineering and technology colleges, and EWSA itself has a 'Voice IT' initiative, indicating a strong institutional focus on technology.",
+  "extracted_contact_details": [
+    {
+      "title": "General Contact",
+      "phone": "1800 123 8343, +91 9341781949, +91 9448224779, 080 23286732, 080 23288242, 080 23288899",
+      "email": "dean@ewsa.edu.in, info@ewsa.edu.in"
     }
-  }
-]
+  ]
+}

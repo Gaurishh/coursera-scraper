@@ -1,25 +1,59 @@
-[
-  {
-    "website": "https://www.mvjce.edu.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 100,
-      "reasoning": "MVJ College of Engineering is a highly specialized engineering institution with numerous undergraduate, postgraduate, and Ph.D. programs across Computer Science, Electrical, Electronics, Mechanical, and Civil Engineering, coupled with research centers focused on advanced technical areas like AI, ML, IoT, Robotics, and LabVIEW programming."
+{
+  "Website": "https://www.mvjce.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "080 4299 1003",
+  "Course": "Programming",
+  "Score": 100,
+  "Reasoning": "MVJ College of Engineering is a highly specialized engineering institution with numerous undergraduate, postgraduate, and Ph.D. programs across Computer Science, Electrical, Electronics, Mechanical, and Civil Engineering, coupled with research centers focused on advanced technical areas like AI, ML, IoT, Robotics, and LabVIEW programming.",
+  "extracted_contact_details": [
+    {
+      "title": "Accounts",
+      "phone": "+91 8042991013",
+      "email": "accounts@mvjce.edu.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "accounts@mvjce.edu.in",
-        "phone": "+91 8042991013"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Dr. Ajayan K. R.",
-          "title": "Principal, MVJ College of Engineering",
-          "email": "principal@mvjce.edu.in",
-          "phone": "+91 8042991000"
-        }
-      ],
-      "otherContacts": []
+    {
+      "title": "Admissions",
+      "phone": "+91 8150811811",
+      "email": "contactmvjce@gmail.com"
+    },
+    {
+      "title": "Human Resources",
+      "phone": "+91 8042991010",
+      "email": "hrm@mvjce.edu.in"
+    },
+    {
+      "title": "Placement",
+      "phone": "+91 80 4299 1080; +91 9606056954; +91 80 4299 1030",
+      "email": "director.placement@mvjce.edu.in"
+    },
+    {
+      "title": "Office",
+      "phone": "+91 8042991000",
+      "email": "helpdesk@mvjce.edu.in"
+    },
+    {
+      "title": "Registrar",
+      "phone": "+91 8042991006",
+      "email": "registrar@mvjce.edu.in"
+    },
+    {
+      "name": "Dr. Ajayan K. R.",
+      "title": "Principal, MVJ College of Engineering",
+      "phone": "+91 8042991000",
+      "email": "principal@mvjce.edu.in"
+    },
+    {
+      "title": "FAX",
+      "phone": "+91 8028452443"
+    },
+    {
+      "title": "Board Line",
+      "phone": "+91 80 4299 1000"
+    },
+    {
+      "title": "Reception",
+      "phone": "+91 80 4299 1007"
     }
-  }
-]
+  ]
+}

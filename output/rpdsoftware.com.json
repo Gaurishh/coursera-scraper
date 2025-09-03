@@ -1,18 +1,23 @@
-[
-  {
-    "website": "https://rpdsoftware.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The company identifies primarily as a 'Digital Marketing Agency' that leverages technology to help clients achieve business objectives, drive growth, boost brand visibility, and increase revenue, which are all core sales and marketing outcomes."
+{
+  "Website": "https://rpdsoftware.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "080907 06048",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company identifies primarily as a 'Digital Marketing Agency' that leverages technology to help clients achieve business objectives, drive growth, boost brand visibility, and increase revenue, which are all core sales and marketing outcomes.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9999591983, +91-8090706048",
+      "email": "contact@rpdsoftware.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "contact@rpdsoftware.com",
-        "phone": "+91-9999591983, +91-8090706048"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+61-403107810",
+      "email": "contact@rpdsoftware.com"
+    },
+    {
+      "phone": "+1 416-578-3476",
+      "email": "contact@rpdsoftware.com"
     }
-  }
-]
+  ]
+}

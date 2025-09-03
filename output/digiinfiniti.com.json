@@ -1,18 +1,19 @@
-[
-  {
-    "website": "http://www.digiinfiniti.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Digi Infiniti is a digital marketing agency focused on driving business growth, lead generation, conversions, and explicitly employs Sales Managers and Sales Support staff, indicating a strong sales-driven industry and internal focus."
+{
+  "Website": "http://www.digiinfiniti.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "098864 54545",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Digi Infiniti is a digital marketing agency focused on driving business growth, lead generation, conversions, and explicitly employs Sales Managers and Sales Support staff, indicating a strong sales-driven industry and internal focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 98864 54545",
+      "email": "info@digiinfiniti.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@digiinfiniti.com",
-        "phone": "+91 98864 54545"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 98864 54545",
+      "email": "contact@digiinfiniti.com"
     }
-  }
-]
+  ]
+}

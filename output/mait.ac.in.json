@@ -1,31 +1,34 @@
-[
-  {
-    "website": "https://www.mait.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Maharaja Agrasen Institute of Technology is an engineering college with numerous specialized technology departments, and its alumni consistently achieve roles as software and data engineers at prominent tech companies."
+{
+  "Website": "https://www.mait.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "084481 86942",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Maharaja Agrasen Institute of Technology is an engineering college with numerous specialized technology departments, and its alumni consistently achieve roles as software and data engineers at prominent tech companies.",
+  "extracted_contact_details": [
+    {
+      "name": "Maharaja Agrasen Institute of Technology",
+      "phone": "91-8448186942",
+      "email": "mait@mait.ac.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "mait@mait.ac.in",
-        "phone": "91-8448186942"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Prof. Neelam Sharma",
-          "title": "Director",
-          "email": null,
-          "phone": "91-8448186931"
-        },
-        {
-          "name": "Brig. S.K. Kakar",
-          "title": "Director, Career Development Cell; Convener, Industry-Institute Interaction Cell Committee",
-          "email": null,
-          "phone": "91-8448186933"
-        }
-      ],
-      "otherContacts": []
+    {
+      "name": "Prof. Neelam Sharma",
+      "title": "Director",
+      "phone": "91-8448186931"
+    },
+    {
+      "title": "Registrar",
+      "phone": "91-8448186942"
+    },
+    {
+      "title": "Accounts Department",
+      "phone": "91-9999985214"
+    },
+    {
+      "name": "Brig. S.K. Kakar",
+      "title": "Director, Career Development Cell; Convener, Industry-Institute Interaction Cell Committee",
+      "phone": "91-8448186933"
     }
-  }
-]
+  ]
+}

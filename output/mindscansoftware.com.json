@@ -1,21 +1,17 @@
-[
-  {
-    "website": "http://www.mindscansoftware.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Mindscan Software Solutions, a B2B software and web development firm, explicitly details a Business Development role focused on client acquisition, pitching, negotiation, and closing commercial agreements, indicating a critical need for enhanced sales capabilities to grow their technical services."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "Mindscan Software Solutions Pvt. Ltd. - General Inquiry / Support",
-          "email": "info@mindscansoftware.com",
-          "phone": "+011-49934248, +91-9667734248, +91-9810737910, +91-9810113797, +011-27892915"
-        }
-      ]
+{
+  "Website": "http://www.mindscansoftware.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098101 13797",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Mindscan Software Solutions, a B2B software and web development firm, explicitly details a Business Development role focused on client acquisition, pitching, negotiation, and closing commercial agreements, indicating a critical need for enhanced sales capabilities to grow their technical services.",
+  "extracted_contact_details": [
+    {
+      "name": "Mindscan Software Solutions Pvt. Ltd.",
+      "title": "General Inquiry / Support",
+      "phone": "+011-49934248, +91-9667734248, +91-9810737910, +91-9810113797, +011-27892915",
+      "email": "info@mindscansoftware.com"
     }
-  }
-]
+  ]
+}

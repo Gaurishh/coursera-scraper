@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://digidzn.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 5,
-      "reasoning": "The provided website content is a technical error message related to JavaScript, offering no direct insight into the institution's primary business but vaguely hinting at web technology."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://digidzn.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092897 45760",
+  "Course": "Programming",
+  "Score": 5,
+  "Reasoning": "The provided website content is a technical error message related to JavaScript, offering no direct insight into the institution's primary business but vaguely hinting at web technology.",
+  "extracted_contact_details": []
+}

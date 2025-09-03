@@ -1,18 +1,15 @@
-[
-  {
-    "website": "http://www.4techbugs.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "The institution, 4Techbugs Technologies Pvt. Ltd., explicitly identifies itself as a 'Software Development Web Design Company' with services predominantly focused on software product development, app development, web development, and various IT solutions, indicating a strong tech focus."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@4techbugs.com",
-        "phone": "+91-9999798771, +91-9999798701"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://www.4techbugs.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099997 98701",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The institution, 4Techbugs Technologies Pvt. Ltd., explicitly identifies itself as a 'Software Development Web Design Company' with services predominantly focused on software product development, app development, web development, and various IT solutions, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9999798771, +91-9999798701",
+      "email": "info@4techbugs.com"
     }
-  }
-]
+  ]
+}

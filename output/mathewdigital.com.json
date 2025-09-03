@@ -1,18 +1,26 @@
-[
-  {
-    "website": "https://mathewdigital.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Mathew Digital is an ROI-driven digital marketing agency explicitly focused on creating 'online sales generating machines' and converting leads into customers for diverse businesses, making Sales highly relevant to their core mission and services."
+{
+  "Website": "https://mathewdigital.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "090198 88640",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Mathew Digital is an ROI-driven digital marketing agency explicitly focused on creating 'online sales generating machines' and converting leads into customers for diverse businesses, making Sales highly relevant to their core mission and services.",
+  "extracted_contact_details": [
+    {
+      "email": "hello@mathewdigital.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "hello@mathewdigital.com",
-        "phone": "+91 9019888640"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "matdigital3.0@gmail.com"
+    },
+    {
+      "phone": "+91 9019888640"
+    },
+    {
+      "phone": "+91 9072455480"
+    },
+    {
+      "email": "info@mathewdigital.com"
     }
-  }
-]
+  ]
+}

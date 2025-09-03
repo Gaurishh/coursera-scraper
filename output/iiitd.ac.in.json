@@ -1,15 +1,10 @@
-[
-  {
-    "website": "http://www.iiitd.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "IIIT-Delhi is a leading research-led technical university with academic departments, programs, and research centers almost entirely focused on Computer Science, Electronics, and Information Technology."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "http://www.iiitd.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2690 7400",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "IIIT-Delhi is a leading research-led technical university with academic departments, programs, and research centers almost entirely focused on Computer Science, Electronics, and Information Technology.",
+  "extracted_contact_details": []
+}

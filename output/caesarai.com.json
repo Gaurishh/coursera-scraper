@@ -1,18 +1,15 @@
-[
-  {
-    "website": "http://caesarai.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "CaesarAi explicitly identifies as a 'Sales Driven Influencer Marketing' company, directly aligning with the objectives of a Sales course."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "hello@caesarai.com",
-        "phone": "+91 7400300900"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://caesarai.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080166 06661",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "CaesarAi explicitly identifies as a 'Sales Driven Influencer Marketing' company, directly aligning with the objectives of a Sales course.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7400300900",
+      "email": "hello@caesarai.com"
     }
-  }
-]
+  ]
+}

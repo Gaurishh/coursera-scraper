@@ -1,18 +1,15 @@
-[
-  {
-    "website": "http://www.digitalimac.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Digital iMac is a results-driven digital marketing agency explicitly focused on generating leads, increasing sales, and boosting revenue for its clients, making a Sales course highly relevant to their core business and client outcomes."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "meetdigitalimac@gmail.com",
-        "phone": "+91 9901306103"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://www.digitalimac.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099013 06103",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Digital iMac is a results-driven digital marketing agency explicitly focused on generating leads, increasing sales, and boosting revenue for its clients, making a Sales course highly relevant to their core business and client outcomes.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9901306103",
+      "email": "meetdigitalimac@gmail.com"
     }
-  }
-]
+  ]
+}

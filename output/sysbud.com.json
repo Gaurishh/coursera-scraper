@@ -1,18 +1,20 @@
-[
-  {
-    "website": "https://www.sysbud.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "SysBud is a software development company focused on creating data recovery, email migration, and cloud backup solutions, emphasizing their team of 'Software experts' and 'Modern Technology' in their product offerings."
+{
+  "Website": "https://www.sysbud.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088605 19860",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "SysBud is a software development company focused on creating data recovery, email migration, and cloud backup solutions, emphasizing their team of 'Software experts' and 'Modern Technology' in their product offerings.",
+  "extracted_contact_details": [
+    {
+      "phone": "+(91) 8750750629"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+(91) 8750750629",
-        "email": "support@sysbud.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "support@sysbud.com"
+    },
+    {
+      "email": "info@sysbud.com"
     }
-  }
-]
+  ]
+}

@@ -1,17 +1,15 @@
-[
-  {
-    "website": "http://www.nexovate.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 5,
-      "reasoning": "The website displays only default WordPress content, offering no specific information about the corporate's industry or focus; however, the mention of 'WordPress' and 'Themes' provides a minimal, general technical indicator."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "nexovate.in@gmail.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://www.nexovate.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "070224 48811",
+  "Course": "Programming",
+  "Score": 5,
+  "Reasoning": "The website displays only default WordPress content, offering no specific information about the corporate's industry or focus; however, the mention of 'WordPress' and 'Themes' provides a minimal, general technical indicator.",
+  "extracted_contact_details": [
+    {
+      "title": "Author",
+      "email": "nexovate.in@gmail.com"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,29 @@
-[
-  {
-    "website": "https://www.niet.co.in/?utm_source=GMB&utm_medium=organic",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "NIET is primarily an Engineering and Technology institute with an extensive array of B.Tech and M.Tech programs in computer science, IT, AI, and related fields, supported by numerous innovation labs focused on cutting-edge technologies and a strong emphasis on developing programming skills."
+{
+  "Website": "https://www.niet.co.in/?utm_source=GMB&utm_medium=organic",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "080105 00700",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "NIET is primarily an Engineering and Technology institute with an extensive array of B.Tech and M.Tech programs in computer science, IT, AI, and related fields, supported by numerous innovation labs focused on cutting-edge technologies and a strong emphasis on developing programming skills.",
+  "extracted_contact_details": [
+    {
+      "title": "Admission",
+      "phone": "+91-8010-500-700, +91-8448-384-601",
+      "email": "admission@niet.co.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admission@niet.co.in",
-        "phone": "+91-8010-500-700, +91-8448-384-601"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Director",
+      "email": "director@niet.co.in"
+    },
+    {
+      "title": "Registrar",
+      "email": "registrar@niet.co.in"
+    },
+    {
+      "title": "General Enquiries",
+      "phone": "+91-8448-384-611",
+      "email": "enquiry@niet.co.in"
     }
-  }
-]
+  ]
+}

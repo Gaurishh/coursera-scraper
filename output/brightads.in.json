@@ -1,18 +1,23 @@
-[
-  {
-    "website": "https://www.brightads.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Bright Ads explicitly positions itself as a 'Digital Marketing and Web Development Company' with a strong emphasis on 'Lead Generation' and 'Performance Marketing,' directly addressing clients' needs to drive sales and business growth."
+{
+  "Website": "https://www.brightads.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "088840 05400",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Bright Ads explicitly positions itself as a 'Digital Marketing and Web Development Company' with a strong emphasis on 'Lead Generation' and 'Performance Marketing,' directly addressing clients' needs to drive sales and business growth.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 888 400 5400"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 888 400 5400",
-        "email": "support@brightads.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 855 300 9696"
+    },
+    {
+      "email": "support@brightads.in"
+    },
+    {
+      "email": "careers@brightads.in"
     }
-  }
-]
+  ]
+}

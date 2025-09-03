@@ -1,25 +1,26 @@
-[
-  {
-    "website": "http://www.bvcoend.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Bharati Vidyapeeth's College of Engineering is an engineering institution with departments in Computer Science, IT, and other technical fields, and strong industry interactions focused on AI, cloud computing, and software development."
+{
+  "Website": "http://www.bvcoend.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2527 8444",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Bharati Vidyapeeth's College of Engineering is an engineering institution with departments in Computer Science, IT, and other technical fields, and strong industry interactions focused on AI, cloud computing, and software development.",
+  "extracted_contact_details": [
+    {
+      "title": "General Contact",
+      "phone": "011-25278444, 011-25278443, 9289792621, 9650435096",
+      "email": "coedelhi@bharatividyapeeth.edu"
     },
-    "contactDetails": {
-      "general": {
-        "email": "coedelhi@bharatividyapeeth.edu",
-        "phone": "011-25278444, 011-25278443, 9289792621, 9650435096"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Sushil Kumar",
-          "title": "HOD, Applied Science Department",
-          "email": "sushil.kumar@bharatividyapeeth.edu, hod.appliedscience@bharatividyapeeth.edu",
-          "phone": "91-11-25258637, 91-11-25278443, 91-11-25278444 (Ext. 226)"
-        }
-      ],
-      "otherContacts": []
+    {
+      "name": "Sushil Kumar",
+      "title": "HOD, Applied Science Department",
+      "phone": "91-11-25258637, 91-11-25278443, 91-11-25278444 (Ext. 226)",
+      "email": "sushil.kumar@bharatividyapeeth.edu, hod.appliedscience@bharatividyapeeth.edu"
+    },
+    {
+      "title": "Training and Placement Cell",
+      "email": "tp.coedelhi@bharatividyapeeth.edu"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://bloatware.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Bloatware IT Solutions Pvt Ltd is explicitly a 'Software Solutions Company' with a strong focus on software, web, and app development, employing various programming languages and technical staff like developers."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@bloatware.in, info@bloatwareitsolutions.com, sale@bloatware.in, support@bloatware.in, hr@bloatware.in",
-        "phone": "+918920750797"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://bloatware.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "089207 50797",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Bloatware IT Solutions Pvt Ltd is explicitly a 'Software Solutions Company' with a strong focus on software, web, and app development, employing various programming languages and technical staff like developers.",
+  "extracted_contact_details": [
+    {
+      "phone": "+918920750797",
+      "email": "info@bloatware.in, info@bloatwareitsolutions.com, sale@bloatware.in, support@bloatware.in, hr@bloatware.in"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,43 @@
-[
-  {
-    "website": "https://iilm.edu.in/?utm_source=google&utm_medium=organic&utm_campaign=gmb_listing",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 90,
-      "reasoning": "IILM University explicitly positions itself as a prominent B-school with a long legacy of training managers and entrepreneurs, and its MBA program includes a specialization in Marketing Management with 'Sales & Distribution'."
+{
+  "Website": "https://iilm.edu.in/?utm_source=google&utm_medium=organic&utm_campaign=gmb_listing",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "095991 71240",
+  "Course": "Sales",
+  "Score": 90,
+  "Reasoning": "IILM University explicitly positions itself as a prominent B-school with a long legacy of training managers and entrepreneurs, and its MBA program includes a specialization in Marketing Management with 'Sales & Distribution'.",
+  "extracted_contact_details": [
+    {
+      "name": "IILM University Admissions",
+      "email": "admissions.iilmu@iilm.edu"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admissions.iilmu@iilm.edu",
-        "phone": "+91-6366975191"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "IILM University Admissions",
+      "email": "admissions@iilm.edu"
+    },
+    {
+      "name": "MBA Programme Admissions",
+      "phone": "+91-6366975191"
+    },
+    {
+      "name": "Undergraduate Programme Admissions",
+      "phone": "+91-6366975192"
+    },
+    {
+      "name": "Engineering Programme Admissions (Gurugram)",
+      "phone": "+91-6366975193"
+    },
+    {
+      "name": "Engineering Programme Admissions (Greater Noida)",
+      "phone": "+91-6366975197"
+    },
+    {
+      "name": "BBA Programme Admissions",
+      "phone": "+91-6366975198"
+    },
+    {
+      "name": "Postgraduate Programme Admissions",
+      "phone": "+91-6366975199"
     }
-  }
-]
+  ]
+}

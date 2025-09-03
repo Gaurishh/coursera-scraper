@@ -1,18 +1,20 @@
-[
-  {
-    "website": "https://monaqo.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 92,
-      "reasoning": "Monaqo, while a growth marketing agency, prominently functions as a 'full-stack web development company' that details extensive technical capabilities, listing numerous programming languages, frameworks (e.g., React, Node.js, Laravel, Go), and architectural patterns, indicating a strong tech focus."
+{
+  "Website": "https://monaqo.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "079965 85956",
+  "Course": "Programming",
+  "Score": 92,
+  "Reasoning": "Monaqo, while a growth marketing agency, prominently functions as a 'full-stack web development company' that details extensive technical capabilities, listing numerous programming languages, frameworks (e.g., React, Node.js, Laravel, Go), and architectural patterns, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7996 585956"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 7996 585956",
-        "email": "contact@monaqo.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+1(650)614-1796"
+    },
+    {
+      "email": "contact@monaqo.in"
     }
-  }
-]
+  ]
+}

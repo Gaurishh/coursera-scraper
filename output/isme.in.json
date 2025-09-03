@@ -1,18 +1,33 @@
-[
-  {
-    "website": "http://www.isme.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 92,
-      "reasoning": "ISME is primarily identified as a 'leading Business School' with an MBA-equivalent PGDM program featuring 'Marketing' and 'Professional Selling' specializations, indicating a strong focus on sales-driven business careers."
+{
+  "Website": "http://www.isme.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "088806 12345",
+  "Course": "Sales",
+  "Score": 92,
+  "Reasoning": "ISME is primarily identified as a 'leading Business School' with an MBA-equivalent PGDM program featuring 'Marketing' and 'Professional Selling' specializations, indicating a strong focus on sales-driven business careers.",
+  "extracted_contact_details": [
+    {
+      "name": "ISME General Contact",
+      "phone": "8880612345",
+      "email": "contact@isme.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "contact@isme.in",
-        "phone": "8880612345"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Placement Department",
+      "phone": "9986860198",
+      "email": "headplacements@isme.in"
+    },
+    {
+      "name": "ISME Information",
+      "email": "info@isme.in"
+    },
+    {
+      "name": "ISME General Inquiries",
+      "email": "contactus@isme.in"
+    },
+    {
+      "name": "ISME Admissions",
+      "email": "admissions@isme.in"
     }
-  }
-]
+  ]
+}

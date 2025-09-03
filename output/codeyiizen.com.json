@@ -1,18 +1,26 @@
-[
-  {
-    "website": "https://www.codeyiizen.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Codeyiizen explicitly identifies as a web development and app development company, with services heavily focused on various programming languages and technologies, indicating a very strong tech-driven core business."
+{
+  "Website": "https://www.codeyiizen.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092669 13291",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Codeyiizen explicitly identifies as a web development and app development company, with services heavily focused on various programming languages and technologies, indicating a very strong tech-driven core business.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9266913291",
+      "email": "business@codeyiizen.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "business@codeyiizen.com",
-        "phone": "+91 9266913291"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 8010144996",
+      "email": "business@codeyiizen.com"
+    },
+    {
+      "phone": "+971 4 558 6272",
+      "email": "business@codeyiizen.com"
+    },
+    {
+      "email": "jobs@codeyiizen.com"
     }
-  }
-]
+  ]
+}

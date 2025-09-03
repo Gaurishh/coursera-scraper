@@ -1,37 +1,58 @@
-[
-  {
-    "website": "http://sibmbengaluru.edu.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "SIBM Bengaluru is a business management institute focused on producing business leaders, and its MBA programs, including Business Analytics, explicitly prepare students for roles in sales, marketing, and market research."
+{
+  "Website": "http://sibmbengaluru.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "080671 39573",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "SIBM Bengaluru is a business management institute focused on producing business leaders, and its MBA programs, including Business Analytics, explicitly prepare students for roles in sales, marketing, and market research.",
+  "extracted_contact_details": [
+    {
+      "title": "Admissions",
+      "phone": "080-6713 9573, 080-6713 9575",
+      "email": "admissions@sibm.edu.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admissions@sibm.edu.in",
-        "phone": "080-6713 9573, 080-6713 9575"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Ms.Aditi Yadav",
-          "title": "Coordinator – Placements Team",
-          "email": "placecom@sibm.edu.in",
-          "phone": "+9149377919"
-        },
-        {
-          "name": "Mr. Harsh",
-          "title": "Coordinator – Placements Team",
-          "email": "placecom@sibm.edu.in",
-          "phone": "+91 8210679722"
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Ms. Sandhya CR - Sr. Placement Officer",
-          "email": "placementofficer@sibm.edu.in, placecom@sibm.edu.in",
-          "phone": "+91 9880613548, 8779644511"
-        }
-      ]
+    {
+      "title": "Director",
+      "phone": "080-6713 9535, 080-6713 9536, 080-6713 9537",
+      "email": "directoroffice@sibm.edu.in"
+    },
+    {
+      "title": "Placements",
+      "phone": "080-6713 9535, 080-6713 9536, 080-6713 9538, 080-6713 9534",
+      "email": "placementofficer@sibm.edu.in"
+    },
+    {
+      "title": "MBA(Executive Education) & PGDM",
+      "phone": "080-6713 9575, 080-6713 9573",
+      "email": "emba_pgdm@sibm.edu.in"
+    },
+    {
+      "title": "General Inquiry (Symbiosis Institute of Business Management Bengaluru)",
+      "phone": "+91 80 35740021"
+    },
+    {
+      "title": "Executive Development Programs (EDPs)",
+      "phone": "080-67139573, 080-67139535",
+      "email": "edp@sibm.edu.in, edp01@sibm.edu.in, mdp@sibm.edu.in"
+    },
+    {
+      "name": "Ms. Sandhya CR",
+      "title": "Sr. Placement Officer",
+      "phone": "+91 9880613548, 8779644511",
+      "email": "placementofficer@sibm.edu.in, placecom@sibm.edu.in"
+    },
+    {
+      "name": "Ms.Aditi Yadav",
+      "title": "Coordinator – Placements Team",
+      "phone": "+9149377919",
+      "email": "placecom@sibm.edu.in"
+    },
+    {
+      "name": "Mr. Harsh",
+      "title": "Coordinator – Placements Team",
+      "phone": "+91 8210679722",
+      "email": "placecom@sibm.edu.in"
     }
-  }
-]
+  ]
+}

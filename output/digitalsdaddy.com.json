@@ -1,18 +1,27 @@
-[
-  {
-    "website": "https://www.digitalsdaddy.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Digital Daddy is a full-service digital agency with a strong emphasis on Web & App Development, API Integration, and AI, explicitly mentioning programming languages and a 'tech team' with 'technical expertise'."
+{
+  "Website": "https://www.digitalsdaddy.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Digital Daddy is a full-service digital agency with a strong emphasis on Web & App Development, API Integration, and AI, explicitly mentioning programming languages and a 'tech team' with 'technical expertise'.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9818286609",
+      "email": "support@digitalsdaddy.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "support@digitalsdaddy.com",
-        "phone": "+91 9818286609"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 74003 86304",
+      "email": "support@digitalsdaddy.com"
+    },
+    {
+      "phone": "+44 742422 1662",
+      "email": "support@digitalsdaddy.com"
+    },
+    {
+      "phone": "+91 9818286609",
+      "email": "support@www.digitalsdaddy.com"
     }
-  }
-]
+  ]
+}

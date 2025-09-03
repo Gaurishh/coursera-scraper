@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://www.channelsoftech.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Channel Softech is a digital marketing and branding company focused on driving client growth and lead generation, placing it firmly in a sales-driven industry that would benefit from sales expertise."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@channelsoftech.com",
-        "phone": "+91 9845 6621 83, +91 9611 7447 48"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.channelsoftech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "098456 62183",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Channel Softech is a digital marketing and branding company focused on driving client growth and lead generation, placing it firmly in a sales-driven industry that would benefit from sales expertise.",
+  "extracted_contact_details": [
+    {
+      "name": "Channel Softech Private Limited",
+      "phone": "+91 9845 6621 83, +91 9611 7447 48",
+      "email": "info@channelsoftech.com"
     }
-  }
-]
+  ]
+}

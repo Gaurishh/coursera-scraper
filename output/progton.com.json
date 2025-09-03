@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://www.progton.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 5,
-      "reasoning": "The website's reliance on JavaScript to run its app weakly suggests a need for programming skills related to web development, given the provided content."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://www.progton.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "097423 26833",
+  "Course": "Programming",
+  "Score": 5,
+  "Reasoning": "The website's reliance on JavaScript to run its app weakly suggests a need for programming skills related to web development, given the provided content.",
+  "extracted_contact_details": []
+}

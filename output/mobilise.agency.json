@@ -1,18 +1,31 @@
-[
-  {
-    "website": "https://mobilise.agency/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Mobilise is a B2B Growth Marketing and Sales Enablement agency, with its core services and leadership explicitly focused on empowering sales teams, driving revenue, and implementing marketing and sales programs for predictable business growth."
+{
+  "Website": "https://mobilise.agency/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "073497 49404",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Mobilise is a B2B Growth Marketing and Sales Enablement agency, with its core services and leadership explicitly focused on empowering sales teams, driving revenue, and implementing marketing and sales programs for predictable business growth.",
+  "extracted_contact_details": [
+    {
+      "title": "General Contact - United States",
+      "phone": "+1 (424) 543-6500",
+      "email": "info@mobilise.agency"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@mobilise.agency",
-        "phone": "+1 (424) 543-6500"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Los Angeles Office",
+      "phone": "+1 (424) 543-6500",
+      "email": "losangeles@mobilise.agency"
+    },
+    {
+      "title": "Singapore Office",
+      "phone": "+65 (99) 888-8800",
+      "email": "singapore@mobilise.agency"
+    },
+    {
+      "title": "India Office - Bangalore",
+      "phone": "+91 (734) 974-9404, +65 (99) 888-8800",
+      "email": "bangalore@mobilise.agency"
     }
-  }
-]
+  ]
+}

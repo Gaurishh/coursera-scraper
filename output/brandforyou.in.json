@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://brandforyou.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Brand For You is a B2B digital marketing and branding agency with a Chief Sales Officer explicitly tasked with driving revenue growth and client relationships, indicating a strong internal need for sales excellence."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "hello@brandforyou.in",
-        "phone": "+91-7017091022 | +91-9286241591 | +91-9560899668"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://brandforyou.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092862 41591",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Brand For You is a B2B digital marketing and branding agency with a Chief Sales Officer explicitly tasked with driving revenue growth and client relationships, indicating a strong internal need for sales excellence.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-7017091022 | +91-9286241591 | +91-9560899668",
+      "email": "hello@brandforyou.in"
     }
-  }
-]
+  ]
+}

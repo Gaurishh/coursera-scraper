@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.nettrixmarketing.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Nettrix Marketing explicitly specializes in providing comprehensive marketing and sales strategies for real estate developers, with a strong focus on accelerating sales, maximizing revenue, and converting leads."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "Hello@nettrixmarketing.com",
-        "phone": "7905250336"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.nettrixmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "079052 50336",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Nettrix Marketing explicitly specializes in providing comprehensive marketing and sales strategies for real estate developers, with a strong focus on accelerating sales, maximizing revenue, and converting leads.",
+  "extracted_contact_details": [
+    {
+      "phone": "7905250336",
+      "email": "Hello@nettrixmarketing.com"
     }
-  }
-]
+  ]
+}

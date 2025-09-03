@@ -1,34 +1,28 @@
-[
-  {
-    "website": "https://www.kingofdigitalmarketing.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "The institution is a digital marketing agency and training institute explicitly focused on generating leads, driving sales, and increasing conversions for businesses, making it a highly sales-driven industry."
+{
+  "Website": "https://www.kingofdigitalmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098219 18208",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "The institution is a digital marketing agency and training institute explicitly focused on generating leads, driving sales, and increasing conversions for businesses, making it a highly sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "name": "Gaurav Dubey",
+      "title": "Founder & CEO, Digital Marketing Consultant & Trainer",
+      "phone": "+919555696058"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [
-        {
-          "name": "Gaurav Dubey",
-          "title": "Founder & CEO, Digital Marketing Consultant & Trainer",
-          "email": null,
-          "phone": "+919555696058"
-        },
-        {
-          "name": "King of Digital Marketing",
-          "title": "Head Branch, Delhi",
-          "email": "info@kingofdigitalmarketing.com",
-          "phone": "+919555696058, +919354619104, +919205316988"
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "King of Digital Marketing - Branch Office, Allahabad",
-          "email": "info@kingofdigitalmarketing.com",
-          "phone": "+919821918208, +919205316988"
-        }
-      ]
+    {
+      "name": "King of Digital Marketing",
+      "title": "Head Branch, Delhi",
+      "phone": "+919555696058, +919354619104, +919205316988",
+      "email": "info@kingofdigitalmarketing.com"
+    },
+    {
+      "name": "King of Digital Marketing",
+      "title": "Branch Office, Allahabad",
+      "phone": "+919821918208, +919205316988",
+      "email": "info@kingofdigitalmarketing.com"
     }
-  }
-]
+  ]
+}

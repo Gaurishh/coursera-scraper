@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://quickzee.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Quickzee Media is a digital marketing company focused on helping clients drive business, generate leads, increase sales, and improve ROI, making it a sales-driven industry where 'Sales' skills are paramount."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@quickzee.in",
-        "phone": "+91 9066805661, +91 9148986662"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://quickzee.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "090668 05661",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Quickzee Media is a digital marketing company focused on helping clients drive business, generate leads, increase sales, and improve ROI, making it a sales-driven industry where 'Sales' skills are paramount.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9066805661, +91 9148986662",
+      "email": "info@quickzee.in"
     }
-  }
-]
+  ]
+}

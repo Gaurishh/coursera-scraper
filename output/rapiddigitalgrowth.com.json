@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.rapiddigitalgrowth.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Rapid Digital Growth is a digital marketing agency whose services, mission, and course offerings are all centered on helping businesses grow, generate leads, and drive sales through various online strategies, making it a sales-driven industry."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@rapiddigitalgrowth.com",
-        "phone": "+91 8368123312"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.rapiddigitalgrowth.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "083681 23312",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Rapid Digital Growth is a digital marketing agency whose services, mission, and course offerings are all centered on helping businesses grow, generate leads, and drive sales through various online strategies, making it a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8368123312",
+      "email": "info@rapiddigitalgrowth.com"
     }
-  }
-]
+  ]
+}

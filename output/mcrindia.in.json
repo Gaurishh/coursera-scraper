@@ -1,18 +1,15 @@
-[
-  {
-    "website": "http://mcrindia.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "MCRT Software India Pvt Ltd is a solution-providing firm with 'in-house developers' specializing in software customization using Tally Definition Language and creating mobile and web applications, indicating a strong technical and programming focus."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "sales@mcrindia.in",
-        "phone": "+91 9964740243, 8792603849"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://mcrindia.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099647 40243",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "MCRT Software India Pvt Ltd is a solution-providing firm with 'in-house developers' specializing in software customization using Tally Definition Language and creating mobile and web applications, indicating a strong technical and programming focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9964740243, 8792603849",
+      "email": "sales@mcrindia.in"
     }
-  }
-]
+  ]
+}

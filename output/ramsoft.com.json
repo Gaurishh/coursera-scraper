@@ -1,18 +1,34 @@
-[
-  {
-    "website": "https://www.ramsoft.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "RamSoft is a global software company that develops AI-powered, cloud-native RIS/PACS radiology software solutions, with its founders and several key executives holding strong computer engineering and software development backgrounds."
+{
+  "Website": "https://www.ramsoft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "RamSoft is a global software company that develops AI-powered, cloud-native RIS/PACS radiology software solutions, with its founders and several key executives holding strong computer engineering and software development backgrounds.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales Department",
+      "phone": "+1 888 343 9146",
+      "email": "sales@ramsoft.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "sales@ramsoft.com",
-        "phone": "+1 888 343 9146"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Support Department",
+      "phone": "+1 888 343 9146",
+      "email": "support@ramsoft.com"
+    },
+    {
+      "title": "Billing Department",
+      "email": "billing@ramsoft.com"
+    },
+    {
+      "title": "Partnerships Department",
+      "email": "partners@ramsoft.com"
+    },
+    {
+      "title": "Corporate Sales",
+      "phone": "+1 888 343 9146",
+      "email": "contactsales@ramsoft.com"
     }
-  }
-]
+  ]
+}

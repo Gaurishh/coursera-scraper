@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://www.excerptech.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The company's core services, such as Ecommerce Solutions, Website Design and Development, Cyber Security, and Data Analytics, clearly indicate a strong technological and development-centric focus."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://www.excerptech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099005 02404",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The company's core services, such as Ecommerce Solutions, Website Design and Development, Cyber Security, and Data Analytics, clearly indicate a strong technological and development-centric focus.",
+  "extracted_contact_details": []
+}

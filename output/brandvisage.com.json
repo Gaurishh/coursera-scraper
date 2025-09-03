@@ -1,18 +1,22 @@
-[
-  {
-    "website": "https://brandvisage.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Brand Visage Communications is a digital marketing agency whose primary objective is to drive client business growth, maximize ROI, generate sales-ready leads, and increase profits through various marketing strategies, directly aligning with sales-driven outcomes."
+{
+  "Website": "https://brandvisage.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "097175 80410",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Brand Visage Communications is a digital marketing agency whose primary objective is to drive client business growth, maximize ROI, generate sales-ready leads, and increase profits through various marketing strategies, directly aligning with sales-driven outcomes.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9717580410, 011 4132 6479",
+      "email": "business@brandvisage.com, info@brandvisage.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "business@brandvisage.com, info@brandvisage.com",
-        "phone": "+91 9717580410, 011 4132 6479"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+1 (437) 410-2202"
+    },
+    {
+      "name": "Siddharth",
+      "email": "siddharth@brandvisage.ca"
     }
-  }
-]
+  ]
+}

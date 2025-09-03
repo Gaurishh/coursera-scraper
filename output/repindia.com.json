@@ -1,17 +1,41 @@
-[
-  {
-    "website": "https://www.repindia.com/agency/digital-marketing-agency-in-delhi/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "RepIndia is a digital marketing agency with a strong focus on brand strategy, client acquisition, and driving tangible business results through various digital channels, indicating a core sales-driven operation."
+{
+  "Website": "https://www.repindia.com/agency/digital-marketing-agency-in-delhi/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098183 50700",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "RepIndia is a digital marketing agency with a strong focus on brand strategy, client acquisition, and driving tangible business results through various digital channels, indicating a core sales-driven operation.",
+  "extracted_contact_details": [
+    {
+      "email": "[email protected]"
     },
-    "contactDetails": {
-      "general": {
-        "email": "[email protected]"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
+    },
+    {
+      "email": "[email protected]"
     }
-  }
-]
+  ]
+}

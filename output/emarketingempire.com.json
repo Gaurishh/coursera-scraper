@@ -1,18 +1,23 @@
-[
-  {
-    "website": "https://emarketingempire.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The company is a digital marketing agency that explicitly focuses on generating leads, increasing conversions, and boosting sales and ROI for its clients, identifying it as a sales-driven corporation."
+{
+  "Website": "https://emarketingempire.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company is a digital marketing agency that explicitly focuses on generating leads, increasing conversions, and boosting sales and ROI for its clients, identifying it as a sales-driven corporation.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9821692104",
+      "email": "sales@emarketingempire.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "sales@emarketingempire.com",
-        "phone": "+91-9821692104"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91-9821692104",
+      "email": "hr@emarketingempire.com"
+    },
+    {
+      "phone": "+91-9821692104",
+      "email": "support@emarketingempire.com"
     }
-  }
-]
+  ]
+}

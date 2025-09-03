@@ -1,15 +1,10 @@
-[
-  {
-    "website": "http://digitalsalesolutions.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Digital Sales Solutions is a performance and growth marketing agency explicitly focused on driving 'DIGITAL SALES,' conversions, and high ROAS for their clients."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "http://digitalsalesolutions.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099582 30707",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Digital Sales Solutions is a performance and growth marketing agency explicitly focused on driving 'DIGITAL SALES,' conversions, and high ROAS for their clients.",
+  "extracted_contact_details": []
+}

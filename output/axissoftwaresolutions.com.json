@@ -1,18 +1,19 @@
-[
-  {
-    "website": "http://axissoftwaresolutions.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Axis Software Solutions is a digital agency specializing in web software development, custom solutions, and IT services, with a team comprising full-stack developers and an AI data scientist, indicating a strong internal need for programming and technical skills."
+{
+  "Website": "http://axissoftwaresolutions.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "078386 26861",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Axis Software Solutions is a digital agency specializing in web software development, custom solutions, and IT services, with a team comprising full-stack developers and an AI data scientist, indicating a strong internal need for programming and technical skills.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-7838-626-861",
+      "email": "hello@axissoftwaresolutions.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "hello@axissoftwaresolutions.com",
-        "phone": "+91-7838-626-861"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "666 888 000",
+      "email": "needhelp@linoor.com"
     }
-  }
-]
+  ]
+}

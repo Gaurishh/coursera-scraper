@@ -1,17 +1,15 @@
-[
-  {
-    "website": "https://bangalore.digibrood.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "DigiBrood is a digital marketing company primarily focused on lead generation, boosting sales, and customer acquisition for their clients, making a Sales course highly relevant to their core business outcomes and client objectives."
-    },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 87775 71887"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://bangalore.digibrood.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "087775 71887",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "DigiBrood is a digital marketing company primarily focused on lead generation, boosting sales, and customer acquisition for their clients, making a Sales course highly relevant to their core business outcomes and client objectives.",
+  "extracted_contact_details": [
+    {
+      "name": "DigiBrood Bangalore",
+      "phone": "+91 87775 71887"
     }
-  }
-]
+  ]
+}

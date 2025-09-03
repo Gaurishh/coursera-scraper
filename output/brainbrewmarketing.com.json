@@ -1,17 +1,14 @@
-[
-  {
-    "website": "https://brainbrewmarketing.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Brain Brew Marketing is a digital marketing agency explicitly focused on elevating brands, increasing revenue, and reaching target audiences, which are core objectives of sales-driven organizations."
-    },
-    "contactDetails": {
-      "general": {
-        "phone": "+91.8384090725"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://brainbrewmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "083840 90725",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Brain Brew Marketing is a digital marketing agency explicitly focused on elevating brands, increasing revenue, and reaching target audiences, which are core objectives of sales-driven organizations.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91.8384090725"
     }
-  }
-]
+  ]
+}

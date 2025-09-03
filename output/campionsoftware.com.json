@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://www.campionsoftware.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Campion Software is explicitly a global tech solutions company specializing in custom software development, cloud-native applications, AI services, and various programming-intensive solutions."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://www.campionsoftware.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Campion Software is explicitly a global tech solutions company specializing in custom software development, cloud-native applications, AI services, and various programming-intensive solutions.",
+  "extracted_contact_details": []
+}

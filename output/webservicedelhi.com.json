@@ -1,18 +1,20 @@
-[
-  {
-    "website": "https://www.webservicedelhi.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Web Service Delhi is a software development company offering a wide array of web services, mobile app development, and custom software solutions, demonstrating a strong technical focus through its services, technologies, and hiring needs."
+{
+  "Website": "https://www.webservicedelhi.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099113 07448",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Web Service Delhi is a software development company offering a wide array of web services, mobile app development, and custom software solutions, demonstrating a strong technical focus through its services, technologies, and hiring needs.",
+  "extracted_contact_details": [
+    {
+      "name": "Web Service Delhi",
+      "phone": "+91-9911307448, +91-9717535666, 011-65276666",
+      "email": "info@webservicedelhi.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@webservicedelhi.com",
-        "phone": "+91-9911307448, +91-9717535666, 011-65276666"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "HR Department",
+      "email": "hr@webservicedelhi.com"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://brandbajade.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Brandbajade.com is a branding and advertising agency whose core services, including digital marketing, brand strategy, and communication design, are fundamentally aimed at helping their clients generate leads and drive sales, making them a company in a sales-driven industry."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@brandbajade.com",
-        "phone": "+91 87774 56045, +91 91237 47558, +91 97175 14807"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://brandbajade.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "091237 47558",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Brandbajade.com is a branding and advertising agency whose core services, including digital marketing, brand strategy, and communication design, are fundamentally aimed at helping their clients generate leads and drive sales, making them a company in a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 87774 56045, +91 91237 47558, +91 97175 14807",
+      "email": "info@brandbajade.com"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,28 @@
-[
-  {
-    "website": "http://www.nadgirinstitute.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "The institution is an Engineering and Polytechnic college with a strong focus on technical education, offering various courses including Computer Science & Engineering and Information Science."
+{
+  "Website": "http://www.nadgirinstitute.com/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "088670 71103",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The institution is an Engineering and Polytechnic college with a strong focus on technical education, offering various courses including Computer Science & Engineering and Information Science.",
+  "extracted_contact_details": [
+    {
+      "title": "Nadgir Day & Evening Polytechnic Admissions",
+      "phone": "8867065525"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "8867065525",
-        "email": "nadgir.institute@gmail.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Nadgir Institute of Paramedical Science Admissions",
+      "phone": "080-23387333"
+    },
+    {
+      "title": "Mount Mallari Industrial Training Institute Admissions",
+      "phone": "8867065525"
+    },
+    {
+      "title": "Nadgir Education Society - General Office / Polytechnic Email / Resume Submission",
+      "phone": "(080) 23387333, 23389444, 8867065525",
+      "email": "nadgir.institute@gmail.com"
     }
-  }
-]
+  ]
+}

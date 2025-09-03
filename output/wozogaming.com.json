@@ -1,17 +1,14 @@
-[
-  {
-    "website": "https://www.wozogaming.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Wozo Gaming is a B2B provider focused on casino game design and development, explicitly detailing services like 2D/3D art, Remote Gaming Servers, Game Maths, and a development process that heavily relies on programming languages and technical specialists."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@wozogaming.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.wozogaming.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Wozo Gaming is a B2B provider focused on casino game design and development, explicitly detailing services like 2D/3D art, Remote Gaming Servers, Game Maths, and a development process that heavily relies on programming languages and technical specialists.",
+  "extracted_contact_details": [
+    {
+      "email": "info@wozogaming.com"
     }
-  }
-]
+  ]
+}

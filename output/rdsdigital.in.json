@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://rdsdigital.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "RDS Digital is a holistic digital marketing agency focused on driving business growth, lead generation, and client success for its customers, directly aligning with sales objectives and featuring roles like 'Sales Manager' and 'Business Development Executive'."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "Business@rdsdigital.in",
-        "phone": "+91-6363738608"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://rdsdigital.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "063637 38608",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "RDS Digital is a holistic digital marketing agency focused on driving business growth, lead generation, and client success for its customers, directly aligning with sales objectives and featuring roles like 'Sales Manager' and 'Business Development Executive'.",
+  "extracted_contact_details": [
+    {
+      "name": "RDS Digital",
+      "phone": "+91-6363738608",
+      "email": "Business@rdsdigital.in"
     }
-  }
-]
+  ]
+}

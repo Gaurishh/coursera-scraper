@@ -1,46 +1,42 @@
-[
-  {
-    "website": "https://algonomy.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Algonomy is an 'Algorithmic Decisioning Platform' provider, heavily focused on AI, ML, and data infrastructure, which indicates a strong technical and programming core for its operations and product development."
+{
+  "Website": "https://algonomy.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 2299 0585",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Algonomy is an 'Algorithmic Decisioning Platform' provider, heavily focused on AI, ML, and data infrastructure, which indicates a strong technical and programming core for its operations and product development.",
+  "extracted_contact_details": [
+    {
+      "name": "Algonomy",
+      "title": "Sales & General Inquiries",
+      "phone": "+1 415 956 1947",
+      "email": "hello@algonomy.com"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "Algonomy - Sales & General Inquiries",
-          "email": "hello@algonomy.com",
-          "phone": "+1 415 956 1947"
-        },
-        {
-          "description": "Algonomy - Partnership Team",
-          "email": "partners@algonomy.com",
-          "phone": null
-        },
-        {
-          "description": "Algonomy - UK Office",
-          "email": null,
-          "phone": "+44 (0)118 321 3558"
-        },
-        {
-          "description": "Algonomy - France Office",
-          "email": null,
-          "phone": "+33 01 44 50 78 43"
-        },
-        {
-          "description": "Algonomy - Asia Pacific HQ",
-          "email": null,
-          "phone": "+91 80 6717 1602"
-        },
-        {
-          "description": "Algonomy - Sri Lanka Office",
-          "email": null,
-          "phone": "+94 (0)11 255 7272, +94 (0)76 823 1106"
-        }
-      ]
+    {
+      "name": "Algonomy",
+      "title": "Partnership Team",
+      "email": "partners@algonomy.com"
+    },
+    {
+      "name": "Algonomy",
+      "title": "UK Office",
+      "phone": "+44 (0)118 321 3558"
+    },
+    {
+      "name": "Algonomy",
+      "title": "France Office",
+      "phone": "+33 01 44 50 78 43"
+    },
+    {
+      "name": "Algonomy",
+      "title": "Asia Pacific HQ",
+      "phone": "+91 80 6717 1602"
+    },
+    {
+      "name": "Algonomy",
+      "title": "Sri Lanka Office",
+      "phone": "+94 (0)11 255 7272, +94 (0)76 823 1106"
     }
-  }
-]
+  ]
+}

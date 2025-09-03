@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://brandmarkety.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Brand Markety is a digital marketing agency whose core mission is to help businesses grow by turning clicks into conversions and maximizing ROI, which are fundamental objectives of sales and business development."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "hello@brandmarkety.com",
-        "phone": "+91 9035104184"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://brandmarkety.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "090351 04184",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Brand Markety is a digital marketing agency whose core mission is to help businesses grow by turning clicks into conversions and maximizing ROI, which are fundamental objectives of sales and business development.",
+  "extracted_contact_details": [
+    {
+      "name": "Brand Markety",
+      "phone": "+91 9035104184",
+      "email": "hello@brandmarkety.com"
     }
-  }
-]
+  ]
+}

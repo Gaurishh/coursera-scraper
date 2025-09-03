@@ -1,18 +1,18 @@
-[
-  {
-    "website": "https://digitalspider.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Digital Spider is a Digital Marketing Agency whose primary focus, as stated across all pages, is to generate leads, enhance online presence, boost profits, and increase sales for its clients through various marketing and web development services."
+{
+  "Website": "https://digitalspider.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "078922 99043",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Digital Spider is a Digital Marketing Agency whose primary focus, as stated across all pages, is to generate leads, enhance online presence, boost profits, and increase sales for its clients through various marketing and web development services.",
+  "extracted_contact_details": [
+    {
+      "name": "Neha",
+      "email": "neha.digitalspider@gmail.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "neha.digitalspider@gmail.com",
-        "phone": "+91 78922 99043, +91 99014 44282"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 78922 99043, +91 99014 44282"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.inbounderz.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The company's core business as a digital marketing agency is entirely focused on driving client growth, lead generation, conversions, and boosting sales through strategic marketing solutions."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@inbounderz.com",
-        "phone": "+91 81 4700 2753"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.inbounderz.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "081470 02753",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company's core business as a digital marketing agency is entirely focused on driving client growth, lead generation, conversions, and boosting sales through strategic marketing solutions.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 81 4700 2753",
+      "email": "info@inbounderz.com"
     }
-  }
-]
+  ]
+}

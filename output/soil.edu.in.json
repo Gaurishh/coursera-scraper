@@ -1,24 +1,54 @@
-[
-  {
-    "website": "https://www.soil.edu.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "SOIL is clearly identified as an 'Institute of Management' offering Post Graduate Programs in Management (PGPM, PGDM, PGPM-HR) with a strong emphasis on business, leadership, and career development, making a Sales course highly relevant for its curriculum and student placements."
+{
+  "Website": "https://www.soil.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "092053 33417",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "SOIL is clearly identified as an 'Institute of Management' offering Post Graduate Programs in Management (PGPM, PGDM, PGPM-HR) with a strong emphasis on business, leadership, and career development, making a Sales course highly relevant for its curriculum and student placements.",
+  "extracted_contact_details": [
+    {
+      "title": "1 Year PGPM Office",
+      "phone": "9205333417, 9289270707",
+      "email": "connect@soilindia.net"
     },
-    "contactDetails": {
-      "general": {
-        "email": "connect@soilindia.net",
-        "phone": "9205333417, 9289270707"
-      },
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "Prof. AN Bhattachraya - Program Chair, Marketing, 1 Year PGPM",
-          "email": "an.bhattachraya@soilindia.net",
-          "phone": null
-        }
-      ]
+    {
+      "title": "2 Year PGDM Office",
+      "phone": "9717280018, 9807256660",
+      "email": "connect@soilindia.net"
+    },
+    {
+      "title": "1 Year PGPM Admissions Office",
+      "phone": "9205333417, 9289270707",
+      "email": "admissions@soilindia.net"
+    },
+    {
+      "title": "2 Year PGDM Admissions Office",
+      "phone": "9717280018, 9807256660",
+      "email": "pgdm@schoolofbusinessdesign.com"
+    },
+    {
+      "name": "Prof. AN Bhattachraya",
+      "title": "Program Chair, Marketing, 1 Year PGPM",
+      "email": "an.bhattachraya@soilindia.net"
+    },
+    {
+      "title": "Registrar's Office / General Queries",
+      "phone": "9810236934, 9810241344",
+      "email": "cmssobd@soil.edu.in, registrar@schoolofbusinessdesign.com"
+    },
+    {
+      "name": "Dakshita Kapoor",
+      "phone": "9818198040",
+      "email": "dakshita.kapoor@schoolofbusinessdesign.com"
+    },
+    {
+      "title": "Grow Talent Company Limited (Legal Entity)",
+      "phone": "9205333417, 9289270707"
+    },
+    {
+      "title": "Inspired Leadership Gurukul (Legal Entity)",
+      "phone": "9717280018, 9870256660"
     }
-  }
-]
+  ]
+}

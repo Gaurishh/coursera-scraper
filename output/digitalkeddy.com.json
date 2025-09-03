@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.digitalkeddy.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Digitalkeddy is a digital marketing agency whose primary mission is to help clients achieve online presence, engagement, and revenue growth, making it a sales-driven industry that would benefit from enhanced sales strategies and client acquisition skills."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@digitalkeddy.com",
-        "phone": "09625350146"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.digitalkeddy.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "096253 50146",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Digitalkeddy is a digital marketing agency whose primary mission is to help clients achieve online presence, engagement, and revenue growth, making it a sales-driven industry that would benefit from enhanced sales strategies and client acquisition skills.",
+  "extracted_contact_details": [
+    {
+      "phone": "09625350146",
+      "email": "info@digitalkeddy.com"
     }
-  }
-]
+  ]
+}

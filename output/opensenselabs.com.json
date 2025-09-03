@@ -1,18 +1,21 @@
-[
-  {
-    "website": "https://www.opensenselabs.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 100,
-      "reasoning": "OpenSense Labs is a technology partner specializing in cloud engineering, product engineering, and various software development services like Drupal and JavaScript, indicating a strong technical and programming core."
+{
+  "Website": "https://www.opensenselabs.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088005 91594",
+  "Course": "Programming",
+  "Score": 100,
+  "Reasoning": "OpenSense Labs is a technology partner specializing in cloud engineering, product engineering, and various software development services like Drupal and JavaScript, indicating a strong technical and programming core.",
+  "extracted_contact_details": [
+    {
+      "email": "india@opensenselabs.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "india@opensenselabs.com",
-        "phone": "+49 (0)69 2002 5450"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+49 (0)69 2002 5450",
+      "email": "europe@opensenselabs.com"
+    },
+    {
+      "email": "usa@opensenselabs.com"
     }
-  }
-]
+  ]
+}

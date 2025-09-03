@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://k2digitalmarketing.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "K2 Digital Marketing Agency's core business is to 'attract, engage and convert your customers into sales' for their clients, inherently placing them in a sales-driven industry where understanding sales processes and strategies is paramount for both their own growth and client success."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@k2digitalmarketing.com",
-        "phone": "+91 8800 510 419, +91 9911330419, 011-41670419"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://k2digitalmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088005 10419",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "K2 Digital Marketing Agency's core business is to 'attract, engage and convert your customers into sales' for their clients, inherently placing them in a sales-driven industry where understanding sales processes and strategies is paramount for both their own growth and client success.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8800 510 419, +91 9911330419, 011-41670419",
+      "email": "info@k2digitalmarketing.com"
     }
-  }
-]
+  ]
+}

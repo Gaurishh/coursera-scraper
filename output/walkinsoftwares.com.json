@@ -1,18 +1,15 @@
-[
-  {
-    "website": "http://www.walkinsoftwares.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "The company explicitly identifies as a team of talented engineers creating digital products and services, with specializations in web, app, cloud, AI, and software development, indicating a strong and pervasive tech focus."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@walkinsoftwares.com, contact@walkinsoftwares.com",
-        "phone": "+91 7338430816"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://www.walkinsoftwares.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "073384 30816",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The company explicitly identifies as a team of talented engineers creating digital products and services, with specializations in web, app, cloud, AI, and software development, indicating a strong and pervasive tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7338430816",
+      "email": "info@walkinsoftwares.com, contact@walkinsoftwares.com"
     }
-  }
-]
+  ]
+}

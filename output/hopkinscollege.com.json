@@ -1,18 +1,20 @@
-[
-  {
-    "website": "https://www.hopkinscollege.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "St. Hopkins is explicitly a 'School of Business' with a strong emphasis on MBA programs, entrepreneurship, and features a dedicated, detailed section on 'How We Teach Sales' through practical workshops."
+{
+  "Website": "https://www.hopkinscollege.com/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "095910 69611",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "St. Hopkins is explicitly a 'School of Business' with a strong emphasis on MBA programs, entrepreneurship, and features a dedicated, detailed section on 'How We Teach Sales' through practical workshops.",
+  "extracted_contact_details": [
+    {
+      "title": "Admissions Office",
+      "phone": "+91 80 22113435, 080-22225285, +91 9591069611",
+      "email": "admissions@hopkinscollege.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admissions@hopkinscollege.com",
-        "phone": "+91 80 22113435, 080-22225285, +91 9591069611"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Placements Department",
+      "email": "placements@hopkinscollege.com"
     }
-  }
-]
+  ]
+}

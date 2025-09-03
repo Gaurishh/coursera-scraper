@@ -1,18 +1,285 @@
-[
-  {
-    "website": "https://www.synopsys.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Synopsys is a leading provider of Electronic Design Automation (EDA) tools and Semiconductor IP, indicating a strong tech and engineering focus that heavily relies on advanced programming skills for product development and innovation."
+{
+  "Website": "https://www.synopsys.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4923 3903",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Synopsys is a leading provider of Electronic Design Automation (EDA) tools and Semiconductor IP, indicating a strong tech and engineering focus that heavily relies on advanced programming skills for product development and innovation.",
+  "extracted_contact_details": [
+    {
+      "name": "Synopsys Corporate Headquarters",
+      "phone": "650-584-5000, 800-541-7737"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "650-584-5000, 800-541-7737",
-        "email": "singapore_info@synopsys.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Synopsys Canada, Markham",
+      "phone": "905-415-7000"
+    },
+    {
+      "name": "Synopsys Canada, Mississauga",
+      "phone": "905-273-8400"
+    },
+    {
+      "name": "Synopsys Canada, Nepean",
+      "phone": "613-221-8600"
+    },
+    {
+      "name": "Synopsys Canada, Ottawa (Hines Road)",
+      "phone": "613-383-2000"
+    },
+    {
+      "name": "Synopsys Canada, Ottawa (March Road)",
+      "phone": "613-595-9800"
+    },
+    {
+      "name": "Synopsys Chile Limitada, Santiago",
+      "phone": "+56-2-3321-2860"
+    },
+    {
+      "name": "Synopsys US, La Jolla, CA",
+      "phone": "858-454-3419"
+    },
+    {
+      "name": "Synopsys US, Pasadena, CA",
+      "phone": "626-795-9101"
+    },
+    {
+      "name": "Synopsys US, Irvine, CA",
+      "phone": "949-585-2700"
+    },
+    {
+      "name": "Synopsys US, Boxborough, MA",
+      "phone": "978-266-2200"
+    },
+    {
+      "name": "Synopsys US, Marlborough, MA",
+      "phone": "508-263-8000"
+    },
+    {
+      "name": "Synopsys US, Roseville, MN",
+      "phone": "651-605-6800"
+    },
+    {
+      "name": "Synopsys US, Ossining, NY",
+      "phone": "914-488-6260"
+    },
+    {
+      "name": "Synopsys US, Morrisville, NC",
+      "phone": "919-425-7300"
+    },
+    {
+      "name": "Synopsys US, Hillsboro, OR",
+      "phone": "503-547-6000"
+    },
+    {
+      "name": "Synopsys US, Austin, TX",
+      "phone": "512-372-7500"
+    },
+    {
+      "name": "Synopsys US, Plano, TX",
+      "phone": "972-398-5600"
+    },
+    {
+      "name": "Synopsys Armenia CJSC, Yerevan (Arshakunyats Avenue)",
+      "phone": "+3741-049-2100"
+    },
+    {
+      "name": "Synopsys Armenia CJSC, Yerevan (Halabyan Street)",
+      "phone": "+ (374) 10492100"
+    },
+    {
+      "name": "Synopsys Armenia CJSC, Gyumri",
+      "phone": "+ (374) 10492100"
+    },
+    {
+      "name": "SNPS Belgium BV, Leuven",
+      "phone": "+32-16-79-72-51"
+    },
+    {
+      "name": "Synopsys Denmark ApS, Copenhagen",
+      "phone": "+45-70-71-69-80"
+    },
+    {
+      "name": "Synopsys Technology Finland OY, Espoo",
+      "phone": "+358-9-424-52280"
+    },
+    {
+      "name": "Synopsys Emulation & Verification SAS, Montbonnot, France",
+      "phone": "+33-4-12-34-05-55"
+    },
+    {
+      "name": "Synopsys Emulation & Verification SAS, Rungis, France",
+      "phone": "+33-1-64-53-27-30"
+    },
+    {
+      "name": "Synopsys Emulation & Verification SAS, Sophia Antipolis, France",
+      "phone": "+33-4-97-23-97-23"
+    },
+    {
+      "name": "Synopsys GmbH, Aachen, Germany",
+      "phone": "+49-241-93688126"
+    },
+    {
+      "name": "Synopsys GmbH, Erfurt, Germany",
+      "phone": "+49-8954196414"
+    },
+    {
+      "name": "Synopsys GmbH, Munich, Germany",
+      "phone": "+49-8954196414"
+    },
+    {
+      "name": "Synopsys GmbH, Paderborn, Germany",
+      "phone": "+49-5251-5322945"
+    },
+    {
+      "name": "Synopsys International, Dublin, Ireland",
+      "phone": "+353-1-575-8330"
+    },
+    {
+      "name": "Synopsys Italia SRL, Agrate Brianza, Italy",
+      "phone": "+39-039-8889397"
+    },
+    {
+      "name": "Synopsys Netherlands BV, Eindhoven, Netherlands",
+      "phone": "+31-40-798-8001"
+    },
+    {
+      "name": "Synopsys Software Netherlands BV, Enschede, Netherlands",
+      "phone": "+31-53-790-1622"
+    },
+    {
+      "name": "Synopsys Poland sp. z o.o., Gdansk, Poland",
+      "phone": "+48-587-614-000"
+    },
+    {
+      "name": "Synopsys Portugal Lda, Lisbon, Portugal",
+      "phone": "+351-21-125-1025"
+    },
+    {
+      "name": "Synopsys Portugal Lda, Porto, Portugal",
+      "phone": "+351-22-121-6046"
+    },
+    {
+      "name": "Synopsys Sweden AB, Lund, Sweden",
+      "phone": "+46-46-590-22-11"
+    },
+    {
+      "name": "Synopsys Sweden AB, Solna, Sweden",
+      "phone": "+49-8-519 596 00"
+    },
+    {
+      "name": "Synopsys Switzerland LLC, Zurich, Switzerland",
+      "phone": "+41-44-562-41-10"
+    },
+    {
+      "name": "Synopsys Northern Europe Ltd., Hatfield, UK",
+      "phone": "+44-1189-313822"
+    },
+    {
+      "name": "Synopsys Northern Europe Ltd., Reading, UK",
+      "phone": "+44-118-234-9555"
+    },
+    {
+      "name": "Synopsys (Beijing) Company Limited, Beijing, China",
+      "phone": "+86-10-5986-0600"
+    },
+    {
+      "name": "Synopsys International Limited, Hong Kong",
+      "phone": "852-2865-1266"
+    },
+    {
+      "name": "Synopsys Semiconductor Technology (Shanghai) Co., Ltd, Shanghai, China",
+      "phone": "+86-21-3587-4500"
+    },
+    {
+      "name": "Synopsys, Wuhan, China",
+      "phone": "+86-027-5986-4666"
+    },
+    {
+      "name": "Synopsys, Xiamen, China",
+      "phone": "+86-592-3285588"
+    },
+    {
+      "name": "Synopsys India, Bangalore (RMZ Infinity)",
+      "phone": "+91-804-0188000"
+    },
+    {
+      "name": "Synopsys India, Bangalore (Prestige Blue Chip III Block)",
+      "phone": "+91-806-7720200"
+    },
+    {
+      "name": "Synopsys India, Hyderabad",
+      "phone": "+91-404-0331000"
+    },
+    {
+      "name": "Synopsys India, Mumbai",
+      "phone": "+91-022-61649500"
+    },
+    {
+      "name": "Synopsys India, New Delhi",
+      "phone": "+91-114-9222903"
+    },
+    {
+      "name": "Synopsys India, Noida (DLF Techpark)",
+      "phone": "+91-120-6758800"
+    },
+    {
+      "name": "Synopsys Singapore Pvt. Ltd., Penang, Malaysia",
+      "phone": "+60-4-619-2578"
+    },
+    {
+      "name": "Synopsys Singapore Pvt. Ltd., Singapore",
+      "phone": "+65-6296-7433",
+      "email": "singapore_info@synopsys.com"
+    },
+    {
+      "name": "Synopsys, Colombo, Sri Lanka (Lukshmi Gardens)",
+      "phone": "+94-11-203-8600"
+    },
+    {
+      "name": "Synopsys (Lanka) Private Limited, Colombo, Sri Lanka (Rigel Building)",
+      "phone": "+94-11-203-8600"
+    },
+    {
+      "name": "Synopsys Korea Inc., Seongnam-si (N-5F H Square)",
+      "phone": "+82-2-3404-2700",
+      "email": "korea_info@synopsys.com"
+    },
+    {
+      "name": "Synopsys Korea Inc., Yongin-Si",
+      "phone": "+82-31-776-1100"
+    },
+    {
+      "name": "Synopsys Taiwan Co., Ltd., Hsinchu (Tai-Yuan Street)",
+      "phone": "+886-3-552-5880",
+      "email": "taiwan_info@synopsys.com"
+    },
+    {
+      "name": "Synopsys Taiwan Co., Ltd., Hsinchu (Industry East Road IV)",
+      "phone": "+886-3-579-4567",
+      "email": "taiwan_info@synopsys.com"
+    },
+    {
+      "name": "Synopsys Taiwan Co., Ltd., Taipei",
+      "phone": "+886-2-2345-3020",
+      "email": "taiwan_info@synopsys.com"
+    },
+    {
+      "name": "Synopsys Taiwan Co., Ltd., Hsinchu (NCTU Office)",
+      "phone": "+886-3-579-4567",
+      "email": "taiwan_info@synopsys.com"
+    },
+    {
+      "name": "Nihon Synopsys G.K., Tokyo, Japan",
+      "phone": "+81-3-6746-3500"
+    },
+    {
+      "name": "Nihon Synopsys G.K., Osaka, Japan",
+      "phone": "+81-6-6359-8139"
+    },
+    {
+      "name": "Nihon Synopsys G.K., Yokkaichi, Japan",
+      "phone": "+81-6-6359-8139"
     }
-  }
-]
+  ]
+}

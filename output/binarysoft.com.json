@@ -1,18 +1,45 @@
-[
-  {
-    "website": "http://www.binarysoft.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Binarysoft Technologies is a 360-degree technology solution provider specializing in customized software development, web development, mobile app development, and IT consulting, indicating a strong tech and programming focus."
+{
+  "Website": "http://www.binarysoft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099997 06000",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Binarysoft Technologies is a 360-degree technology solution provider specializing in customized software development, web development, mobile app development, and IT consulting, indicating a strong tech and programming focus.",
+  "extracted_contact_details": [
+    {
+      "title": "USA Office",
+      "phone": "+1 646 4616 296",
+      "email": "info@binarysoft.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@binarysoft.com",
-        "phone": "+1 646 4616 296"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "India Office",
+      "phone": "+91-11-41545336",
+      "email": "info@binarysoft.com"
+    },
+    {
+      "title": "Sales Inquiries",
+      "phone": "+91-74287-79101",
+      "email": "info@binarysoft.com"
+    },
+    {
+      "title": "Technical Support",
+      "phone": "+91-11-41545336",
+      "email": "info@binarysoft.com"
+    },
+    {
+      "title": "General Inquiries (India)",
+      "phone": "+91-74287-79101",
+      "email": "info@binarysoft.com"
+    },
+    {
+      "title": "Career Opportunities",
+      "phone": "+91-84484-26321",
+      "email": "info@binarysoft.com"
+    },
+    {
+      "title": "CA Tally Help Desk",
+      "phone": "(91) 9013148887, (91) 9205471661, (91) 7428779101, (91) 7982407474, (91) 9560609268, (91) 8368262875, (91) 11 41545336"
     }
-  }
-]
+  ]
+}

@@ -1,55 +1,57 @@
-[
-  {
-    "website": "https://saitm.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "SAITM explicitly identifies as an 'Engineering College' and its program offerings are overwhelmingly focused on B.Tech and M.Tech degrees in Computer Science, AI/ML, Data Science, and other technical domains, emphasizing technical skills and modern technical training."
+{
+  "Website": "https://saitm.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "085059 37772",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "SAITM explicitly identifies as an 'Engineering College' and its program offerings are overwhelmingly focused on B.Tech and M.Tech degrees in Computer Science, AI/ML, Data Science, and other technical domains, emphasizing technical skills and modern technical training.",
+  "extracted_contact_details": [
+    {
+      "title": "Admissions / Admission Helpline",
+      "phone": "+91-8505937772",
+      "email": "admissions@saitm.org"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admissions@saitm.org",
-        "phone": "+91-8505937772"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Anjali Singh",
-          "title": "Coordinator (SAITM T & P Cell)",
-          "email": "standrews@saitm.org",
-          "phone": "+918505937771"
-        },
-        {
-          "name": "Kirti Gupta",
-          "title": "Coordinator (SAITM T & P Cell)",
-          "email": "keertigupta@saitm.org",
-          "phone": "+918505937773"
-        },
-        {
-          "name": "Gauri Balodiya",
-          "title": "Placement Manager (SAITM T & P Cell)",
-          "email": "placements@saitm.org",
-          "phone": "+919871763109"
-        },
-        {
-          "name": "Hardeep Yadav",
-          "title": "Placement Manager (SAITM T & P Cell)",
-          "email": "hardeep.tpo@saitm.ac.in",
-          "phone": "+919467007092"
-        },
-        {
-          "name": "Dr. Dinesh Yadav",
-          "title": "Dean (Career Development Cell)",
-          "email": "deantpo@saitm.ac.in",
-          "phone": "+91 9782026265"
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Vinod Vats - Registrar",
-          "email": "registrar@saitm.org",
-          "phone": "9050381616"
-        }
-      ]
+    {
+      "title": "Human Resources",
+      "phone": "8505937771",
+      "email": "hr@saitm.org"
+    },
+    {
+      "name": "Vinod Vats",
+      "title": "Registrar",
+      "phone": "9050381616",
+      "email": "registrar@saitm.org"
+    },
+    {
+      "name": "Anjali Singh",
+      "title": "Coordinator (SAITM T & P Cell)",
+      "phone": "+918505937771",
+      "email": "standrews@saitm.org"
+    },
+    {
+      "name": "Kirti Gupta",
+      "title": "Coordinator (SAITM T & P Cell)",
+      "phone": "+918505937773",
+      "email": "keertigupta@saitm.org"
+    },
+    {
+      "name": "Gauri Balodiya",
+      "title": "Placement Manager (SAITM T & P Cell)",
+      "phone": "+919871763109",
+      "email": "placements@saitm.org"
+    },
+    {
+      "name": "Hardeep Yadav",
+      "title": "Placement Manager (SAITM T & P Cell)",
+      "phone": "+919467007092",
+      "email": "hardeep.tpo@saitm.ac.in"
+    },
+    {
+      "name": "Dr. Dinesh Yadav",
+      "title": "Dean (Career Development Cell)",
+      "phone": "+91 9782026265",
+      "email": "deantpo@saitm.ac.in"
     }
-  }
-]
+  ]
+}

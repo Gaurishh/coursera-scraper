@@ -1,25 +1,30 @@
-[
-  {
-    "website": "https://drait.edu.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Dr. Ambedkar Institute of Technology is a highly-ranked engineering college with a strong focus on technical programs, computer science, AI/ML, and actively recruits for tech-centric companies like TCS, Infosys, and Wipro."
+{
+  "Website": "https://drait.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Dr. Ambedkar Institute of Technology is a highly-ranked engineering college with a strong focus on technical programs, computer science, AI/ML, and actively recruits for tech-centric companies like TCS, Infosys, and Wipro.",
+  "extracted_contact_details": [
+    {
+      "name": "Dr. M. N. Thippeswamy",
+      "title": "Principal",
+      "phone": "9741940511 / 9448920704",
+      "email": "principal@drait.edu.in"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "9741940511 / 9448920704",
-        "email": "placements@drait.edu.in"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Dr. M. N. Thippeswamy",
-          "title": "Principal",
-          "email": "principal@drait.edu.in",
-          "phone": "9741940511 / 9448920704"
-        }
-      ],
-      "otherContacts": []
+    {
+      "title": "Admissions (UG & PG)",
+      "phone": "9741940511 / 9448920704"
+    },
+    {
+      "title": "Trust Office (PVP Welfare Trust)",
+      "phone": "9900472975"
+    },
+    {
+      "title": "Placements",
+      "phone": "+91 9844259313 / +91 9964058586 / +91 8546826254",
+      "email": "placements@drait.edu.in"
     }
-  }
-]
+  ]
+}

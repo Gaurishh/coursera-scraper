@@ -1,18 +1,26 @@
-[
-  {
-    "website": "http://www.microgreentech.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Microgreen Technologies is a dedicated technology consulting and staffing company whose core services and solutions revolve around IT, application development, managed IT, and testing, demonstrating an exceptionally strong tech focus."
+{
+  "Website": "http://www.microgreentech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "078159 60452",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Microgreen Technologies is a dedicated technology consulting and staffing company whose core services and solutions revolve around IT, application development, managed IT, and testing, demonstrating an exceptionally strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "name": "Microgreen Technologies Inc. (USA)",
+      "phone": "+1-425-244-0993",
+      "email": "info@microgreentech.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@microgreentech.com",
-        "phone": "+1-425-244-0993"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Microgreen Technologies Pvt. Ltd. (India Corporate Office)",
+      "phone": "+91 7815960452",
+      "email": "info@microgreentech.com"
+    },
+    {
+      "name": "Microgreen Technologies Pvt. Ltd. (India Branch Office)",
+      "phone": "+91 82178-44105, +91 96208-37777",
+      "email": "info@microgreentech.com"
     }
-  }
-]
+  ]
+}

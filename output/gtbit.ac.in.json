@@ -1,43 +1,42 @@
-[
-  {
-    "website": "http://gtbit.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "GTBIT is a technical institute offering numerous engineering disciplines with a strong emphasis on Computer Science, AI/ML, Data Science, and Electronics, and places students predominantly in IT and tech roles, indicating a clear tech focus."
+{
+  "Website": "http://gtbit.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 4559 9900",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "GTBIT is a technical institute offering numerous engineering disciplines with a strong emphasis on Computer Science, AI/ML, Data Science, and Electronics, and places students predominantly in IT and tech roles, indicating a clear tech focus.",
+  "extracted_contact_details": [
+    {
+      "title": "GTBIT General Inquiries",
+      "phone": "+91 011 455 999 00",
+      "email": "contactus@gtbit.ac.in, gtbit@rediffmail.com, contact@gtbit.ac.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "contactus@gtbit.ac.in, gtbit@rediffmail.com, contact@gtbit.ac.in",
-        "phone": "+91 011 455 999 00"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Mukesh Sahu",
-          "title": "HOD (IIPC-GTBIT)",
-          "email": "mukeshsahu@ieee.org",
-          "phone": "+91-9212425434"
-        },
-        {
-          "name": "Dr. Aashish Bhardwaj",
-          "title": "HOD - CSE/CSE-DS",
-          "email": "aashish@gtbit.ac.in",
-          "phone": "+91-9868093474"
-        },
-        {
-          "name": "Dr. Savneet Kaur",
-          "title": "HOD - IT",
-          "email": "savneet@gtbit.ac.in",
-          "phone": null
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Ms. Rashmi Arora - SPOC (ICT Academy)",
-          "email": "rashmiarora@gtbit.ac.in",
-          "phone": null
-        }
-      ]
+    {
+      "title": "Admission Queries",
+      "phone": "9310207739, 9625915121"
+    },
+    {
+      "name": "Mukesh Sahu",
+      "title": "HOD (IIPC-GTBIT)",
+      "phone": "+91-9212425434",
+      "email": "mukeshsahu@ieee.org"
+    },
+    {
+      "name": "Ms. Rashmi Arora",
+      "title": "SPOC (ICT Academy)",
+      "email": "rashmiarora@gtbit.ac.in"
+    },
+    {
+      "name": "Dr. Aashish Bhardwaj",
+      "title": "HOD - CSE/CSE-DS",
+      "phone": "+91-9868093474",
+      "email": "aashish@gtbit.ac.in"
+    },
+    {
+      "name": "Dr. Savneet Kaur",
+      "title": "HOD - IT",
+      "email": "savneet@gtbit.ac.in"
     }
-  }
-]
+  ]
+}

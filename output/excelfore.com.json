@@ -1,18 +1,32 @@
-[
-  {
-    "website": "https://excelfore.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Excelfore is a deep-tech company specializing in software-defined vehicle connectivity, in-vehicle networking, and OTA software updates, requiring a strong focus on advanced programming and engineering skills."
+{
+  "Website": "https://excelfore.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "095133 00147",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Excelfore is a deep-tech company specializing in software-defined vehicle connectivity, in-vehicle networking, and OTA software updates, requiring a strong focus on advanced programming and engineering skills.",
+  "extracted_contact_details": [
+    {
+      "title": "Global Support / Sales Inquiry",
+      "phone": "+1.510.573.1311, +1-510-868-2500",
+      "email": "support@excelfore.com, sales@excelfore.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "support@excelfore.com, sales@excelfore.com",
-        "phone": "+1.510.573.1311, +1-510-868-2500"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Frankfurt, Stockholm Office",
+      "phone": "+46-70-773 2350"
+    },
+    {
+      "title": "Tokyo Office",
+      "phone": "+81-3-6379-1163"
+    },
+    {
+      "title": "Bangalore Office",
+      "phone": "+91 95133 00147"
+    },
+    {
+      "title": "Careers Support",
+      "email": "jobs@excelfore.com"
     }
-  }
-]
+  ]
+}

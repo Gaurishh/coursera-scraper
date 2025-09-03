@@ -1,18 +1,19 @@
-[
-  {
-    "website": "http://www.effone.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "EffOne is a global IT consulting and software development company with extensive expertise in various programming languages, platforms, and IT lifecycle services, indicating a strong technical and engineering focus."
+{
+  "Website": "http://www.effone.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 2332 3298",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "EffOne is a global IT consulting and software development company with extensive expertise in various programming languages, platforms, and IT lifecycle services, indicating a strong technical and engineering focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+1 (408) 830-1010",
+      "email": "info@effone.net"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@effone.net",
-        "phone": "+1 (408) 830-1010"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 (80) 2332 3298",
+      "email": "info@effone.net"
     }
-  }
-]
+  ]
+}

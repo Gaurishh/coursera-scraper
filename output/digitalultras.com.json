@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://digitalultras.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Digital Ultras' core business as a digital marketing agency is explicitly focused on generating leads, conversions, and sales for its clients through services like Google Ads, SEO, and performance marketing, making it fundamentally a sales-driven industry."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@digitalultras.com",
-        "phone": "+91 7042840441"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://digitalultras.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070428 40441",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Digital Ultras' core business as a digital marketing agency is explicitly focused on generating leads, conversions, and sales for its clients through services like Google Ads, SEO, and performance marketing, making it fundamentally a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7042840441",
+      "email": "info@digitalultras.com"
     }
-  }
-]
+  ]
+}

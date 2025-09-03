@@ -1,18 +1,27 @@
-[
-  {
-    "website": "http://www.gowrisoftsolutions.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Gowri Software Solutions is a software testing and QA company with a strong tech focus, explicitly stating their corporate training is for 'Soft Testing and Automation'."
+{
+  "Website": "http://www.gowrisoftsolutions.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "090368 98958",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Gowri Software Solutions is a software testing and QA company with a strong tech focus, explicitly stating their corporate training is for 'Soft Testing and Automation'.",
+  "extracted_contact_details": [
+    {
+      "name": "Aishwarya Gowda",
+      "email": "aishwarya.gowda@gowrisoftsolutions.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "aishwarya.gowda@gowrisoftsolutions.com",
-        "phone": "080-23147799"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "hr@gowrisoftsolutions.com"
+    },
+    {
+      "phone": "080-23147799"
+    },
+    {
+      "phone": "+91-9986754997"
+    },
+    {
+      "phone": "+91-9886032977"
     }
-  }
-]
+  ]
+}

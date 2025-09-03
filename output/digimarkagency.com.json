@@ -1,18 +1,21 @@
-[
-  {
-    "website": "https://www.digimarkagency.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=Main",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "DigiMark Agency's core business revolves around generating leads, conversions, and increasing ROI for clients through digital marketing, making it a sales-driven industry with job roles like Business Development Manager and Customer Success Manager."
+{
+  "Website": "https://www.digimarkagency.com/?utm_source=GMB&utm_medium=Organic&utm_campaign=Main",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "088843 30607",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "DigiMark Agency's core business revolves around generating leads, conversions, and increasing ROI for clients through digital marketing, making it a sales-driven industry with job roles like Business Development Manager and Customer Success Manager.",
+  "extracted_contact_details": [
+    {
+      "title": "General Business Inquiries",
+      "phone": "+91 8884330607",
+      "email": "info@digimarkagency.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@digimarkagency.com",
-        "phone": "+91 8884330607"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Careers / Hiring Inquiries",
+      "phone": "+91 81232 25614",
+      "email": "careers@digimarkagency.com"
     }
-  }
-]
+  ]
+}

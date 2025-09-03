@@ -1,18 +1,18 @@
-[
-  {
-    "website": "https://iwriteindia.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 97,
-      "reasoning": "iWrite India is a digital marketing agency explicitly focused on driving client business growth, lead generation, conversions, and revenue, which are all directly tied to sales outcomes."
+{
+  "Website": "https://iwriteindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4300 3984",
+  "Course": "Sales",
+  "Score": 97,
+  "Reasoning": "iWrite India is a digital marketing agency explicitly focused on driving client business growth, lead generation, conversions, and revenue, which are all directly tied to sales outcomes.",
+  "extracted_contact_details": [
+    {
+      "phone": "011-4300 3984, +91-8882795171, +91-7303406968",
+      "email": "support@iwriteindia.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "support@iwriteindia.com",
-        "phone": "011-4300 3984, +91-8882795171, +91-7303406968"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "hr@iwriteindia.com"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,90 @@
-[
-  {
-    "website": "http://www.mdi.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "MDI Gurgaon consistently identifies itself as a 'Top B-School in India' offering various Post Graduate Diploma in Management (PGDM) and MBA programs, indicating a strong focus on business and management education where sales skills are highly relevant."
+{
+  "Website": "http://www.mdi.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "0124 456 0000",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "MDI Gurgaon consistently identifies itself as a 'Top B-School in India' offering various Post Graduate Diploma in Management (PGDM) and MBA programs, indicating a strong focus on business and management education where sales skills are highly relevant.",
+  "extracted_contact_details": [
+    {
+      "email": "[email protected]",
+      "phone": "+91-124-4560000"
     },
-    "contactDetails": {
-      "general": {
-        "email": "[email protected]",
-        "phone": "+91-124-4560000"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Graduate Programmes Admissions",
+      "phone": "+91-124-4560555, +91-124-4560666",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Accreditation",
+      "phone": "+91-124-4560593",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Alumni Relations",
+      "phone": "+91-124-4560687",
+      "email": "[email protected], [email protected]"
+    },
+    {
+      "title": "Centres of Excellence (COE)",
+      "phone": "+91-124-4560686",
+      "email": "[email protected], [email protected]"
+    },
+    {
+      "title": "Consulting",
+      "phone": "+91-124-4560687",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Executive Programmes",
+      "phone": "+91-124-4560793",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Fellowship Programmes",
+      "phone": "+91-124-4560010",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Global Connect",
+      "phone": "+91-124-4560691",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Library",
+      "phone": "+91-124-4560282",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Management Development Programmes (MDPs)",
+      "phone": "+91-124-4560534",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Outreach & Communications",
+      "phone": "+91-124-4560385",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Placements",
+      "phone": "+91-124-4560012",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Research",
+      "phone": "+91-124-4560808",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Student Affairs",
+      "phone": "+91-124-4560683",
+      "email": "[email protected]"
+    },
+    {
+      "title": "Teaching Learning Center",
+      "phone": "+91-124-4560114",
+      "email": "[email protected]"
     }
-  }
-]
+  ]
+}

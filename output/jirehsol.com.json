@@ -1,18 +1,21 @@
-[
-  {
-    "website": "https://jirehsol.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 100,
-      "reasoning": "Jireh is explicitly a 'Software Development Company' offering extensive services in mobile development, customized applications, AI, cloud computing, and blockchain, demonstrating a profound technological and programming core."
+{
+  "Website": "https://jirehsol.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 4120 0197",
+  "Course": "Programming",
+  "Score": 100,
+  "Reasoning": "Jireh is explicitly a 'Software Development Company' offering extensive services in mobile development, customized applications, AI, cloud computing, and blockchain, demonstrating a profound technological and programming core.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 953 846 9384, +91 80 41200197"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 953 846 9384, +91 80 41200197",
-        "email": "info@jirehsol.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+91 953 846 9384",
+      "email": "info@jirehsol.com"
+    },
+    {
+      "email": "contact@jirehsol.com"
     }
-  }
-]
+  ]
+}

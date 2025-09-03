@@ -1,234 +1,278 @@
-[
-  {
-    "website": "https://dseu.ac.in/ashok-vihar/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The campus offers multiple engineering diplomas, including Computer Engineering, indicating a strong focus on technical and programming skills."
+{
+  "Website": "https://dseu.ac.in/ashok-vihar/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2742 6263",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The campus offers multiple engineering diplomas, including Computer Engineering, indicating a strong focus on technical and programming skills.",
+  "extracted_contact_details": [
+    {
+      "name": "Admissions Enquiry",
+      "phone": "1800 309 3209"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "1800 309 3209",
-        "email": "director.ashokvihar@dseu.ac.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "Dr. Madhurima Lall - Professor",
-          "email": "madhurima.lall@dseu.ac.in",
-          "phone": "9319859587"
-        },
-        {
-          "description": "Dr. Shalini Singh - Professor",
-          "email": "shalini.singh@dseu.ac.in",
-          "phone": "9319859590"
-        },
-        {
-          "description": "Mr. Rajesh Kumar - Associate Professor",
-          "email": "rajesh.kumar@dseu.ac.in",
-          "phone": "9319859591"
-        },
-        {
-          "description": "Dr. Shalini Saxena - Associate Professor",
-          "email": "shalini.saxena@dseu.ac.in",
-          "phone": "9319859589"
-        },
-        {
-          "description": "Dr. Priyanka Khurana - Assistant Professor",
-          "email": "priyanka.khurana@dseu.ac.in",
-          "phone": "9319859593"
-        },
-        {
-          "description": "Dr. Neha - Assistant Professor",
-          "email": "neha@dseu.ac.in",
-          "phone": "9319859594"
-        },
-        {
-          "description": "Ms. Kanchan Bharti - Assistant Professor",
-          "email": "kanchan.bharti@dseu.ac.in",
-          "phone": "9319859595"
-        },
-        {
-          "description": "Mr. Anil Kumar - Assistant Professor",
-          "email": "anil.kumar@dseu.ac.in",
-          "phone": "9319859596"
-        },
-        {
-          "description": "Mr. Ashish Yadav - Assistant Professor",
-          "email": "ashish.yadav@dseu.ac.in",
-          "phone": "9319859597"
-        },
-        {
-          "description": "Ms. Mehak Verma - Assistant Professor",
-          "email": "mehak.verma@dseu.ac.in",
-          "phone": "9319859598"
-        },
-        {
-          "description": "Mr. Amit Sehrawat - Assistant Professor",
-          "email": "amit.sehrawat@dseu.ac.in",
-          "phone": "9319859599"
-        },
-        {
-          "description": "Ms. Himani - Assistant Professor",
-          "email": "himani@dseu.ac.in",
-          "phone": "9319859600"
-        },
-        {
-          "description": "Ms. Reena - Assistant Professor",
-          "email": "reena@dseu.ac.in",
-          "phone": "9319859601"
-        },
-        {
-          "description": "Ms. Preeti Verma - Assistant Professor",
-          "email": "preeti.verma@dseu.ac.in",
-          "phone": "9319859602"
-        },
-        {
-          "description": "Ms. Shruti Sharma - Assistant Professor",
-          "email": "shruti.sharma@dseu.ac.in",
-          "phone": "9319859603"
-        },
-        {
-          "description": "Mr. Sanjeev Kumar - Assistant Professor",
-          "email": "sanjeev.kumar@dseu.ac.in",
-          "phone": "9319859604"
-        },
-        {
-          "description": "Ms. Preeti Rani - Assistant Professor",
-          "email": "preeti.rani@dseu.ac.in",
-          "phone": "9319859605"
-        },
-        {
-          "description": "Ms. Diksha Malik - Assistant Professor",
-          "email": "diksha.malik@dseu.ac.in",
-          "phone": "9319859606"
-        },
-        {
-          "description": "Mr. Kapil Kumar - Assistant Professor",
-          "email": "kapil.kumar@dseu.ac.in",
-          "phone": "9319859607"
-        },
-        {
-          "description": "Mr. Satish Sharma - Assistant Professor",
-          "email": "satish.sharma@dseu.ac.in",
-          "phone": "9319859608"
-        },
-        {
-          "description": "Mr. Sumit Bhalla - Assistant Professor",
-          "email": "sumit.bhalla@dseu.ac.in",
-          "phone": "9319859609"
-        },
-        {
-          "description": "Ms. Deepshikha Chaudhary - Assistant Professor",
-          "email": "deepshikha.chaudhary@dseu.ac.in",
-          "phone": "9319859610"
-        },
-        {
-          "description": "Ms. Pooja Arya - Assistant Professor",
-          "email": "pooja.arya@dseu.ac.in",
-          "phone": "9319859611"
-        },
-        {
-          "description": "Mr. Anuj Malik - Assistant Professor",
-          "email": "anuj.malik@dseu.ac.in",
-          "phone": "9319859612"
-        },
-        {
-          "description": "Ms. Sakshi Dahiya - Assistant Professor",
-          "email": "sakshi.dahiya@dseu.ac.in",
-          "phone": "9319859613"
-        },
-        {
-          "description": "Mr. Naman Gupta - Assistant Professor",
-          "email": "naman.gupta@dseu.ac.in",
-          "phone": "9319859614"
-        },
-        {
-          "description": "Mr. Anil Kumar - MTS",
-          "email": "anilk.singh@dseu.ac.in",
-          "phone": "9319859615"
-        },
-        {
-          "description": "Mr. Sanjay Kumar - Lab Assistant",
-          "email": "sanjay.kumar@dseu.ac.in",
-          "phone": "9319859616"
-        },
-        {
-          "description": "Mr. Ashish Tyagi - Junior Assistant",
-          "email": "ashish.tyagi@dseu.ac.in",
-          "phone": "9319859617"
-        },
-        {
-          "description": "Mr. Manish Kumar - Junior Assistant",
-          "email": "manish.kumar@dseu.ac.in",
-          "phone": "9319859618"
-        },
-        {
-          "description": "Mr. Narender Kumar - Junior Assistant",
-          "email": "narender.kumar@dseu.ac.in",
-          "phone": "9319859619"
-        },
-        {
-          "description": "Mr. Nitesh Kumar - Junior Assistant",
-          "email": "nitesh.kumar@dseu.ac.in",
-          "phone": "9319859620"
-        },
-        {
-          "description": "Mr. Parvez Khan - Junior Assistant",
-          "email": "parvez.khan@dseu.ac.in",
-          "phone": "9319859621"
-        },
-        {
-          "description": "Mr. Rajender Singh - Junior Assistant",
-          "email": "rajender.singh@dseu.ac.in",
-          "phone": "9319859622"
-        },
-        {
-          "description": "Mr. Ramesh Chand - Junior Assistant",
-          "email": "ramesh.chand@dseu.ac.in",
-          "phone": "9319859623"
-        },
-        {
-          "description": "Mr. Sandeep Kumar - Junior Assistant",
-          "email": "sandeep.kumar@dseu.ac.in",
-          "phone": "9319859624"
-        },
-        {
-          "description": "Mr. Sumit - Junior Assistant",
-          "email": "sumit@dseu.ac.in",
-          "phone": "9319859625"
-        },
-        {
-          "description": "Mr. Suraj Kumar - Junior Assistant",
-          "email": "suraj.kumar@dseu.ac.in",
-          "phone": "9319859626"
-        },
-        {
-          "description": "Mr. Vinod Kumar - Junior Assistant",
-          "email": "vinod.kumar@dseu.ac.in",
-          "phone": "9319859627"
-        },
-        {
-          "description": "Mr. Vivek Kumar - Junior Assistant",
-          "email": "vivek.kumar@dseu.ac.in",
-          "phone": "9319859628"
-        },
-        {
-          "description": "Ms. Sarita - Junior Assistant",
-          "email": "sarita@dseu.ac.in",
-          "phone": "9319859629"
-        },
-        {
-          "description": "Ms. Sonia - Junior Assistant",
-          "email": "sonia@dseu.ac.in",
-          "phone": "9319859630"
-        },
-        {
-          "description": "Ms. Upma Vashisht - Junior Assistant",
-          "email": "upma.vashisht@dseu.ac.in",
-          "phone": "9319859631"
-        }
-      ]
+    {
+      "name": "Ashok Vihar Campus",
+      "phone": "+91-11-27376781, +91-11-27376782",
+      "email": "director.ashokvihar@dseu.ac.in"
+    },
+    {
+      "name": "Dr. Madhurima Lall",
+      "title": "Professor",
+      "phone": "9319859587",
+      "email": "madhurima.lall@dseu.ac.in"
+    },
+    {
+      "name": "Dr. Shalini Singh",
+      "title": "Professor",
+      "phone": "9319859590",
+      "email": "shalini.singh@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Rajesh Kumar",
+      "title": "Associate Professor",
+      "phone": "9319859591",
+      "email": "rajesh.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Dr. Shalini Saxena",
+      "title": "Associate Professor",
+      "phone": "9319859589",
+      "email": "shalini.saxena@dseu.ac.in"
+    },
+    {
+      "name": "Dr. Priyanka Khurana",
+      "title": "Assistant Professor",
+      "phone": "9319859593",
+      "email": "priyanka.khurana@dseu.ac.in"
+    },
+    {
+      "name": "Dr. Neha",
+      "title": "Assistant Professor",
+      "phone": "9319859594",
+      "email": "neha@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Kanchan Bharti",
+      "title": "Assistant Professor",
+      "phone": "9319859595",
+      "email": "kanchan.bharti@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Anil Kumar",
+      "title": "Assistant Professor",
+      "phone": "9319859596",
+      "email": "anil.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Ashish Yadav",
+      "title": "Assistant Professor",
+      "phone": "9319859597",
+      "email": "ashish.yadav@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Mehak Verma",
+      "title": "Assistant Professor",
+      "phone": "9319859598",
+      "email": "mehak.verma@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Amit Sehrawat",
+      "title": "Assistant Professor",
+      "phone": "9319859599",
+      "email": "amit.sehrawat@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Himani",
+      "title": "Assistant Professor",
+      "phone": "9319859600",
+      "email": "himani@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Reena",
+      "title": "Assistant Professor",
+      "phone": "9319859601",
+      "email": "reena@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Preeti Verma",
+      "title": "Assistant Professor",
+      "phone": "9319859602",
+      "email": "preeti.verma@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Shruti Sharma",
+      "title": "Assistant Professor",
+      "phone": "9319859603",
+      "email": "shruti.sharma@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Sanjeev Kumar",
+      "title": "Assistant Professor",
+      "phone": "9319859604",
+      "email": "sanjeev.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Preeti Rani",
+      "title": "Assistant Professor",
+      "phone": "9319859605",
+      "email": "preeti.rani@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Diksha Malik",
+      "title": "Assistant Professor",
+      "phone": "9319859606",
+      "email": "diksha.malik@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Kapil Kumar",
+      "title": "Assistant Professor",
+      "phone": "9319859607",
+      "email": "kapil.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Satish Sharma",
+      "title": "Assistant Professor",
+      "phone": "9319859608",
+      "email": "satish.sharma@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Sumit Bhalla",
+      "title": "Assistant Professor",
+      "phone": "9319859609",
+      "email": "sumit.bhalla@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Deepshikha Chaudhary",
+      "title": "Assistant Professor",
+      "phone": "9319859610",
+      "email": "deepshikha.chaudhary@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Pooja Arya",
+      "title": "Assistant Professor",
+      "phone": "9319859611",
+      "email": "pooja.arya@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Anuj Malik",
+      "title": "Assistant Professor",
+      "phone": "9319859612",
+      "email": "anuj.malik@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Sakshi Dahiya",
+      "title": "Assistant Professor",
+      "phone": "9319859613",
+      "email": "sakshi.dahiya@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Naman Gupta",
+      "title": "Assistant Professor",
+      "phone": "9319859614",
+      "email": "naman.gupta@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Anil Kumar",
+      "title": "MTS",
+      "phone": "9319859615",
+      "email": "anilk.singh@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Sanjay Kumar",
+      "title": "Lab Assistant",
+      "phone": "9319859616",
+      "email": "sanjay.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Ashish Tyagi",
+      "title": "Junior Assistant",
+      "phone": "9319859617",
+      "email": "ashish.tyagi@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Manish Kumar",
+      "title": "Junior Assistant",
+      "phone": "9319859618",
+      "email": "manish.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Narender Kumar",
+      "title": "Junior Assistant",
+      "phone": "9319859619",
+      "email": "narender.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Nitesh Kumar",
+      "title": "Junior Assistant",
+      "phone": "9319859620",
+      "email": "nitesh.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Parvez Khan",
+      "title": "Junior Assistant",
+      "phone": "9319859621",
+      "email": "parvez.khan@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Rajender Singh",
+      "title": "Junior Assistant",
+      "phone": "9319859622",
+      "email": "rajender.singh@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Ramesh Chand",
+      "title": "Junior Assistant",
+      "phone": "9319859623",
+      "email": "ramesh.chand@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Sandeep Kumar",
+      "title": "Junior Assistant",
+      "phone": "9319859624",
+      "email": "sandeep.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Sumit",
+      "title": "Junior Assistant",
+      "phone": "9319859625",
+      "email": "sumit@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Suraj Kumar",
+      "title": "Junior Assistant",
+      "phone": "9319859626",
+      "email": "suraj.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Vinod Kumar",
+      "title": "Junior Assistant",
+      "phone": "9319859627",
+      "email": "vinod.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Mr. Vivek Kumar",
+      "title": "Junior Assistant",
+      "phone": "9319859628",
+      "email": "vivek.kumar@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Sarita",
+      "title": "Junior Assistant",
+      "phone": "9319859629",
+      "email": "sarita@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Sonia",
+      "title": "Junior Assistant",
+      "phone": "9319859630",
+      "email": "sonia@dseu.ac.in"
+    },
+    {
+      "name": "Ms. Upma Vashisht",
+      "title": "Junior Assistant",
+      "phone": "9319859631",
+      "email": "upma.vashisht@dseu.ac.in"
     }
-  }
-]
+  ]
+}

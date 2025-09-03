@@ -1,18 +1,27 @@
-[
-  {
-    "website": "https://www.arramton.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Arramton Infotech explicitly identifies as a web, app, and software development company, with its core services, history, and leadership demonstrating a clear and strong focus on technology and digital solutions."
+{
+  "Website": "https://www.arramton.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098211 99979",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Arramton Infotech explicitly identifies as a web, app, and software development company, with its core services, history, and leadership demonstrating a clear and strong focus on technology and digital solutions.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-859-538-2420",
+      "email": "info@arramton.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@arramton.com",
-        "phone": "+91-859-538-2420"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+44 7833610451",
+      "email": "info@arramton.com"
+    },
+    {
+      "phone": "+44 7833610451",
+      "email": "info@arramton.com"
+    },
+    {
+      "phone": "+44 7833610451",
+      "email": "info@arramton.com"
     }
-  }
-]
+  ]
+}

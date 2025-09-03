@@ -1,192 +1,197 @@
-[
-  {
-    "website": "http://www.nitdelhi.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 100,
-      "reasoning": "NIT Delhi is an engineering institute of national importance with a strong focus on Computer Science, Electrical, and Electronics engineering disciplines, research, and technical student activities."
+{
+  "Website": "http://www.nitdelhi.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 3386 1005",
+  "Course": "Programming",
+  "Score": 100,
+  "Reasoning": "NIT Delhi is an engineering institute of national importance with a strong focus on Computer Science, Electrical, and Electronics engineering disciplines, research, and technical student activities.",
+  "extracted_contact_details": [
+    {
+      "name": "PA to Director",
+      "title": "PA to Director (Director Office)",
+      "phone": "+91-11-3386 1005",
+      "email": "secretary@nitdelhi.ac.in"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [
-        {
-          "name": "PA to Director",
-          "title": "PA to Director (Director Office)",
-          "email": "secretary@nitdelhi.ac.in",
-          "phone": "+91-11-3386 1005"
-        },
-        {
-          "name": "Office of Dean R&C",
-          "title": "Office of Dean R&C (Academic Matters Ph.D.)",
-          "email": "deanrcoffice@nitdelhi.ac.in",
-          "phone": "+91-11-3386 1112"
-        },
-        {
-          "name": "Department of Computer Science & Engineering",
-          "title": "Head of Department (General Contact)",
-          "email": "hodcse@nitdelhi.ac.in",
-          "phone": "+911133861120, +911133861121"
-        },
-        {
-          "name": "Dr. Ajay K Sharma",
-          "title": "Professor (HAG), Director",
-          "email": "director@nitdelhi.ac.in",
-          "phone": "011-33861001"
-        },
-        {
-          "name": "Dr. Munesh Singh",
-          "title": "Associate Professor and Head, Head of Department (Computer Science and Engineering)",
-          "email": "Munesh.singh@nitdelhi.ac.in, hodcs@nitdelhi.ac.in",
-          "phone": "011-33861131"
-        },
-        {
-          "name": "Dr. K.T. Raju",
-          "title": "Head of Department (Electrical Engineering)",
-          "email": "hodee@nitdelhi.ac.in",
-          "phone": "+911133861080"
-        },
-        {
-          "name": "Dr. Rikmantra Basu",
-          "title": "Head of Department (Electronics and Communication Engineering)",
-          "email": "hodec@nitdelhi.ac.in",
-          "phone": "+911133861150"
-        },
-        {
-          "name": "Dr. Abhishek Mishra",
-          "title": "Head of Department (Mechanical and Aerospace Engineering)",
-          "email": "hodme@nitdelhi.ac.in",
-          "phone": "+911133861220"
-        },
-        {
-          "name": "Dr Kapil Kumar",
-          "title": "Head of Department (Civil Engineering)",
-          "email": "hodce@nitdelhi.ac.in",
-          "phone": "+911133861230"
-        },
-        {
-          "name": "Dr. Anuj Sharma",
-          "title": "Head of Department (Applied Sciences, Humanities & Management)",
-          "email": "hodas@nitdelhi.ac.in",
-          "phone": "+911133861250"
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "PS to Registrar - PS to Registrar (Registrar Office)",
-          "email": "registraroffice@nitdelhi.ac.in",
-          "phone": "+91-11-3386 1020"
-        },
-        {
-          "description": "Academics Section - Academics Section (UG and PG)",
-          "email": "academics@nitdelhi.ac.in",
-          "phone": "+91 11-3386 1106, +91 11-3386 1107, +91-9267998783"
-        },
-        {
-          "description": "Office of Accounts - Office of Accounts (Accounts Matters)",
-          "email": "ac@nitdelhi.ac.in",
-          "phone": "+91 11-3386 1030, +91 11-3386 1031, +91-9267998697"
-        },
-        {
-          "description": "Prof. (Dr.) Geeta Sikka - Professor",
-          "email": "sikkag@nitdelhi.ac.in",
-          "phone": "+11-33861120"
-        },
-        {
-          "description": "Dr. Shelly Sachdeva - Associate Professor",
-          "email": "shellysachdeva@nitdelhi.ac.in",
-          "phone": "011-33861124"
-        },
-        {
-          "description": "Dr. Anurag Singh - Associate Professor",
-          "email": "anuragsg@nitdelhi.ac.in",
-          "phone": "+11-33861120, +11-33861122"
-        },
-        {
-          "description": "Dr. Karan Verma - Associate Professor",
-          "email": "karanverma@nitdelhi.ac.in",
-          "phone": "011-33861123"
-        },
-        {
-          "description": "Dr. Vipin Pal - Assistant Professor",
-          "email": "vipinpal@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Dr. Amandeep Kaur - Assistant Professor",
-          "email": "amandeepk@nitdelhi.ac.in",
-          "phone": "011-33861076"
-        },
-        {
-          "description": "Dr. Gautam Kumar - Assistant Professor, Training & Placement Officer",
-          "email": "gautam@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Dr. Gunjan - Assistant Professor",
-          "email": "gunjan.rehani@nitdelhi.ac.in",
-          "phone": "011-33861076"
-        },
-        {
-          "description": "Dr. Sahil - Assistant Professor",
-          "email": "sahil.neelam@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Dr. Ankur Nandal - Assistant Professor",
-          "email": "ankur@nitdelhi.ac.in",
-          "phone": "+011-22861126"
-        },
-        {
-          "description": "Dr. Gulab Sah - Assistant Professor",
-          "email": "DrGulabSah15@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Dr. Nisha Singh Chauhan - Assistant Professor",
-          "email": "nishasingh@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Manish Kumar Malik - Technical Assistant",
-          "email": "Malik.manish@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Sanjeev Kumar - Technical Assistant",
-          "email": "sanjeev@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Somesh Kumar - Technical Assistant",
-          "email": "somesh@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Vikas Bhardwaj - Senior Technician",
-          "email": "vikasbhardwaj@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Pradeep Kumar - Senior Technician",
-          "email": "pradeepkumar@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Ankur Singh - Technician",
-          "email": "ankurksingh@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Ms. Anju Bhakar - Junior Assistant (Outsourced)",
-          "email": "anjubhakar@nitdelhi.ac.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Ranjeet Yadav - Office Attendant",
-          "email": "ranjeetyadav11@nitdelhi.ac.in",
-          "phone": "011-33861151"
-        }
-      ]
+    {
+      "name": "PS to Registrar",
+      "title": "PS to Registrar (Registrar Office)",
+      "phone": "+91-11-3386 1020",
+      "email": "registraroffice@nitdelhi.ac.in"
+    },
+    {
+      "name": "Academics Section",
+      "title": "Academics Section (UG and PG)",
+      "phone": "+91 11-3386 1106, +91 11-3386 1107, +91-9267998783",
+      "email": "academics@nitdelhi.ac.in"
+    },
+    {
+      "name": "Office of Dean R&C",
+      "title": "Office of Dean R&C (Academic Matters Ph.D.)",
+      "phone": "+91-11-3386 1112",
+      "email": "deanrcoffice@nitdelhi.ac.in"
+    },
+    {
+      "name": "Office of Accounts",
+      "title": "Office of Accounts (Accounts Matters)",
+      "phone": "+91 11-3386 1030, +91 11-3386 1031, +91-9267998697",
+      "email": "ac@nitdelhi.ac.in"
+    },
+    {
+      "name": "Department of Computer Science & Engineering",
+      "title": "Head of Department (General Contact)",
+      "phone": "+911133861120, +911133861121",
+      "email": "hodcse@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Ajay K Sharma",
+      "title": "Professor (HAG), Director",
+      "phone": "011-33861001",
+      "email": "director@nitdelhi.ac.in"
+    },
+    {
+      "name": "Prof. (Dr.) Geeta Sikka",
+      "title": "Professor",
+      "phone": "+11-33861120",
+      "email": "sikkag@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Shelly Sachdeva",
+      "title": "Associate Professor",
+      "phone": "011-33861124",
+      "email": "shellysachdeva@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Anurag Singh",
+      "title": "Associate Professor",
+      "phone": "+11-33861120, +11-33861122",
+      "email": "anuragsg@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Karan Verma",
+      "title": "Associate Professor",
+      "phone": "011-33861123",
+      "email": "karanverma@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Munesh Singh",
+      "title": "Associate Professor and Head, Head of Department (Computer Science and Engineering)",
+      "phone": "011-33861131",
+      "email": "Munesh.singh@nitdelhi.ac.in, hodcs@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Vipin Pal",
+      "title": "Assistant Professor",
+      "email": "vipinpal@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Amandeep Kaur",
+      "title": "Assistant Professor",
+      "phone": "011-33861076",
+      "email": "amandeepk@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Gautam Kumar",
+      "title": "Assistant Professor, Training & Placement Officer",
+      "email": "gautam@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Gunjan",
+      "title": "Assistant Professor",
+      "phone": "011-33861076",
+      "email": "gunjan.rehani@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Sahil",
+      "title": "Assistant Professor",
+      "email": "sahil.neelam@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Ankur Nandal",
+      "title": "Assistant Professor",
+      "phone": "+011-22861126",
+      "email": "ankur@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Gulab Sah",
+      "title": "Assistant Professor",
+      "email": "DrGulabSah15@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Nisha Singh Chauhan",
+      "title": "Assistant Professor",
+      "email": "nishasingh@nitdelhi.ac.in"
+    },
+    {
+      "name": "Mr. Manish Kumar Malik",
+      "title": "Technical Assistant",
+      "email": "Malik.manish@nitdelhi.ac.in"
+    },
+    {
+      "name": "Mr. Sanjeev Kumar",
+      "title": "Technical Assistant",
+      "email": "sanjeev@nitdelhi.ac.in"
+    },
+    {
+      "name": "Mr. Somesh Kumar",
+      "title": "Technical Assistant",
+      "email": "somesh@nitdelhi.ac.in"
+    },
+    {
+      "name": "Mr. Vikas Bhardwaj",
+      "title": "Senior Technician",
+      "email": "vikasbhardwaj@nitdelhi.ac.in"
+    },
+    {
+      "name": "Mr. Pradeep Kumar",
+      "title": "Senior Technician",
+      "email": "pradeepkumar@nitdelhi.ac.in"
+    },
+    {
+      "name": "Mr. Ankur Singh",
+      "title": "Technician",
+      "email": "ankurksingh@nitdelhi.ac.in"
+    },
+    {
+      "name": "Ms. Anju Bhakar",
+      "title": "Junior Assistant (Outsourced)",
+      "email": "anjubhakar@nitdelhi.ac.in"
+    },
+    {
+      "name": "Mr. Ranjeet Yadav",
+      "title": "Office Attendant",
+      "phone": "011-33861151",
+      "email": "ranjeetyadav11@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. K.T. Raju",
+      "title": "Head of Department (Electrical Engineering)",
+      "phone": "+911133861080",
+      "email": "hodee@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Rikmantra Basu",
+      "title": "Head of Department (Electronics and Communication Engineering)",
+      "phone": "+911133861150",
+      "email": "hodec@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Abhishek Mishra",
+      "title": "Head of Department (Mechanical and Aerospace Engineering)",
+      "phone": "+911133861220",
+      "email": "hodme@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr Kapil Kumar",
+      "title": "Head of Department (Civil Engineering)",
+      "phone": "+911133861230",
+      "email": "hodce@nitdelhi.ac.in"
+    },
+    {
+      "name": "Dr. Anuj Sharma",
+      "title": "Head of Department (Applied Sciences, Humanities & Management)",
+      "phone": "+911133861250",
+      "email": "hodas@nitdelhi.ac.in"
     }
-  }
-]
+  ]
+}

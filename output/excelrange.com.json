@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.excelrange.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 15,
-      "reasoning": "The website is a placeholder, offering no details on services; however, 'Media' companies often rely on sales for revenue generation."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@excelrange.com",
-        "phone": "+91-98703-76982"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.excelrange.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098703 76982",
+  "Course": "Sales",
+  "Score": 15,
+  "Reasoning": "The website is a placeholder, offering no details on services; however, 'Media' companies often rely on sales for revenue generation.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-98703-76982",
+      "email": "info@excelrange.com"
     }
-  }
-]
+  ]
+}

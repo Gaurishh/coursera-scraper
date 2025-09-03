@@ -1,18 +1,26 @@
-[
-  {
-    "website": "https://onlinemarketingagency.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The company is an online marketing agency focused on services like social media marketing and strategy, which are directly aimed at driving sales and customer acquisition for their clients and themselves."
+{
+  "Website": "https://onlinemarketingagency.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088605 53836",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company is an online marketing agency focused on services like social media marketing and strategy, which are directly aimed at driving sales and customer acquisition for their clients and themselves.",
+  "extracted_contact_details": [
+    {
+      "email": "onlinemarketingagencyin@gmail.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "onlinemarketingagencyin@gmail.com",
-        "phone": "(205) 555-0100"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "(205) 555-0100"
+    },
+    {
+      "email": "email@sociense.com"
+    },
+    {
+      "phone": "+62 812 345 678"
+    },
+    {
+      "email": "info@tokomoo.com"
     }
-  }
-]
+  ]
+}

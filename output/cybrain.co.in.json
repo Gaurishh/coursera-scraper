@@ -1,18 +1,40 @@
-[
-  {
-    "website": "https://www.cybrain.co.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Cybrain is explicitly an 'IT Software Development Company' with extensive offerings in custom software, web, mobile, and fintech development, utilizing a vast array of programming languages and technologies."
+{
+  "Website": "https://www.cybrain.co.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "1800 891 3958",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Cybrain is explicitly an 'IT Software Development Company' with extensive offerings in custom software, web, mobile, and fintech development, utilizing a vast array of programming languages and technologies.",
+  "extracted_contact_details": [
+    {
+      "title": "General Enquiries",
+      "phone": "1800-891-3958",
+      "email": "info@cybrain.co.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@cybrain.co.in",
-        "phone": "1800-891-3958"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "HR Department",
+      "email": "hr@cybrain.co.in"
+    },
+    {
+      "title": "Chandigarh Office Contact",
+      "phone": "+91 172 505 3958",
+      "email": "info@cybrain.co.in"
+    },
+    {
+      "title": "Bengaluru Office Contact",
+      "phone": "+91 80 4113 1015",
+      "email": "info@cybrain.co.in"
+    },
+    {
+      "title": "US Sales Office Contact",
+      "phone": "+1 (805) 432-2407",
+      "email": "indy@cybrain.co.in"
+    },
+    {
+      "title": "Zambia Office Contact",
+      "phone": "+260966834868",
+      "email": "info@cybrain.co.zm"
     }
-  }
-]
+  ]
+}

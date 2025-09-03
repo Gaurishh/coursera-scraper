@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://www.fortunesoftit.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Fortunesoft is a software product engineering and technology services company with an explicit, pervasive focus on developing and deploying deep tech solutions and leveraging a wide array of programming technologies across all its services and solutions."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "contact@fortunesoftit.com",
-        "phone": "+1-615-298-7395 (US); 080-42005185 (IND); +91-9900002145 (IND); +65-3158-1762 (SG); +61-2831-14561 (AU); +254 117 325 335 (KE)"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.fortunesoftit.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 4200 5185",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Fortunesoft is a software product engineering and technology services company with an explicit, pervasive focus on developing and deploying deep tech solutions and leveraging a wide array of programming technologies across all its services and solutions.",
+  "extracted_contact_details": [
+    {
+      "name": "Fortunesoft IT Innovations",
+      "email": "contact@fortunesoftit.com",
+      "phone": "+1-615-298-7395 (US); 080-42005185 (IND); +91-9900002145 (IND); +65-3158-1762 (SG); +61-2831-14561 (AU); +254 117 325 335 (KE)"
     }
-  }
-]
+  ]
+}

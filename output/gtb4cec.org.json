@@ -1,21 +1,17 @@
-[
-  {
-    "website": "http://gtb4cec.org/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "The institution is an engineering college with numerous B.Tech specializations in Computer Science, Information Technology, Data Science, and AI/ML, demonstrating a strong technical and programming-centric focus."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "GURU TEGH BAHADUR 4TH CENTENARY ENGINEERING COLLEGE - General Enquiries / Admission Helpline",
-          "email": "gtb4cec@gmail.com",
-          "phone": "9911000783, 9911000782, 011-25120003, 011-25120004"
-        }
-      ]
+{
+  "Website": "http://gtb4cec.org/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "099110 00782",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The institution is an engineering college with numerous B.Tech specializations in Computer Science, Information Technology, Data Science, and AI/ML, demonstrating a strong technical and programming-centric focus.",
+  "extracted_contact_details": [
+    {
+      "name": "GURU TEGH BAHADUR 4TH CENTENARY ENGINEERING COLLEGE",
+      "title": "General Enquiries / Admission Helpline",
+      "phone": "9911000783, 9911000782, 011-25120003, 011-25120004",
+      "email": "gtb4cec@gmail.com"
     }
-  }
-]
+  ]
+}

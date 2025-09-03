@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.twistfuture.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Twistfuture is a mobile app and game development company with a core business focused on providing end-to-end enterprise technology solutions and IT services, indicating a strong tech and programming foundation."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@twistfuture.com",
-        "phone": "+91 7042599646, 011 4132 8844"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.twistfuture.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4132 8844",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Twistfuture is a mobile app and game development company with a core business focused on providing end-to-end enterprise technology solutions and IT services, indicating a strong tech and programming foundation.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7042599646, 011 4132 8844",
+      "email": "info@twistfuture.com"
     }
-  }
-]
+  ]
+}

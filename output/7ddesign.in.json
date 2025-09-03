@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://7ddesign.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "As a marketing agency, the company operates in a sales-driven industry where effective sales strategies are critical for both acquiring clients and helping clients achieve their own sales goals."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@7ddesign.in",
-        "phone": "+91 97395 00900"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://7ddesign.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "096329 97879",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "As a marketing agency, the company operates in a sales-driven industry where effective sales strategies are critical for both acquiring clients and helping clients achieve their own sales goals.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 97395 00900",
+      "email": "info@7ddesign.in"
     }
-  }
-]
+  ]
+}

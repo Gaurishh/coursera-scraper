@@ -1,18 +1,20 @@
-[
-  {
-    "website": "http://www.pccsoftech.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "PCC Softech is a technology solutions company that primarily offers software, web, and mobile application development services, explicitly listing numerous programming languages and tools used in their projects."
+{
+  "Website": "http://www.pccsoftech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4706 4605",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "PCC Softech is a technology solutions company that primarily offers software, web, and mobile application development services, explicitly listing numerous programming languages and tools used in their projects.",
+  "extracted_contact_details": [
+    {
+      "name": "Head Office",
+      "phone": "011-47064605/43572945",
+      "email": "info@pccsoftech.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@pccsoftech.com",
-        "phone": "011-47064605/43572945"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Branch Office",
+      "phone": "+91-9999132658"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,20 @@
-[
-  {
-    "website": "http://www.cloudsoftwaresolution.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Cloud Software Solution is an IT services company specializing in web, mobile, and software development, indicating a strong technical and programming focus across all its offerings."
+{
+  "Website": "http://www.cloudsoftwaresolution.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099723 26812",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Cloud Software Solution is an IT services company specializing in web, mobile, and software development, indicating a strong technical and programming focus across all its offerings.",
+  "extracted_contact_details": [
+    {
+      "email": "support@cloudsoftwaresolution.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "support@cloudsoftwaresolution.in",
-        "phone": "+91 9972326812"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "info@cloudsoftwaresolution.in"
+    },
+    {
+      "phone": "+91 9972326812"
     }
-  }
-]
+  ]
+}

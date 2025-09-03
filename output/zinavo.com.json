@@ -1,34 +1,38 @@
-[
-  {
-    "website": "https://www.zinavo.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Zinavo is a web design and software development company with a strong tech focus, offering extensive services in web, mobile, and custom application development using a wide array of programming languages and frameworks."
+{
+  "Website": "https://www.zinavo.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 3569 4395",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Zinavo is a web design and software development company with a strong tech focus, offering extensive services in web, mobile, and custom application development using a wide array of programming languages and frameworks.",
+  "extracted_contact_details": [
+    {
+      "name": "Mr. Senthuran",
+      "phone": "+44 75 8467 0715",
+      "email": "info@zinavo.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@zinavo.com",
-        "phone": "+44 75 8467 0715"
-      },
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "Zinavo Private Limited - Corporate Office General Contact (India)",
-          "email": "info@zinavo.com",
-          "phone": "+91 80-35694395, +91-77602 45945, +91-80-41531025"
-        },
-        {
-          "description": "Zinavo (Switzerland Office) - General Contact",
-          "email": "info@zinavo.com",
-          "phone": "+41-78-921-0680"
-        },
-        {
-          "description": "Zinavo Careers - Human Resources",
-          "email": "career@zinavo.in",
-          "phone": null
-        }
-      ]
+    {
+      "name": "Mr. Aravind Jack",
+      "phone": "0425574242",
+      "email": "info@zinavo.com"
+    },
+    {
+      "name": "Zinavo Private Limited",
+      "title": "Corporate Office General Contact (India)",
+      "phone": "+91 80-35694395, +91-77602 45945, +91-80-41531025",
+      "email": "info@zinavo.com"
+    },
+    {
+      "name": "Zinavo (Switzerland Office)",
+      "title": "General Contact",
+      "phone": "+41-78-921-0680",
+      "email": "info@zinavo.com"
+    },
+    {
+      "name": "Zinavo Careers",
+      "title": "Human Resources",
+      "email": "career@zinavo.in"
     }
-  }
-]
+  ]
+}

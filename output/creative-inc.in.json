@@ -1,34 +1,28 @@
-[
-  {
-    "website": "http://www.creative-inc.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Creative Inc. is a marketing agency whose core business revolves around brand management, digital marketing, lead generation, and ultimately, driving sales for their B2B and B2C clients, making a Sales course highly relevant for enhancing client acquisition and campaign effectiveness."
+{
+  "Website": "http://www.creative-inc.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4163 4301",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Creative Inc. is a marketing agency whose core business revolves around brand management, digital marketing, lead generation, and ultimately, driving sales for their B2B and B2C clients, making a Sales course highly relevant for enhancing client acquisition and campaign effectiveness.",
+  "extracted_contact_details": [
+    {
+      "name": "Creative Inc.",
+      "title": "General Inquiry",
+      "phone": "+91-9717564937"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [
-        {
-          "name": "Creative Inc.",
-          "title": "Headquarters",
-          "email": "contact@creative-inc.net",
-          "phone": "+91-9810018349"
-        },
-        {
-          "name": "Creative Inc.",
-          "title": "Headquarters",
-          "email": "contact@creative-inc.net",
-          "phone": "01141634301"
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Creative Inc. - General Inquiry",
-          "email": null,
-          "phone": "+91-9717564937"
-        }
-      ]
+    {
+      "name": "Creative Inc.",
+      "title": "Headquarters",
+      "phone": "+91-9810018349",
+      "email": "contact@creative-inc.net"
+    },
+    {
+      "name": "Creative Inc.",
+      "title": "Headquarters",
+      "phone": "01141634301",
+      "email": "contact@creative-inc.net"
     }
-  }
-]
+  ]
+}

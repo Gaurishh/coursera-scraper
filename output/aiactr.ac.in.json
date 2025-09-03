@@ -1,18 +1,35 @@
-[
-  {
-    "website": "http://www.aiactr.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "The institution is an engineering college (NSUT East Campus, formerly AIACTR) with departments in Computer Science and Engineering and Electronics and Communication Engineering, offering specialized M.Tech and B.Tech programs in advanced technical fields like Big Data Analytics, AI/ML, IOT, Information Security, and Digital Communication."
+{
+  "Website": "http://www.aiactr.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2121 0161",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The institution is an engineering college (NSUT East Campus, formerly AIACTR) with departments in Computer Science and Engineering and Electronics and Communication Engineering, offering specialized M.Tech and B.Tech programs in advanced technical fields like Big Data Analytics, AI/ML, IOT, Information Security, and Digital Communication.",
+  "extracted_contact_details": [
+    {
+      "phone": "011 2732 3161"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "011 2732 3161",
-        "email": "tpo@aiactr.ac.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "AIACTR Office",
+      "phone": "(011)21210161"
+    },
+    {
+      "title": "Principal Office",
+      "phone": "(011)21210162"
+    },
+    {
+      "title": "Admin Office",
+      "phone": "(011)21210164"
+    },
+    {
+      "title": "OS Office",
+      "phone": "(011)21210169"
+    },
+    {
+      "title": "Training & Placement Office",
+      "phone": "(011)21210169",
+      "email": "tpo@aiactr.ac.in"
     }
-  }
-]
+  ]
+}

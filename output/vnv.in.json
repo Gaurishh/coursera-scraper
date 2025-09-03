@@ -1,25 +1,21 @@
-[
-  {
-    "website": "http://www.vnv.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "VNV Software Pvt. Ltd. is a software development company focused on building ERP, payroll, medical, and custom software using a wide array of programming languages and platforms, demonstrating a clear and strong technological core."
+{
+  "Website": "http://www.vnv.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4183 4899",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "VNV Software Pvt. Ltd. is a software development company focused on building ERP, payroll, medical, and custom software using a wide array of programming languages and platforms, demonstrating a clear and strong technological core.",
+  "extracted_contact_details": [
+    {
+      "title": "Customer Support",
+      "phone": "+91 11 41834899, +91 11 41834884, +91 11 41834883, +91 11 32988994, +91 8744048994, +91 9310848994",
+      "email": "support@vnv.in, helpdesk@vnv.in, info@vnv.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "support@vnv.in, helpdesk@vnv.in, info@vnv.in",
-        "phone": "+91 11 41834899, +91 11 41834884, +91 11 41834883, +91 11 32988994, +91 8744048994, +91 9310848994"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Gajendra",
-          "title": "Manager",
-          "email": null,
-          "phone": "+91 9811048994"
-        }
-      ],
-      "otherContacts": []
+    {
+      "name": "Gajendra",
+      "title": "Manager",
+      "phone": "+91 9811048994"
     }
-  }
-]
+  ]
+}

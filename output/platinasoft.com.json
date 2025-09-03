@@ -1,18 +1,46 @@
-[
-  {
-    "website": "http://platinasoft.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Platina Software is an AI and Machine Learning driven software company, evidenced by its product suite and the extensive computer science and engineering backgrounds of its founders and key advisors from top tech companies."
+{
+  "Website": "http://platinasoft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4674 7700",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Platina Software is an AI and Machine Learning driven software company, evidenced by its product suite and the extensive computer science and engineering backgrounds of its founders and key advisors from top tech companies.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales",
+      "phone": "+91 (11) 4674-7700",
+      "email": "sales@platinasoft.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "sales@platinasoft.com",
-        "phone": "+91 (11) 4674-7700"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Partners",
+      "phone": "+91 (11) 4674-7700",
+      "email": "partners@platinasoft.com"
+    },
+    {
+      "title": "Support",
+      "phone": "+91 (11) 4674-7700",
+      "email": "support@platiansoft.com"
+    },
+    {
+      "title": "Accounts",
+      "phone": "+91 (11) 4674-7700",
+      "email": "accounts@platinsoft.com"
+    },
+    {
+      "title": "Public Relations",
+      "phone": "+91 (11) 4674-7700",
+      "email": "pr@platinasoft.com"
+    },
+    {
+      "title": "Legal",
+      "phone": "+91 (11) 4674-7700",
+      "email": "legal@platinasoft.com"
+    },
+    {
+      "title": "Info",
+      "phone": "+91 (11) 4674-7700",
+      "email": "info@platinasoft.com"
     }
-  }
-]
+  ]
+}

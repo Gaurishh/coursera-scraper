@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://www.regortz.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Regortz is a digital marketing company whose core mission and services are explicitly centered on helping businesses generate leads, increase sales, boost conversions, and maximize ROI for their clients."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://www.regortz.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "096635 14043",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Regortz is a digital marketing company whose core mission and services are explicitly centered on helping businesses generate leads, increase sales, boost conversions, and maximize ROI for their clients.",
+  "extracted_contact_details": []
+}

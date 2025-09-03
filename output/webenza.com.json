@@ -1,41 +1,40 @@
-[
-  {
-    "website": "https://www.webenza.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Webenza is an 'AI-Driven Digital Marketing Agency' whose core business is brand management, B2B marketing, and performance marketing, directly aimed at driving sales and business growth for their clients."
+{
+  "Website": "https://www.webenza.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 2521 0083",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Webenza is an 'AI-Driven Digital Marketing Agency' whose core business is brand management, B2B marketing, and performance marketing, directly aimed at driving sales and business growth for their clients.",
+  "extracted_contact_details": [
+    {
+      "name": "Webenza Corporate Office",
+      "title": "General Enquiries (Bangalore)",
+      "phone": "+91 80 2521 0083, +91 96 8630 9988",
+      "email": "info@webenza.com"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": [
-        {
-          "description": "Webenza Corporate Office - General Enquiries (Bangalore)",
-          "email": "info@webenza.com",
-          "phone": "+91 80 2521 0083, +91 96 8630 9988"
-        },
-        {
-          "description": "Webenza Houston Office - General Enquiries (United States)",
-          "email": "info@webenza.com",
-          "phone": "+1 (786) 554-9799"
-        },
-        {
-          "description": "Webenza Mumbai Office - General Enquiries (Mumbai)",
-          "email": "info@webenza.com",
-          "phone": "+91 96 8630 9988"
-        },
-        {
-          "description": "Webenza Delhi NCR Office - General Enquiries (Delhi NCR)",
-          "email": "info@webenza.com",
-          "phone": "+91 96 8630 9988"
-        },
-        {
-          "description": "Webenza Careers - Human Resources / Recruitment",
-          "email": "careers@webenza.com",
-          "phone": null
-        }
-      ]
+    {
+      "name": "Webenza Houston Office",
+      "title": "General Enquiries (United States)",
+      "phone": "+1 (786) 554-9799",
+      "email": "info@webenza.com"
+    },
+    {
+      "name": "Webenza Mumbai Office",
+      "title": "General Enquiries (Mumbai)",
+      "phone": "+91 96 8630 9988",
+      "email": "info@webenza.com"
+    },
+    {
+      "name": "Webenza Delhi NCR Office",
+      "title": "General Enquiries (Delhi NCR)",
+      "phone": "+91 96 8630 9988",
+      "email": "info@webenza.com"
+    },
+    {
+      "name": "Webenza Careers",
+      "title": "Human Resources / Recruitment",
+      "email": "careers@webenza.com"
     }
-  }
-]
+  ]
+}

@@ -1,25 +1,26 @@
-[
-  {
-    "website": "https://pdacek.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 99,
-      "reasoning": "The institution is a College of Engineering with a clear vision for technical education and research, offering numerous undergraduate, postgraduate, and doctoral programs in computer science, information science, and artificial intelligence, indicating a strong tech focus."
+{
+  "Website": "https://pdacek.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "084722 24360",
+  "Course": "Programming",
+  "Score": 99,
+  "Reasoning": "The institution is a College of Engineering with a clear vision for technical education and research, offering numerous undergraduate, postgraduate, and doctoral programs in computer science, information science, and artificial intelligence, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "name": "Sangmesh Jeevangi",
+      "phone": "+91 97438 41111"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 97438 41111",
-        "email": "pdaplacements@gmail.com, placements@pdaengg.com"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Dr. S. R. Patil",
-          "title": "Principal, Professor, Electronics and Communication Engineering",
-          "email": "principal@pdaengg.com",
-          "phone": "08472 - 224360"
-        }
-      ],
-      "otherContacts": []
+    {
+      "title": "Placement Cell",
+      "phone": "+91 9483644725",
+      "email": "pdaplacements@gmail.com, placements@pdaengg.com"
+    },
+    {
+      "name": "Dr. S. R. Patil",
+      "title": "Principal, Professor, Electronics and Communication Engineering",
+      "phone": "08472 - 224360",
+      "email": "principal@pdaengg.com"
     }
-  }
-]
+  ]
+}

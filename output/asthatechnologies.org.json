@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://asthatechnologies.org/mobile-app-development-company-delhi/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Astha Technologies identifies as a 'Mobile app development & Digital Marketing Agency' with a strong emphasis on app and web development, listing numerous programming languages and frameworks, and aiming to become a 'leading tech giant' through 'innovative app development and scalable software solutions'."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "business@asthatechnologies.org",
-        "phone": "9555307788"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://asthatechnologies.org/mobile-app-development-company-delhi/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Astha Technologies identifies as a 'Mobile app development & Digital Marketing Agency' with a strong emphasis on app and web development, listing numerous programming languages and frameworks, and aiming to become a 'leading tech giant' through 'innovative app development and scalable software solutions'.",
+  "extracted_contact_details": [
+    {
+      "phone": "9555307788",
+      "email": "business@asthatechnologies.org"
     }
-  }
-]
+  ]
+}

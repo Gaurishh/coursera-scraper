@@ -1,18 +1,31 @@
-[
-  {
-    "website": "https://globussoft.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Globussoft is a technology company with an explicit AI-first strategy, numerous software products, and a strong focus on software engineering, development, and AI-driven solutions."
+{
+  "Website": "https://globussoft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "0788 408 3007",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Globussoft is a technology company with an explicit AI-first strategy, numerous software products, and a strong focus on software engineering, development, and AI-driven solutions.",
+  "extracted_contact_details": [
+    {
+      "name": null,
+      "title": "General Inquiry - India",
+      "phone": "+91 8767115115"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 8767115115",
-        "email": "info@globussoft.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": null,
+      "title": "General Inquiry - UK",
+      "phone": "+44 7476 959136"
+    },
+    {
+      "name": null,
+      "title": "General Inquiry - USA",
+      "phone": "+1 302 208 9138"
+    },
+    {
+      "name": null,
+      "title": "General Inquiry",
+      "email": "info@globussoft.com"
     }
-  }
-]
+  ]
+}

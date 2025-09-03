@@ -1,18 +1,33 @@
-[
-  {
-    "website": "https://www.nichi.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Nichi-In Software is a diversified IT services company with an explicit focus on custom software development, AI/ML solutions, IoT, enterprise applications, and digital transformation, indicating a strong technical core."
+{
+  "Website": "https://www.nichi.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 2672 0884",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Nichi-In Software is a diversified IT services company with an explicit focus on custom software development, AI/ML solutions, IoT, enterprise applications, and digital transformation, indicating a strong technical core.",
+  "extracted_contact_details": [
+    {
+      "title": "Marketing & Sales Enquiries",
+      "phone": "+91-80-26720882/3/4",
+      "email": "sales@nichi.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "sales@nichi.com",
-        "phone": "+91-80-26720882/3/4"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Website related Enquiries",
+      "email": "webmaster@nichi.com"
+    },
+    {
+      "title": "General Information & Enquiries",
+      "phone": "+91-80-26720882/3/4",
+      "email": "contact@nichi.com"
+    },
+    {
+      "title": "Nichi-In Software Solutions – USA",
+      "phone": "+1(832) 241 2236"
+    },
+    {
+      "title": "Career Information & Enquiries",
+      "email": "hrd@nichi.com"
     }
-  }
-]
+  ]
+}

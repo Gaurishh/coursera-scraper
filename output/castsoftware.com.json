@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://www.castsoftware.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "CAST Software is a B2B company deeply focused on 'Software Intelligence,' providing tools and services for analyzing, understanding, and improving complex software applications, directly catering to engineers, architects, and developers."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://www.castsoftware.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "088844 99667",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "CAST Software is a B2B company deeply focused on 'Software Intelligence,' providing tools and services for analyzing, understanding, and improving complex software applications, directly catering to engineers, architects, and developers.",
+  "extracted_contact_details": []
+}

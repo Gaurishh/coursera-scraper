@@ -1,25 +1,41 @@
-[
-  {
-    "website": "https://www.csiespl.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "CSIESPL is an exclusive channel partner for highly acclaimed Structural and Earthquake Engineering software packages, providing technical support and training focused on the usage and application of these sophisticated engineering tools, indicating a strong tech focus."
+{
+  "Website": "https://www.csiespl.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099995 52138",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "CSIESPL is an exclusive channel partner for highly acclaimed Structural and Earthquake Engineering software packages, providing technical support and training focused on the usage and application of these sophisticated engineering tools, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "name": "Hemant Kumar",
+      "title": "Director",
+      "phone": "+011-41646528",
+      "email": "admin@csiespl.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "admin@csiespl.in",
-        "phone": "+91 11 41646528"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Hemant Kumar",
-          "title": "Director",
-          "email": "admin@csiespl.in",
-          "phone": "+011-41646528"
-        }
-      ],
-      "otherContacts": []
+    {
+      "title": "General Contact / Admin",
+      "phone": "+91 11 41646528",
+      "email": "admin@csiespl.in"
+    },
+    {
+      "title": "Headquarters Fax",
+      "phone": "+91 11 41646124"
+    },
+    {
+      "title": "Product Sales and Information",
+      "phone": "+91 11 41646528",
+      "email": "Sales@csiespl.in"
+    },
+    {
+      "title": "Technical Support",
+      "phone": "+91 9811927135, +91 11 46056465",
+      "email": "support@csiespl.in"
+    },
+    {
+      "title": "Licensing and Installation / Installation Help Line",
+      "phone": "+91 9999552138, +91 8586809550",
+      "email": "license@csiespl.in"
     }
-  }
-]
+  ]
+}

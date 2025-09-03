@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://adgips.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 0,
-      "reasoning": "The provided website content was a bot verification page, preventing any analysis of the institution's focus to recommend a suitable course."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://adgips.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 4990 5900",
+  "Course": "Programming",
+  "Score": 0,
+  "Reasoning": "The provided website content was a bot verification page, preventing any analysis of the institution's focus to recommend a suitable course.",
+  "extracted_contact_details": []
+}

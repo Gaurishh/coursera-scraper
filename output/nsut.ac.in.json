@@ -1,18 +1,33 @@
-[
-  {
-    "website": "http://nsut.ac.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Netaji Subhas University of Technology is explicitly described as a 'seat of higher technical education' and one of India's 'top engineering colleges,' with a strong focus on engineering, technology, and research, including programs in Computer Science Engineering and AI."
+{
+  "Website": "http://nsut.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2500 0268",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Netaji Subhas University of Technology is explicitly described as a 'seat of higher technical education' and one of India's 'top engineering colleges,' with a strong focus on engineering, technology, and research, including programs in Computer Science Engineering and AI.",
+  "extracted_contact_details": [
+    {
+      "title": "Reception Helpline",
+      "phone": "+91 11 2509 9017"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 11 2509 9017",
-        "email": "academic@nsut.ac.in"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "Academic Section",
+      "email": "academic@nsut.ac.in"
+    },
+    {
+      "title": "B.Tech. Admissions Helpline",
+      "phone": "+91-9205475102, +91-9205475103, 011-25099290"
+    },
+    {
+      "title": "Ph.D Admissions",
+      "phone": "9205475048, 011-25099022 (Fax)",
+      "email": "helpdesk@nsut.ac.in, nsutphd2020@gmail.com"
+    },
+    {
+      "title": "M.Tech Admissions",
+      "phone": "9205475084, 9205475085, 011-25099022 (Fax)",
+      "email": "academicpg@gmail.com, mtech.admissions.helpdesk2025@nsut.ac.in"
     }
-  }
-]
+  ]
+}

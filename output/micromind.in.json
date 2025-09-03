@@ -1,18 +1,19 @@
-[
-  {
-    "website": "https://www.micromind.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "Micro Mind explicitly identifies as a 'professional Software Development Company' and 'IT & Digital Marketing Agency,' offering extensive services in web development, mobile apps, custom software, and hosting, all of which require a strong programming and tech focus."
+{
+  "Website": "https://www.micromind.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098183 53030",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Micro Mind explicitly identifies as a 'professional Software Development Company' and 'IT & Digital Marketing Agency,' offering extensive services in web development, mobile apps, custom software, and hosting, all of which require a strong programming and tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9999 83 2030, +011 4942 8547",
+      "email": "info@micromind.in, sales@micromind.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@micromind.in, sales@micromind.in",
-        "phone": "+91 9999 83 2030, +011 4942 8547"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "HR Department",
+      "email": "hr@micromind.in"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,23 @@
-[
-  {
-    "website": "https://www.eitbiz.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "EitBiz is a dedicated software, web, and mobile app development company with an overwhelming focus on programming languages, frameworks, and digital product creation across its services, technologies, and portfolio."
+{
+  "Website": "https://www.eitbiz.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070420 64408",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "EitBiz is a dedicated software, web, and mobile app development company with an overwhelming focus on programming languages, frameworks, and digital product creation across its services, technologies, and portfolio.",
+  "extracted_contact_details": [
+    {
+      "email": "info@eitbiz.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@eitbiz.com",
-        "phone": "+1.317.463.7064"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+1.317.463.7064"
+    },
+    {
+      "phone": "+44 330 043 3822"
+    },
+    {
+      "phone": "+91 70420-64408"
     }
-  }
-]
+  ]
+}

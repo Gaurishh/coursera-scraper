@@ -1,18 +1,26 @@
-[
-  {
-    "website": "https://www.fimt-ggsipu.org/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 95,
-      "reasoning": "The institution features a prominent 'School of Engineering & Technology' offering Bachelor of Technology (CSE/IT/ECE/AIML) and Computer Applications (BCA) degrees, with extensive placement records in major tech companies like Microsoft, Google, IBM, and Wipro."
+{
+  "Website": "https://www.fimt-ggsipu.org/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "093123 52942",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution features a prominent 'School of Engineering & Technology' offering Bachelor of Technology (CSE/IT/ECE/AIML) and Computer Applications (BCA) degrees, with extensive placement records in major tech companies like Microsoft, Google, IBM, and Wipro.",
+  "extracted_contact_details": [
+    {
+      "name": "Fairfield Institute of Management & Technology",
+      "phone": "+91-9560596750",
+      "email": "fimtnd@gmail.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "fimtnd@gmail.com",
-        "phone": "+91-9560596750"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "General Enquiry",
+      "phone": "+91-9312352942, +91-8080804002, +91-8080807002",
+      "email": "collegefairfield@gmail.com"
+    },
+    {
+      "name": "Admissions Enquiry",
+      "phone": "+91-9560596750, +91-8080807002, +91-8080804002, +91-9312352942, +91-9650154726, +91-9871208326",
+      "email": "fimtadmn20@gmail.com"
     }
-  }
-]
+  ]
+}

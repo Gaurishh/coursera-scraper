@@ -1,124 +1,117 @@
-[
-  {
-    "website": "http://www.fms.edu/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The Faculty of Management Studies is explicitly a business school focused on management education, business administration, and preparing leaders for the dynamic business environment, making a Sales course highly relevant for its curriculum and graduates."
+{
+  "Website": "http://www.fms.edu/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "095011 13335",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The Faculty of Management Studies is explicitly a business school focused on management education, business administration, and preparing leaders for the dynamic business environment, making a Sales course highly relevant for its curriculum and graduates.",
+  "extracted_contact_details": [
+    {
+      "name": "Administrative Officer",
+      "title": "Administrative Officer",
+      "phone": "011-2766 6382/6383/6384 (Fax: 011-2766 7183)",
+      "email": "adminoffice@fms.edu"
     },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [
-        {
-          "name": "Dean Office",
-          "title": "Dean Office",
-          "email": "deanoffice@fms.edu",
-          "phone": null
-        },
-        {
-          "name": "Dean",
-          "title": "Dean",
-          "email": "dean@fms.edu",
-          "phone": null
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Administrative Officer - Administrative Officer",
-          "email": "adminoffice@fms.edu",
-          "phone": "011-2766 6382/6383/6384 (Fax: 011-2766 7183)"
-        },
-        {
-          "description": "Prof. Kavita Singh - MSA Advisor, Placement Convener",
-          "email": "kavita@fms.edu",
-          "phone": null
-        },
-        {
-          "description": "Prof. Amit Bardhan - MSA Advisor, Placement Convener",
-          "email": "amit-bardhan@fms.edu",
-          "phone": null
-        },
-        {
-          "description": "Prof. Soma Dey - MSA Advisor, Placement Convener",
-          "email": "soma.dey@fms.edu",
-          "phone": null
-        },
-        {
-          "description": "Dr. Shikha Sachdeva - MSA Advisor",
-          "email": "shikhasachdeva@fms.edu",
-          "phone": null
-        },
-        {
-          "description": "Dr. Anshu Mehta - MSA Advisor",
-          "email": "anshumehta@fms.edu",
-          "phone": null
-        },
-        {
-          "description": "Atharva Pramod Gondchar - Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-7219559873"
-        },
-        {
-          "description": "Aditya Singh Asoliya - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-7023314761"
-        },
-        {
-          "description": "Aditya Bhargav - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-7305875558"
-        },
-        {
-          "description": "Alokam Deepak - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-9100741593"
-        },
-        {
-          "description": "Geethanjali R - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-9488984524"
-        },
-        {
-          "description": "Harshal - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-8708457324"
-        },
-        {
-          "description": "Manushree Singh - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-9696411932"
-        },
-        {
-          "description": "Nikhil Raju - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-9400509109"
-        },
-        {
-          "description": "Priyanshi Bansal - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-9711147491"
-        },
-        {
-          "description": "Sneha Shah - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-9759121334"
-        },
-        {
-          "description": "Priyanshi Anand - Joint Secretary, Corporate Relations and Placement Team (2024-25)",
-          "email": null,
-          "phone": "+91-8287874402"
-        },
-        {
-          "description": "Placement Secretary - Placement Secretary",
-          "email": "placementsecretary@fms.edu",
-          "phone": null
-        },
-        {
-          "description": "Placement - Placement",
-          "email": "placement@fms.edu",
-          "phone": null
-        }
-      ]
+    {
+      "name": "Dean Office",
+      "title": "Dean Office",
+      "email": "deanoffice@fms.edu"
+    },
+    {
+      "name": "Dean",
+      "title": "Dean",
+      "email": "dean@fms.edu"
+    },
+    {
+      "name": "Prof. Kavita Singh",
+      "title": "MSA Advisor, Placement Convener",
+      "email": "kavita@fms.edu"
+    },
+    {
+      "name": "Prof. Amit Bardhan",
+      "title": "MSA Advisor, Placement Convener",
+      "email": "amit-bardhan@fms.edu"
+    },
+    {
+      "name": "Prof. Soma Dey",
+      "title": "MSA Advisor, Placement Convener",
+      "email": "soma.dey@fms.edu"
+    },
+    {
+      "name": "Dr. Shikha Sachdeva",
+      "title": "MSA Advisor",
+      "email": "shikhasachdeva@fms.edu"
+    },
+    {
+      "name": "Dr. Anshu Mehta",
+      "title": "MSA Advisor",
+      "email": "anshumehta@fms.edu"
+    },
+    {
+      "name": "Atharva Pramod Gondchar",
+      "title": "Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-7219559873"
+    },
+    {
+      "name": "Aditya Singh Asoliya",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-7023314761"
+    },
+    {
+      "name": "Aditya Bhargav",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-7305875558"
+    },
+    {
+      "name": "Alokam Deepak",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-9100741593"
+    },
+    {
+      "name": "Geethanjali R",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-9488984524"
+    },
+    {
+      "name": "Harshal",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-8708457324"
+    },
+    {
+      "name": "Manushree Singh",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-9696411932"
+    },
+    {
+      "name": "Nikhil Raju",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-9400509109"
+    },
+    {
+      "name": "Priyanshi Bansal",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-9711147491"
+    },
+    {
+      "name": "Sneha Shah",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-9759121334"
+    },
+    {
+      "name": "Priyanshi Anand",
+      "title": "Joint Secretary, Corporate Relations and Placement Team (2024-25)",
+      "phone": "+91-8287874402"
+    },
+    {
+      "name": "Placement Secretary",
+      "title": "Placement Secretary",
+      "email": "placementsecretary@fms.edu"
+    },
+    {
+      "name": "Placement",
+      "title": "Placement",
+      "email": "placement@fms.edu"
     }
-  }
-]
+  ]
+}

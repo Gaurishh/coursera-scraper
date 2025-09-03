@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://haaps.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "HAAPS is a digital marketing agency whose success hinges on acquiring new clients and helping existing ones boost their conversions, leads, and sales, making robust sales skills critical for their own growth."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@haaps.in, support@haaps.in",
-        "phone": "(+91) 84311 61621"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://haaps.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "096201 75156",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "HAAPS is a digital marketing agency whose success hinges on acquiring new clients and helping existing ones boost their conversions, leads, and sales, making robust sales skills critical for their own growth.",
+  "extracted_contact_details": [
+    {
+      "phone": "(+91) 84311 61621",
+      "email": "info@haaps.in, support@haaps.in"
     }
-  }
-]
+  ]
+}

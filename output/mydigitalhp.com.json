@@ -1,18 +1,25 @@
-[
-  {
-    "website": "https://mydigitalhp.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "MyDigitalHP is an IT company specializing in software, web, and mobile app development, cybersecurity, and IT consulting, indicating a very strong tech and programming focus."
+{
+  "Website": "https://mydigitalhp.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070078 23374",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "MyDigitalHP is an IT company specializing in software, web, and mobile app development, cybersecurity, and IT consulting, indicating a very strong tech and programming focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7007823374"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91 7007823374",
-        "email": "info@mydigitalhp.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "info@mydigitalhp.com"
+    },
+    {
+      "email": "connect@mydigitalhp.com"
+    },
+    {
+      "title": "Client Support",
+      "phone": "+91 7007823374",
+      "email": "support@mydigitalhp.com"
     }
-  }
-]
+  ]
+}

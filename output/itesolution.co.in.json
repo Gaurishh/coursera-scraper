@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.itesolution.co.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "ITeSolution is an IT solutions provider with a strong focus on software development, ERP implementation, software testing, and mobile application development, clearly indicating a deep technical and programming core."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@itesolution.co.in",
-        "phone": "+91-9889294124, +91-7905711380"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.itesolution.co.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098892 94124",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "ITeSolution is an IT solutions provider with a strong focus on software development, ERP implementation, software testing, and mobile application development, clearly indicating a deep technical and programming core.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9889294124, +91-7905711380",
+      "email": "info@itesolution.co.in"
     }
-  }
-]
+  ]
+}

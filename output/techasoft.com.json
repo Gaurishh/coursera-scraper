@@ -1,18 +1,32 @@
-[
-  {
-    "website": "https://www.techasoft.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Techasoft is an IT company with an explicit focus on providing holistic IT solutions, including extensive software, web, and mobile application development, backed by a wide array of programming technologies and dedicated developer roles."
+{
+  "Website": "https://www.techasoft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099860 56909",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Techasoft is an IT company with an explicit focus on providing holistic IT solutions, including extensive software, web, and mobile application development, backed by a wide array of programming technologies and dedicated developer roles.",
+  "extracted_contact_details": [
+    {
+      "title": "General Inquiries (USA)",
+      "phone": "+1 610 880 0144"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+1 610 880 0144",
-        "email": "info@techasoft.com"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "title": "General Inquiries (UAE / International)",
+      "phone": "+971 507557789"
+    },
+    {
+      "title": "General Inquiries (India)",
+      "phone": "+91 8884 739 988",
+      "email": "info@techasoft.com"
+    },
+    {
+      "title": "HR Department (India)",
+      "phone": "+91 8884 739 988"
+    },
+    {
+      "title": "Training Department (India)",
+      "phone": "+91 8867 746 186"
     }
-  }
-]
+  ]
+}

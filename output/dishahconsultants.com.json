@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://www.dishahconsultants.com/sales-training-in-delhi",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 100,
-      "reasoning": "Dishah Consultants is a corporate training company that exclusively specializes in sales and leadership development, with all website content and client case studies revolving around improving sales performance and related soft skills."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "enquiry@dishahconsultants.com",
-        "phone": "+91-9884623854"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.dishahconsultants.com/sales-training-in-delhi",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098846 23854",
+  "Course": "Sales",
+  "Score": 100,
+  "Reasoning": "Dishah Consultants is a corporate training company that exclusively specializes in sales and leadership development, with all website content and client case studies revolving around improving sales performance and related soft skills.",
+  "extracted_contact_details": [
+    {
+      "title": "General Enquiries",
+      "phone": "+91-9884623854",
+      "email": "enquiry@dishahconsultants.com"
     }
-  }
-]
+  ]
+}

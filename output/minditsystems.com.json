@@ -1,18 +1,33 @@
-[
-  {
-    "website": "https://minditsystems.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Mind IT Systems is a software development and IT solutions company that specializes in custom application development, product engineering, and leveraging a wide array of programming technologies across various industries."
+{
+  "Website": "https://minditsystems.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092058 56556",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Mind IT Systems is a software development and IT solutions company that specializes in custom application development, product engineering, and leveraging a wide array of programming technologies across various industries.",
+  "extracted_contact_details": [
+    {
+      "name": "Mind IT Systems (General Inquiries)",
+      "email": "info@minditsystems.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@minditsystems.com",
-        "phone": "+91 730 746 7777"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "name": "Sales Department (India)",
+      "phone": "+91 730 746 7777"
+    },
+    {
+      "name": "Sales Department (US)",
+      "phone": "+1 415 707 0591"
+    },
+    {
+      "name": "HR Team",
+      "phone": "+91 920 585 6556",
+      "email": "careers@minditsystems.com"
+    },
+    {
+      "name": "Kunal Gupta",
+      "phone": "+91 920 585 6556",
+      "email": "kunal.gupta@minditsystems.com"
     }
-  }
-]
+  ]
+}

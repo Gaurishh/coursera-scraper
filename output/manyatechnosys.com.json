@@ -1,15 +1,10 @@
-[
-  {
-    "website": "https://manyatechnosys.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "The website content heavily features e-commerce functionalities, extensive product categories, customer service, and an explicit call to 'Become a Seller,' indicating a core business driven by sales and marketplace operations."
-    },
-    "contactDetails": {
-      "general": {},
-      "keyPersonnel": [],
-      "otherContacts": []
-    }
-  }
-]
+{
+  "Website": "https://manyatechnosys.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The website content heavily features e-commerce functionalities, extensive product categories, customer service, and an explicit call to 'Become a Seller,' indicating a core business driven by sales and marketplace operations.",
+  "extracted_contact_details": []
+}

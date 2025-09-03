@@ -1,18 +1,24 @@
-[
-  {
-    "website": "https://teztraffic.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Tez Traffic is a digital marketing company that explicitly focuses on generating leads, increasing brand awareness, improving conversion rates, and directly enhancing sales and ROI for its clients."
+{
+  "Website": "https://teztraffic.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093117 10516",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Tez Traffic is a digital marketing company that explicitly focuses on generating leads, increasing brand awareness, improving conversion rates, and directly enhancing sales and ROI for its clients.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9311710516",
+      "email": "enquiry@teztraffic.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "enquiry@teztraffic.com",
-        "phone": "+91 9311710516"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "+7 (916) 069-98-64"
+    },
+    {
+      "phone": "+8 (989) 622-63-75"
+    },
+    {
+      "phone": "+8 (916) 069-98-64"
     }
-  }
-]
+  ]
+}

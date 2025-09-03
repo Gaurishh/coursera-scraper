@@ -1,18 +1,16 @@
-[
-  {
-    "website": "https://numasoft.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Numa Soft Technology Services is a web and mobile app development company whose services, technologies, project portfolio, team roles, and certifications all demonstrate a profound programming and technical focus."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@numasoft.in, live:mailbox_784",
-        "phone": "+91 92421 37092, +91 88615 62478"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://numasoft.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "088615 62478",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Numa Soft Technology Services is a web and mobile app development company whose services, technologies, project portfolio, team roles, and certifications all demonstrate a profound programming and technical focus.",
+  "extracted_contact_details": [
+    {
+      "name": "Numa Soft Technology Services Pvt. Ltd.",
+      "phone": "+91 92421 37092, +91 88615 62478",
+      "email": "info@numasoft.in, live:mailbox_784"
     }
-  }
-]
+  ]
+}

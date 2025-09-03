@@ -1,93 +1,106 @@
-[
-  {
-    "website": "http://www.sjim.edu.in/?utm_source=GMBListing&utm_medium=organic",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "St. Joseph's Institute of Management is clearly a business school offering PGDM and MBA-equivalent programs, with a curriculum that includes dedicated Sales and Marketing courses and a 'Marketing Club' explicitly focusing on 'Sales Meets Marketing' conclaves."
+{
+  "Website": "http://www.sjim.edu.in/?utm_source=GMBListing&utm_medium=organic",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "080 2559 7781",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "St. Joseph's Institute of Management is clearly a business school offering PGDM and MBA-equivalent programs, with a curriculum that includes dedicated Sales and Marketing courses and a 'Marketing Club' explicitly focusing on 'Sales Meets Marketing' conclaves.",
+  "extracted_contact_details": [
+    {
+      "title": "Helpdesk",
+      "phone": "080-25597781 / 25597791",
+      "email": "info@sjim.edu.in"
     },
-    "contactDetails": {
-      "general": {
-        "email": "info@sjim.edu.in",
-        "phone": "080-25597781 / 25597791"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Ms. Shobha DV",
-          "title": "Placement coordinator",
-          "email": "placements@sjim.edu.in",
-          "phone": "9591518855"
-        },
-        {
-          "name": "Mr. Philip D’Souza",
-          "title": "Campus Manager",
-          "email": "dsouza.philip@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "name": "Mr. JENA S",
-          "title": "Documentation Manager",
-          "email": "jena@sjim.edu.in",
-          "phone": null
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Mr. S. Prabhu - Librarian",
-          "email": "prabhu@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Ms. Clancy Mohan - Office senior",
-          "email": "clancy@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Chandrakant Pattar - Public Relations Officer",
-          "email": "chandrakant@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Ms. Joyce - Secretary & Front Office Executive",
-          "email": "joyce@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Ravi Kumar - Asst. Librarian",
-          "email": "ravi@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Ms. Senalda Lora Pereira - Accountant",
-          "email": "senalda@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Ms. Christian Ashwin - Assistant Placement Officer",
-          "email": "placementoffice@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Ms. Sindhu David - Counsellor",
-          "email": "sindhu@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Annie Divya George - Alumni Office",
-          "email": "alumnioffice@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Umesh. E - Office Assistant",
-          "email": "umesh@sjim.edu.in",
-          "phone": null
-        },
-        {
-          "description": "Mr. Roshan Dias - Office Assistant",
-          "email": "roshan@sjim.edu.in",
-          "phone": null
-        }
-      ]
+    {
+      "title": "Director's Office (faculty positions)",
+      "phone": "080-25597781",
+      "email": "office@sjim.edu.in"
+    },
+    {
+      "title": "PGDM Admissions",
+      "phone": "9972252765",
+      "email": "admissions@sjim.edu.in"
+    },
+    {
+      "title": "PGDM Placements",
+      "phone": "9591518855",
+      "email": "placements@sjim.edu.in"
+    },
+    {
+      "name": "Mr. S. Prabhu",
+      "title": "Librarian",
+      "email": "prabhu@sjim.edu.in"
+    },
+    {
+      "name": "Ms. Clancy Mohan",
+      "title": "Office senior",
+      "email": "clancy@sjim.edu.in"
+    },
+    {
+      "name": "Ms. Shobha DV",
+      "title": "Placement coordinator",
+      "phone": "9591518855",
+      "email": "placements@sjim.edu.in"
+    },
+    {
+      "name": "Mr. Philip D’Souza",
+      "title": "Campus Manager",
+      "email": "dsouza.philip@sjim.edu.in"
+    },
+    {
+      "name": "Mr. Chandrakant Pattar",
+      "title": "Public Relations Officer",
+      "email": "chandrakant@sjim.edu.in"
+    },
+    {
+      "name": "Ms. Joyce",
+      "title": "Secretary & Front Office Executive",
+      "email": "joyce@sjim.edu.in"
+    },
+    {
+      "name": "Mr. Ravi Kumar",
+      "title": "Asst. Librarian",
+      "email": "ravi@sjim.edu.in"
+    },
+    {
+      "name": "Mr. JENA S",
+      "title": "Documentation Manager",
+      "email": "jena@sjim.edu.in"
+    },
+    {
+      "name": "Ms. Senalda Lora Pereira",
+      "title": "Accountant",
+      "email": "senalda@sjim.edu.in"
+    },
+    {
+      "name": "Ms. Christian Ashwin",
+      "title": "Assistant Placement Officer",
+      "email": "placementoffice@sjim.edu.in"
+    },
+    {
+      "name": "Ms. Sindhu David",
+      "title": "Counsellor",
+      "email": "sindhu@sjim.edu.in"
+    },
+    {
+      "name": "Annie Divya George",
+      "title": "Alumni Office",
+      "email": "alumnioffice@sjim.edu.in"
+    },
+    {
+      "name": "Mr. Umesh. E",
+      "title": "Office Assistant",
+      "email": "umesh@sjim.edu.in"
+    },
+    {
+      "name": "Mr. Roshan Dias",
+      "title": "Office Assistant",
+      "email": "roshan@sjim.edu.in"
+    },
+    {
+      "title": "MDP/FDP/PDW Enquiries",
+      "email": "rajendra@sjim.edu.in"
     }
-  }
-]
+  ]
+}

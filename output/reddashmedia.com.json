@@ -1,18 +1,21 @@
-[
-  {
-    "website": "https://www.reddashmedia.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "Red Dash Media is a digital marketing agency focused on helping clients generate leads, build brands, and drive sales, making them a company in a sales-driven industry where understanding sales processes is critical for their own growth and their clients' success."
+{
+  "Website": "https://www.reddashmedia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098107 46506",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Red Dash Media is a digital marketing agency focused on helping clients generate leads, build brands, and drive sales, making them a company in a sales-driven industry where understanding sales processes is critical for their own growth and their clients' success.",
+  "extracted_contact_details": [
+    {
+      "phone": "(+91) 981-096-7749",
+      "email": "contact@reddashmedia.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "contact@reddashmedia.com",
-        "phone": "(+91) 981-096-7749"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "phone": "(+91) 981-097-0169"
+    },
+    {
+      "phone": "(+91) 981-883-0884"
     }
-  }
-]
+  ]
+}

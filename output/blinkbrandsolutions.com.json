@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://www.blinkbrandsolutions.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 98,
-      "reasoning": "BlinkBrand Solutions is a sales and marketing agency for the travel and hospitality industry, explicitly offering 'Sales' as a core service, employing 'Sales Specialists' and a 'Sales Head', and operating in a sales-driven sector."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@blinkbrandsolutions.com",
-        "phone": "+91 11 44783866"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://www.blinkbrandsolutions.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4478 3866",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "BlinkBrand Solutions is a sales and marketing agency for the travel and hospitality industry, explicitly offering 'Sales' as a core service, employing 'Sales Specialists' and a 'Sales Head', and operating in a sales-driven sector.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 11 44783866",
+      "email": "info@blinkbrandsolutions.com"
     }
-  }
-]
+  ]
+}

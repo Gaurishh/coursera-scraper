@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://upfrontmarketings.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Up Front Marketings is a digital marketing agency with a primary focus on 'Sales Growth' and 'boosting leads and sales' for its clients, indicating a strong alignment with sales-driven objectives."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@upfrontmarketings.com",
-        "phone": "+91 86185 96509"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://upfrontmarketings.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "081473 07323",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Up Front Marketings is a digital marketing agency with a primary focus on 'Sales Growth' and 'boosting leads and sales' for its clients, indicating a strong alignment with sales-driven objectives.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 86185 96509",
+      "email": "info@upfrontmarketings.com"
     }
-  }
-]
+  ]
+}

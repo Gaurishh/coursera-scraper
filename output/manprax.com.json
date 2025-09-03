@@ -1,18 +1,26 @@
-[
-  {
-    "website": "http://www.manprax.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 98,
-      "reasoning": "Manprax Software LLP is a technology-driven company specializing in outsourced product development, AI-powered EdTech solutions, Microsoft development, and technology consulting, indicating a profound need for programming expertise."
+{
+  "Website": "http://www.manprax.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "084484 40100",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Manprax Software LLP is a technology-driven company specializing in outsourced product development, AI-powered EdTech solutions, Microsoft development, and technology consulting, indicating a profound need for programming expertise.",
+  "extracted_contact_details": [
+    {
+      "email": "letstalk@manprax.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "letstalk@manprax.com",
-        "phone": "+91 844 844 0100"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+    {
+      "email": "join@manprax.com"
+    },
+    {
+      "phone": "+91 844 844 0100"
+    },
+    {
+      "phone": "+44 75784 29933"
+    },
+    {
+      "phone": "+1 737 615 2370"
     }
-  }
-]
+  ]
+}

@@ -1,18 +1,15 @@
-[
-  {
-    "website": "https://betadigitalmarketing.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Beta Digital Marketing is a results-driven agency focused on helping businesses grow by generating leads and improving ROI, which places them firmly in a sales-driven industry where mastering client acquisition and conversion is paramount."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "hello@betadigitalmarketing.com",
-        "phone": "+91 9513999901"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "https://betadigitalmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "095139 99901",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Beta Digital Marketing is a results-driven agency focused on helping businesses grow by generating leads and improving ROI, which places them firmly in a sales-driven industry where mastering client acquisition and conversion is paramount.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9513999901",
+      "email": "hello@betadigitalmarketing.com"
     }
-  }
-]
+  ]
+}

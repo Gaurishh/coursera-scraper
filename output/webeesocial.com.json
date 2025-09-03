@@ -1,30 +1,29 @@
-[
-  {
-    "website": "http://webeesocial.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "WebeeSocial is a full-scale digital marketing agency explicitly focused on performance-driven campaigns, generating ROAS, lead generation, and client servicing, all of which are core sales and marketing functions."
+{
+  "Website": "http://webeesocial.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "WebeeSocial is a full-scale digital marketing agency explicitly focused on performance-driven campaigns, generating ROAS, lead generation, and client servicing, all of which are core sales and marketing functions.",
+  "extracted_contact_details": [
+    {
+      "name": "Soumya Sharma",
+      "title": "Co-Founder & CEO, Head of Creative Department",
+      "email": "soumya.sharma@webeesocial.com"
     },
-    "contactDetails": {
-      "general": {
-        "email": "saurav.k@webeesocial.com"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Soumya Sharma",
-          "title": "Co-Founder & CEO, Head of Creative Department",
-          "email": "soumya.sharma@webeesocial.com",
-          "phone": null
-        },
-        {
-          "name": "Shubhendu Jha",
-          "title": "Co-Founder & MD, Head of Client Servicing Department",
-          "email": "shubhendu.jha@webeesocial.com",
-          "phone": null
-        }
-      ],
-      "otherContacts": []
+    {
+      "name": "Shubhendu Jha",
+      "title": "Co-Founder & MD, Head of Client Servicing Department",
+      "email": "shubhendu.jha@webeesocial.com"
+    },
+    {
+      "name": "Saurav K",
+      "email": "saurav.k@webeesocial.com"
+    },
+    {
+      "title": "HR",
+      "email": "hr@webeesocial.com"
     }
-  }
-]
+  ]
+}

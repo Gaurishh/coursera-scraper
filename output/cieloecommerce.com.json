@@ -1,18 +1,15 @@
-[
-  {
-    "website": "http://cieloecommerce.com/",
-    "salesRecommendation": {
-      "recommendedCourse": "Sales",
-      "confidenceScore": 95,
-      "reasoning": "Cielo E-Commerce is an e-commerce and digital marketing agency, which is inherently a sales-driven industry, focusing heavily on services like digital marketing, e-commerce marketing, and business development to drive client growth."
-    },
-    "contactDetails": {
-      "general": {
-        "email": "info@cieloecommerce.com",
-        "phone": "+91-931 042 0735"
-      },
-      "keyPersonnel": [],
-      "otherContacts": []
+{
+  "Website": "http://cieloecommerce.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093104 20735",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Cielo E-Commerce is an e-commerce and digital marketing agency, which is inherently a sales-driven industry, focusing heavily on services like digital marketing, e-commerce marketing, and business development to drive client growth.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-931 042 0735",
+      "email": "info@cieloecommerce.com"
     }
-  }
-]
+  ]
+}

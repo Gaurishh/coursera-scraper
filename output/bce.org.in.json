@@ -1,114 +1,110 @@
-[
-  {
-    "website": "http://www.bce.org.in/",
-    "salesRecommendation": {
-      "recommendedCourse": "Programming",
-      "confidenceScore": 100,
-      "reasoning": "Bahubali College of Engineering is an engineering college with a strong tech focus, offering degrees in Computer Science and Engineering, Information Science and Engineering, and Artificial Intelligence and Machine Learning, explicitly aligning with a need for programming skills."
+{
+  "Website": "http://www.bce.org.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "092435 05666",
+  "Course": "Programming",
+  "Score": 100,
+  "Reasoning": "Bahubali College of Engineering is an engineering college with a strong tech focus, offering degrees in Computer Science and Engineering, Information Science and Engineering, and Artificial Intelligence and Machine Learning, explicitly aligning with a need for programming skills.",
+  "extracted_contact_details": [
+    {
+      "name": "Dr. Sunil Kumar D",
+      "title": "PRINCIPAL",
+      "phone": "9243505666; +91-8176-257276 EX:201",
+      "email": "principal@bce.org.in"
     },
-    "contactDetails": {
-      "general": {
-        "phone": "+91-8176-257276"
-      },
-      "keyPersonnel": [
-        {
-          "name": "Dr. Sunil Kumar D",
-          "title": "PRINCIPAL",
-          "email": "principal@bce.org.in",
-          "phone": "9243505666; +91-8176-257276 EX:201"
-        },
-        {
-          "name": "Prof. Nandakala S.P.",
-          "title": "HOD, Dept. of Chemistry",
-          "email": null,
-          "phone": "9035916494"
-        },
-        {
-          "name": "Smt. Sathyashree Suveer",
-          "title": "Incharge HOD, Dept. of Physics",
-          "email": null,
-          "phone": "8970683036"
-        },
-        {
-          "name": "Prof. C R Shivakumar",
-          "title": "Incharge HOD, Dept. of Civil Engg.",
-          "email": null,
-          "phone": "9886111477"
-        },
-        {
-          "name": "Prof. Kavitha C.R.",
-          "title": "Associate Professor & HOD, Dept. of CS&E",
-          "email": "cshod@bce.org.in",
-          "phone": "9141327822"
-        },
-        {
-          "name": "Prof. Ramamani K",
-          "title": "HOD, Dept. of E&CE",
-          "email": null,
-          "phone": "9844898534"
-        },
-        {
-          "name": "Dr. M. Yashodha",
-          "title": "HOD, Dept. of IS&E",
-          "email": null,
-          "phone": "9141397229"
-        },
-        {
-          "name": "Dr. Govardhan Goud",
-          "title": "HOD, Dept. of Mechanical Engg.",
-          "email": null,
-          "phone": "9741295591"
-        },
-        {
-          "name": "Sri. Naveen Hadagali",
-          "title": "Hostel Manager",
-          "email": null,
-          "phone": "9448417058"
-        },
-        {
-          "name": "Smt. Shylaja L.N.",
-          "title": "Associate Professor & HOD",
-          "email": "shylajalnmurthy@gmail.com",
-          "phone": null
-        }
-      ],
-      "otherContacts": [
-        {
-          "description": "Sri. Mahaveer Gongadi - Accounts",
-          "email": null,
-          "phone": "9880529742"
-        },
-        {
-          "description": "Sri. Vishwas - Admissions",
-          "email": null,
-          "phone": "9980665745"
-        },
-        {
-          "description": "Mr. Venkatesh K - Assistant Professor",
-          "email": "venkathsn@gmail.com",
-          "phone": null
-        },
-        {
-          "description": "Mr. Faiz Aman - Assistant Professor",
-          "email": "connecttofaizaman@gmail.com",
-          "phone": null
-        },
-        {
-          "description": "Mrs. Saritha D - Assistant Professor",
-          "email": "sarithaswamy@gmail.com",
-          "phone": null
-        },
-        {
-          "description": "Mr. Ganesh K.T. - System Administrator",
-          "email": "admin@bce.org.in",
-          "phone": null
-        },
-        {
-          "description": "Sri. Chandakanth K.P - Attender/Helpers",
-          "email": "shreyanjain61@gmail.com",
-          "phone": null
-        }
-      ]
+    {
+      "name": "Prof. Nandakala S.P.",
+      "title": "HOD, Dept. of Chemistry",
+      "phone": "9035916494"
+    },
+    {
+      "name": "Smt. Sathyashree Suveer",
+      "title": "Incharge HOD, Dept. of Physics",
+      "phone": "8970683036"
+    },
+    {
+      "name": "Prof. C R Shivakumar",
+      "title": "Incharge HOD, Dept. of Civil Engg.",
+      "phone": "9886111477"
+    },
+    {
+      "name": "Prof. Kavitha C.R.",
+      "title": "Associate Professor & HOD, Dept. of CS&E",
+      "phone": "9141327822",
+      "email": "cshod@bce.org.in"
+    },
+    {
+      "name": "Prof. Ramamani K",
+      "title": "HOD, Dept. of E&CE",
+      "phone": "9844898534"
+    },
+    {
+      "name": "Dr. M. Yashodha",
+      "title": "HOD, Dept. of IS&E",
+      "phone": "9141397229"
+    },
+    {
+      "name": "Dr. Govardhan Goud",
+      "title": "HOD, Dept. of Mechanical Engg.",
+      "phone": "9741295591"
+    },
+    {
+      "name": "Sri. Naveen Hadagali",
+      "title": "Hostel Manager",
+      "phone": "9448417058"
+    },
+    {
+      "name": "Sri. Mahaveer Gongadi",
+      "title": "Accounts",
+      "phone": "9880529742"
+    },
+    {
+      "name": "Sri. Vishwas",
+      "title": "Admissions",
+      "phone": "9980665745"
+    },
+    {
+      "name": "Mr. Venkatesh K",
+      "title": "Assistant Professor",
+      "email": "venkathsn@gmail.com"
+    },
+    {
+      "name": "Mr. Faiz Aman",
+      "title": "Assistant Professor",
+      "email": "connecttofaizaman@gmail.com"
+    },
+    {
+      "name": "Mrs. Saritha D",
+      "title": "Assistant Professor",
+      "email": "sarithaswamy@gmail.com"
+    },
+    {
+      "name": "Mr. Ganesh K.T.",
+      "title": "System Administrator",
+      "email": "admin@bce.org.in"
+    },
+    {
+      "name": "Smt. Shylaja L.N.",
+      "title": "Associate Professor & HOD",
+      "email": "shylajalnmurthy@gmail.com"
+    },
+    {
+      "name": "Sri. Chandakanth K.P",
+      "title": "Attender/Helpers",
+      "email": "shreyanjain61@gmail.com"
+    },
+    {
+      "name": "College Office",
+      "phone": "+91-8176-257276"
+    },
+    {
+      "name": "College Tele Fax",
+      "phone": "+91-8176-257974"
+    },
+    {
+      "name": "Admissions Office",
+      "phone": "+91-9844-806605 EX:215; +91-8176-257276 EX:215"
     }
-  }
-]
+  ]
+}
