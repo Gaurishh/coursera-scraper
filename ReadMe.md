@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is an automated lead generation system designed to discover, analyze, and extract contact information from institutions (companies and schools) for Coursera course recommendations. The pipeline uses Google Places API for institution discovery, web crawling for content extraction, and Google's Gemini 2.5 Pro AI for intelligent analysis and classification.
+This project is an automated lead generation system designed to discover, analyze, and extract contact information from institutions (companies and schools) for Coursera course recommendations. The pipeline uses Google Places API for institution discovery, web crawling for content extraction, and Google's Gemini 2.5 Flash AI for intelligent analysis and classification.
 
 The system is specifically optimized for finding leads for **Programming** and **Sales** courses, targeting institutions in Bangalore and Delhi. It processes institutions through a 6-stage pipeline that transforms raw institution data into actionable contact information for sales teams.
 
@@ -10,7 +10,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 - **Automated Institution Discovery**: Uses Google Places API to find relevant companies and schools
 - **Intelligent Web Crawling**: Extracts and analyzes website content with multithreading
-- **AI-Powered Classification**: Uses Gemini 2.5 Pro to classify institutions and recommend courses
+- **AI-Powered Classification**: Uses Gemini 2.5 Flash to classify institutions and recommend courses
 - **Contact Information Extraction**: Identifies and extracts contact details from websites
 - **Scalable Processing**: Multithreaded architecture for efficient processing of large datasets
 
@@ -169,13 +169,13 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ### 3_top_5_urls_for_recommendation_extractor.py
 
-**Overview**: This script intelligently selects the top 5 most relevant URLs from each institution's website for course recommendation analysis. It combines AI-powered selection using Gemini 2.5 Pro with deterministic fallback algorithms, prioritizes "about" pages, and validates URL accessibility to ensure high-quality content for classification.
+**Overview**: This script intelligently selects the top 5 most relevant URLs from each institution's website for course recommendation analysis. It combines AI-powered selection using Gemini 2.5 Flash with deterministic fallback algorithms, prioritizes "about" pages, and validates URL accessibility to ensure high-quality content for classification.
 
 **Output**: Generates individual text files in `top_5_urls/` directory (e.g., `example.com.txt`) containing exactly 5 validated URLs per institution, prioritized for course recommendation analysis.
 
 **Quick Workflow**:
 
-1. **URL Prioritization**: Automatically prioritizes "about" and "about-us" pages, then uses AI (Gemini 2.5 Pro) to select remaining URLs from the website's available routes based on relevance to course recommendations.
+1. **URL Prioritization**: Automatically prioritizes "about" and "about-us" pages, then uses AI (Gemini 2.5 Flash) to select remaining URLs from the website's available routes based on relevance to course recommendations.
 2. **Intelligent Selection**: Implements deterministic keyword-based scoring as fallback when AI is unavailable, using refined algorithms that consider keyword specificity, positional weighting, and negative keyword penalties.
 3. **Validation and Storage**: Validates each selected URL for accessibility and content quality, replaces invalid URLs with alternatives from the prioritized queue, and saves the final 5 URLs to individual text files.
 
@@ -197,7 +197,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 3. **AI-Powered URL Selection**
 
-   - **Prompt Generation**: Creates detailed prompts for Gemini 2.5 Pro
+   - **Prompt Generation**: Creates detailed prompts for Gemini 2.5 Flash
    - **Context Provision**: Includes institution type and available URLs
    - **Response Processing**: Parses JSON responses and validates URL lists
    - **Error Handling**: Implements retry logic with exponential backoff
@@ -236,13 +236,13 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ### 4_leads_classified_generator.py
 
-**Overview**: This script performs AI-powered classification of discovered institutions to determine the most suitable course type (Programming or Sales) and provides confidence scores with detailed reasoning. It uses Gemini 2.5 Pro to analyze website content from the top 5 selected URLs and generates comprehensive lead classifications with business context.
+**Overview**: This script performs AI-powered classification of discovered institutions to determine the most suitable course type (Programming or Sales) and provides confidence scores with detailed reasoning. It uses Gemini 2.5 Flash to analyze website content from the top 5 selected URLs and generates comprehensive lead classifications with business context.
 
 **Output**: Generates `2_leads_classified.csv` containing Website, Institution Type, Location, Phone, Course (recommended course type), Score (confidence 0-100), and Reasoning (detailed explanation) fields for each classified institution.
 
 **Quick Workflow**:
 
-1. **Content Analysis**: Reads the top 5 URLs for each institution, scrapes and formats the content, then sends it to Gemini 2.5 Pro for intelligent analysis of the institution's business focus and needs.
+1. **Content Analysis**: Reads the top 5 URLs for each institution, scrapes and formats the content, then sends it to Gemini 2.5 Flash for intelligent analysis of the institution's business focus and needs.
 2. **AI Classification**: Uses detailed prompts to guide the AI in determining whether the institution would benefit more from Programming or Sales courses, generating confidence scores and detailed reasoning for each decision.
 3. **Result Compilation**: Processes AI responses, extracts course recommendations and confidence scores, combines with original institution data, and saves comprehensive classifications to CSV format.
 
@@ -265,7 +265,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 3. **AI-Powered Analysis**
 
    - **Prompt Construction**: Creates detailed prompts with institution type and content
-   - **API Communication**: Sends requests to Gemini 2.5 Pro with retry logic
+   - **API Communication**: Sends requests to Gemini 2.5 Flash with retry logic
    - **Response Processing**: Parses JSON responses and validates structure
    - **Error Recovery**: Implements exponential backoff for failed requests
 
@@ -302,7 +302,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ### 5_top_5_urls_for_contact_info_extractor.py
 
-**Overview**: This script intelligently selects the top 5 most relevant URLs from each institution's website specifically for contact information extraction. It uses course-specific AI prompts (Programming vs Sales) with Gemini 2.5 Pro, prioritizes contact pages, and implements sophisticated fallback algorithms to ensure optimal contact discovery.
+**Overview**: This script intelligently selects the top 5 most relevant URLs from each institution's website specifically for contact information extraction. It uses course-specific AI prompts (Programming vs Sales) with Gemini 2.5 Flash, prioritizes contact pages, and implements sophisticated fallback algorithms to ensure optimal contact discovery.
 
 **Output**: Generates individual text files in `contact_urls/` directory (e.g., `example.com.txt`) containing exactly 5 validated URLs per institution, specifically selected for contact information extraction based on course type.
 
@@ -332,7 +332,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
    - **Prompt Selection**: Chooses appropriate prompt template based on course type
    - **Context Provision**: Includes course-specific context and available URLs
-   - **Gemini 2.5 Pro Analysis**: Sends tailored prompts for Programming or Sales contexts
+   - **Gemini 2.5 Flash Analysis**: Sends tailored prompts for Programming or Sales contexts
    - **Response Processing**: Parses JSON responses with course-specific validation
 
 4. **Deterministic Fallback Algorithms**
@@ -368,14 +368,14 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ### 6_final_data_gatherer.py
 
-**Overview**: This script performs the final step of the lead generation pipeline by extracting detailed contact information from the selected URLs. It uses Gemini 2.5 Pro to analyze website content and identify specific contact details including names, emails, phone numbers, and job titles, saving the results in structured JSON format.
+**Overview**: This script performs the final step of the lead generation pipeline by extracting detailed contact information from the selected URLs. It uses Gemini 2.5 Flash to analyze website content and identify specific contact details including names, emails, phone numbers, and job titles, saving the results in structured JSON format.
 
 **Output**: Generates individual JSON files in `contact_info/` directory (e.g., `example.com.json`) containing structured contact information arrays with detailed contact records for each institution.
 
 **Quick Workflow**:
 
 1. **Contact URL Processing**: Reads the top 5 contact-focused URLs for each classified lead, scrapes and formats the content from these pages, and prepares comprehensive content for AI analysis of contact information.
-2. **AI Contact Extraction**: Uses Gemini 2.5 Pro with specialized prompts to analyze website content and identify specific contact details including names, email addresses, phone numbers, job titles, and departments.
+2. **AI Contact Extraction**: Uses Gemini 2.5 Flash with specialized prompts to analyze website content and identify specific contact details including names, email addresses, phone numbers, job titles, and departments.
 3. **Structured Data Storage**: Processes AI responses to extract contact arrays, validates and structures the contact information, and saves detailed contact records to individual JSON files for each institution.
 
 **Detailed Workflow/Algorithm**:
@@ -397,7 +397,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 3. **AI-Powered Contact Extraction**
 
    - **Prompt Construction**: Creates detailed prompts for contact information extraction
-   - **API Communication**: Sends content to Gemini 2.5 Pro with retry mechanisms
+   - **API Communication**: Sends content to Gemini 2.5 Flash with retry mechanisms
    - **Response Processing**: Parses JSON responses containing contact arrays
    - **Data Validation**: Ensures contact records contain required fields
 
@@ -511,7 +511,7 @@ The project uses a centralized `constants.py` file for all configuration paramet
 ## Dependencies
 
 - **Google Places API**: For institution discovery and details
-- **Google Gemini 2.5 Pro**: For AI-powered analysis and classification
+- **Google Gemini 2.5 Flash**: For AI-powered analysis and classification
 - **Python Libraries**: requests, beautifulsoup4, pandas, concurrent.futures
 - **Web Scraping**: BeautifulSoup for HTML parsing and content extraction
 

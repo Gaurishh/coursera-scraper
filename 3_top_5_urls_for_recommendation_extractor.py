@@ -27,10 +27,10 @@ from constants import (
 # This detailed prompt guides the LLM to make a reliable and informed decision.
 # (Prompt template is now imported from constants.py)
 
-# --- Gemini 2.5 Pro API Function ---
+# --- Gemini 2.5 Flash API Function ---
 def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
     """
-    Generate content using Gemini 2.5 Pro with retry logic via REST API.
+    Generate content using Gemini 2.5 Flash with retry logic via REST API.
     
     Args:
         prompt (str): The prompt to send to Gemini
@@ -271,7 +271,7 @@ def process_single_website(filename):
             llm_selected_urls = []
             llm_success = False
             
-            # Try Gemini 2.5 Pro first
+            # Try Gemini 2.5 Flash first
             print(f"🤖 Attempting LLM selection for {remaining_slots} remaining slots...")
             response_text = generate_content_with_gemini(prompt)
             
@@ -292,7 +292,7 @@ def process_single_website(filename):
                         # Limit to remaining slots
                         llm_selected_urls = llm_selected_urls[:remaining_slots]
                         llm_success = True
-                        print(f"✅ SUCCESS: Gemini 2.5 Pro selected {len(llm_selected_urls)} non-about URLs for {filename}")
+                        print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-about URLs for {filename}")
                     else:
                         raise ValueError("Gemini response did not contain a valid list of URLs.")
 

@@ -72,7 +72,7 @@ def log_llm_failure(website_url, course_type, error_details):
 # --- Gemini 2.5 Flash API Function ---
 def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
     """
-    Generate content using Gemini 2.5 Pro with retry logic via REST API.
+    Generate content using Gemini 2.5 Flash with retry logic via REST API.
     
     Args:
         prompt (str): The prompt to send to Gemini
@@ -384,7 +384,7 @@ def process_single_lead(lead_data):
             llm_selected_urls = []
             llm_success = False
             
-            # Try Gemini 2.5 Pro first
+            # Try Gemini 2.5 Flash first
             print(f"🤖 Attempting LLM selection for {remaining_slots} remaining slots...")
             response_text, error_details = generate_content_with_gemini(prompt)
             
@@ -405,7 +405,7 @@ def process_single_lead(lead_data):
                         # Limit to remaining slots
                         llm_selected_urls = llm_selected_urls[:remaining_slots]
                         llm_success = True
-                        print(f"✅ SUCCESS: Gemini 2.5 Pro selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
+                        print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
                     else:
                         raise ValueError("Gemini response did not contain a valid list of URLs.")
 
