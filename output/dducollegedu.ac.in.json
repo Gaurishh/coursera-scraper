@@ -1,0 +1,20 @@
+{
+  "Website": "http://dducollegedu.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The college features strong departments in Computer Science and Electronics, active Robotics and Data Analytics clubs, and offers NIELIT and NPTEL courses, all indicating a significant focus on technology and programming.",
+  "extracted_contact_details": [
+    {
+      "title": "Principal",
+      "phone": "011-41805580",
+      "email": "principaldducollege@ddu.du.ac.in"
+    },
+    {
+      "title": "Computer Centre",
+      "phone": "011-43060977"
+    }
+  ]
+}

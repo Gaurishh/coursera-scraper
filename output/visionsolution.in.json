@@ -1,0 +1,21 @@
+{
+  "Website": "https://visionsolution.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099102 01429",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Vision Solution is a pioneer in marketing and supporting software for sales-driven insurance and investment industries, explicitly aiming to help their clients 'grow their business' through their products.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 11 4100 2300",
+      "email": "support@visionsolution.in"
+    },
+    {
+      "phone": "+91 9910201429"
+    },
+    {
+      "email": "ravikr@visionsolution.in"
+    }
+  ]
+}

@@ -5,221 +5,87 @@
   "Phone": "080 4216 1751",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Dayananda Sagar College of Engineering is a highly-ranked engineering institution offering a wide range of undergraduate and postgraduate programs in computer science, AI, robotics, and other technical fields, indicating a strong tech focus.",
+  "Reasoning": "Dayananda Sagar College of Engineering is a technical institution offering a vast array of undergraduate and postgraduate engineering and computer science programs, with a strong focus on technical education, research, and innovation.",
   "extracted_contact_details": [
     {
-      "name": "Ms. Meera",
-      "title": "Reception Coordinator",
-      "phone": "080-42161708"
-    },
-    {
-      "name": "Dr. B G Prasad",
+      "name": "DR. B G PRASAD",
       "title": "Principal, DSCE",
-      "phone": "080-42161753, 080-26662226"
+      "phone": "080-42161753, 26662226"
     },
     {
-      "name": "Mrs. Prema David",
+      "name": "Ms. Prema David",
       "title": "Director-Admissions, Assistant Director Admissions",
-      "phone": "9741882324, 9741889394, 9741214448, 9916075170, +91-80-42161751, +91-80-42161750"
+      "phone": "080 42161750, 080 42161751, 9916075170, 9741882324, 9741889394, 9741214448"
     },
     {
-      "name": "Hostel Office",
-      "phone": "080-42161708"
-    },
-    {
-      "name": "Indian Boys Hostel",
-      "phone": "080-42161701"
-    },
-    {
-      "name": "NRI Boys Hostel",
-      "phone": "080-42161745"
-    },
-    {
-      "name": "Girls Hostel",
-      "phone": "080-42161727"
-    },
-    {
-      "name": "Mr. Ranjankumar Jha",
-      "title": "Exam Section Coordinator",
-      "phone": "080-42161770"
-    },
-    {
-      "name": "Office of Exam Superintendent",
-      "phone": "080-42161724"
-    },
-    {
-      "name": "Mr. Gopalakrishna Murthy",
-      "title": "Manager - HR",
-      "phone": "080-26662226"
-    },
-    {
-      "name": "Mr. Gopal Krishna",
-      "title": "Human Resources Department",
-      "phone": "080-42161720"
-    },
-    {
-      "name": "Mr. Kumar M.P.",
-      "title": "Fee Section Coordinator",
-      "phone": "080-26662226"
-    },
-    {
-      "name": "Mr. Karigowda",
-      "title": "Scholarship Section Coordinator",
-      "phone": "080-26662226"
-    },
-    {
-      "name": "Dr. Johnson David",
-      "title": "Chief Librarian",
-      "phone": "080-42161739"
-    },
-    {
-      "name": "Mr. M.N Guruvenkatesh",
+      "name": "Mr. M.N GURUVENKATESH",
       "title": "Senior Vice President - Placements & Skill Development, Chief Academic Officer (CAO) - DSCE",
-      "phone": "+91-80-26663981, +91-80-42161497, +91-9844165956"
+      "phone": "080-26663981, 080-42161497, 9844165956"
     },
     {
-      "name": "Ms. Sangeetha",
-      "title": "Convenor",
-      "phone": "080-42161758"
-    },
-    {
-      "name": "Mr. Narasimha Swamy H R",
-      "title": "First Year Office Coordinator",
-      "phone": "080-42161763"
-    },
-    {
-      "name": "Dr. Hareesha N.G.",
-      "title": "Head of the Dept., Aeronautical Engineering",
-      "phone": "080-42096324"
-    },
-    {
-      "name": "Dr. Vijay Tambrallimath",
-      "title": "Head of the Dept., Automobile Engineering",
-      "phone": "080-41155890"
+      "name": "Mr. NAGESH PURANIK",
+      "title": "Director - Training & Placements",
+      "phone": "+91 80 26663981, +91 9739213552"
     },
     {
       "name": "Dr. Vindhya P Malagi",
-      "title": "Head of the Dept., Artificial Intelligence and Machine Learning",
+      "title": "Head of the Dept. (Artificial Intelligence and machine learning)",
       "phone": "080-42161753"
-    },
-    {
-      "name": "Dr. N. Rajeswari",
-      "title": "Head of the Dept., Biotechnology",
-      "phone": "080-42161748"
     },
     {
       "name": "Dr. Dattatreya P Mankame",
-      "title": "Head of the Dept., Computer Science and Business Systems",
+      "title": "Head of the Dept. (Computer Science and Business Systems)",
       "phone": "080-42161753"
     },
     {
-      "name": "Dr. Mohammed Tajuddin",
-      "title": "Head of the Dept., Computer Science (Cyber Security)",
+      "name": "Dr.Mohammed Tajuddin",
+      "title": "Head of the Dept. (COMPUTER SCIENCE (CYBER SECURITY))",
       "phone": "080-42161753"
     },
     {
       "name": "Dr. Rashmi S",
-      "title": "Head of the Dept., Computer Science (Data Science)",
+      "title": "Head of the Dept. (COMPUTER SCIENCE (DATA SCIENCE))",
       "phone": "080-42161753"
     },
     {
       "name": "Dr. Suma V",
-      "title": "Vice Principal & Head of the Dept., Computer Science and Design",
+      "title": "Vice Principal & Head of the Dept. (Computer Science and Design)",
       "phone": "080-42161753"
     },
     {
-      "name": "Dr. D.R. Ramesh Babu",
-      "title": "Vice-Principal, Professor & Head of the Department, Computer Science & Engineering",
-      "phone": "+91-80-42161726"
-    },
-    {
-      "name": "Dr. H.K. Ramaraju",
-      "title": "Head of the Dept., Civil Engineering",
-      "phone": "080-42219194"
-    },
-    {
-      "name": "Dr. R. Ravishankar",
-      "title": "Head of the Dept., Chemical Engineering",
-      "phone": "080-42161740"
-    },
-    {
-      "name": "Dr. P. Prakash",
-      "title": "Head of the Dept., Construction Technology & Management",
-      "phone": "080-42161093"
+      "name": "DR. D.R. RAMESH BABU",
+      "title": "Vice-Principal, Professor & Head of the Department (Computer Science & Engineering)",
+      "phone": "080-42161726"
     },
     {
       "name": "Dr. PremKumar M",
-      "title": "Head of the Dept., Electrical & Electronics Engineering",
+      "title": "Head of the Dept. (Electrical & Electronics Engineering)",
       "phone": "080-42161743"
     },
     {
       "name": "Dr. Shobha K R",
-      "title": "Head of the Dept., Electronics & Communication Engineering",
+      "title": "Head of the Dept. (Electronics & Communication Engineering)",
       "phone": "080-42161731"
     },
     {
-      "name": "Dr. J.S. Rajashekar",
-      "title": "Head of the Dept., Electronics & Instrumentation Engineering",
+      "name": "DR. J.S. RAJASHEKAR",
+      "title": "Head of the Dept. (Electronics & Instrumentation Engineering)",
       "phone": "080-42161735"
     },
     {
       "name": "Dr. Anju V Kulkarni",
-      "title": "Head of the Dept., Electronics & Telecommunication Engineering",
+      "title": "Head of the Dept. (Electronics & Telecommunication Engineering)",
       "phone": "080-42161728"
     },
     {
-      "name": "Dr. Vasanth Kumar",
-      "title": "Head of the Dept., Industrial Engineering & Management",
-      "phone": "080-42161741"
-    },
-    {
       "name": "Dr. Rajeshwari J",
-      "title": "Head of the Dept., Information Science & Engineering",
+      "title": "Head of the Dept. (Information Science & Engineering)",
       "phone": "080-42161725"
     },
     {
-      "name": "Dr. Keshavamurthy R",
-      "title": "Head of the Dept., Mechanical Engineering",
-      "phone": "080-42161742"
-    },
-    {
-      "name": "Dr. A.R. Aswatha",
-      "title": "Head of the Dept., Medical Electronics",
-      "phone": "080-42161733"
-    },
-    {
-      "name": "Dr. K.G. Hemalatha",
-      "title": "Head of the Dept., Master of Business Administration (MBA)",
-      "phone": "080-42161096"
-    },
-    {
       "name": "Dr. Samitha Khaiyum",
-      "title": "Head of the Dept., Master of Computer Applications (MCA)",
-      "phone": "080-42161768"
-    },
-    {
-      "name": "Dr. C.M. Joseph",
-      "title": "Head of the Dept., Physics",
-      "phone": "080-42161729"
-    },
-    {
-      "name": "Dr. K.S. Anantha Raju",
-      "title": "Head of the Dept., Chemistry",
-      "phone": "080-42161700"
-    },
-    {
-      "name": "Dr. Radha Gupta",
-      "title": "Head of the Dept., Mathematics",
-      "phone": "080-42161730"
-    },
-    {
-      "name": "Admission Enquiry",
-      "phone": "+918792909121, +919972780251, +918792909113, +919972560251"
-    },
-    {
-      "name": "Mr. Nagesh Puranik",
-      "title": "Director - Training & Placements",
-      "phone": "+91-80-26663981, +91-9739213552"
+      "title": "Head of the Dept. (Master of Computer Applications (MCA))",
+      "phone": "080 - 42161768"
     }
   ]
 }

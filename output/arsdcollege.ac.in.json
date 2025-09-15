@@ -1,0 +1,23 @@
+{
+  "Website": "http://arsdcollege.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2411 3436",
+  "Course": "Programming",
+  "Score": 90,
+  "Reasoning": "The college offers dedicated B.Sc. Computer Science and Electronics programs, supported by extensive research and collaborations in technology and engineering fields, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "name": "Prof. Gyantosh Kr. Jha",
+      "title": "Principal",
+      "phone": "+91 11 24113436, +91 11 24117508",
+      "email": "principal.arsdcollege@gmail.com, principal@arsd.du.ac.in"
+    },
+    {
+      "name": "Vinita Tuli",
+      "title": "Coordinator, Internal Quality Assurance Cell",
+      "phone": "+91-98111 25949",
+      "email": "vinitatuli@gmail.com"
+    }
+  ]
+}

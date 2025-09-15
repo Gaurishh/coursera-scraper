@@ -1,0 +1,24 @@
+{
+  "Website": "https://www.amsdigital.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "096675 40071",
+  "Course": "Sales",
+  "Score": 85,
+  "Reasoning": "AMSDigital is a digital marketing and media services company operating in a sales-driven industry, with a core focus on generating leads, brand awareness, and business growth for its clients, which directly benefits from enhanced sales strategies and understanding client sales needs.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9667540071",
+      "email": "sales@amsdigital.in"
+    },
+    {
+      "email": "info@amsdigital.in"
+    },
+    {
+      "phone": "+91-11-4172 2145"
+    },
+    {
+      "phone": "+91 931 833 3053"
+    }
+  ]
+}

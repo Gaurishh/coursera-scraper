@@ -1,0 +1,15 @@
+{
+  "Website": "https://treasurecreatives.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "087007 16715",
+  "Course": "Sales",
+  "Score": 90,
+  "Reasoning": "The company's core mission is to help brands expand their business digitally and build customer loyalty through data-driven digital marketing strategies, directly aligning with sales-driven outcomes and client ROI.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 87007 16715",
+      "email": "info@treasurecreatives.com"
+    }
+  ]
+}

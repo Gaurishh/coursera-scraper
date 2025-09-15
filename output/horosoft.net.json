@@ -1,0 +1,17 @@
+{
+  "Website": "https://horosoft.net/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4707 8182",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The company's core business is the development and maintenance of astrology software, explicitly mentioning 'software developer,' 'computer technology,' and 'adapting to changing technologies,' indicating a strong technological focus and a continuous need for programming expertise.",
+  "extracted_contact_details": [
+    {
+      "name": "Triple-S Software / Horosoft",
+      "title": "General Company Contact",
+      "phone": "+91-11-47078182, +91-9810008182, +91-9910008182",
+      "email": "sales@horosoft.net, support@horosoft.net"
+    }
+  ]
+}

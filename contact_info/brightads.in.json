@@ -1,14 +1,11 @@
 [
   {
-    "phone": "+91 888 400 5400"
-  },
-  {
-    "phone": "+91 855 300 9696"
-  },
-  {
+    "title": "General Inquiry",
+    "phone": "+91 888 400 5400, +91 855 300 9696",
     "email": "support@brightads.in"
   },
   {
+    "title": "Careers",
     "email": "careers@brightads.in"
   }
 ]

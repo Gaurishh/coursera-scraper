@@ -1,0 +1,32 @@
+[
+  {
+    "name": "WebSenor General Inquiry",
+    "email": "info@websenor.com",
+    "phone": "+14805614112, +919950834560"
+  },
+  {
+    "name": "WebSenor Bengaluru Office",
+    "phone": "+91-8854834560, +91-9782177208",
+    "email": "info@websenor.com"
+  },
+  {
+    "name": "WebSenor Udaipur Office",
+    "phone": "+91-9950834560, +91-9782177208",
+    "email": "info@websenor.com"
+  },
+  {
+    "name": "WebSenor USA Office",
+    "phone": "+1-480-561-4112",
+    "email": "info@websenor.com"
+  },
+  {
+    "name": "WebSenor UK Office",
+    "phone": "+44 20 3286 4560, +44 121 364 4332",
+    "email": "info@websenor.com"
+  },
+  {
+    "name": "WebSenor Kuwait Office",
+    "phone": "+965-66767653, +965-97487871",
+    "email": "info@websenor.com"
+  }
+]

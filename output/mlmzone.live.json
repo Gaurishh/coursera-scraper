@@ -1,0 +1,15 @@
+{
+  "Website": "http://www.mlmzone.live/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092108 10431",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The company is a software development firm specializing in complex MLM software, indicating a strong technical core and a clear need for programming expertise to build and maintain their products.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9210810431, +91-8802736522",
+      "email": "[email protected], [email protected]"
+    }
+  ]
+}

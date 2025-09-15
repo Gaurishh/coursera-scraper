@@ -5,36 +5,30 @@
   "Phone": "080 2299 0585",
   "Course": "Programming",
   "Score": 95,
-  "Reasoning": "Algonomy is an 'Algorithmic Decisioning Platform' provider, heavily focused on AI, ML, and data infrastructure, which indicates a strong technical and programming core for its operations and product development.",
+  "Reasoning": "Algonomy's core identity, product offerings, and employee testimonials consistently emphasize its foundational expertise in algorithms, AI, and software development, making a strong tech focus evident.",
   "extracted_contact_details": [
     {
-      "name": "Algonomy",
-      "title": "Sales & General Inquiries",
+      "title": "General Sales & Inquiry",
       "phone": "+1 415 956 1947",
       "email": "hello@algonomy.com"
     },
     {
-      "name": "Algonomy",
       "title": "Partnership Team",
       "email": "partners@algonomy.com"
     },
     {
-      "name": "Algonomy",
       "title": "UK Office",
       "phone": "+44 (0)118 321 3558"
     },
     {
-      "name": "Algonomy",
       "title": "France Office",
       "phone": "+33 01 44 50 78 43"
     },
     {
-      "name": "Algonomy",
       "title": "Asia Pacific HQ",
       "phone": "+91 80 6717 1602"
     },
     {
-      "name": "Algonomy",
       "title": "Sri Lanka Office",
       "phone": "+94 (0)11 255 7272, +94 (0)76 823 1106"
     }

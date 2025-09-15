@@ -1,0 +1,16 @@
+{
+  "Website": "http://www.monettaindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098111 45789",
+  "Course": "Sales",
+  "Score": 92,
+  "Reasoning": "Monetta India explicitly identifies as 'Certified Sales & Service Partners for Tally' and their core business model is centered on selling, implementing, and supporting Tally software for businesses, indicating a sales-driven industry focus.",
+  "extracted_contact_details": [
+    {
+      "name": "s.patel",
+      "phone": "+91-9811145789, +91-9999145789, +91-9811445789, +91-9999618101",
+      "email": "s.patel@monettaindia.com"
+    }
+  ]
+}

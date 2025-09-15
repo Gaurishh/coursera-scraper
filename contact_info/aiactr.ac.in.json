@@ -1,24 +1,11 @@
 [
   {
-    "phone": "011 2732 3161"
-  },
-  {
-    "title": "AIACTR Office",
-    "phone": "(011)21210161"
-  },
-  {
-    "title": "Principal Office",
+    "name": "Prof. Ravindra Kumar Sharma",
+    "title": "Acting Director East Campus, Ex.Principal",
     "phone": "(011)21210162"
   },
   {
-    "title": "Admin Office",
-    "phone": "(011)21210164"
-  },
-  {
-    "title": "OS Office",
-    "phone": "(011)21210169"
-  },
-  {
+    "name": "Training & Placement Office",
     "title": "Training & Placement Office",
     "phone": "(011)21210169",
     "email": "tpo@aiactr.ac.in"

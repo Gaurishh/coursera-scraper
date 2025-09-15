@@ -1,0 +1,17 @@
+{
+  "Website": "https://digigrowtech.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070426 52270",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "DigiGrowTech is a digital marketing agency whose primary goal is to drive leads, conversions, and sales for their clients, making a Sales course highly relevant to their core business and client outcomes.",
+  "extracted_contact_details": [
+    {
+      "name": "DigiGrowTech General Inquiry",
+      "title": "Company Contact",
+      "phone": "+91 7042652270, +91 9650401270, +1 (236) 869-7330",
+      "email": "digigrowtech3@gmail.com, contact@digigrowtech.in, info@digigrowtech.in"
+    }
+  ]
+}

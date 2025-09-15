@@ -1,0 +1,15 @@
+{
+  "Website": "http://www.sanicondigital.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "097170 98200",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Sanicon Digital Solutions, while offering programming services like app and web development, heavily emphasizes digital marketing, lead generation, and online presence through a wide array of marketing services and an entire blog dedicated to these sales-driving topics.",
+  "extracted_contact_details": [
+    {
+      "phone": "011-4750-5493, (+91) 9717098200",
+      "email": "info@sanicondigital.com"
+    }
+  ]
+}

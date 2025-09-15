@@ -1,0 +1,15 @@
+{
+  "Website": "http://www.dife.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 3544 8819",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The Delhi Institute of Fire Engineering is a technical vocational school that heavily emphasizes the integration and application of advanced technologies like drones, IoT, and smart PPE in fire safety and industrial management, aligning with a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "011-35448819, 9312245493, 9891347717, 9891208139",
+      "email": "contactdife@gmail.com"
+    }
+  ]
+}

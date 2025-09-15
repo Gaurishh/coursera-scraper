@@ -1,0 +1,22 @@
+{
+  "Website": "http://b2bsalesarrow.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "070205 58545",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "B2B Sales Arrow is a marketing technology company whose core services, mission, and case studies are overwhelmingly focused on B2B sales, lead generation, and market development for its clients.",
+  "extracted_contact_details": [
+    {
+      "phone": "+1-213-328-6113",
+      "email": "info@b2bsalesarrow.com"
+    },
+    {
+      "phone": "+91 702-055-8545",
+      "email": "info@b2bsalesarrow.com"
+    },
+    {
+      "email": "hr@b2bsalesarrow.com"
+    }
+  ]
+}

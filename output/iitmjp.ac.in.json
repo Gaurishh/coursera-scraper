@@ -3,25 +3,14 @@
   "Institution Type": "Schools",
   "Location": "Delhi",
   "Phone": "011 2852 0894",
-  "Course": "Sales",
-  "Score": 90,
-  "Reasoning": "The institution, IITM, has a significant focus on Management, Business Administration (BBA), and Commerce (B.Com(H)) programs, with a stated mission to develop 'World Class Managers', making sales skills highly relevant for its graduates.",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution's name, mission to produce 'Information Technology professionals and Software Engineers,' dedicated Department of Computer Science, BCA program, and hosting of an 'International Conference on Innovation in Research in Computer Science and Information Technology' clearly indicate a strong tech focus.",
   "extracted_contact_details": [
     {
-      "title": "General Enquiries",
-      "phone": "011-28520894 / 28520890"
-    },
-    {
       "title": "Director",
+      "phone": "011-28520894, 011-28520890",
       "email": "director@iitmjp.ac.in"
-    },
-    {
-      "title": "HR Department",
-      "email": "hr1@iitmjp.ac.in"
-    },
-    {
-      "title": "Registrar",
-      "email": "registrar@iitmjp.ac.in"
     }
   ]
 }

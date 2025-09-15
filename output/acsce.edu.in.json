@@ -5,65 +5,56 @@
   "Phone": "080 2974 8222",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "ACS College of Engineering is an institution with a strong tech focus, offering numerous undergraduate and postgraduate programs in Computer Science, Artificial Intelligence, Machine Learning, and other engineering disciplines, and attracting tech-oriented recruiters.",
+  "Reasoning": "ACS College of Engineering is a highly technical institution offering numerous engineering and computer science programs, with a clear mission focused on technical education and placements in tech-driven companies.",
   "extracted_contact_details": [
     {
-      "title": "Admissions/General Enquiries",
-      "phone": "9008545678, 9900500028, +91-80-29748777, +91-80-29748333",
-      "email": "admission@acsce.edu.in"
-    },
-    {
-      "title": "Principal",
-      "phone": "080-29748999"
-    },
-    {
-      "name": "Mrs. Sushmitha",
-      "title": "Placement Coordinator, Electronics and Communication Engineering",
-      "phone": "9844638928",
-      "email": "bc.susmitha@gmail.com"
-    },
-    {
-      "name": "Mrs. Sowmya",
-      "title": "Placement Coordinator, Bio-Medical Engineering",
-      "phone": "7019696029"
-    },
-    {
-      "name": "Mr. Albert",
-      "title": "Placement Coordinator, Aeronautical Engineering",
-      "phone": "8123965897",
-      "email": "albertallen.aero@gmail.com"
-    },
-    {
-      "name": "Mr. Vijay",
-      "title": "Placement Coordinator, Aerospace Engineering",
-      "phone": "9500661423"
-    },
-    {
-      "name": "Dr. Sunil",
-      "title": "Placement Coordinator, Mechanical Engineering",
-      "phone": "9844752319",
-      "email": "sunilaswath@gmail.com"
+      "name": "Premavathi S",
+      "title": "Placement Executive",
+      "phone": "+91-9482896935",
+      "email": "premavathi@acsce.edu.in"
     },
     {
       "name": "Dr. Janani",
-      "title": "Placement Coordinator, Computer Science & Engineering",
+      "title": "Department Placement Coordinator (Computer Science & Engineering)",
       "phone": "9944803549"
     },
     {
       "name": "Mrs. Arthi",
-      "title": "Placement Coordinator, Data Science Engineering",
+      "title": "Department Placement Coordinator (Data Science Engineering)",
       "phone": "9894590393"
     },
     {
       "name": "Mrs. Sujatha",
-      "title": "Placement Coordinator, Cyber Security Engineering",
+      "title": "Department Placement Coordinator (Cyber Security Engineering)",
       "phone": "9717450175"
     },
     {
-      "name": "Premavathi S",
-      "title": "Placement Executive, ACS College of Engineering / Training and Placements Officer",
-      "phone": "+91-9482896935",
-      "email": "premavathi@acsce.edu.in"
+      "name": "Mrs. Sushmitha",
+      "title": "Department Placement Coordinator (Electronics and Communication Engineering)",
+      "phone": "9844638928",
+      "email": "bc.susmitha@gmail.com"
+    },
+    {
+      "name": "Mr. Albert",
+      "title": "Department Placement Coordinator (Aeronautical Engineering)",
+      "phone": "8123965897",
+      "email": "albertallen.aero@gmail.com"
+    },
+    {
+      "name": "Dr. Sunil",
+      "title": "Department Placement Coordinator (Mechanical Engineering)",
+      "phone": "9844752319",
+      "email": "sunilaswath@gmail.com"
+    },
+    {
+      "name": "Mrs. Sowmya",
+      "title": "Department Placement Coordinator (Bio-Medical Engineering)",
+      "phone": "7019696029"
+    },
+    {
+      "name": "Mr. Vijay",
+      "title": "Department Placement Coordinator (Aerospace Engineering)",
+      "phone": "9500661423"
     }
   ]
 }

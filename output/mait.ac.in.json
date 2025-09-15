@@ -4,30 +4,17 @@
   "Location": "Delhi",
   "Phone": "084481 86942",
   "Course": "Programming",
-  "Score": 98,
-  "Reasoning": "Maharaja Agrasen Institute of Technology is an engineering college with numerous specialized technology departments, and its alumni consistently achieve roles as software and data engineers at prominent tech companies.",
+  "Score": 0,
+  "Reasoning": "No content was retrieved from the provided web pages, making it impossible to assess the institution's specific focus and recommend a course with confidence.",
   "extracted_contact_details": [
-    {
-      "name": "Maharaja Agrasen Institute of Technology",
-      "phone": "91-8448186942",
-      "email": "mait@mait.ac.in"
-    },
     {
       "name": "Prof. Neelam Sharma",
       "title": "Director",
       "phone": "91-8448186931"
     },
     {
-      "title": "Registrar",
-      "phone": "91-8448186942"
-    },
-    {
-      "title": "Accounts Department",
-      "phone": "91-9999985214"
-    },
-    {
-      "name": "Brig. S.K. Kakar",
-      "title": "Director, Career Development Cell; Convener, Industry-Institute Interaction Cell Committee",
+      "name": "Brig. S.K.Kakar",
+      "title": "Director, Career Development Cell",
       "phone": "91-8448186933"
     }
   ]

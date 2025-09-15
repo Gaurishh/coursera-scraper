@@ -5,10 +5,10 @@
   "Phone": "080 2363 1298",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Atria Institute of Technology is an engineering college with a strong tech focus, offering numerous undergraduate and postgraduate programs in computer science, engineering, and artificial intelligence, and explicitly promoting cutting-edge technologies and innovation.",
+  "Reasoning": "Atria Institute of Technology is a premier technological institution with a strong focus on engineering and computer science departments, including AI, Data Science, and Robotics, and is affiliated with AICTE and VTU.",
   "extracted_contact_details": [
     {
-      "title": "Admission Helpline",
+      "title": "Admissions Department",
       "phone": "+91 7090329032, +91 9666247700",
       "email": "admissions@atria.edu"
     }

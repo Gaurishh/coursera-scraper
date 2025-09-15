@@ -5,11 +5,19 @@
   "Phone": "077039 05638",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "Skillsify is a digital marketing agency explicitly focused on helping its corporate clients drive sales, generate leads, and improve conversions, clearly positioning it within a sales-driven industry.",
+  "Reasoning": "Skillsify is a digital marketing agency focused on driving client growth, leads, and increased sales, making a Sales course highly relevant to their core business objectives and value proposition.",
   "extracted_contact_details": [
     {
-      "phone": "7703905638, 9310124267",
-      "email": "info@skillsify.com, Info@skillsify.in"
+      "phone": "7703905638"
+    },
+    {
+      "phone": "9310124267"
+    },
+    {
+      "email": "info@skillsify.com"
+    },
+    {
+      "email": "info@skillsify.in"
     }
   ]
 }

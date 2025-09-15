@@ -1,0 +1,31 @@
+{
+  "Website": "https://bitbytecreations.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070423 45756",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Bitbyte Creations is an IT service provider specializing in the design, development, and deployment of various mobile and web applications, indicating a strong technology focus.",
+  "extracted_contact_details": [
+    {
+      "title": "General Information",
+      "phone": "+704-234-5756",
+      "email": "info@bitbytecreations.com"
+    },
+    {
+      "title": "General Information",
+      "phone": "+956-037-0420",
+      "email": "info@bitbytecreations.com"
+    },
+    {
+      "title": "Support",
+      "phone": "+704-234-5756",
+      "email": "support@bitbytecreations.com"
+    },
+    {
+      "title": "Support",
+      "phone": "+956-037-0420",
+      "email": "support@bitbytecreations.com"
+    }
+  ]
+}

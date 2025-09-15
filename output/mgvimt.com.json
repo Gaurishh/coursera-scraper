@@ -1,0 +1,16 @@
+{
+  "Website": "http://www.mgvimt.com/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution offers comprehensive Engineering and Computer Science programs with detailed curricula covering various programming languages and computer applications, strongly emphasizing technological advancement.",
+  "extracted_contact_details": [
+    {
+      "name": "Mahatma Gandhi Vidyapeeth Institute of Management & Technology",
+      "title": "General Inquiries",
+      "email": "info@mgvimt.com, admin@mgvimt.com, admission@mgvimt.com, mgvimt.admissions@gmail.com, mgvimt@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "Website": "https://www.schooleye.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "083739 18351",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "V3M Technology is a software development company that creates and maintains a comprehensive ERP system (SchoolEye), indicating a strong tech focus and a continuous need for programming skills to build, customize, and enhance their core product.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales",
+      "phone": "+918373918351, +918373918353, 0124-4277083",
+      "email": "sales@v3m.in"
+    },
+    {
+      "title": "General Inquiry / Support",
+      "phone": "0124-4277083",
+      "email": "info@v3m.in"
+    }
+  ]
+}

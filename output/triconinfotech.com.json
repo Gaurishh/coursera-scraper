@@ -4,11 +4,10 @@
   "Location": "Bangalore",
   "Phone": "080 2550 3833",
   "Course": "Programming",
-  "Score": 95,
-  "Reasoning": "Tricon Infotech is a custom software product developer with a strong focus on technology services, product engineering, AI, and data solutions, indicating a primary need for advanced programming and technical skills.",
+  "Score": 98,
+  "Reasoning": "Tricon Infotech is a custom software product development company with a strong focus on technology services, including product and platform engineering, data analytics, and AI-powered solutions, employing a large team of engineers.",
   "extracted_contact_details": [
     {
-      "name": "Tricon Infotech",
       "email": "info@triconinfotech.com"
     }
   ]

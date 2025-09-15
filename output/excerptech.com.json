@@ -5,6 +5,19 @@
   "Phone": "099005 02404",
   "Course": "Programming",
   "Score": 95,
-  "Reasoning": "The company's core services, such as Ecommerce Solutions, Website Design and Development, Cyber Security, and Data Analytics, clearly indicate a strong technological and development-centric focus.",
-  "extracted_contact_details": []
+  "Reasoning": "The company's core services, including Ecommerce Solution Providers, Website Design and Development, Cyber Security, and Data Analytics, demonstrate a strong technical focus requiring programming and IT skills.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 91211 00009"
+    },
+    {
+      "phone": "+1 (302) 261-5000"
+    },
+    {
+      "email": "info@excerptech.com"
+    },
+    {
+      "email": "sales@excerptech.com"
+    }
+  ]
 }

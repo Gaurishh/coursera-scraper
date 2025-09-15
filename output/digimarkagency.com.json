@@ -5,17 +5,17 @@
   "Phone": "088843 30607",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "DigiMark Agency's core business revolves around generating leads, conversions, and increasing ROI for clients through digital marketing, making it a sales-driven industry with job roles like Business Development Manager and Customer Success Manager.",
+  "Reasoning": "DigiMark Agency is a digital marketing firm explicitly focused on driving leads, conversions, and business growth for its clients, which are core objectives of a sales-driven organization.",
   "extracted_contact_details": [
     {
-      "title": "General Business Inquiries",
-      "phone": "+91 8884330607",
-      "email": "info@digimarkagency.com"
+      "title": "General Business Contact",
+      "phone": "888 433 0607",
+      "email": "[email protected]"
     },
     {
-      "title": "Careers / Hiring Inquiries",
+      "title": "HR/Recruitment",
       "phone": "+91 81232 25614",
-      "email": "careers@digimarkagency.com"
+      "email": "[email protected], [email protected]"
     }
   ]
 }

@@ -5,15 +5,11 @@
   "Phone": "",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "AKOI is explicitly a 'Digital & E-Commerce Marketing Company' whose primary mission is to generate 'Revenue Generated for Clients' and improve their 'bottom line' through various marketing services, placing them firmly within a sales-driven industry.",
+  "Reasoning": "AKOI is a digital and e-commerce marketing agency whose core mission is to drive client revenue, growth, and ROI, making it fundamentally a sales-driven organization.",
   "extracted_contact_details": [
     {
-      "email": "sales@akoi.in",
-      "phone": "+91 93640 84993"
-    },
-    {
-      "email": "career@akoi.in",
-      "phone": "+91 9364084997"
+      "phone": "+91 93640 84993",
+      "email": "sales@akoi.in"
     }
   ]
 }

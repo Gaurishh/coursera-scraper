@@ -1,0 +1,16 @@
+{
+  "Website": "http://www.beyondweb.ind.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "077607 85086",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Beyondweb is a software development and digital marketing agency with a strong focus on building web, mobile, and IoT applications, evidenced by their extensive list of programming technologies, developer roles, and 'CODE LINES THIS MONTH' metric.",
+  "extracted_contact_details": [
+    {
+      "name": "Jayaram Suresh",
+      "phone": "+91 7760 785 086, +91 8123 387 992",
+      "email": "jayaram.suresh@beyondweb.ind.in"
+    }
+  ]
+}

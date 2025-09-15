@@ -1,7 +1,7 @@
 [
   {
     "title": "Admissions",
-    "phone": "+91 8800010971, +91 8800010972",
+    "phone": "+91-8800010971, +91-8800010972",
     "email": "admission@empi.ac.in"
   },
   {
@@ -10,16 +10,7 @@
     "email": "empi_placements@empi.ac.in"
   },
   {
-    "title": "Examinations",
-    "phone": "+91 9810809363",
-    "email": "examination@empi.ac.in"
-  },
-  {
-    "title": "Human Resource / SAFI",
+    "title": "Human Resource",
     "email": "hr@empi.ac.in"
-  },
-  {
-    "title": "Feedback",
-    "email": "feedback@empi.ac.in"
   }
 ]

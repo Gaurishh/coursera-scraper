@@ -4,18 +4,17 @@
   "Location": "Delhi",
   "Phone": "098107 46506",
   "Course": "Sales",
-  "Score": 98,
-  "Reasoning": "Red Dash Media is a digital marketing agency focused on helping clients generate leads, build brands, and drive sales, making them a company in a sales-driven industry where understanding sales processes is critical for their own growth and their clients' success.",
+  "Score": 95,
+  "Reasoning": "Red Dash Media is a digital marketing agency whose services are entirely focused on helping clients build brands, generate leads, and drive sales through various online channels, making a Sales course highly relevant for their business objectives and client outcomes.",
   "extracted_contact_details": [
     {
+      "title": "General Business Inquiry",
       "phone": "(+91) 981-096-7749",
       "email": "contact@reddashmedia.com"
     },
     {
-      "phone": "(+91) 981-097-0169"
-    },
-    {
-      "phone": "(+91) 981-883-0884"
+      "title": "HR/Careers",
+      "phone": "(+91) 981-097-0169, (+91) 981-883-0884"
     }
   ]
 }

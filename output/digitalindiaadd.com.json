@@ -5,17 +5,11 @@
   "Phone": "063608 07351",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "The company's core business as a digital marketing agency is inherently focused on generating leads, optimizing conversions, and ultimately increasing sales for its clients, making sales expertise crucial for both service delivery and client acquisition.",
+  "Reasoning": "Digitalindiaadd is a digital marketing agency whose core business is to help clients generate leads, optimize conversions, and increase sales and revenue, making a Sales course directly aligned with their primary objectives.",
   "extracted_contact_details": [
     {
       "phone": "+91 6360807351",
       "email": "info@digitalindiaadd.com"
-    },
-    {
-      "email": "hello@digitalindiaadd.com"
-    },
-    {
-      "email": "hr@digitalindiaadd.com"
     }
   ]
 }

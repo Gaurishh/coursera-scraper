@@ -79,6 +79,7 @@ bce.org.in/events/
 bce.org.in/events/category/events/
 bce.org.in/examination/
 bce.org.in/faculty-staff-requirements/
+bce.org.in/governance-and-policies/
 bce.org.in/hostel/
 bce.org.in/ia-test/
 bce.org.in/ic3-about/

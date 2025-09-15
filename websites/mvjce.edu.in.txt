@@ -25,12 +25,14 @@ mvjce.edu.in/admissions/placements/
 mvjce.edu.in/admissions/placements/corporate-connections/
 mvjce.edu.in/admissions/placements/training-and-development/
 mvjce.edu.in/all_events/guest-lecture-on-aircraft-structural-modifications/
+mvjce.edu.in/all_events/inauguration-of-first-year-batch-2025-26/
 mvjce.edu.in/all_events/industrial-visit-to-ace-designers-limited-machining-centre-division/
 mvjce.edu.in/all_events/innovex-25/
 mvjce.edu.in/all_events/sttp-on-aircraft-systems-testing-and-certification/
+mvjce.edu.in/all_events/tessellate-tedxmvjce-2025/
 mvjce.edu.in/all_events/two-day-short-term-training-programme-sttp-on-digital-system-design-using-altera-fpga/
-mvjce.edu.in/all_events/two-day-workshop-on-data-analytics-for-iot/
 mvjce.edu.in/all_events/workshop-on-dsa-x-ai-building-intelligence-from-first-principles/
+mvjce.edu.in/all_events/workshop-on-implementing-karnataka-state-action-plan-for-climate-change/
 mvjce.edu.in/all_events/workshop-on-signal-processing-applications-using-matlab/
 mvjce.edu.in/alumni/
 mvjce.edu.in/autonomous/academic-calendar/
@@ -59,6 +61,7 @@ mvjce.edu.in/events/
 mvjce.edu.in/events/image-gallery/
 mvjce.edu.in/events/past-events/
 mvjce.edu.in/events/upcoming-events/
+mvjce.edu.in/events/upcoming-events/?e-page-e553fd8=2
 mvjce.edu.in/news/
 mvjce.edu.in/news/students-or-college-achievements/
 mvjce.edu.in/privacy-policy/

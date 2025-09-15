@@ -1,0 +1,15 @@
+{
+  "Website": "https://radiancesolution.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "095825 15141",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Radiance Solution is explicitly a 'Tech Consulting Company' and 'technology experts' whose core services revolve around digital transformation, custom software development, cloud, and DevOps, indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9582515141, +91 11 4770 1158",
+      "email": "info@radiancesolution.com"
+    }
+  ]
+}

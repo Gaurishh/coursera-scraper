@@ -5,10 +5,10 @@
   "Phone": "096064 87201",
   "Course": "Programming",
   "Score": 95,
-  "Reasoning": "The institution prominently features 'Brindavan College of Engineering' and 'Brindavan College of Polytechnic' and offers various technical programs, indicating a strong engineering and tech focus.",
+  "Reasoning": "The institution prominently features 'Brindavan College of Engineering' and lists Engineering as a key professional program, indicating a strong technical focus.",
   "extracted_contact_details": [
     {
-      "phone": "91 80 2847 8388, 91 80 2847 8423, +91 9606487201, +91 9606487220",
+      "phone": "91 80 2847 8388 / 8423, +91 9606487201 / 220",
       "email": "admissions@brindavancollege.com"
     }
   ]

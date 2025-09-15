@@ -4,83 +4,30 @@
   "Location": "Delhi",
   "Phone": "011 4503 7193",
   "Course": "Programming",
-  "Score": 100,
-  "Reasoning": "Maharaja Surajmal Institute of Technology is an engineering college with a core focus on Computer Science, IT, Electronics, and Electrical engineering, evidenced by its departments, B.Tech offerings, specialized labs, and placements with leading tech companies.",
+  "Score": 98,
+  "Reasoning": "Maharaja Surajmal Institute of Technology is an engineering college offering B.Tech degrees in Computer Science, IT, ECE, and EEE, with extensive technical labs, research, and placements in prominent tech companies.",
   "extracted_contact_details": [
     {
-      "name": "MSIT Reception",
-      "phone": "011-65215941"
-    },
-    {
-      "name": "Placement Cell",
-      "phone": "011-65215944"
-    },
-    {
-      "name": "Admissions (B.Tech.)",
-      "phone": "011-45037193"
-    },
-    {
-      "name": "Admissions (BBA, BCA, B. Com, B.Ed, MBA, LLB)",
-      "phone": "011-45656183"
-    },
-    {
-      "name": "General Enquiries",
-      "email": "msit@msit.in"
-    },
-    {
       "name": "Prof. Archana Balyan",
-      "title": "Director",
+      "title": "Director, Maharaja Surajmal Institute of Technology",
+      "phone": "011-65215941",
       "email": "director@msit.in"
     },
     {
-      "name": "Dr. Geetika Dhand",
-      "title": "Associate Professor | HOD",
-      "email": "geetikadhand@msit.in"
+      "name": "Prof. H.S. Rawat",
+      "title": "Director – Training & Placement, SMES",
+      "phone": "011-65215944",
+      "email": "hsrawat@msit.in"
     },
     {
       "name": "Dr. Naveen Dahiya",
-      "title": "Professor | Dean Academics",
+      "title": "Professor, CSE department | Dean Academics",
       "email": "naveendahiya@msit.in"
     },
     {
-      "name": "Dr. Koyel Datta Gupta",
-      "title": "Professor",
-      "email": "koyeldatta@msit.in"
-    },
-    {
-      "name": "Dr. Rinky Dwivedi",
-      "title": "Professor",
-      "email": "rinkydwivedi@msit.in"
-    },
-    {
-      "name": "Dr. Naresh Kumar",
-      "title": "Professor",
-      "email": "nareshkumar@msit.in"
-    },
-    {
-      "name": "Dr. Priyanka Nandal",
-      "title": "Associate Professor",
-      "email": "priyankanandal@msit.in"
-    },
-    {
-      "name": "Dr. Sandeep Kumar",
-      "title": "Associate Professor",
-      "email": "sandeepkumar@msit.in"
-    },
-    {
-      "name": "Dr. Kavita Sheoran",
-      "title": "Associate Professor",
-      "email": "kavitasheoran@msit.in"
-    },
-    {
-      "name": "Dr. Amita Yadav",
-      "title": "Associate Professor",
-      "email": "amitayadav@msit.in"
-    },
-    {
-      "name": "Dr. Savita Ahlawat",
-      "title": "Associate Professor",
-      "email": "savitaahlawat@msit.in"
+      "name": "Dr. Geetika Dhand",
+      "title": "Associate Professor | HOD, Computer Science & Engineering",
+      "email": "geetikadhand@msit.in"
     },
     {
       "name": "Dr. Nishtha Jatana",
@@ -88,127 +35,328 @@
       "email": "nishthajatana@msit.in"
     },
     {
+      "name": "Prof. Prabhjot Kaur",
+      "title": "Professor | HOD, Information Technology",
+      "email": "prabhjotkaur@msit.in"
+    },
+    {
+      "name": "Dr. Meena Rao",
+      "title": "Convener, Placement Committee",
+      "email": "meenarao@msit.in"
+    },
+    {
+      "name": "Dr. Kavita Sheoran",
+      "title": "Associate Professor, CSE department | Co-convener, Placement Committee",
+      "email": "kavitasheoran@msit.in"
+    },
+    {
+      "name": "Mr. Parveen Kumar",
+      "title": "Assistant Professor, Information Technology | Co-convener, Placement Committee",
+      "email": "parveenkumar@msit.in"
+    },
+    {
+      "name": "Dr. Medhavi Malik",
+      "title": "Assistant Professor, CSE department | Class Faculty Coordinator (CSE-1)",
+      "phone": "011-45037193",
+      "email": "medhavimalik@msit.in"
+    },
+    {
+      "name": "Dr. Shaily Malik",
+      "title": "Assistant Professor, CSE department | Class Faculty Coordinator (CSE-2)",
+      "email": "shailym@msit.in"
+    },
+    {
+      "name": "Dr. Pooja Kherwa",
+      "title": "Assistant Professor, CSE department | Class Faculty Coordinator (CSE-3)",
+      "email": "poojakherwa@msit.in"
+    },
+    {
+      "name": "Dr. Gunjan",
+      "title": "Assistant Professor, CSE department | Class Faculty Coordinator (CSE-E)",
+      "email": "gunjan@msit.in"
+    },
+    {
+      "name": "Dr. Sonika Malik",
+      "title": "Assistant Professor, Information Technology | Class Faculty Coordinator (IT-1)",
+      "email": "sonikamalik@msit.in"
+    },
+    {
+      "name": "Dr. Meena Siwach",
+      "title": "Assistant Professor, Information Technology | Class Faculty Coordinator (IT-2)",
+      "email": "meena@msit.in"
+    },
+    {
+      "name": "Dr. Minakshi Tomer",
+      "title": "Assistant Professor, Information Technology | Class Faculty Coordinator (IT-E)",
+      "email": "minakshitomer@msit.in"
+    },
+    {
+      "name": "Ms. Neha",
+      "title": "Class Faculty Coordinator (ECE-1)",
+      "email": "neha@msit.in"
+    },
+    {
+      "name": "Ms. Himani",
+      "title": "Class Faculty Coordinator (ECE-2)",
+      "email": "himani@msit.in"
+    },
+    {
+      "name": "Dr. Sumanlata",
+      "title": "Class Faculty Coordinator (ECE-E)",
+      "email": "sumanlata@msit.in"
+    },
+    {
+      "name": "Dr. Nidhi Gupta",
+      "title": "Class Faculty Coordinator (EEE)",
+      "email": "nidhigupta@msit.in"
+    },
+    {
+      "name": "Dr. Koyel Datta Gupta",
+      "title": "Professor, CSE department",
+      "email": "koyeldatta@msit.in"
+    },
+    {
+      "name": "Dr. Rinky Dwivedi",
+      "title": "Professor, CSE department",
+      "email": "rinkydwivedi@msit.in"
+    },
+    {
+      "name": "Dr. Naresh Kumar",
+      "title": "Professor, CSE department",
+      "email": "nareshkumar@msit.in"
+    },
+    {
+      "name": "Dr. Priyanka Nandal",
+      "title": "Associate Professor, CSE department",
+      "email": "priyankanandal@msit.in"
+    },
+    {
+      "name": "Dr. Sandeep Kumar",
+      "title": "Associate Professor, CSE department",
+      "email": "sandeepkumar@msit.in"
+    },
+    {
+      "name": "Dr. Amita Yadav",
+      "title": "Associate Professor, CSE department",
+      "email": "amitayadav@msit.in"
+    },
+    {
+      "name": "Dr. Savita Ahlawat",
+      "title": "Associate Professor, CSE department",
+      "email": "savitaahlawat@msit.in"
+    },
+    {
       "name": "Dr. Vimal Gaur",
-      "title": "Associate Professor",
+      "title": "Associate Professor, CSE department",
       "phone": "9999620069",
       "email": "vimalgaur@msit.in"
     },
     {
       "name": "Dr. Sangeeta",
-      "title": "Associate Professor",
+      "title": "Associate Professor, CSE department",
       "email": "sangeeta@msit.in"
     },
     {
       "name": "Dr. Sapna Malik",
-      "title": "Associate Professor",
+      "title": "Associate Professor, CSE department",
       "email": "sapnamalik@msit.in"
     },
     {
       "name": "Dr. Sonia Rathee",
-      "title": "Associate Professor",
+      "title": "Associate Professor, CSE department",
       "email": "soniarathee@msit.in"
     },
     {
       "name": "Dr. Vinita Rohilla",
-      "title": "Assistant Professor",
-      "email": "vinita@msit.in"
-    },
-    {
-      "name": "Dr. Shaily Malik",
-      "title": "Assistant Professor",
-      "email": "shailym@msit.in"
+      "title": "Assistant Professor, CSE department",
+      "email": "vinitarohilla@msit.in"
     },
     {
       "name": "Dr. Shalu",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "shalu@msit.in"
     },
     {
-      "name": "Dr. Pooja Kherwa",
-      "title": "Assistant Professor",
-      "email": "poojakherwa@msit.in"
-    },
-    {
       "name": "Dr. Navdeep Bohra",
-      "title": "Assistant Professor",
-      "email": "navdeep@msit.in"
+      "title": "Assistant Professor, CSE department",
+      "email": "navdeepbohra@msit.in"
     },
     {
       "name": "Dr. Ravi Choudhary",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "ravichoudhary@msit.in"
     },
     {
       "name": "Mr. Sushil Kumar",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "sushilkumar@msit.in"
     },
     {
       "name": "Dr. Poonam",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "poonam@msit.in"
     },
     {
       "name": "Dr. Anshul Pareek",
-      "title": "Assistant Professor",
-      "email": "anshul.pareek@msit.in"
+      "title": "Assistant Professor, CSE department",
+      "email": "anshulpareek@msit.in"
     },
     {
       "name": "Dr. Neeti Sangwan",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "neetisangwan@msit.in"
     },
     {
       "name": "Dr. Parul Chaudhary",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "parulchaudhary@msit.in"
     },
     {
       "name": "Ms. Swati Malik",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "swatimalik@msit.in"
     },
     {
-      "name": "Ms. Gunjan Beniwal",
-      "title": "Assistant Professor",
-      "email": "gunjanbeniwal@msit.in"
-    },
-    {
       "name": "Dr. Vikrant Shokeen",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "vikrantshokeen@msit.in"
     },
     {
       "name": "Ms. Sonica Upadhyay",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "sonicaupadhyay@msit.in"
     },
     {
       "name": "Ms. Jyoti",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "jyoti@msit.in"
     },
     {
       "name": "Ms. Vaani Garg",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "vaanigarg@msit.in"
     },
     {
       "name": "Ms. Kirti Dahiya",
-      "title": "Assistant Professor",
+      "title": "Assistant Professor, CSE department",
       "email": "kirtidahiya@msit.in"
     },
     {
-      "name": "Ms. Indu khatri (Ad-hoc)",
-      "title": "Assistant Professor",
+      "name": "Ms. Indu Khatri",
+      "title": "Assistant Professor, CSE department",
       "phone": "91-9671544889",
       "email": "indukhatri@msit.in"
     },
     {
-      "name": "Dr. Medhavi Malik (Ad-hoc)",
-      "title": "Assistant Professor",
-      "phone": "011-45037193",
-      "email": "medhavimalik@msit.in"
+      "name": "Prof. Tripti Sharma",
+      "title": "Professor, Information Technology",
+      "email": "triptisharma@msit.in"
+    },
+    {
+      "name": "Dr. Anupama Kaushik",
+      "title": "Associate Professor, Information Technology",
+      "email": "anupamakaushik@msit.in"
+    },
+    {
+      "name": "Dr. Sunesh Malik",
+      "title": "Associate Professor, Information Technology",
+      "email": "suneshmalik@msit.in"
+    },
+    {
+      "name": "Dr. Bharti Sharma",
+      "title": "Associate Professor, Information Technology",
+      "email": "bhartisharma@msit.in"
+    },
+    {
+      "name": "Mr. Manoj Malik",
+      "title": "Assistant Professor, Information Technology",
+      "email": "manojmalik@msit.in"
+    },
+    {
+      "name": "Dr. Jyoti Khurana",
+      "title": "Assistant Professor, Information Technology",
+      "email": "jyotikhurana@msit.in"
+    },
+    {
+      "name": "Dr. Deepshikha Yadav",
+      "title": "Assistant Professor, Information Technology",
+      "email": "deepshikha@msit.in"
+    },
+    {
+      "name": "Mr. Surender Singh",
+      "title": "Assistant Professor, Information Technology",
+      "email": "surendersingh@msit.in"
+    },
+    {
+      "name": "Dr. Tripti Rathee",
+      "title": "Assistant Professor, Information Technology",
+      "email": "triptirathee@msit.in"
+    },
+    {
+      "name": "Dr. Sandeep Singh",
+      "title": "Assistant Professor, Information Technology",
+      "email": "sandeepsingh@msit.in"
+    },
+    {
+      "name": "Ms. Mamta Devi",
+      "title": "Assistant Professor, Information Technology",
+      "email": "mamtagahlan@msit.in"
+    },
+    {
+      "name": "Dr. Sitender",
+      "title": "Assistant Professor, Information Technology",
+      "email": "sitender@msit.in"
+    },
+    {
+      "name": "Dr. Saba Khanum",
+      "title": "Assistant Professor, Information Technology",
+      "email": "sabakhanum@msit.in"
+    },
+    {
+      "name": "Dr. Preeti Sehrawat",
+      "title": "Assistant Professor, Information Technology",
+      "phone": "011-25528117",
+      "email": "preetisehrawat@msit.in"
+    },
+    {
+      "name": "Dr. Preeti Rathee",
+      "title": "Assistant Professor, Information Technology",
+      "email": "preetirathee@msit.in"
+    },
+    {
+      "name": "Ms. Ashish Kumari",
+      "title": "Assistant Professor, Information Technology",
+      "email": "ashishkumari@msit.in"
+    },
+    {
+      "name": "Mr. Akshay Singh",
+      "title": "Assistant Professor, Information Technology",
+      "email": "akshaysingh@msit.in"
+    },
+    {
+      "name": "Dr. Priya Dalal",
+      "title": "Assistant Professor, Information Technology",
+      "email": "priyadalal@msit.in"
+    },
+    {
+      "name": "Ms. Priyanka Kalkhanda",
+      "title": "Assistant Professor, Information Technology",
+      "email": "priyankakalkhanda@msit.in"
+    },
+    {
+      "name": "Ms. Nidhi Goel",
+      "title": "Assistant Professor, Information Technology",
+      "email": "nidhigoel@msit.in"
+    },
+    {
+      "name": "Ms. Manju Dhull",
+      "title": "Assistant Professor, Information Technology",
+      "email": "manjudhull@msit.in"
+    },
+    {
+      "name": "Ms. Astha Solanki",
+      "title": "Assistant Professor, Information Technology",
+      "email": "asthasolanki@msit.in"
     }
   ]
 }

@@ -1,18 +1,11 @@
 [
   {
-    "phone": "+91 8510064006",
-    "email": "info@webtechsolution.net"
-  },
-  {
-    "phone": "011-43095166"
-  },
-  {
+    "title": "Sales & Marketing",
     "phone": "9911014908"
   },
   {
-    "email": "info@webtechsolutions.com"
-  },
-  {
-    "email": "info@wtsnetindia.net"
+    "title": "General Inquiry",
+    "phone": "011-43095166, +91 8510064006",
+    "email": "info@webtechsolution.net, info@webtechsolutions.com, info@wtsnetindia.net"
   }
 ]

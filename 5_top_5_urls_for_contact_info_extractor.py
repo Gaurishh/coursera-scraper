@@ -3,9 +3,7 @@ import json
 import requests
 import time
 import csv
-import threading
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
 
 # Try to load environment variables from .env file
@@ -18,15 +16,15 @@ except ImportError:
 
 # Import constants
 from constants import (
-    GEMINI_API_KEY, GEMINI_API_URL, CONTACT_INFO_INPUT_CSV, CONTACT_INFO_INPUT_DIR,
+    GEMINI_API_KEY, CONTACT_INFO_INPUT_CSV, CONTACT_INFO_INPUT_DIR,
     CONTACT_INFO_OUTPUT_DIR, CONTACT_INFO_ERROR_LOG_FILE, CONTACT_INFO_MAX_WORKERS,
-    CONTACT_INFO_MAX_CONSECUTIVE_ERRORS, DEFAULT_REQUEST_TIMEOUT, API_REQUEST_TIMEOUT,
+    CONTACT_INFO_MAX_CONSECUTIVE_ERRORS, DEFAULT_REQUEST_TIMEOUT,
     DEFAULT_MAX_RETRIES, PROGRAMMING_MASTER_PROMPT_TEMPLATE, SALES_MASTER_PROMPT_TEMPLATE,
     PROGRAMMING_KEYWORD_SCORES, SALES_KEYWORD_SCORES
 )
 
-# Thread lock for error logging
-error_log_lock = threading.Lock()
+# Import LLM utilities
+from llm_utils import call_gemini_with_params, parse_llm_response
 
 def log_llm_failure(website_url, course_type, error_details):
     """
@@ -37,42 +35,41 @@ def log_llm_failure(website_url, course_type, error_details):
         course_type (str): The course type (programming/sales)
         error_details (dict): Dictionary containing error information
     """
-    with error_log_lock:
-        # Load existing error log or create new one
-        if os.path.exists(CONTACT_INFO_ERROR_LOG_FILE):
-            try:
-                with open(CONTACT_INFO_ERROR_LOG_FILE, 'r', encoding='utf-8') as f:
-                    error_log = json.load(f)
-            except (json.JSONDecodeError, FileNotFoundError):
-                error_log = {"failures": []}
-        else:
-            error_log = {"failures": []}
-        
-        # Add new failure entry
-        failure_entry = {
-            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "website_url": website_url,
-            "course_type": course_type,
-            "error_details": error_details
-        }
-        
-        error_log["failures"].append(failure_entry)
-        
-        # Save updated error log
+    # Load existing error log or create new one
+    if os.path.exists(CONTACT_INFO_ERROR_LOG_FILE):
         try:
-            with open(CONTACT_INFO_ERROR_LOG_FILE, 'w', encoding='utf-8') as f:
-                json.dump(error_log, f, indent=2, ensure_ascii=False)
-            print(f"📝 Logged LLM failure for {website_url} to {CONTACT_INFO_ERROR_LOG_FILE}")
-        except Exception as e:
-            print(f"⚠️  Failed to write error log: {e}")
+            with open(CONTACT_INFO_ERROR_LOG_FILE, 'r', encoding='utf-8') as f:
+                error_log = json.load(f)
+        except (json.JSONDecodeError, FileNotFoundError):
+            error_log = {"failures": []}
+    else:
+        error_log = {"failures": []}
+    
+    # Add new failure entry
+    failure_entry = {
+        "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "website_url": website_url,
+        "course_type": course_type,
+        "error_details": error_details
+    }
+    
+    error_log["failures"].append(failure_entry)
+    
+    # Save updated error log
+    try:
+        with open(CONTACT_INFO_ERROR_LOG_FILE, 'w', encoding='utf-8') as f:
+            json.dump(error_log, f, indent=2, ensure_ascii=False)
+        print(f"📝 Logged LLM failure for {website_url} to {CONTACT_INFO_ERROR_LOG_FILE}")
+    except Exception as e:
+        print(f"⚠️  Failed to write error log: {e}")
 
 # --- LLM Master Prompts for Different Course Types ---
 # (Prompt templates are now imported from constants.py)
 
-# --- Gemini 2.5 Flash API Function ---
+# --- Enhanced Gemini 2.5 Flash API Function ---
 def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
     """
-    Generate content using Gemini 2.5 Flash with retry logic via REST API.
+    Generate content using enhanced Gemini 2.5 Flash with task-specific parameters.
     
     Args:
         prompt (str): The prompt to send to Gemini
@@ -82,40 +79,13 @@ def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
         tuple: (response_text, error_details) where response_text is the generated content or None if failed,
                and error_details is a dict with error information if all retries failed
     """
-    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
-        return None, {"error": "API key not configured", "attempts": 0}
+    response_text, error_details = call_gemini_with_params(
+        prompt=prompt,
+        task_type="url_selection",
+        max_retries=max_retries
+    )
     
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
-    errors = []
-    
-    for attempt in range(max_retries):
-        try:
-            response = requests.post(GEMINI_API_URL, json=payload, timeout=API_REQUEST_TIMEOUT)
-            response.raise_for_status()
-            
-            # Extract text from response
-            response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
-            return response_text, None
-            
-        except Exception as e:
-            error_info = {
-                "attempt": attempt + 1,
-                "error_type": type(e).__name__,
-                "error_message": str(e)
-            }
-            errors.append(error_info)
-            print(f"⚠️  Gemini API attempt {attempt + 1} failed: {e}")
-            
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)  # Exponential backoff
-            else:
-                print(f"❌ All Gemini API attempts failed for prompt")
-                error_details = {
-                    "total_attempts": max_retries,
-                    "errors": errors,
-                    "final_error": errors[-1] if errors else None
-                }
-                return None, error_details
+    return response_text, error_details
 
 # --- URL Normalization Function ---
 def normalize_url_for_processing(url):
@@ -390,27 +360,19 @@ def process_single_lead(lead_data):
             
             if response_text:
                 print(f"📝 LLM response received, parsing...")
-                try:
-                    # Clean the response text (remove markdown code blocks if present)
-                    if response_text.startswith('```json'):
-                        response_text = response_text[7:]  # Remove ```json
-                    if response_text.endswith('```'):
-                        response_text = response_text[:-3]  # Remove ```
-                    response_text = response_text.strip()
-                    
-                    data = json.loads(response_text)
-
-                    if isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
-                        llm_selected_urls = data['selected_urls']
-                        # Limit to remaining slots
-                        llm_selected_urls = llm_selected_urls[:remaining_slots]
-                        llm_success = True
-                        print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
-                    else:
-                        raise ValueError("Gemini response did not contain a valid list of URLs.")
-
-                except (json.JSONDecodeError, ValueError) as e:
-                    print(f"⚠️  WARN: Gemini response parsing failed for {website_url} ({course_type}). Error: {e}")
+                data, parse_error = parse_llm_response(response_text, "json")
+                
+                if parse_error:
+                    print(f"⚠️  WARN: Gemini response parsing failed for {website_url} ({course_type}). Error: {parse_error}")
+                    llm_success = False
+                elif isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
+                    llm_selected_urls = data['selected_urls']
+                    # Limit to remaining slots
+                    llm_selected_urls = llm_selected_urls[:remaining_slots]
+                    llm_success = True
+                    print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-contact URLs for {website_url} ({course_type})")
+                else:
+                    print(f"⚠️  WARN: Gemini response did not contain a valid list of URLs for {website_url} ({course_type})")
                     llm_success = False
             else:
                 print(f"⚠️  WARN: No response from Gemini API for {website_url} ({course_type})")
@@ -510,7 +472,7 @@ def process_single_lead(lead_data):
 # --- Main Logic ---
 def process_leads():
     """
-    Main function to process leads from CSV using multithreading for contact information extraction.
+    Main function to process leads from CSV for contact information extraction.
     """
     # Check if CSV file exists
     if not os.path.exists(CONTACT_INFO_INPUT_CSV):
@@ -550,61 +512,41 @@ def process_leads():
     programming_leads = sum(1 for lead in leads if lead['Course'].lower() == 'programming')
     sales_leads = sum(1 for lead in leads if lead['Course'].lower() == 'sales')
 
-    print(f"🚀 Starting Multithreaded Contact Info URL Extractor")
+    print(f"🚀 Starting Contact Info URL Extractor")
     print("=" * 60)
     print(f"📊 Total leads to process: {len(leads)}")
     print(f"💻 Programming course leads: {programming_leads}")
     print(f"💼 Sales course leads: {sales_leads}")
-    print(f"🧵 Max concurrent workers: {CONTACT_INFO_MAX_WORKERS}")
     print(f"🛑 Max consecutive errors: {CONTACT_INFO_MAX_CONSECUTIVE_ERRORS}")
     print(f"📁 Input CSV: {CONTACT_INFO_INPUT_CSV}")
     print(f"📁 Websites directory: {CONTACT_INFO_INPUT_DIR}")
     print(f"📁 Output directory: {CONTACT_INFO_OUTPUT_DIR}")
     print("=" * 60)
 
-    # Process leads using multithreading
+    # Process leads sequentially
     start_time = time.time()
     successful_processes = 0
     total_urls_processed = 0
     programming_success = 0
     sales_success = 0
     
-    # Thread-safe counters
-    lock = threading.Lock()
-    
-    def update_counters(success, urls_count, course_type):
-        nonlocal successful_processes, total_urls_processed, programming_success, sales_success
-        with lock:
+    for i, lead in enumerate(leads, 1):
+        try:
+            success, website_url, urls_count, error_msg = process_single_lead(lead)
+            
             if success:
                 successful_processes += 1
                 total_urls_processed += urls_count
-                if course_type.lower() == 'programming':
+                if lead['Course'].lower() == 'programming':
                     programming_success += 1
-                elif course_type.lower() == 'sales':
+                elif lead['Course'].lower() == 'sales':
                     sales_success += 1
-    
-    # Use ThreadPoolExecutor for concurrent processing
-    with ThreadPoolExecutor(max_workers=CONTACT_INFO_MAX_WORKERS) as executor:
-        # Submit all tasks
-        future_to_lead = {
-            executor.submit(process_single_lead, lead): lead 
-            for lead in leads
-        }
-        
-        # Process completed tasks
-        for i, future in enumerate(as_completed(future_to_lead), 1):
-            lead = future_to_lead[future]
-            try:
-                success, website_url, urls_count, error_msg = future.result()
+                print(f"✅ [{i}/{len(leads)}] Success: {website_url} - {urls_count} URLs extracted")
+            else:
+                print(f"❌ [{i}/{len(leads)}] Failed: {website_url} ({lead['Course']}) - {error_msg}")
                 
-                if success:
-                    update_counters(True, urls_count, lead['Course'])
-                    print(f"✅ [{i}/{len(leads)}] Success: {website_url} - {urls_count} URLs extracted")
-                else:
-                    print(f"❌ [{i}/{len(leads)}] Failed: {website_url} ({lead['Course']}) - {error_msg}")
-                    
-            except Exception as e:
-                print(f"❌ [{i}/{len(leads)}] Exception for {lead['Website']} ({lead['Course']}): {e}")
+        except Exception as e:
+            print(f"❌ [{i}/{len(leads)}] Exception for {lead['Website']} ({lead['Course']}): {e}")
     
     # Calculate execution time
     end_time = time.time()
@@ -612,7 +554,7 @@ def process_leads():
     
     # Display summary
     print("\n" + "=" * 60)
-    print("🎉 MULTITHREADED CONTACT INFO EXTRACTION COMPLETE!")
+    print("🎉 CONTACT INFO EXTRACTION COMPLETE!")
     print("=" * 60)
     print(f"⏱️  Total Execution Time: {execution_time:.2f} seconds")
     print(f"📊 Total Leads Processed: {len(leads)}")

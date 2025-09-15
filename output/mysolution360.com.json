@@ -1,0 +1,15 @@
+{
+  "Website": "https://mysolution360.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "081309 28045",
+  "Course": "Sales",
+  "Score": 90,
+  "Reasoning": "MySolution360 is a digital marketing agency whose core mission is to drive client growth, leads, and sales through various online strategies, making it a company in a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8130928045",
+      "email": "info@mysolution360.com"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "Website": "https://reptileitservice.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093115 72747",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Reptile IT Service is a software company specializing in mobile app and web development, with its core business revolving around coding, IT solutions, and leveraging various programming languages and frameworks.",
+  "extracted_contact_details": [
+    {
+      "name": "Oscar Andrews",
+      "title": "Founder",
+      "phone": "+1 (859) 254-6589"
+    },
+    {
+      "name": "Emily Chen",
+      "title": "Co-Founder",
+      "phone": "+1 (859) 254-6589"
+    },
+    {
+      "name": "Dominic Duncan",
+      "title": "Marketing Expert",
+      "phone": "+1 (859) 254-6589"
+    },
+    {
+      "name": "Victoria Thomas",
+      "title": "Business Manager",
+      "phone": "+1 (859) 254-6589"
+    }
+  ]
+}

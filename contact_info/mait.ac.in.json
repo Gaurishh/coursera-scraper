@@ -1,25 +1,12 @@
 [
   {
-    "name": "Maharaja Agrasen Institute of Technology",
-    "phone": "91-8448186942",
-    "email": "mait@mait.ac.in"
-  },
-  {
     "name": "Prof. Neelam Sharma",
     "title": "Director",
     "phone": "91-8448186931"
   },
   {
-    "title": "Registrar",
-    "phone": "91-8448186942"
-  },
-  {
-    "title": "Accounts Department",
-    "phone": "91-9999985214"
-  },
-  {
-    "name": "Brig. S.K. Kakar",
-    "title": "Director, Career Development Cell; Convener, Industry-Institute Interaction Cell Committee",
+    "name": "Brig. S.K.Kakar",
+    "title": "Director, Career Development Cell",
     "phone": "91-8448186933"
   }
 ]

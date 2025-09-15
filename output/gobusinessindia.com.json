@@ -1,0 +1,23 @@
+{
+  "Website": "http://www.gobusinessindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "1800 258 7735",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Go Business India is fundamentally an IT company specializing in software, web, and mobile application development, with digital marketing services supporting these core technical offerings.",
+  "extracted_contact_details": [
+    {
+      "phone": "1800-258-7735",
+      "email": "sales@gobusinessindia.com"
+    },
+    {
+      "phone": "1800-258-7735",
+      "email": "info@gobusinessindia.com"
+    },
+    {
+      "phone": "1800-258-7735",
+      "email": "support@gobusinessindia.com"
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "Location": "Bangalore",
   "Phone": "070224 48811",
   "Course": "Programming",
-  "Score": 5,
-  "Reasoning": "The website displays only default WordPress content, offering no specific information about the corporate's industry or focus; however, the mention of 'WordPress' and 'Themes' provides a minimal, general technical indicator.",
+  "Score": 10,
+  "Reasoning": "The website content consists solely of a default WordPress installation with no specific business or industry information, offering only technical details about the platform itself.",
   "extracted_contact_details": [
     {
       "title": "Author",

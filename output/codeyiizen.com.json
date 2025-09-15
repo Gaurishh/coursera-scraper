@@ -5,7 +5,7 @@
   "Phone": "092669 13291",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Codeyiizen explicitly identifies as a web development and app development company, with services heavily focused on various programming languages and technologies, indicating a very strong tech-driven core business.",
+  "Reasoning": "Codeyiizen is a web and app development company whose core business revolves entirely around providing programming-intensive services, utilizing various technologies, and hiring developers.",
   "extracted_contact_details": [
     {
       "phone": "+91 9266913291",
@@ -18,9 +18,6 @@
     {
       "phone": "+971 4 558 6272",
       "email": "business@codeyiizen.com"
-    },
-    {
-      "email": "jobs@codeyiizen.com"
     }
   ]
 }

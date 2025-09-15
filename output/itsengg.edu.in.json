@@ -1,0 +1,35 @@
+{
+  "Website": "https://www.itsengg.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "1800 180 0840",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "ITS Engineering College is primarily an engineering institution with a strong focus on Computer Science, AI/ML, and Data Science programs, indicating a high demand for technical and programming skills.",
+  "extracted_contact_details": [
+    {
+      "name": "Prof (Dr.) Mayank Garg",
+      "title": "Director",
+      "phone": "0120-2331014",
+      "email": "dir.engg@its.edu.in"
+    },
+    {
+      "name": "Dr. Vishnu Sharma",
+      "title": "Dean CSE",
+      "phone": "0120-2331010",
+      "email": "dean.cse@its.edu.in"
+    },
+    {
+      "name": "Dr. Jaya",
+      "title": "HoD - CSE",
+      "phone": "0120-2331023",
+      "email": "hod.cse@its.edu.in"
+    },
+    {
+      "name": "Dr. A. Ambikapathy",
+      "title": "Professor, HOD ECE & IQAC Chief Coordinator",
+      "phone": "+91-9990923145, 0120-2331038",
+      "email": "Hod.ece@its.edu.in"
+    }
+  ]
+}

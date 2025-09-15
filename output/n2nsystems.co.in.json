@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.n2nsystems.co.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "095825 69545",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "N2N Systems is primarily a software and web development company specializing in enterprise business solutions, mobile apps, and digital marketing technology, indicating a strong technical focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9582569545, +91-9953119957, 7037395111",
+      "email": "info@n2nsystems.co.in"
+    }
+  ]
+}

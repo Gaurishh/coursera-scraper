@@ -1,0 +1,15 @@
+{
+  "Website": "http://www.iosyssoftware.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 4094 9544",
+  "Course": "Sales",
+  "Score": 92,
+  "Reasoning": "As a technology service provider, iOSYS explicitly seeks sales professionals to drive revenue growth and client acquisition for its digital and AI/ML solutions, indicating a strong need for sales expertise to expand its business.",
+  "extracted_contact_details": [
+    {
+      "email": "enquiry@iosys.in",
+      "phone": "+1 302 722 6294, +91 843 124 4181, +91 8040949544"
+    }
+  ]
+}

@@ -4,24 +4,17 @@
   "Location": "Bangalore",
   "Phone": "",
   "Course": "Programming",
-  "Score": 100,
-  "Reasoning": "CognitiveClouds is a custom software product development company, with its entire business model, services, technologies, and job openings centered around engineering and technical product development.",
+  "Score": 98,
+  "Reasoning": "CognitiveClouds is a custom software product development company with an explicit focus on engineering, design, and a wide array of programming languages and technologies as its core business.",
   "extracted_contact_details": [
     {
-      "title": "San Francisco Office",
       "phone": "+1.415.234.3611"
     },
     {
-      "title": "Singapore Office",
       "phone": "+65.69581001"
     },
     {
-      "title": "Bangalore Office",
       "phone": "+91.80.41620784"
-    },
-    {
-      "title": "Job Applications",
-      "email": "jobs@cognitiveclouds.com"
     }
   ]
 }

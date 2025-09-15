@@ -1,0 +1,7 @@
+r2mi.in/
+r2mi.in/about.html
+r2mi.in/cdn-cgi/l/email-protection
+r2mi.in/contact.html
+r2mi.in/index.html
+r2mi.in/portfolio-2.html
+r2mi.in/services.html

@@ -1,0 +1,39 @@
+{
+  "Website": "http://bitlasoft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 4064 0707",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Bitla Software is explicitly a technology and solution provider, building SaaS, cloud, and mobile technology products for the bus industry, indicating a strong internal need for programming expertise.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 80464 00215",
+      "email": "social@bitlasoft.com"
+    },
+    {
+      "phone": "+91 80080 83030",
+      "email": "apts@bitlasoft.com"
+    },
+    {
+      "phone": "+91 78922 56892, 079 40098282",
+      "email": "gj.sales@bitlasoft.com"
+    },
+    {
+      "phone": "+91 73582 36577, +91 80406 40707",
+      "email": "tn@bitlasoft.com"
+    },
+    {
+      "phone": "+91 73149 79528",
+      "email": "mp.sales@bitlasoft.com"
+    },
+    {
+      "phone": "+91 96064 41128",
+      "email": "mh.sales@bitlasoft.com"
+    },
+    {
+      "phone": "+91 88663 60950, +91 98296 44079",
+      "email": "rj.sales@bitlasoft.com"
+    }
+  ]
+}

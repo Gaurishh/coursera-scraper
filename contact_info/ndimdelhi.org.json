@@ -1,13 +1,14 @@
 [
   {
-    "name": "NDIM Delhi",
-    "phone": "011-40111000, 1800-419-0606, 08882468367, 09910695359",
-    "email": "info@ndimdelhi.org"
-  },
-  {
     "name": "Bhumika Bansal",
     "title": "Director, Corporate Relations",
     "phone": "011-40111000",
     "email": "crc@ndimdelhi.org"
+  },
+  {
+    "name": "Nikhil Singh",
+    "title": "Dean- Training at NDIM",
+    "phone": "+91-9582928789",
+    "email": "training@ndimdelhi.org"
   }
 ]

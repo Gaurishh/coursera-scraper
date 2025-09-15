@@ -1,0 +1,16 @@
+{
+  "Website": "https://conversions.co.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "078275 54420",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Conversions is a performance marketing agency explicitly focused on driving business growth, increasing conversions, and generating sales for clients through various digital marketing strategies.",
+  "extracted_contact_details": [
+    {
+      "name": "Conversions",
+      "phone": "+91-9458751508, +91-7678570885",
+      "email": "info@conversions.co.in, support@conversions.co.in, help@conversions.co.in"
+    }
+  ]
+}

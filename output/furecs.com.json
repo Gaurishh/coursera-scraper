@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.furecs.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "077605 56363",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Future Revolution is a digital marketing and business consulting agency whose core services, including web development, are explicitly aimed at driving leads, conversions, and business growth for their clients, making them a sales-driven organization.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7760556363",
+      "email": "furecs.com@gmail.com, info@furecs.com, support@furecs.com"
+    }
+  ]
+}

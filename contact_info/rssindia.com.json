@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Sales Department",
+    "phone": "+91 9560613581",
+    "email": "sales@rssindia.com"
+  },
+  {
+    "title": "Technical Department",
+    "phone": "+91 9953134732"
+  },
+  {
+    "title": "Support Team",
+    "email": "support@rssindia.com"
+  },
+  {
+    "title": "General Information",
+    "email": "info@rssindia.com"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "Website": "https://growdigitalsolution.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "085959 11033",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "GrowDigitalSolution is a digital marketing agency specializing in strategies that drive client growth, online visibility, and conversions, which are core objectives of a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 085959 11033",
+      "email": "info@growmarketingsolution.com"
+    }
+  ]
+}

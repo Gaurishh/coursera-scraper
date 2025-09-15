@@ -21,10 +21,9 @@ iilmlr.ac.in/companies-on-campus
 iilmlr.ac.in/companies-on-campus/
 iilmlr.ac.in/contact-admission/
 iilmlr.ac.in/contactus/
-iilmlr.ac.in/event/alumni-talk-ms-puja-kapoor/
-iilmlr.ac.in/event/convocation-pgdm-batch-of-2024/
-iilmlr.ac.in/event/session-on-managing-global-relationships-in-the-era-of-disruption/
-iilmlr.ac.in/event/workshop-on-copyrights-and-patent/
+iilmlr.ac.in/event/bba-convocation-class-of-2025/
+iilmlr.ac.in/event/iilm-has-partnered-with-yourdost/
+iilmlr.ac.in/event/session-on-the-topic-ai-for-business/
 iilmlr.ac.in/events/
 iilmlr.ac.in/faculty/
 iilmlr.ac.in/faculty/dr-aanchal-yadav/
@@ -103,3 +102,4 @@ iilmlr.ac.in/transformational-management-review/
 iilmlr.ac.in/transformational-management-review/editorial-board/
 iilmlr.ac.in/transformational-management-review/submission-guidelines/
 iilmlr.ac.in/video-gallery/
+iilmlr.ac.in/yourdost-at-iilm-lodhi-road/

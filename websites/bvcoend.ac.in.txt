@@ -1,6 +1,5 @@
 bvcoend.ac.in
 bvcoend.ac.in/
-bvcoend.ac.in/index.php/2022/04/21/class-advisor-list-of-second-sem-2021-22/
 bvcoend.ac.in/index.php/2022/11/29/class-advisors-list-2022-2023/
 bvcoend.ac.in/index.php/2022/11/29/list-of-lab-incharges-2022-2023/
 bvcoend.ac.in/index.php/2022/11/29/student-induction-program-2022/
@@ -11,6 +10,7 @@ bvcoend.ac.in/index.php/2024/02/22/revised-class-advisors-list-2023-2024-sem-ii/
 bvcoend.ac.in/index.php/2024/02/23/internal-assessment-schemefor-a-y-23-24-onwards/
 bvcoend.ac.in/index.php/2024/08/21/class-advisors-list-2024-25-sem-i/
 bvcoend.ac.in/index.php/2025/02/03/class-advisors-list-2024-25-sem-ii/
+bvcoend.ac.in/index.php/2025/09/09/class-advisors-list-2025-26-sem-i/
 bvcoend.ac.in/index.php/about-tnp-department/
 bvcoend.ac.in/index.php/academic-calendar/
 bvcoend.ac.in/index.php/accreditation-status/

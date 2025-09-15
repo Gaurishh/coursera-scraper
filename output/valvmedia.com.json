@@ -1,0 +1,17 @@
+{
+  "Website": "https://valvmedia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "085956 24197",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Valv Media is a digital media agency focused on driving client visibility, engagement, and conversions through various marketing services, making sales skills crucial for their business development and client success.",
+  "extracted_contact_details": [
+    {
+      "name": "Valv Media",
+      "title": "General Contact",
+      "phone": "+91 8368454322, +91 85956 24197",
+      "email": "info@valvmedia.com"
+    }
+  ]
+}

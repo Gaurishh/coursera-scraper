@@ -5,21 +5,16 @@
   "Phone": "093123 52942",
   "Course": "Programming",
   "Score": 95,
-  "Reasoning": "The institution features a prominent 'School of Engineering & Technology' offering Bachelor of Technology (CSE/IT/ECE/AIML) and Computer Applications (BCA) degrees, with extensive placement records in major tech companies like Microsoft, Google, IBM, and Wipro.",
+  "Reasoning": "The institution has a dedicated 'School of Engineering & Technology' offering Bachelor of Technology programs in Computer Science Engineering, Information Technology, Electronics & Communication Engineering, and Artificial Intelligence & Machine Learning, alongside a Bachelor of Computer Applications (BCA).",
   "extracted_contact_details": [
     {
-      "name": "Fairfield Institute of Management & Technology",
-      "phone": "+91-9560596750",
-      "email": "fimtnd@gmail.com"
+      "title": "General Enquiry",
+      "phone": "+91-9560596750, +91-9312352942, +91-8080804002, +91-8080807002",
+      "email": "fimtnd@gmail.com, collegefairfield@gmail.com"
     },
     {
-      "name": "General Enquiry",
-      "phone": "+91-9312352942, +91-8080804002, +91-8080807002",
-      "email": "collegefairfield@gmail.com"
-    },
-    {
-      "name": "Admissions Enquiry",
-      "phone": "+91-9560596750, +91-8080807002, +91-8080804002, +91-9312352942, +91-9650154726, +91-9871208326",
+      "title": "Admission Enquiry",
+      "phone": "+91-9560596750, +91-9312352942, +91-9650154726, +91-9871208326, +91-8080804002, +91-8080807002",
       "email": "fimtadmn20@gmail.com"
     }
   ]

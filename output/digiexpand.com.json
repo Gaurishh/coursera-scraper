@@ -1,0 +1,17 @@
+{
+  "Website": "https://www.digiexpand.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "078292 97565",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Digiexpand.com is a digital marketing and web solutions agency dedicated to helping clients achieve business growth and results through marketing strategies, which is inherently a sales-driven function.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7829297565"
+    },
+    {
+      "phone": "9113283313"
+    }
+  ]
+}

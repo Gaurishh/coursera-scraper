@@ -1,0 +1,15 @@
+{
+  "Website": "http://www.digitalmarketingclue.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "078358 00828",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "DigitalMarketingClue's core mission and services are explicitly centered on increasing client sales, leads, and ROI through digital marketing, making a Sales course highly relevant for their corporate needs.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-7835800828",
+      "email": "info@digitalmarketingclue.com"
+    }
+  ]
+}

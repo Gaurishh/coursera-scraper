@@ -3,9 +3,9 @@
   "Institution Type": "Corporates",
   "Location": "Bangalore",
   "Phone": "099806 33727",
-  "Course": "Sales",
-  "Score": 95,
-  "Reasoning": "The company explicitly highlights 'Client Acquisition, Client Servicing, Relationship Management,' and leveraging technology to enhance customer experience and build relationships, indicating a strong sales-driven and customer-centric business model.",
+  "Course": "Programming",
+  "Score": 92,
+  "Reasoning": "Watermark Experience explicitly embraces technology and their 'WM Digital' service focuses on building and executing AI-powered solutions, including AR/VR and chatbots, indicating a strong need for programming skills to develop these offerings.",
   "extracted_contact_details": [
     {
       "email": "contact@watermarkexperience.com"

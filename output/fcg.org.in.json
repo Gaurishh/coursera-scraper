@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.fcg.org.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "093427 06070",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution's website prominently features 'Top engineering college in bangalore' and extensively lists and details admissions for various engineering colleges and their programming-intensive courses like Computer Science and Electronics.",
+  "extracted_contact_details": [
+    {
+      "phone": "7813906070, 9342706070, 9591351234",
+      "email": "fcg.admission@gmail.com"
+    }
+  ]
+}

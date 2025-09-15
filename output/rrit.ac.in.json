@@ -4,17 +4,13 @@
   "Location": "Bangalore",
   "Phone": "088800 01111",
   "Course": "Programming",
-  "Score": 100,
-  "Reasoning": "The R.R. Institute of Technology is an engineering college with numerous departments and courses focused on Computer Science, Artificial Intelligence, Machine Learning, and various other technical and engineering disciplines.",
+  "Score": 98,
+  "Reasoning": "R.R. Institute of Technology is an engineering college with a strong emphasis on computer science, artificial intelligence, machine learning, and various other technical and engineering disciplines, making programming highly relevant.",
   "extracted_contact_details": [
     {
       "title": "Principal",
       "phone": "+91 888 000 1111",
       "email": "principal@rrit.ac.in"
-    },
-    {
-      "phone": "+91 888 000 1111",
-      "email": "rrit@rrinstitutions.com"
     }
   ]
 }

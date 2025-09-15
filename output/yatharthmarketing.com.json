@@ -1,0 +1,17 @@
+{
+  "Website": "https://www.yatharthmarketing.com/sales-training-in-bangalore.html",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "090997 99898",
+  "Course": "Sales",
+  "Score": 100,
+  "Reasoning": "The institution's website is exclusively dedicated to sales training, sales consulting, and improving sales performance for corporate clients across numerous industries, with no mention of programming or technical development.",
+  "extracted_contact_details": [
+    {
+      "name": "Mihir Shah",
+      "title": "India's Top Sales Trainer & Leadership Consultant",
+      "phone": "+91-9099799898, +1-918-919-0299",
+      "email": "info@yatharthmarketing.com"
+    }
+  ]
+}

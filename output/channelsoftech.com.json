@@ -4,11 +4,10 @@
   "Location": "Bangalore",
   "Phone": "098456 62183",
   "Course": "Sales",
-  "Score": 98,
-  "Reasoning": "Channel Softech is a digital marketing and branding company focused on driving client growth and lead generation, placing it firmly in a sales-driven industry that would benefit from sales expertise.",
+  "Score": 92,
+  "Reasoning": "The company identifies as a leading digital marketing and branding service, offering explicit lead generation services and employing business development executives, indicating a strong focus on sales and client acquisition for both themselves and their clients.",
   "extracted_contact_details": [
     {
-      "name": "Channel Softech Private Limited",
       "phone": "+91 9845 6621 83, +91 9611 7447 48",
       "email": "info@channelsoftech.com"
     }

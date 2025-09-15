@@ -1,0 +1,15 @@
+{
+  "Website": "https://digitalmarketingking.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099100 75663",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Digital Marketing King's primary focus is on digital marketing, lead generation, and boosting client sales and brand presence, with their development services supporting these sales-driven objectives.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9910075663, +91-8130253578",
+      "email": "info@digitalmarketingking.in"
+    }
+  ]
+}

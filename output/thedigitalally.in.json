@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.thedigitalally.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098111 59952",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Digital Ally is a premier digital marketing agency whose core mission is to enhance online presence and magnify brand visibility for clients, directly aligning with sales and business development objectives, even though they utilize strong technical capabilities to achieve these goals.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9811159952",
+      "email": "raman@thedigitalally.in"
+    }
+  ]
+}

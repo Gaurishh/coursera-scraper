@@ -4,7 +4,7 @@
   "Location": "Bangalore",
   "Phone": "099161 13646",
   "Course": "Programming",
-  "Score": 15,
-  "Reasoning": "While the website content was inaccessible, the company name 'hirolainfotech.com' suggests a focus on information technology, leading to a low-confidence recommendation for Programming.",
+  "Score": 0,
+  "Reasoning": "The provided website content was inaccessible, preventing an informed recommendation based on the institution's focus.",
   "extracted_contact_details": []
 }

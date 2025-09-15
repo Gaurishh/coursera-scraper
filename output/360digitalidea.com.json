@@ -1,0 +1,15 @@
+{
+  "Website": "https://360digitalidea.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "083686 17065",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company is a digital marketing agency with a strong emphasis on lead generation, performance marketing, and B2B sales, as evidenced by its services, founder's expertise, and career opportunities.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 874-296-4774, +91123456789, +91987654320",
+      "email": "info@360digitalidea.com, support@360digitalidea.com"
+    }
+  ]
+}

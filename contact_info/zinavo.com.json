@@ -1,29 +1,24 @@
 [
   {
-    "name": "Mr. Senthuran",
+    "name": "Mr.Senthuran",
     "phone": "+44 75 8467 0715",
     "email": "info@zinavo.com"
   },
   {
-    "name": "Mr. Aravind Jack",
+    "name": "Mr.Aravind Jack",
     "phone": "0425574242",
     "email": "info@zinavo.com"
   },
   {
-    "name": "Zinavo Private Limited",
-    "title": "Corporate Office General Contact (India)",
-    "phone": "+91 80-35694395, +91-77602 45945, +91-80-41531025",
+    "phone": "+91 80-35694395",
     "email": "info@zinavo.com"
   },
   {
-    "name": "Zinavo (Switzerland Office)",
-    "title": "General Contact",
-    "phone": "+41-78-921-0680",
+    "phone": "+91-77602 45945",
     "email": "info@zinavo.com"
   },
   {
-    "name": "Zinavo Careers",
-    "title": "Human Resources",
-    "email": "career@zinavo.in"
+    "phone": "+91-80-41531025",
+    "email": "info@zinavo.com"
   }
 ]

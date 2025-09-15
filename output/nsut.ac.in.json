@@ -5,29 +5,33 @@
   "Phone": "011 2500 0268",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Netaji Subhas University of Technology is explicitly described as a 'seat of higher technical education' and one of India's 'top engineering colleges,' with a strong focus on engineering, technology, and research, including programs in Computer Science Engineering and AI.",
+  "Reasoning": "Netaji Subhas University of Technology is explicitly defined as a seat of higher technical education, consistently ranked among top engineering colleges, with a strong focus on engineering and technology programs like CSE and AI.",
   "extracted_contact_details": [
     {
-      "title": "Reception Helpline",
-      "phone": "+91 11 2509 9017"
+      "title": "M.Tech Admissions",
+      "phone": "+91-9205475084, +91-9205475085",
+      "email": "academicpg@gmail.com, mtech.admissions.helpdesk2025@nsut.ac.in"
     },
     {
-      "title": "Academic Section",
-      "email": "academic@nsut.ac.in"
-    },
-    {
-      "title": "B.Tech. Admissions Helpline",
-      "phone": "+91-9205475102, +91-9205475103, 011-25099290"
+      "title": "B.Tech. Admissions",
+      "phone": "+91-9205475102, +91-9205475103, +91-11-25099290"
     },
     {
       "title": "Ph.D Admissions",
-      "phone": "9205475048, 011-25099022 (Fax)",
-      "email": "helpdesk@nsut.ac.in, nsutphd2020@gmail.com"
+      "phone": "+91-9205475048",
+      "email": "helpdesk.phd@nsut.ac.in, nsutphd2020@gmail.com"
     },
     {
-      "title": "M.Tech Admissions",
-      "phone": "9205475084, 9205475085, 011-25099022 (Fax)",
-      "email": "academicpg@gmail.com, mtech.admissions.helpdesk2025@nsut.ac.in"
+      "title": "Dean, Faculty of Information Communication and Technology (ICT)",
+      "email": "dean.fict@nsut.ac.in"
+    },
+    {
+      "title": "Dean, Faculty of Inter Disciplinary Studies",
+      "email": "dean.fis@nsut.ac.in"
+    },
+    {
+      "title": "Dean, Faculty of Electrical and Mechanical Engineering",
+      "email": "dean.feme@nsut.ac.in"
     }
   ]
 }

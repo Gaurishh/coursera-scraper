@@ -5,15 +5,11 @@
   "Phone": "098183 53030",
   "Course": "Programming",
   "Score": 95,
-  "Reasoning": "Micro Mind explicitly identifies as a 'professional Software Development Company' and 'IT & Digital Marketing Agency,' offering extensive services in web development, mobile apps, custom software, and hosting, all of which require a strong programming and tech focus.",
+  "Reasoning": "Micro Mind is primarily a software development company with a strong tech focus, evidenced by their extensive list of programming languages, frameworks, software development services, and explicit job postings for programmers.",
   "extracted_contact_details": [
     {
       "phone": "+91 9999 83 2030, +011 4942 8547",
       "email": "info@micromind.in, sales@micromind.in"
-    },
-    {
-      "title": "HR Department",
-      "email": "hr@micromind.in"
     }
   ]
 }

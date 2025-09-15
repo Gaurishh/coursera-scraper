@@ -4,18 +4,9 @@
   "Location": "Delhi",
   "Phone": "011 4559 9900",
   "Course": "Programming",
-  "Score": 95,
-  "Reasoning": "GTBIT is a technical institute offering numerous engineering disciplines with a strong emphasis on Computer Science, AI/ML, Data Science, and Electronics, and places students predominantly in IT and tech roles, indicating a clear tech focus.",
+  "Score": 98,
+  "Reasoning": "Guru Tegh Bahadur Institute of Technology is a technical engineering college with a strong focus on Computer Science, Information Technology, AI/ML, and Electronics, and its placement records predominantly feature students in programming and tech-related roles.",
   "extracted_contact_details": [
-    {
-      "title": "GTBIT General Inquiries",
-      "phone": "+91 011 455 999 00",
-      "email": "contactus@gtbit.ac.in, gtbit@rediffmail.com, contact@gtbit.ac.in"
-    },
-    {
-      "title": "Admission Queries",
-      "phone": "9310207739, 9625915121"
-    },
     {
       "name": "Mukesh Sahu",
       "title": "HOD (IIPC-GTBIT)",
@@ -23,20 +14,10 @@
       "email": "mukeshsahu@ieee.org"
     },
     {
-      "name": "Ms. Rashmi Arora",
-      "title": "SPOC (ICT Academy)",
-      "email": "rashmiarora@gtbit.ac.in"
-    },
-    {
       "name": "Dr. Aashish Bhardwaj",
       "title": "HOD - CSE/CSE-DS",
       "phone": "+91-9868093474",
       "email": "aashish@gtbit.ac.in"
-    },
-    {
-      "name": "Dr. Savneet Kaur",
-      "title": "HOD - IT",
-      "email": "savneet@gtbit.ac.in"
     }
   ]
 }

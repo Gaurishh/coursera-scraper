@@ -1,25 +1,43 @@
 [
   {
-    "phone": "+91 9535444571",
-    "email": "info@vemanait.edu.in"
-  },
-  {
-    "phone": "+91 9535444571",
-    "email": "admissions@vemanait.edu.in"
-  },
-  {
-    "phone": "+91 6361750682"
-  },
-  {
-    "phone": "+91 6361750683"
-  },
-  {
-    "phone": "+91 6361750686"
-  },
-  {
     "name": "Dr. Ramakrishna M",
-    "title": "Professor & Head",
+    "title": "Professor & Head, Computer Science Department",
     "phone": "+91 9686725572",
     "email": "hodcse@vemanait.edu.in"
+  },
+  {
+    "name": "Prof. Shilpa G V",
+    "title": "Assistant Professor, Department of CSE",
+    "phone": "+91 8073362214"
+  },
+  {
+    "name": "Prof. Jayshree L K",
+    "title": "Assistant Professor, Department of CSE",
+    "phone": "+91 9164004006"
+  },
+  {
+    "name": "Prof. Mary Vidya John",
+    "title": "Assistant Professor, Department of CSE",
+    "phone": "+91 9731699050"
+  },
+  {
+    "name": "Prof. J Brundha Elci",
+    "title": "Assistant Professor, Department of CSE",
+    "phone": "+91 9980473181"
+  },
+  {
+    "name": "Dr. S. Ambareesh",
+    "title": "Associate Professor, Department of CSE",
+    "phone": "+91 7892488401"
+  },
+  {
+    "name": "Prof. Naveen H S",
+    "title": "Assistant Professor, Department of CSE",
+    "phone": "+91 9964559313"
+  },
+  {
+    "name": "Mr. Kantharaju H C",
+    "title": "HoD, Department of AIML",
+    "phone": "+91 9449129640"
   }
 ]

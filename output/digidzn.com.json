@@ -4,7 +4,7 @@
   "Location": "Delhi",
   "Phone": "092897 45760",
   "Course": "Programming",
-  "Score": 5,
-  "Reasoning": "The provided website content is a technical error message related to JavaScript, offering no direct insight into the institution's primary business but vaguely hinting at web technology.",
+  "Score": 10,
+  "Reasoning": "The website's reliance on JavaScript indicates a technical infrastructure, though the institution's core business focus is not discernible from the provided content.",
   "extracted_contact_details": []
 }

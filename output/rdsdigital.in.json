@@ -5,11 +5,10 @@
   "Phone": "063637 38608",
   "Course": "Sales",
   "Score": 98,
-  "Reasoning": "RDS Digital is a holistic digital marketing agency focused on driving business growth, lead generation, and client success for its customers, directly aligning with sales objectives and featuring roles like 'Sales Manager' and 'Business Development Executive'.",
+  "Reasoning": "RDS Digital is a holistic digital marketing agency explicitly focused on driving business growth, lead generation, and client success for its customers, which is inherently a sales-driven industry.",
   "extracted_contact_details": [
     {
-      "name": "RDS Digital",
-      "phone": "+91-6363738608",
+      "phone": "+916363738608",
       "email": "Business@rdsdigital.in"
     }
   ]

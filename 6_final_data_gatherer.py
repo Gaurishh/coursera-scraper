@@ -3,9 +3,9 @@ import json
 import requests
 import time
 import pandas as pd
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 try:
     from dotenv import load_dotenv
@@ -15,14 +15,18 @@ except ImportError:
 
 # Import constants
 from constants import (
-    GEMINI_API_KEY, GEMINI_API_URL, FINAL_GATHERER_INPUT_CSV,
+    GEMINI_API_KEY, FINAL_GATHERER_INPUT_CSV,
     FINAL_GATHERER_CONTACT_URLS_DIR, FINAL_GATHERER_OUTPUT_DIR,
-    FINAL_GATHERER_MAX_WORKERS, DEFAULT_REQUEST_TIMEOUT, LONG_API_REQUEST_TIMEOUT,
-    DEFAULT_MAX_RETRIES, CONTACT_EXTRACTION_PROMPT_TEMPLATE
+    FINAL_GATHERER_MAX_WORKERS, DEFAULT_REQUEST_TIMEOUT,
+    DEFAULT_MAX_RETRIES, PROGRAMMING_CONTACT_EXTRACTION_PROMPT_TEMPLATE,
+    SALES_CONTACT_EXTRACTION_PROMPT_TEMPLATE
 )
 
-# --- LLM Master Prompt for Contact Information Extraction ---
-# (Prompt template is now imported from constants.py)
+# Import LLM utilities
+from llm_utils import call_gemini_with_params, parse_llm_response
+
+# --- LLM Master Prompts for Contact Information Extraction ---
+# (Prompt templates are now imported from constants.py and selected based on course type)
 
 # --- Helper Functions ---
 
@@ -104,90 +108,57 @@ def process_single_lead(lead):
         print(f"WARN: No content scraped for {website_url}. Skipping.")
         return None
 
-    prompt = CONTACT_EXTRACTION_PROMPT_TEMPLATE.format(
+    # Select appropriate prompt template based on course type
+    if course_type == "Programming":
+        prompt_template = PROGRAMMING_CONTACT_EXTRACTION_PROMPT_TEMPLATE
+    elif course_type == "Sales":
+        prompt_template = SALES_CONTACT_EXTRACTION_PROMPT_TEMPLATE
+    else:
+        # Default to programming if course type is not recognized
+        prompt_template = PROGRAMMING_CONTACT_EXTRACTION_PROMPT_TEMPLATE
+        print(f"WARN: Unknown course type '{course_type}' for {website_url}. Using programming prompt template.")
+    
+    prompt = prompt_template.format(
         website_content=formatted_content
     )
 
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
-
-    # Retry mechanism for LLM calls
-    max_retries = DEFAULT_MAX_RETRIES
-    for attempt in range(max_retries):
-        try:
-            print(f"🤖 LLM attempt {attempt + 1}/{max_retries} for {website_url}")
-            response = requests.post(GEMINI_API_URL, json=payload, timeout=LONG_API_REQUEST_TIMEOUT)
-            response.raise_for_status()
-            response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
-            
-            # Clean response text and parse JSON
-            if response_text.startswith('```json'):
-                response_text = response_text[7:]  # Remove ```json
-            if response_text.endswith('```'):
-                response_text = response_text[:-3]  # Remove ```
-            response_text = response_text.strip()
-            
-            data = json.loads(response_text)
-            
-            # Extract contacts from response
-            contacts = data.get('contacts', [])
-            
-            # Create output filename
-            domain = urlparse(website_url).netloc.replace('www.', '')
-            output_filename = f"{domain}.json"
-            output_filepath = os.path.join(FINAL_GATHERER_OUTPUT_DIR, output_filename)
-            
-            # Save the contact information to JSON file
-            with open(output_filepath, 'w', encoding='utf-8') as f:
-                json.dump(contacts, f, indent=2, ensure_ascii=False)
-            
-            print(f"✅ SUCCESS: Extracted {len(contacts)} contacts for {website_url} ({course_type})")
-            return {
-                'website': website_url,
-                'course': course_type,
-                'contacts_found': len(contacts),
-                'output_file': output_filename
-            }
-
-        except requests.RequestException as e:
-            print(f"⚠️  API request failed for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
-            if attempt < max_retries - 1:
-                # Exponential backoff: wait 2^attempt seconds before retrying
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} API attempts failed for {website_url}")
-                return None
-                
-        except (KeyError, IndexError) as e:
-            print(f"⚠️  Invalid API response structure for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} attempts failed due to invalid response structure for {website_url}")
-                return None
-                
-        except json.JSONDecodeError as e:
-            print(f"⚠️  JSON parsing failed for {website_url} (attempt {attempt + 1}/{max_retries}). Response: {response_text[:200] if 'response_text' in locals() else 'No response'}... Error: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} attempts failed due to JSON parsing error for {website_url}")
-                return None
-                
-        except Exception as e:
-            print(f"⚠️  Unexpected error for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} attempts failed due to unexpected error for {website_url}")
-                return None
+    # Use enhanced LLM call
+    response_text, error_details = call_gemini_with_params(
+        prompt=prompt,
+        task_type="contact_extraction",
+        max_retries=DEFAULT_MAX_RETRIES
+    )
+    
+    if error_details:
+        print(f"❌ LLM call failed for {website_url}: {error_details}")
+        return None
+    
+    # Parse the response
+    data, parse_error = parse_llm_response(response_text, "json")
+    
+    if parse_error:
+        print(f"❌ Response parsing failed for {website_url}: {parse_error}")
+        return None
+    
+    # Extract contacts from response
+    contacts = data.get('contacts', [])
+    
+    # Create output filename
+    domain = urlparse(website_url).netloc.replace('www.', '')
+    output_filename = f"{domain}.json"
+    output_filepath = os.path.join(FINAL_GATHERER_OUTPUT_DIR, output_filename)
+    
+    # Save the contact information to JSON file
+    with open(output_filepath, 'w', encoding='utf-8') as f:
+        json.dump(contacts, f, indent=2, ensure_ascii=False)
+    
+    print(f"✅ SUCCESS: Extracted {len(contacts)} contacts for {website_url} ({course_type})")
+    return {
+        'website': website_url,
+        'course': course_type,
+        'contacts_found': len(contacts),
+        'output_file': output_filename
+    }
 
 
 def gather_contact_information():
@@ -220,14 +191,22 @@ def gather_contact_information():
     all_results = []
     
     print(f"--- Starting Contact Information Extraction for {len(leads_to_process)} Leads ---")
+    print(f"🧵 Using 3 workers for multithreaded processing")
     
-    with ThreadPoolExecutor(max_workers=FINAL_GATHERER_MAX_WORKERS) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         future_to_lead = {executor.submit(process_single_lead, lead): lead for lead in leads_to_process}
         
-        for future in as_completed(future_to_lead):
-            result = future.result()
-            if result:
-                all_results.append(result)
+        for i, future in enumerate(as_completed(future_to_lead), 1):
+            lead = future_to_lead[future]
+            try:
+                result = future.result()
+                if result:
+                    all_results.append(result)
+                    print(f"✅ [{i}/{len(leads_to_process)}] Success: {lead.get('Website', 'Unknown')} - {result.get('contacts_found', 0)} contacts")
+                else:
+                    print(f"❌ [{i}/{len(leads_to_process)}] Failed: {lead.get('Website', 'Unknown')}")
+            except Exception as e:
+                print(f"❌ [{i}/{len(leads_to_process)}] Exception for {lead.get('Website', 'Unknown')}: {e}")
 
     if not all_results:
         print("--- No leads were successfully processed. ---")
@@ -242,7 +221,7 @@ def gather_contact_information():
     programming_leads = sum(1 for result in all_results if result['course'].lower() == 'programming')
     sales_leads = sum(1 for result in all_results if result['course'].lower() == 'sales')
     
-    print("\n--- Contact Information Extraction Complete ---")
+    print("\n--- Multithreaded Contact Information Extraction Complete ---")
     print(f"Successfully processed {len(all_results)} leads.")
     print(f"Total contacts extracted: {total_contacts}")
     print(f"Programming course leads: {programming_leads}")

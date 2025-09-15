@@ -4,8 +4,8 @@
   "Location": "Delhi",
   "Phone": "098703 76982",
   "Course": "Sales",
-  "Score": 15,
-  "Reasoning": "The website is a placeholder, offering no details on services; however, 'Media' companies often rely on sales for revenue generation.",
+  "Score": 35,
+  "Reasoning": "Given the 'Media' designation, it's plausible the company will require strong sales capabilities for advertising, partnerships, or content distribution, which are critical for revenue generation, despite the limited information available.",
   "extracted_contact_details": [
     {
       "phone": "+91-98703-76982",

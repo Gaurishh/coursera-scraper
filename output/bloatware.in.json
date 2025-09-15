@@ -5,11 +5,20 @@
   "Phone": "089207 50797",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Bloatware IT Solutions Pvt Ltd is explicitly a 'Software Solutions Company' with a strong focus on software, web, and app development, employing various programming languages and technical staff like developers.",
+  "Reasoning": "Bloatware IT Solutions Pvt Ltd is a software development company with a strong technical focus, offering services like application development, web development, and digital marketing, and employing various programming languages and technologies.",
   "extracted_contact_details": [
     {
       "phone": "+918920750797",
-      "email": "info@bloatware.in, info@bloatwareitsolutions.com, sale@bloatware.in, support@bloatware.in, hr@bloatware.in"
+      "email": "info@bloatware.in, info@bloatwareitsolutions.com"
+    },
+    {
+      "email": "sale@bloatware.in"
+    },
+    {
+      "email": "support@bloatware.in"
+    },
+    {
+      "email": "hr@bloatware.in"
     }
   ]
 }

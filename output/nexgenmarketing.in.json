@@ -4,16 +4,12 @@
   "Location": "Delhi",
   "Phone": "076786 44182",
   "Course": "Sales",
-  "Score": 90,
-  "Reasoning": "NexGen Marketing is a digital marketing agency whose services and client testimonials overwhelmingly focus on driving leads, conversions, and sales for their clients, indicating a strong presence in a sales-driven industry.",
+  "Score": 95,
+  "Reasoning": "NexGen Marketing is a digital marketing agency whose core mission is to drive organic traffic, boost conversions, and generate leads and sales for their clients, making sales skills paramount for their business success.",
   "extracted_contact_details": [
     {
       "phone": "+91 76786 44182",
       "email": "nexgen-marketing@hotmail.com"
-    },
-    {
-      "phone": "+91 76786 44182",
-      "email": "info@nexgenmarketing.in"
     }
   ]
 }

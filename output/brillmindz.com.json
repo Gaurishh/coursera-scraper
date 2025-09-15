@@ -4,12 +4,7 @@
   "Location": "Bangalore",
   "Phone": "095384 48421",
   "Course": "Programming",
-  "Score": 99,
-  "Reasoning": "Brill Mindz is a mobile app, web, and game development company, explicitly stating expertise in various programming languages and technologies, indicating a strong tech focus.",
-  "extracted_contact_details": [
-    {
-      "phone": "+91 9538448421",
-      "email": "info@brillmindz.com"
-    }
-  ]
+  "Score": 0,
+  "Reasoning": "Without any retrieved website content, it is impossible to assess the institution's focus and confidently recommend either a Programming or Sales course.",
+  "extracted_contact_details": []
 }

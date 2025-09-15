@@ -1,0 +1,24 @@
+{
+  "Website": "https://creatorfox.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "077605 25535",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "CreatorFox is a digital marketing agency explicitly focused on brand promotion, lead generation, conversions, and increasing client sales through various online strategies.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7760525535",
+      "email": "make@creatorfox.com"
+    },
+    {
+      "phone": "+971 56 902 9386"
+    },
+    {
+      "phone": "+02 7258 8677"
+    },
+    {
+      "phone": "+4 917641976299"
+    }
+  ]
+}

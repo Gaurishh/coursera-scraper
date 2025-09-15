@@ -1,20 +1,16 @@
 [
   {
-    "phone": "+91 74066-44449"
-  },
-  {
-    "phone": "+91 97317-97677"
-  },
-  {
-    "phone": "+91 97317-79233"
-  },
-  {
-    "phone": "+91 80225-55555"
-  },
-  {
+    "title": "Admissions Department",
+    "phone": "+91 74066-44449, +91 97317-97677",
     "email": "admissions@acharya.ac.in"
   },
   {
+    "title": "International Admissions/Enquiries",
+    "phone": "+91 97317-79233",
     "email": "international@acharya.ac.in"
+  },
+  {
+    "title": "General Enquiries",
+    "phone": "+91 80225-55555"
   }
 ]

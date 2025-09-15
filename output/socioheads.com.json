@@ -1,0 +1,15 @@
+{
+  "Website": "https://socioheads.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "085958 40297",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Socioheads is a digital marketing agency focused on helping businesses elevate their brand, increase visibility, and drive growth, which are all core objectives of sales-driven industries.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8595840297",
+      "email": "info@socioheads.com"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "Website": "http://www.lodhitech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "072758 83149",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Lodhitech is a software development company specializing in web, mobile, and custom software solutions, demonstrating a strong and explicit tech focus that directly benefits from enhanced programming skills.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-7275883149"
+    }
+  ]
+}

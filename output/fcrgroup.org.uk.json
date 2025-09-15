@@ -1,0 +1,15 @@
+{
+  "Website": "http://www.fcrgroup.org.uk/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099717 66673",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "FCR Group is an IT and digital services company specializing in web and mobile app development, with team members explicitly listed as Senior Software Engineers and Android/iOS Developers, indicating a strong technical core.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9971766673",
+      "email": "info@fcrgroup.org.uk"
+    }
+  ]
+}

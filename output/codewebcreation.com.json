@@ -1,0 +1,15 @@
+{
+  "Website": "https://codewebcreation.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "097115 95348",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Code Web Creation is an IT solutions company with a strong tech focus, offering extensive services in web, software, and app development, and listing a wide array of programming languages and technologies.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8700256413, +91 9711595348",
+      "email": "[email protected]"
+    }
+  ]
+}

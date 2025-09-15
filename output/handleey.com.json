@@ -1,0 +1,15 @@
+{
+  "Website": "https://handleey.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Handleey is a digital transformation and IT solutions company with a strong focus on software development, AI, and cloud technologies, indicating a clear need for programming skills.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 80 4160 0000",
+      "email": "info@handleey.com"
+    }
+  ]
+}

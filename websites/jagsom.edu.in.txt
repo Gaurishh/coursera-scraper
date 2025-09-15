@@ -6,7 +6,6 @@ jagsom.edu.in/about/leadership/
 jagsom.edu.in/about/message-from-the-chairman/
 jagsom.edu.in/academics/bangalore-campus/pgdm-course-bangalore/
 jagsom.edu.in/academics/bangalore-campus/pgdm-data-science-and-business-analytics-ds-ba/
-jagsom.edu.in/academics/bangalore-campus/pgdm-data-science-and-business-analytics-ds-ba/%20
 jagsom.edu.in/academics/bangalore-campus/pgdm-executive/
 jagsom.edu.in/academics/bangalore-campus/pgdm-finance/
 jagsom.edu.in/academics/bangalore-campus/pgdm-for-smes/
@@ -42,6 +41,7 @@ jagsom.edu.in/events/hyderabad-alumni-meet-copy/
 jagsom.edu.in/events/jagsom-alumni-lets-jam/
 jagsom.edu.in/events/patna-alumni-meet/
 jagsom.edu.in/faculty/dr-m-sivagnanasundaram/
+jagsom.edu.in/faculty/prof-rajesh-kumar/
 jagsom.edu.in/happenings-at-jagsom/
 jagsom.edu.in/helpline/
 jagsom.edu.in/industry-connect/partner-with-jagsom/career-placement-services/

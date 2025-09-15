@@ -1,0 +1,16 @@
+{
+  "Website": "https://www.dpgitm.ac.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "092117 26982",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "DPG Institute of Technology and Management is explicitly an engineering college with a strong focus on various B.Tech, M.Tech, and BCA programs in Computer Science, AI/ML, Data Science, and Electronics & Communication Engineering.",
+  "extracted_contact_details": [
+    {
+      "name": "Ms. Swati Bhardwaj",
+      "title": "Dean, Training and Placement / Training and Placement Officer",
+      "email": "swatianil92@gmail.com, placement@dpgitm.ac.in"
+    }
+  ]
+}

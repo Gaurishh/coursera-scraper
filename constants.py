@@ -10,8 +10,8 @@ import os
 # =============================================================================
 
 # API Configuration
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
 GOOGLE_PLACES_API_KEY = os.environ.get("GOOGLE_PLACES_API_KEY", "YOUR_API_KEY_HERE")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "YOUR_API_KEY_HERE")
 
 # API URLs
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -251,28 +251,81 @@ Example: {{"selected_urls": ["url_1", "url_2", "url_3"]}}
 """
 
 # 6_final_data_gatherer.py
-CONTACT_EXTRACTION_PROMPT_TEMPLATE = """
+PROGRAMMING_CONTACT_EXTRACTION_PROMPT_TEMPLATE = """
 Persona:
-You are an expert data extraction specialist specializing in contact information discovery from website content.
+You are an expert data extraction specialist specializing in contact information discovery from website content for programming course sales.
 
 Context:
-Your goal is to analyze the provided text from an institution's website and extract all relevant and actionable contact information, including names, titles/positions, phone numbers, and email addresses.
+Your goal is to analyze the provided text from an institution's website and extract highly relevant contact information for programming course sales outreach, including names, titles/positions, phone numbers, and email addresses.
 
-Rules:
+Focus on contacts who would be decision-makers or influencers for programming course adoption, such as:
+- Technical department heads and faculty
+- Academic leaders and program directors
+- Training and development coordinators
+- Technology and IT leadership
+- Corporate training and placement officers
+- Research and development heads
+- Academic coordinators for technical programs
 
-Extract ALL potential contact information found in the provided website content.
+Inclusion Criteria: A contact must only be included in the final list if it contains at least one phone number OR at least one email address AND is highly relevant to programming course sales.
 
-Look for names of people, their titles/positions, phone numbers, and email addresses.
-
-Focus on key personnel such as directors, managers, coordinators, heads of departments, etc.
-
-Include both individual contacts and general contact information.
-
-Inclusion Criteria: A contact must only be included in the final list if it contains at least one phone number OR at least one email address. Discard any entries that only have a name and/or title.
+FALLBACK RULE: If you find 0 highly relevant contacts for programming course sales, then extract ANY general contact information that may exist (such as general inquiry contacts, main office contacts, or general contact forms) as a fallback option.
 
 If you find multiple contact details for the same person, combine them into one entry.
 
-Be thorough but accurate - only extract information that is clearly present in the text.
+Be thorough but selective - prioritize highly relevant contacts, but include general contacts as fallback if no relevant ones are found.
+
+Website Content:
+{website_content}
+
+Your Task:
+Respond ONLY with a valid JSON object containing an array of contact objects. Each contact object should have the following structure (include only the fields that are available):
+{{
+"contacts": [
+{{
+"name": "Full Name",
+"title": "Job Title/Position",
+"phone": "Phone Number",
+"email": "Email Address"
+}},
+{{
+"name": "Another Person",
+"title": "Another Title",
+"phone": "Another Phone"
+}},
+...
+]
+}}
+
+Note: Only include the fields that are available in the source text. If a field is not available, simply omit it from the contact object.
+If no actionable contact information is found, return: {{"contacts": []}}
+"""
+
+SALES_CONTACT_EXTRACTION_PROMPT_TEMPLATE = """
+Persona:
+You are an expert data extraction specialist specializing in contact information discovery from website content for sales course sales.
+
+Context:
+Your goal is to analyze the provided text from an institution's website and extract highly relevant contact information for sales course sales outreach, including names, titles/positions, phone numbers, and email addresses.
+
+Focus on contacts who would be decision-makers or influencers for sales course adoption, such as:
+- Business development and sales leadership
+- Marketing and communications heads
+- HR and training coordinators
+- Executive leadership and management
+- Corporate training and development staff
+- Business school deans and faculty
+- Entrepreneurship and business program directors
+- Partnership and collaboration coordinators
+- Student placement and career services
+
+Inclusion Criteria: A contact must only be included in the final list if it contains at least one phone number OR at least one email address AND is highly relevant to sales course sales.
+
+FALLBACK RULE: If you find 0 highly relevant contacts for sales course sales, then extract ANY general contact information that may exist (such as general inquiry contacts, main office contacts, or general contact forms) as a fallback option.
+
+If you find multiple contact details for the same person, combine them into one entry.
+
+Be thorough but selective - prioritize highly relevant contacts, but include general contacts as fallback if no relevant ones are found.
 
 Website Content:
 {website_content}
@@ -395,4 +448,27 @@ SALES_KEYWORD_SCORES = {
     # Negative Keywords (heavily penalized)
     'privacy': -50, 'terms': -50, 'sitemap': -50, 'alumni': -20, 'login': -50, 'cart': -50,
     'author': -50, 'category': -50, 'tag': -50, 'wp-login': -50, 'admin': -50
+}
+
+# =============================================================================
+# LLM GENERATION PARAMETERS
+# =============================================================================
+
+# Task-specific LLM parameter configurations
+LLM_GENERATION_CONFIGS = {
+    "url_selection": {
+        "temperature": 0.2,        # More creative for URL selection
+        "topP": 0.9,              # Allow more diverse token selection
+        "topK": 40,               # Good balance of creativity/consistency
+    },
+    "classification": {
+        "temperature": 0.15,        # More deterministic for classification
+        "topP": 0.8,              # Focused token selection
+        "topK": 20,               # More focused selection
+    },
+    "contact_extraction": {
+        "temperature": 0.1,        # Most precise for structured data
+        "topP": 0.7,              # Very focused selection
+        "topK": 10,               # Most focused selection
+    }
 }

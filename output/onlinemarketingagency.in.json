@@ -4,17 +4,14 @@
   "Location": "Delhi",
   "Phone": "088605 53836",
   "Course": "Sales",
-  "Score": 95,
-  "Reasoning": "The company is an online marketing agency focused on services like social media marketing and strategy, which are directly aimed at driving sales and customer acquisition for their clients and themselves.",
+  "Score": 98,
+  "Reasoning": "The institution is an online marketing agency focused on providing services like social media marketing, strategy, and email marketing, which are all directly aimed at attracting customers and driving business growth, making it a sales-driven organization.",
   "extracted_contact_details": [
     {
       "email": "onlinemarketingagencyin@gmail.com"
     },
     {
       "phone": "(205) 555-0100"
-    },
-    {
-      "email": "email@sociense.com"
     },
     {
       "phone": "+62 812 345 678"

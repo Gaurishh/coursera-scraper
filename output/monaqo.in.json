@@ -3,17 +3,12 @@
   "Institution Type": "Corporates",
   "Location": "Bangalore",
   "Phone": "079965 85956",
-  "Course": "Programming",
-  "Score": 92,
-  "Reasoning": "Monaqo, while a growth marketing agency, prominently functions as a 'full-stack web development company' that details extensive technical capabilities, listing numerous programming languages, frameworks (e.g., React, Node.js, Laravel, Go), and architectural patterns, indicating a strong tech focus.",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Monaqo is a growth marketing agency whose core mission is to drive lead generation, pipeline acceleration, and revenue outcomes for its B2B, app, and e-commerce clients, making it a highly sales-driven corporate entity.",
   "extracted_contact_details": [
     {
-      "phone": "+91 7996 585956"
-    },
-    {
-      "phone": "+1(650)614-1796"
-    },
-    {
+      "phone": "+91 7996585956",
       "email": "contact@monaqo.in"
     }
   ]

@@ -1,0 +1,15 @@
+{
+  "Website": "http://digitalmarketingagency.online/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093118 48850",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "The company is a digital marketing agency whose core services, mission, and client results are entirely focused on attracting customers, generating leads, and driving conversions, which are fundamental aspects of sales.",
+  "extracted_contact_details": [
+    {
+      "phone": "+919311848850",
+      "email": "team@digitalmarketingagency.online"
+    }
+  ]
+}

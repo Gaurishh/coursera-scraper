@@ -1,0 +1,11 @@
+invansys.in/
+invansys.in/blog
+invansys.in/callapp
+invansys.in/cisco
+invansys.in/dev
+invansys.in/documentation
+invansys.in/migration
+invansys.in/pipes
+invansys.in/signup
+invansys.in/softwares
+invansys.in/testing

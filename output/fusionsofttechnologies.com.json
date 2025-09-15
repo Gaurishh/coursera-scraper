@@ -1,0 +1,21 @@
+{
+  "Website": "https://fusionsofttechnologies.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098703 73230",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "FusionSoft Technologies is a full IT service agency specializing in website and application development, custom software, and digital solutions, demonstrating a strong core focus on programming and technical skills.",
+  "extracted_contact_details": [
+    {
+      "title": "General Inquiry",
+      "phone": "+91 9968869451, 9870373230",
+      "email": "info@fusionsofttechnologies.com"
+    },
+    {
+      "title": "Support",
+      "phone": "+91 9968869451, 9870373230",
+      "email": "Support@fusionsofttechnologies.com"
+    }
+  ]
+}

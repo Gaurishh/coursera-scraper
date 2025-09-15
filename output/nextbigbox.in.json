@@ -1,0 +1,26 @@
+{
+  "Website": "https://www.nextbigbox.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "096979 59896",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Nextbigbox is an IT and digital marketing agency whose core mission is to increase leads and sales for its clients, explicitly offering 'Sales CRM Software' and hiring for 'IT Sales' roles, indicating a strong sales-driven focus.",
+  "extracted_contact_details": [
+    {
+      "title": "Support Department",
+      "phone": "+91- 9697959896",
+      "email": "support@nextbigbox.in"
+    },
+    {
+      "title": "General Information",
+      "phone": "96-97-95-98-96",
+      "email": "info@nextbigbox.in"
+    },
+    {
+      "title": "Main Office / General Inquiries",
+      "phone": "1800-123-120555",
+      "email": "reachus@nextbigbox.in"
+    }
+  ]
+}

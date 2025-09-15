@@ -4,14 +4,11 @@
   "Location": "Delhi",
   "Phone": "011 4556 2561",
   "Course": "Programming",
-  "Score": 98,
-  "Reasoning": "The company clearly identifies as a 'Software Development Company' with a strong emphasis on programming languages, IT consulting, and bespoke software solutions, indicating a core tech focus.",
+  "Score": 95,
+  "Reasoning": "W2G Solutions is an IT software development company whose core services and identity are deeply rooted in programming, web development, and custom software solutions.",
   "extracted_contact_details": [
     {
-      "phone": "+91-8595041598"
-    },
-    {
-      "phone": "+91-11-45562561",
+      "phone": "+91-8595041598, +91-11-45562561",
       "email": "info@w2gsolutions.in"
     }
   ]

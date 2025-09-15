@@ -1,6 +1,7 @@
 drait.edu.in/
 drait.edu.in/home/ACTS
 drait.edu.in/home/AICTE
+drait.edu.in/home/AICTE-IDEA-Lab
 drait.edu.in/home/AISHE-2022
 drait.edu.in/home/AQAR-Documents
 drait.edu.in/home/AQAR-Reports
@@ -127,9 +128,9 @@ drait.edu.in/home/news/all-students-of-ii-year-iii-year-and-iv-year-b-e-program-
 drait.edu.in/home/news/fee-structure-for-i-year-be-through-cet-for-the-academic-year-2025-26
 drait.edu.in/home/news/fee-structure-for-ii-year-pgmba-mca-mtech-for-the-academic-year-2025-26
 drait.edu.in/home/news/fee-structure-for-ugbe-ii-iii-and-iv-year-for-the-academic-year-2025-26
-drait.edu.in/home/news/malpractice-rules-and-regulations
 drait.edu.in/home/news/nsp-scholarship-2025-26
-drait.edu.in/home/news/pg-mbamca-m-tech-calendar-of-events-for-2nd-semester-2025
-drait.edu.in/home/news/research-grant-of-rs-15-lakhs-is-sanctioned-for-innovative-idea-under-msme-idea-hackathon-40-by-ministry-of-micro-small-and-medium-enterprises-govt-of-india
+drait.edu.in/home/news/one-day-seminar-on-quantum-computing-fundamentals-and-its-emerging-trends-on-12th-september-2025
+drait.edu.in/home/news/school-of-computer-science-and-engineering-presents-smart-india-hackathonsih-2025
 drait.edu.in/home/news/six-days-online-faculty-development-program-on-exploring-the-synergy-between-eacoustics-and-machine-learning-for-tomorrows-technologies-from-15-12-2025-to-20-12-2025
+drait.edu.in/home/news/student-induction-program-sip-for-1st-year-be-students-admitted-during-academic-year-2025-26-will-be-conducted-from-15-09-2025-to-19-09-2025
 drait.edu.in/home/news/vtu-phd-fee-structure

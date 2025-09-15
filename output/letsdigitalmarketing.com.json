@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.letsdigitalmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "085100 04776",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company's mission, services, and client testimonials consistently emphasize increasing sales, generating leads, and maximizing ROI for their clients, making sales expertise critical for their business growth and client success.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-85 1000 4776",
+      "email": "info@letsdigitalmarketing.com"
+    }
+  ]
+}

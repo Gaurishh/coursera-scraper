@@ -1,0 +1,22 @@
+{
+  "Website": "https://swamivivekanandengg.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "099117 60382",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The institution's name, 'Swami Vivekanand Institute of Engineering & Technology,' along with its core offerings of B.Tech, M.Tech, Computer Application, and strong placement ties with tech giants like HCL, IBM, Microsoft, and Red Hat, clearly indicate a primary focus on engineering and technology.",
+  "extracted_contact_details": [
+    {
+      "name": "Shrikant Tiwari",
+      "title": "Founder & Chairman of the NGO and SVIET",
+      "email": "shrikanttiwaridelhi1@gmail.com"
+    },
+    {
+      "name": "Swami Vivekanand Institute of Engineering & Technology",
+      "title": "General Inquiry / Admissions",
+      "phone": "91-9911760382, 9990761580, 9650755812, 9650756005",
+      "email": "swamivivekanandengg.in@gmail.com, shrikanttiwari224@gmail.com, shrikanttiwaridelhi1@gmail.com"
+    }
+  ]
+}

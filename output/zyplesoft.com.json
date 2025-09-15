@@ -1,0 +1,20 @@
+{
+  "Website": "https://www.zyplesoft.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "072998 80500",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Zyple Software Solutions is an IT company specializing in developing, implementing, and supporting ERP, mobile, and web-based software solutions, indicating a strong technical and programming focus.",
+  "extracted_contact_details": [
+    {
+      "title": "General Inquiries (India)",
+      "phone": "+91 7299880500",
+      "email": "info@zyplesoft.com"
+    },
+    {
+      "title": "General Inquiries (UAE)",
+      "phone": "+971 26336576 Extension-113"
+    }
+  ]
+}

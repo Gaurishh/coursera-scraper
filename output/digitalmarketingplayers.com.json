@@ -1,0 +1,15 @@
+{
+  "Website": "http://www.digitalmarketingplayers.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "082871 29388",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company is a digital marketing agency whose primary objective is to help clients generate leads, drive sales, and achieve maximum conversion, making sales skills critical to their core business and client success.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-8287129388, 9899442032",
+      "email": "sales@dmplayers.com, hello@dmplayers.com"
+    }
+  ]
+}

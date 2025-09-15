@@ -136,6 +136,7 @@ dmypy.json
 # Website content directories
 # websites/
 websites_itr_*/
+previous_iterations/
 # top_5_urls_for_*/
 website_crawler_backup.py
 

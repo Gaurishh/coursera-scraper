@@ -1,0 +1,16 @@
+{
+  "Website": "https://jsmdigitalmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "095993 39559",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "JSM Digital Marketing is a digital marketing agency whose core mission and services are explicitly focused on increasing sales, generating leads, and improving ROI for their B2B clients.",
+  "extracted_contact_details": [
+    {
+      "name": "JSM Digital Marketing",
+      "phone": "+91 (959) 933 9559, +91 (882) 663 9644",
+      "email": "jsm@jsmdigitalmarketing.com"
+    }
+  ]
+}

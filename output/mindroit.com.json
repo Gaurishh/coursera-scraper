@@ -5,18 +5,11 @@
   "Phone": "078296 52092",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Mindroit Technologies Pvt Ltd is an IT company specializing in software, web, and mobile app development, with all listed job openings focused on various programming and development roles.",
+  "Reasoning": "Mindroit Technologies is a software development company specializing in website, mobile app, and custom software solutions, actively hiring for various programming roles.",
   "extracted_contact_details": [
     {
-      "phone": "+91-7829652092",
+      "phone": "+91-7829652092, +91-80-49563406",
       "email": "services@mindroit.com"
-    },
-    {
-      "phone": "+91-80-49563406",
-      "email": "services@mindroit.com"
-    },
-    {
-      "email": "careers@mindroit.com"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "Website": "https://fugenx.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "040 6791 8888",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "FuGenX is a technology services provider specializing in mobile app, game, web development, AI, ML, and data science, indicating a core business deeply rooted in programming and technical expertise.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales Enquiry (India Office)",
+      "phone": "+91-7995563989"
+    },
+    {
+      "title": "General Inquiry",
+      "email": "info@fugenx.com"
+    },
+    {
+      "title": "General & HR Enquiry (India Office)",
+      "phone": "040-67918888"
+    },
+    {
+      "title": "USA Office",
+      "phone": "1-408-8507270"
+    },
+    {
+      "title": "Dubai Office",
+      "phone": "+971-850-7270"
+    }
+  ]
+}

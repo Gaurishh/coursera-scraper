@@ -1,24 +1,13 @@
 [
   {
-    "name": "Mind IT Systems (General Inquiries)",
-    "email": "info@minditsystems.com"
-  },
-  {
-    "name": "Sales Department (India)",
+    "title": "Sales",
     "phone": "+91 730 746 7777"
   },
   {
-    "name": "Sales Department (US)",
+    "title": "Sales",
     "phone": "+1 415 707 0591"
   },
   {
-    "name": "HR Team",
-    "phone": "+91 920 585 6556",
-    "email": "careers@minditsystems.com"
-  },
-  {
-    "name": "Kunal Gupta",
-    "phone": "+91 920 585 6556",
-    "email": "kunal.gupta@minditsystems.com"
+    "email": "info@minditsystems.com"
   }
 ]

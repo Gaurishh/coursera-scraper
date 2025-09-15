@@ -1,6 +1,6 @@
 [
   {
-    "title": "General Contact - United States",
+    "title": "General Inquiry - United States",
     "phone": "+1 (424) 543-6500",
     "email": "info@mobilise.agency"
   },
@@ -10,13 +10,13 @@
     "email": "losangeles@mobilise.agency"
   },
   {
+    "title": "India Office",
+    "phone": "+91 (734) 974-9404",
+    "email": "bangalore@mobilise.agency"
+  },
+  {
     "title": "Singapore Office",
     "phone": "+65 (99) 888-8800",
     "email": "singapore@mobilise.agency"
-  },
-  {
-    "title": "India Office - Bangalore",
-    "phone": "+91 (734) 974-9404, +65 (99) 888-8800",
-    "email": "bangalore@mobilise.agency"
   }
 ]

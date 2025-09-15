@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.thesovereignindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "093107 44694",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The Sovereign India is an Amazon Advertising Agency focused on PPC management and optimization, which are core functions in driving sales and conversions for clients in a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 98100 40040",
+      "email": "info@thesovereignindia.com"
+    }
+  ]
+}

@@ -4,20 +4,20 @@
   "Location": "Bangalore",
   "Phone": "080 2843 2108",
   "Course": "Programming",
-  "Score": 98,
-  "Reasoning": "APS College of Engineering is an engineering institution with a strong focus on Computer Science, AI/ML, Cyber Security, and various other technical fields, explicitly aiming to develop 'competent technocrats' and 'next-level engineers'.",
+  "Score": 95,
+  "Reasoning": "APS College of Engineering is an engineering institution with a strong focus on Computer Science, Information Science, AI/ML, and Cyber Security, aligning perfectly with a Programming course recommendation.",
   "extracted_contact_details": [
     {
       "name": "Dr. K.S Anand",
-      "title": "Principal I/C",
-      "phone": "+91 9035994160",
+      "title": "Principal I/C, Convener of Governing Council",
+      "phone": "+91 9035994160, 91-9448452508",
       "email": "principal.apsce@gmail.com"
     },
     {
-      "email": "apsceoffice@gmail.com"
-    },
-    {
-      "phone": "91-9448452508"
+      "name": "Dr. Narsimha R Parvatikar",
+      "title": "Placement Officer",
+      "phone": "080–28432108, +91 9448576930",
+      "email": "placementaps@gmail.com"
     }
   ]
 }

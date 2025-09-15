@@ -5,25 +5,24 @@
   "Phone": "095905 44567",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "iGeeks Technologies is unequivocally a company with a strong tech focus, offering extensive training and internships in software development, data science, AI, and various engineering disciplines.",
+  "Reasoning": "iGeeks Technologies exhibits an overwhelming focus on technology, software development, data science, and engineering disciplines across its course offerings, internship programs, and corporate training services.",
   "extracted_contact_details": [
     {
-      "name": "Nandu",
-      "title": "Corporate Training / Career Options",
+      "name": "Mr. Nandu",
+      "title": "Corporate Training Contact",
       "phone": "9590544567",
       "email": "nandu@igeekstechnologies.com"
     },
     {
       "name": "Hari",
-      "title": "Recruitment Service / Partnership",
+      "title": "Recruitment/Partnership Contact",
       "phone": "9590544567, 7019280372",
       "email": "hari@igeekstechnologies.com"
     },
     {
-      "name": "IGeekS Technologies",
-      "title": "General Enquiries",
-      "phone": "7019280372, 9590544567, 9110457591",
-      "email": "info@igeekstechnologies.com, training@igeekstechnologies.com"
+      "title": "Training/Partnership Department",
+      "phone": "9590544567, 7019280372",
+      "email": "training@igeekstechnologies.com"
     }
   ]
 }

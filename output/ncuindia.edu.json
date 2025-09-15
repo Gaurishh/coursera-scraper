@@ -1,0 +1,45 @@
+{
+  "Website": "https://www.ncuindia.edu/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "0124 236 5811",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The NorthCap University exhibits an exceptionally strong focus on programming and technology through its extensive School of Engineering & Technology, numerous specialized CSE programs (AI/ML, Data Science, Cyber Security, Full Stack, Quantum Computing), dedicated high-tech labs, and faculty with deep expertise in cutting-edge computing fields.",
+  "extracted_contact_details": [
+    {
+      "name": "Prof.(Dr.) Nupur Prakash",
+      "title": "Vice Chancellor",
+      "phone": "0124-4195269",
+      "email": "vcoffice@ncuindia.edu"
+    },
+    {
+      "name": "Commodore Diwakar Tomar NM(Retd.)",
+      "title": "Registrar",
+      "phone": "0124-4195240",
+      "email": "registrar@ncuindia.edu"
+    },
+    {
+      "name": "Dr. Shilpa Mahajan",
+      "title": "Associate Professor, Department of CSE",
+      "email": "shilpa@ncuuat.ncuindia.edu"
+    },
+    {
+      "name": "Ms. Kanika Gupta",
+      "title": "Assistant Professor, Department of CSE",
+      "email": "kanikagupta@ncuuat.ncuindia.edu"
+    },
+    {
+      "name": "Placement Managers (Career Services & Alumni Relations)",
+      "title": "Placement Managers",
+      "phone": "+91-124-4195222, +91-124-4195280",
+      "email": "csar@ncuindia.edu"
+    },
+    {
+      "name": "Admissions",
+      "title": "Admissions Hotline",
+      "phone": "9311300803, 9311326323",
+      "email": "admissions@ncuindia.edu"
+    }
+  ]
+}

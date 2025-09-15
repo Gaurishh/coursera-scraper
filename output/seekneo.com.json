@@ -1,0 +1,28 @@
+{
+  "Website": "https://www.seekneo.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080507 17122",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "SeekNEO is a web development and IT solutions company that explicitly offers its own software development courses, demonstrating a strong internal need for programming skills.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales Department",
+      "phone": "+91-8050717122",
+      "email": "business@seekneo.com"
+    },
+    {
+      "title": "General Inquiry",
+      "email": "info@seekneo.com"
+    },
+    {
+      "title": "Careers/HR Department",
+      "email": "hr@seekneo.com"
+    },
+    {
+      "title": "Skype Contact",
+      "email": "seekneo@outlook.com"
+    }
+  ]
+}

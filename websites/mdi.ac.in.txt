@@ -32,6 +32,7 @@ mdi.ac.in/news/714-students-receive-their-diplomas-in-the-joint-annual-convocati
 mdi.ac.in/news/75th-republic-day-celebration
 mdi.ac.in/news/76th-republic-day-celebration
 mdi.ac.in/news/78th-independence-day-celebration
+mdi.ac.in/news/79th-independence-day-celebration
 mdi.ac.in/news/a-talk-by-the-rt-hon-patricia-scotland-qc-secretary-general-of-the-commonwealth
 mdi.ac.in/news/a-workshop-in-the-area-of-in-the-area-of-data-science-econometrics-and-economics
 mdi.ac.in/news/admissions-open-for-fellow-programme-in-management-2023-24-batch
@@ -78,7 +79,9 @@ mdi.ac.in/news/mdi-gurgaon-prmia-on-path-to-collaboration
 mdi.ac.in/news/mdi-gurgaon-ranked-11-in-the-management-category-of-nirf-2024
 mdi.ac.in/news/mdi-gurgaon-ranked-13
 mdi.ac.in/news/mdi-gurgaon-ranked-61-globally-in-the-financial-times-executive-education-custom-2025-rankings
+mdi.ac.in/news/mdi-gurgaon-ranked-72-in-ft-masters-in-management-mim-rankings-2025
 mdi.ac.in/news/mdi-gurgaon-ranked-85-in-ft-masters-in-management-mim-rankings-2024
+mdi.ac.in/news/mdi-gurgaon-ranked-9-in-the-management-category-of-nirf-2025
 mdi.ac.in/news/mdi-gurgaon-received-a-five-year-re-accreditation-by-amba-for-its-gp-and-egp-programme-portfolio
 mdi.ac.in/news/mdi-gurgaon-s-convocation-2025-a-grand-celebration-of-academic-excellence-achievement
 mdi.ac.in/news/mdi-gurgaon-signed-mou-with-emlyon-business-school
@@ -86,6 +89,7 @@ mdi.ac.in/news/mdi-gurgaon-signs-mou-with-paniit
 mdi.ac.in/news/mdi-gurgaon-to-impart-mid-career-training-to-its-officers
 mdi.ac.in/news/mdi-gurgaon-unveiled-the-brandscapes-mdi-centre-for-behavioral-science-neuro-lab
 mdi.ac.in/news/mdi-gurgaon-welcomed-its-5th-batch-of-post-graduate-diploma-in-management-online-programme
+mdi.ac.in/news/mdi-gurgaon-welcomed-its-6th-batch-of-post-graduate-diploma-in-management-online-programme
 mdi.ac.in/news/mdi-gurgaon-welcomed-the-fpm-2025-cohort
 mdi.ac.in/news/mdi-gurgaon-welcomes-fpm-2024-batch-celebrating-milestones-and-inspiring-scholars
 mdi.ac.in/news/mdi-gurgaon-welcomes-its-16th-batch-of-pgdm-public-policy-and-management-programme-on-27th-september-2023
@@ -95,6 +99,7 @@ mdi.ac.in/news/mdi-gurgaon-welcomes-its-new-2nd-batch-of-opgdm-programme-on-27th
 mdi.ac.in/news/mdi-gurgaon-welcomes-its-new-36th-batch-of-pgdm-bm-programme-on-9th-august-2023
 mdi.ac.in/news/mdi-gurgaon-welcomes-its-new-batch-of-pgdm-ba-programme-on-13th-august-2023
 mdi.ac.in/news/mdi-gurgaon-welcomes-its-new-batch-of-post-graduate-diploma-in-management-business-administration-programme
+mdi.ac.in/news/mdi-gurgaon-welcomes-its-new-batch-of-post-graduate-diploma-in-management-business-management-and-business-administration-programme
 mdi.ac.in/news/mdi-gurgaon-welcomes-the-17th-batch-of-post-graduate-diploma-in-management-public-policy-and-management-pgdm-ppm-programme
 mdi.ac.in/news/mdi-gurgaon-welcomes-the-37th-batch-of-post-graduate-diploma-in-management-business-management-programme
 mdi.ac.in/news/mdi-gurgaon-welcomes-the-future-leaders-the-new-pgp-2025-27-batch
@@ -136,8 +141,8 @@ mdi.ac.in/privacy-policy
 mdi.ac.in/programmes
 mdi.ac.in/programmes/executive
 mdi.ac.in/research
-mdi.ac.in/research/hedging-dynamics-between-oil-and-clean-energy-stock-indices-amid-the-russia-ukraine-war-and-geopolitical-turmoil
-mdi.ac.in/research/hitting-the-sweet-spot-how-optimal-arousal-enhances-adventurous-experiences-in-glamping
+mdi.ac.in/research/earnings-management-is-theses-management-in-management-educational-research-a-review-of-ethics-for-behavioural-psychology
+mdi.ac.in/research/exploring-the-role-of-digital-financial-literacy-and-personal-financial-behavior-in-shaping-financial-stress-and-well-being-in-the-digital-age
 mdi.ac.in/research/prosocial-behaviourial-spillover-and-nudging-a-longitudinal-quasi-experimental-study-on-the-moderating-role-of-altruistic-motives
 mdi.ac.in/schools
 mdi.ac.in/student-life

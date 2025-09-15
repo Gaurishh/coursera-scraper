@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Test Yantra Software Solutions",
+    "title": "General Inquiry",
+    "phone": "+91 9742490958",
+    "email": "contactus@testyantra.com"
+  },
+  {
+    "name": "Test Yantra USA",
+    "title": "Regional Office",
+    "phone": "+1 (415) 429-3957"
+  },
+  {
+    "name": "Test Yantra UK",
+    "title": "Regional Office",
+    "phone": "+44 02034115450"
+  },
+  {
+    "name": "Test Yantra Ireland",
+    "title": "Regional Office",
+    "phone": "+353 19696560"
+  },
+  {
+    "name": "Test Yantra Netherlands",
+    "title": "Regional Office",
+    "phone": "+31308992386"
+  },
+  {
+    "name": "Test Yantra Canada",
+    "title": "Regional Office",
+    "phone": "+1(639)916-0279"
+  }
+]

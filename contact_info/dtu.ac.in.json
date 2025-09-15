@@ -1,5 +1,22 @@
 [
   {
-    "phone": "011-27871018"
+    "name": "Dr Saurabh Agrawal",
+    "title": "Head of Department, Associate Professor",
+    "email": "saurabh.agrawal@dtu.ac.in"
+  },
+  {
+    "name": "Dr. Mohit Beniwal",
+    "title": "Assistant Professor",
+    "email": "mohitbeniwal@dtu.ac.in"
+  },
+  {
+    "name": "Mr. Yashdeep Singh",
+    "title": "Assistant Professor",
+    "email": "yashdeepsingh@dtu.ac.in"
+  },
+  {
+    "name": "Head of Computer Centre",
+    "title": "Head of Computer Centre",
+    "email": "head.cc@dtu.ac.in"
   }
 ]

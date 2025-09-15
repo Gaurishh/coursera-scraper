@@ -5,9 +5,10 @@
   "Phone": "096639 84711",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "Sparkles Network is an advertising and marketing agency explicitly offering a 'Sales Force' service and consistently emphasizing client ROI, customer acquisition, and driving product sales through their strategic campaigns.",
+  "Reasoning": "Sparkles Network is an advertising and marketing agency focused on helping clients drive engagement and achieve greater return on investment, explicitly offering 'Sales Force' and 'sales force outsourcing' services.",
   "extracted_contact_details": [
     {
+      "title": "General Inquiry / Main Office",
       "phone": "+91 96639 84711, +91 91423 71423, 080 4207 8060",
       "email": "info@sparklesnetwork.com, sparklesnetwork@gmail.com"
     }

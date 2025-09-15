@@ -2,9 +2,7 @@ import os
 import json
 import requests
 import time
-import threading
 import re
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
 
 # Try to load environment variables from .env file
@@ -17,20 +15,23 @@ except ImportError:
 
 # Import constants
 from constants import (
-    GEMINI_API_KEY, GEMINI_API_URL, RECOMMENDATION_INPUT_DIR, RECOMMENDATION_OUTPUT_DIR,
+    GEMINI_API_KEY, RECOMMENDATION_INPUT_DIR, RECOMMENDATION_OUTPUT_DIR,
     RECOMMENDATION_MAX_WORKERS, RECOMMENDATION_MAX_CONSECUTIVE_ERRORS,
-    DEFAULT_REQUEST_TIMEOUT, API_REQUEST_TIMEOUT, DEFAULT_MAX_RETRIES,
+    DEFAULT_REQUEST_TIMEOUT, DEFAULT_MAX_RETRIES,
     MASTER_PROMPT_TEMPLATE, GENERAL_CLASSIFICATION_SCORES
 )
+
+# Import LLM utilities
+from llm_utils import call_gemini_with_params, parse_llm_response
 
 # --- LLM Master Prompt ---
 # This detailed prompt guides the LLM to make a reliable and informed decision.
 # (Prompt template is now imported from constants.py)
 
-# --- Gemini 2.5 Flash API Function ---
+# --- Enhanced Gemini 2.5 Flash API Function ---
 def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
     """
-    Generate content using Gemini 2.5 Flash with retry logic via REST API.
+    Generate content using enhanced Gemini 2.5 Flash with task-specific parameters.
     
     Args:
         prompt (str): The prompt to send to Gemini
@@ -39,27 +40,17 @@ def generate_content_with_gemini(prompt, max_retries=DEFAULT_MAX_RETRIES):
     Returns:
         str: Generated content or None if failed
     """
-    if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
+    response_text, error_details = call_gemini_with_params(
+        prompt=prompt,
+        task_type="url_selection",
+        max_retries=max_retries
+    )
+    
+    if error_details:
+        print(f"❌ LLM call failed: {error_details}")
         return None
     
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
-    
-    for attempt in range(max_retries):
-        try:
-            response = requests.post(GEMINI_API_URL, json=payload, timeout=API_REQUEST_TIMEOUT)
-            response.raise_for_status()
-            
-            # Extract text from response
-            response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
-            return response_text
-            
-        except Exception as e:
-            print(f"⚠️  Gemini API attempt {attempt + 1} failed: {e}")
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)  # Exponential backoff
-            else:
-                print(f"❌ All Gemini API attempts failed for prompt")
-                return None
+    return response_text
 
 # --- URL Normalization Function ---
 def normalize_url_for_processing(url):
@@ -277,27 +268,19 @@ def process_single_website(filename):
             
             if response_text:
                 print(f"📝 LLM response received, parsing...")
-                try:
-                    # Clean the response text (remove markdown code blocks if present)
-                    if response_text.startswith('```json'):
-                        response_text = response_text[7:]  # Remove ```json
-                    if response_text.endswith('```'):
-                        response_text = response_text[:-3]  # Remove ```
-                    response_text = response_text.strip()
-                    
-                    data = json.loads(response_text)
-
-                    if isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
-                        llm_selected_urls = data['selected_urls']
-                        # Limit to remaining slots
-                        llm_selected_urls = llm_selected_urls[:remaining_slots]
-                        llm_success = True
-                        print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-about URLs for {filename}")
-                    else:
-                        raise ValueError("Gemini response did not contain a valid list of URLs.")
-
-                except (json.JSONDecodeError, ValueError) as e:
-                    print(f"⚠️  WARN: Gemini response parsing failed for {filename}. Error: {e}")
+                data, parse_error = parse_llm_response(response_text, "json")
+                
+                if parse_error:
+                    print(f"⚠️  WARN: Gemini response parsing failed for {filename}. Error: {parse_error}")
+                    llm_success = False
+                elif isinstance(data.get('selected_urls'), list) and len(data['selected_urls']) > 0:
+                    llm_selected_urls = data['selected_urls']
+                    # Limit to remaining slots
+                    llm_selected_urls = llm_selected_urls[:remaining_slots]
+                    llm_success = True
+                    print(f"✅ SUCCESS: Gemini 2.5 Flash selected {len(llm_selected_urls)} non-about URLs for {filename}")
+                else:
+                    print(f"⚠️  WARN: Gemini response did not contain a valid list of URLs for {filename}")
                     llm_success = False
             else:
                 print(f"⚠️  WARN: No response from Gemini API for {filename}")
@@ -393,7 +376,7 @@ def process_single_website(filename):
 # --- Main Logic ---
 def process_websites():
     """
-    Main function to process websites using multithreading.
+    Main function to process websites.
     """
     if not os.path.exists(RECOMMENDATION_INPUT_DIR):
         print(f"❌ ERROR: Input directory '{RECOMMENDATION_INPUT_DIR}' not found.")
@@ -409,52 +392,32 @@ def process_websites():
         print(f"❌ No website files found in '{RECOMMENDATION_INPUT_DIR}' directory.")
         return
 
-    print(f"🚀 Starting Multithreaded URL Recommendation Extractor")
+    print(f"🚀 Starting URL Recommendation Extractor")
     print("=" * 60)
     print(f"📊 Total websites to process: {len(website_files)}")
-    print(f"🧵 Max concurrent workers: {RECOMMENDATION_MAX_WORKERS}")
     print(f"🛑 Max consecutive errors: {RECOMMENDATION_MAX_CONSECUTIVE_ERRORS}")
     print(f"📁 Input directory: {RECOMMENDATION_INPUT_DIR}")
     print(f"📁 Output directory: {RECOMMENDATION_OUTPUT_DIR}")
     print("=" * 60)
 
-        # Process websites using multithreading
+    # Process websites sequentially
     start_time = time.time()
     successful_processes = 0
     total_urls_processed = 0
     
-    # Thread-safe counters
-    lock = threading.Lock()
-    
-    def update_counters(success, urls_count):
-        nonlocal successful_processes, total_urls_processed
-        with lock:
+    for i, filename in enumerate(website_files, 1):
+        try:
+            success, processed_filename, urls_count, error_msg = process_single_website(filename)
+            
             if success:
                 successful_processes += 1
                 total_urls_processed += urls_count
-    
-    # Use ThreadPoolExecutor for concurrent processing
-    with ThreadPoolExecutor(max_workers=RECOMMENDATION_MAX_WORKERS) as executor:
-        # Submit all tasks
-        future_to_filename = {
-            executor.submit(process_single_website, filename): filename 
-            for filename in website_files
-        }
-        
-        # Process completed tasks
-        for i, future in enumerate(as_completed(future_to_filename), 1):
-            filename = future_to_filename[future]
-            try:
-                success, processed_filename, urls_count, error_msg = future.result()
+                print(f"✅ [{i}/{len(website_files)}] Success: {processed_filename} - {urls_count} URLs extracted")
+            else:
+                print(f"❌ [{i}/{len(website_files)}] Failed: {processed_filename} - {error_msg}")
                 
-                if success:
-                    update_counters(True, urls_count)
-                    print(f"✅ [{i}/{len(website_files)}] Success: {processed_filename} - {urls_count} URLs extracted")
-                else:
-                    print(f"❌ [{i}/{len(website_files)}] Failed: {processed_filename} - {error_msg}")
-                    
-            except Exception as e:
-                print(f"❌ [{i}/{len(website_files)}] Exception for {filename}: {e}")
+        except Exception as e:
+            print(f"❌ [{i}/{len(website_files)}] Exception for {filename}: {e}")
     
     # Calculate execution time
     end_time = time.time()
@@ -462,7 +425,7 @@ def process_websites():
     
     # Display summary
     print("\n" + "=" * 60)
-    print("🎉 MULTITHREADED PROCESSING COMPLETE!")
+    print("🎉 PROCESSING COMPLETE!")
     print("=" * 60)
     print(f"⏱️  Total Execution Time: {execution_time:.2f} seconds")
     print(f"📊 Websites Processed: {len(website_files)}")

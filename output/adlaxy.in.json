@@ -1,0 +1,19 @@
+{
+  "Website": "https://www.adlaxy.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099999 36253",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Adlaxy is a full-stack marketing and creative agency focused on driving brand growth and customer engagement for its clients, making sales-related skills crucial for all roles to understand client objectives and deliver impactful results.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9999936253",
+      "email": "hello@adlaxy.in"
+    },
+    {
+      "phone": "+91 888 26 53 528",
+      "email": "hello@adlaxy.in"
+    }
+  ]
+}

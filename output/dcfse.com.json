@@ -1,0 +1,17 @@
+{
+  "Website": "http://www.dcfse.com/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2834 4240",
+  "Course": "Programming",
+  "Score": 20,
+  "Reasoning": "The institution focuses on technical training for fire and safety systems, including 'Automatic Fire Alarm systems both Conventional Types & Addressable Type,' which are complex technical systems that often involve underlying programming or digital control, making it marginally closer to a technical domain than a sales-driven one.",
+  "extracted_contact_details": [
+    {
+      "name": "Delhi College of Fire & Safety Engineering",
+      "title": "General Administration",
+      "phone": "+91-9667665101, +91-9310810534, +91-9560952952",
+      "email": "admin@dcfse.com"
+    }
+  ]
+}

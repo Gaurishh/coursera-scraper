@@ -44,7 +44,6 @@ isbm.ac.in/nande/alumini/media-alumni.php
 isbm.ac.in/nande/alumini/scom-alumni.php
 isbm.ac.in/nande/alumni-career
 isbm.ac.in/nande/anti-ragging
-isbm.ac.in/nande/blog/
 isbm.ac.in/nande/blog/PGDM-vs-MBA-in-Pune.php
 isbm.ac.in/nande/blog/Top-B-Schools-in-Pune-blog.php
 isbm.ac.in/nande/blog/Why-a-PGDM-from-ISB&M-Pune.php
@@ -87,6 +86,7 @@ isbm.ac.in/nande/lifeisbm/news-details.php?nid=51
 isbm.ac.in/nande/lifeisbm/news-details.php?nid=52
 isbm.ac.in/nande/lifeisbm/news-details.php?nid=53
 isbm.ac.in/nande/lifeisbm/news-details.php?nid=54
+isbm.ac.in/nande/lifeisbm/news-details.php?nid=55
 isbm.ac.in/nande/lifeisbm/policies-for-students.php
 isbm.ac.in/nande/management-and-executive-development.php
 isbm.ac.in/nande/marketing

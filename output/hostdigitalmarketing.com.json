@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.hostdigitalmarketing.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088029 91128",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company's core services and mission are entirely focused on digital marketing strategies that directly drive lead generation, sales, and revenue growth for their clients.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-88029 91128",
+      "email": "info@hostdigitalmarketing.com"
+    }
+  ]
+}

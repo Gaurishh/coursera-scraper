@@ -5,10 +5,9 @@
   "Phone": "098846 23854",
   "Course": "Sales",
   "Score": 100,
-  "Reasoning": "Dishah Consultants is a corporate training company that exclusively specializes in sales and leadership development, with all website content and client case studies revolving around improving sales performance and related soft skills.",
+  "Reasoning": "Dishah Consultants is a corporate training company explicitly specializing in sales and leadership development, with all services, client challenges, and testimonials overwhelmingly focused on improving sales performance for businesses in sales-driven industries.",
   "extracted_contact_details": [
     {
-      "title": "General Enquiries",
       "phone": "+91-9884623854",
       "email": "enquiry@dishahconsultants.com"
     }

@@ -1,0 +1,16 @@
+{
+  "Website": "https://onlinejao.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098181 84828",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "OnlineJao is a digital marketing agency focused on helping businesses generate leads, boost visibility, and maximize revenue, with a job posting explicitly detailing a commission-based client acquisition role.",
+  "extracted_contact_details": [
+    {
+      "name": "Mr. Abhishek Mudgal",
+      "title": "Founder of OnlineJao",
+      "phone": "9818184828"
+    }
+  ]
+}

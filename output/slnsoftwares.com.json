@@ -5,19 +5,12 @@
   "Phone": "093158 98126",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "SLN Softwares is a software development company whose core business, services, products, and team expertise are exclusively focused on building and maintaining software, web applications, and digital solutions, indicating a strong technical and programming foundation.",
+  "Reasoning": "SLN Softwares is explicitly a 'Software Development and Website Design Company' with its core services, products, and technologies pages overwhelmingly focused on programming languages, frameworks, and software solutions.",
   "extracted_contact_details": [
     {
-      "title": "Sales Team",
-      "phone": "+919315898126, +911143305659"
-    },
-    {
-      "title": "Customer Relations Manager",
+      "name": "Vivek",
+      "title": "Owner",
       "email": "vivek@slnsoftwares.com"
-    },
-    {
-      "title": "Career Enquiries",
-      "email": "hr@slnsoftwares.com"
     }
   ]
 }

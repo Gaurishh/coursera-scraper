@@ -4,13 +4,15 @@
   "Location": "Bangalore",
   "Phone": "",
   "Course": "Programming",
-  "Score": 98,
-  "Reasoning": "Vraio Software Solutions is a company whose core business is custom software development, mobile app development, web development, and other IT services, indicating a strong technical focus.",
+  "Score": 95,
+  "Reasoning": "Vraio Software Solutions is a company primarily focused on custom software development, mobile and web application development, and IT infrastructure services, demonstrating a strong technical core.",
   "extracted_contact_details": [
     {
+      "title": "General Inquiry",
       "email": "info@vraio.in"
     },
     {
+      "title": "Human Resources",
       "email": "hr@vraio.in"
     }
   ]

@@ -1,0 +1,16 @@
+{
+  "Website": "https://thistle.media/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "090032 44336",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Thistle Media is a digital marketing agency whose core business revolves around driving sales, leads, and conversions for their clients through various marketing strategies and performance-based campaigns.",
+  "extracted_contact_details": [
+    {
+      "name": "Balaji",
+      "email": "balaji@thistle.media",
+      "phone": "+91 90032 44336"
+    }
+  ]
+}

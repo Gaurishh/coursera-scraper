@@ -1,11 +1,14 @@
 [
   {
+    "title": "Sales Department (Singapore)",
+    "email": "sales@perfectiongeeks.com"
+  },
+  {
+    "title": "India Office",
     "phone": "+91 8920947884"
   },
   {
+    "title": "USA Office",
     "phone": "+1 9176282062"
-  },
-  {
-    "email": "sales@perfectiongeeks.com"
   }
 ]

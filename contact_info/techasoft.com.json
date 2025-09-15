@@ -1,23 +1,17 @@
 [
   {
-    "title": "General Inquiries (USA)",
+    "phone": "+91 8867 746 186"
+  },
+  {
     "phone": "+1 610 880 0144"
   },
   {
-    "title": "General Inquiries (UAE / International)",
     "phone": "+971 507557789"
   },
   {
-    "title": "General Inquiries (India)",
-    "phone": "+91 8884 739 988",
-    "email": "info@techasoft.com"
-  },
-  {
-    "title": "HR Department (India)",
     "phone": "+91 8884 739 988"
   },
   {
-    "title": "Training Department (India)",
-    "phone": "+91 8867 746 186"
+    "email": "info@techasoft.com"
   }
 ]

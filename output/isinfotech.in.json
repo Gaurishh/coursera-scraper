@@ -1,0 +1,15 @@
+{
+  "Website": "http://isinfotech.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099163 28110",
+  "Course": "Sales",
+  "Score": 90,
+  "Reasoning": "IS Infotech's core identity as a professional recruitment and staffing organization places it firmly within a sales-driven service industry, where client acquisition and relationship management are paramount for success.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9916328110 / 080-23145556",
+      "email": "info@isinfotech.in"
+    }
+  ]
+}

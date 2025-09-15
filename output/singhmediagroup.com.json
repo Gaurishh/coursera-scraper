@@ -1,0 +1,17 @@
+{
+  "Website": "https://singhmediagroup.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "089209 89093",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Singh Media Group is a digital marketing agency focused on helping clients achieve online growth, attract customers, and improve business outcomes, making a Sales course highly relevant for their core operations and client success.",
+  "extracted_contact_details": [
+    {
+      "name": "Gurjyot Singh",
+      "title": "Founder",
+      "phone": "+91 89209 89093",
+      "email": "info@singhmediagroup.com"
+    }
+  ]
+}

@@ -4,18 +4,20 @@
   "Location": "Bangalore",
   "Phone": "080 4120 0197",
   "Course": "Programming",
-  "Score": 100,
-  "Reasoning": "Jireh is explicitly a 'Software Development Company' offering extensive services in mobile development, customized applications, AI, cloud computing, and blockchain, demonstrating a profound technological and programming core.",
+  "Score": 98,
+  "Reasoning": "Jireh is a software development company specializing in mobile, web, AI, cloud, and blockchain solutions, making programming skills fundamental to its core business.",
   "extracted_contact_details": [
     {
-      "phone": "+91 953 846 9384, +91 80 41200197"
+      "phone": "(+91) 953 846 9384"
     },
     {
-      "phone": "+91 953 846 9384",
+      "phone": "(+91) 80 41200197"
+    },
+    {
       "email": "info@jirehsol.com"
     },
     {
-      "email": "contact@jirehsol.com"
+      "email": "sales@jirehsol.com"
     }
   ]
 }

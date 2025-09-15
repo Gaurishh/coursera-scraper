@@ -1,0 +1,23 @@
+{
+  "Website": "http://akjainindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "094143 38312",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "The company's name, 'A K Jain Sales & Marketing Limited,' its core business of distributing FMCG, electronics, and polymer products, and the presence of multiple 'General Manager Sales & Marketing' roles strongly indicate a sales-driven organization.",
+  "extracted_contact_details": [
+    {
+      "name": "Ashu Bothra",
+      "phone": "+91 9828999989, +91 151 2270755",
+      "email": "ashubothra@gmail.com"
+    },
+    {
+      "phone": "+91 88008 00808",
+      "email": "akjainslg@gmail.com"
+    },
+    {
+      "email": "info@akjain.in"
+    }
+  ]
+}

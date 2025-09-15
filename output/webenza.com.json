@@ -5,36 +5,11 @@
   "Phone": "080 2521 0083",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "Webenza is an 'AI-Driven Digital Marketing Agency' whose core business is brand management, B2B marketing, and performance marketing, directly aimed at driving sales and business growth for their clients.",
+  "Reasoning": "Webenza is a digital marketing agency that explicitly states its core mission is to act as brand managers and marketers, focusing on selling benefits and telling stories to consumers, which is fundamentally a sales-driven approach.",
   "extracted_contact_details": [
     {
-      "name": "Webenza Corporate Office",
-      "title": "General Enquiries (Bangalore)",
-      "phone": "+91 80 2521 0083, +91 96 8630 9988",
+      "phone": "+91 80 2521 0083, +91 96 8630 9988, +1 (786) 554-9799",
       "email": "info@webenza.com"
-    },
-    {
-      "name": "Webenza Houston Office",
-      "title": "General Enquiries (United States)",
-      "phone": "+1 (786) 554-9799",
-      "email": "info@webenza.com"
-    },
-    {
-      "name": "Webenza Mumbai Office",
-      "title": "General Enquiries (Mumbai)",
-      "phone": "+91 96 8630 9988",
-      "email": "info@webenza.com"
-    },
-    {
-      "name": "Webenza Delhi NCR Office",
-      "title": "General Enquiries (Delhi NCR)",
-      "phone": "+91 96 8630 9988",
-      "email": "info@webenza.com"
-    },
-    {
-      "name": "Webenza Careers",
-      "title": "Human Resources / Recruitment",
-      "email": "careers@webenza.com"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "Website": "http://www.redrealm.co.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088002 29728",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Redrealm is a digital marketing agency explicitly focused on driving leads, sales, and revenue for its clients, and it actively hires Digital Sales Executives to sell its own services, indicating a strong sales-driven industry focus.",
+  "extracted_contact_details": [
+    {
+      "name": "Mehak Suri",
+      "title": "Founder",
+      "email": "mehak@redrealm.co.in"
+    }
+  ]
+}

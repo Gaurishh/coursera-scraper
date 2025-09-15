@@ -4,36 +4,9 @@
   "Location": "Bangalore",
   "Phone": "080 2852 8477",
   "Course": "Sales",
-  "Score": 95,
-  "Reasoning": "XIME is a management institute (business school) focused on developing leaders and entrepreneurs with specializations like Marketing, making sales skills highly relevant for its graduates.",
+  "Score": 98,
+  "Reasoning": "Xavier Institute of Management and Entrepreneurship (XIME) is a business school with a strong focus on management, entrepreneurship, and developing leaders for business roles, making a Sales course highly relevant for its curriculum and student outcomes.",
   "extracted_contact_details": [
-    {
-      "name": "XIME Bangalore General Enquiries",
-      "phone": "+9180-69549450"
-    },
-    {
-      "name": "XIME Kochi General Enquiries",
-      "phone": "0484 – 2972972 / 3"
-    },
-    {
-      "name": "XIME Chennai General Enquiries",
-      "phone": "044 – 67179400"
-    },
-    {
-      "name": "Admissions Bangalore",
-      "phone": "+9180-69549454",
-      "email": "admissions@xime.org"
-    },
-    {
-      "name": "Admissions Kochi",
-      "phone": "+9180-69549464",
-      "email": "admissionskochi@xime.org"
-    },
-    {
-      "name": "Admissions Chennai",
-      "phone": "+9180-69549474",
-      "email": "admissionchennai@xime.org"
-    },
     {
       "name": "Prof. J. Philip",
       "title": "Principal Founder & Chairman, XIME Bangalore",

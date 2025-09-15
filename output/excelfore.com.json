@@ -5,28 +5,34 @@
   "Phone": "095133 00147",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Excelfore is a deep-tech company specializing in software-defined vehicle connectivity, in-vehicle networking, and OTA software updates, requiring a strong focus on advanced programming and engineering skills.",
+  "Reasoning": "Excelfore is a technology company deeply focused on engineering, developing complex software and connectivity solutions for software-defined vehicles, with a strong emphasis on patented technologies and a highly technical product offering.",
   "extracted_contact_details": [
     {
-      "title": "Global Support / Sales Inquiry",
+      "name": "Sales Department",
+      "title": "General Sales Inquiry",
       "phone": "+1.510.573.1311, +1-510-868-2500",
-      "email": "support@excelfore.com, sales@excelfore.com"
+      "email": "sales@excelfore.com"
     },
     {
-      "title": "Frankfurt, Stockholm Office",
+      "name": "Global Support",
+      "title": "General Support Inquiry",
+      "phone": "+1.510.573.1311",
+      "email": "support@excelfore.com"
+    },
+    {
+      "name": "Excelfore Frankfurt/Stockholm Office",
+      "title": "Regional Contact",
       "phone": "+46-70-773 2350"
     },
     {
-      "title": "Tokyo Office",
+      "name": "Excelfore Tokyo Office",
+      "title": "Regional Contact",
       "phone": "+81-3-6379-1163"
     },
     {
-      "title": "Bangalore Office",
+      "name": "Excelfore Bangalore Office",
+      "title": "Regional Contact",
       "phone": "+91 95133 00147"
-    },
-    {
-      "title": "Careers Support",
-      "email": "jobs@excelfore.com"
     }
   ]
 }

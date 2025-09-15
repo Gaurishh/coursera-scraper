@@ -4,27 +4,18 @@
   "Location": "Delhi",
   "Phone": "",
   "Course": "Sales",
-  "Score": 95,
-  "Reasoning": "The institution identifies itself as a leading business management school, offering PGDM and BBA programs focused on developing entrepreneurial and leadership competencies for the business world, making a sales course highly relevant to its students.",
+  "Score": 98,
+  "Reasoning": "The institution explicitly identifies as a 'Business School' with a strong focus on business management education, entrepreneurship, and preparing students for leadership and placement opportunities in the business world.",
   "extracted_contact_details": [
     {
-      "title": "Undergraduate Admissions",
-      "phone": "+91-9999252406, +91-9311671741, +91-7827005579, +91-9811165146, 8810554738 (Whatsapp)",
-      "email": "info.ubs@iilm.edu"
+      "name": "Dr Shivani Khurana",
+      "title": "Professor, Career Resource Centre (CRC)",
+      "email": "shivani.khurana@iilm.edu"
     },
     {
       "title": "Postgraduate Admissions",
-      "phone": "+91-9818865156, +91-9599225170, 8810554738 (Whatsapp)",
+      "phone": "+91-9818865156 / +91-9599225170 / 8810554738 (Whatsapp)",
       "email": "pgdm@iilm.edu"
-    },
-    {
-      "title": "EFBM Programme Admissions",
-      "phone": "+91-9211826952, 8810554738 (Whatsapp)",
-      "email": "admissions.efbm@iilm.edu"
-    },
-    {
-      "title": "General Enquiry",
-      "phone": "+91-6366975191"
     }
   ]
 }

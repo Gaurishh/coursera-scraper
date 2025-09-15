@@ -15,6 +15,7 @@ iiitd.ac.in/academics/ay25-26
 iiitd.ac.in/academics/btech
 iiitd.ac.in/academics/btech/btp
 iiitd.ac.in/academics/btech/honors
+iiitd.ac.in/academics/btech/ualbany
 iiitd.ac.in/academics/courses
 iiitd.ac.in/academics/departments
 iiitd.ac.in/academics/issue-resolution
@@ -23,7 +24,6 @@ iiitd.ac.in/academics/mtech/cse
 iiitd.ac.in/academics/mtech/ece
 iiitd.ac.in/academics/pastconvocations
 iiitd.ac.in/academics/pgdcsai
-iiitd.ac.in/academics/pgddsai
 iiitd.ac.in/academics/phd
 iiitd.ac.in/academics/resources
 iiitd.ac.in/academics/svp

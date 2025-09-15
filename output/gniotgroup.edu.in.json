@@ -1,0 +1,23 @@
+{
+  "Website": "https://www.gniotgroup.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "1800 274 6969",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution explicitly identifies as an 'Engineering College' with numerous Bachelor of Technology, Computer Science, and Master of Computer Application programs, demonstrating a strong tech and programming focus.",
+  "extracted_contact_details": [
+    {
+      "name": "Dr. Babita G. Kataria",
+      "title": "Group Director Training & Placement",
+      "phone": "9310080009",
+      "email": "placement@gniot.net.in"
+    },
+    {
+      "name": "Mr. Pradeep Dey",
+      "title": "Vice President (For admission of West Bengal/North East/Odisha)",
+      "phone": "069012 21139, 081308 23386",
+      "email": "pradeep.dey@gniot.net.in"
+    }
+  ]
+}

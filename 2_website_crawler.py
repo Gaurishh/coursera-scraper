@@ -324,7 +324,7 @@ def main():
 
     print("🚀 Starting Multithreaded Website Crawler")
     print("=" * 60)
-    print(f"📊 Max Workers: {max_workers}")
+    print(f"📊 Max Workers: 5")
     print(f"📁 Output Directory: {output_dir}")
     print("=" * 60)
 
@@ -340,12 +340,12 @@ def main():
         
         print(f"📋 Found {len(websites_to_process)} websites to process")
         
-        # Process websites with multithreading
+        # Process websites with multithreading (5 workers)
         start_time = time.time()
         successful_crawls = 0
         total_routes = 0
         
-        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        with ThreadPoolExecutor(max_workers=5) as executor:
             # Submit all tasks
             future_to_website = {
                 executor.submit(process_single_website, row, output_dir): row 

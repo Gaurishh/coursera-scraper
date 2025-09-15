@@ -5,19 +5,19 @@
   "Phone": "081479 73132",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "JAGSoM is explicitly a business school offering a wide range of management programs, including a strong focus on Marketing, which prepares students for roles requiring sales and client engagement skills.",
+  "Reasoning": "JAGSoM is a dedicated business school offering various management programs including Marketing, Finance, and Business Analytics, making a Sales course highly relevant for its graduates entering business-driven roles.",
   "extracted_contact_details": [
     {
-      "name": "JAGSoM Admissions",
-      "title": "General Admissions",
-      "phone": "+91 8147973132",
-      "email": "admissions@jagsom.edu.in"
+      "name": "Suraj Srivastava",
+      "title": "VP -Industry Relations & Career Services",
+      "phone": "+91-9886925462",
+      "email": "suraj.s@jagsom.edu.in, placements@jagsom.edu.in"
     },
     {
-      "name": "JAGSoM Grievance Helpline",
-      "title": "24/7 Helpline for Women and any other grievance",
-      "phone": "+91 7349103007, 080 41432816",
-      "email": "grievance@jagsom.edu.in"
+      "name": "Ms. Shilpanwita Ghosh",
+      "title": "Assistant General Manager",
+      "phone": "+91-9900067702",
+      "email": "shilpanwita.g@jagsom.edu.in"
     }
   ]
 }

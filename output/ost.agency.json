@@ -1,0 +1,15 @@
+{
+  "Website": "https://ost.agency/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "(330) 775-2493",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "OpenSource Technologies is a software development agency specializing in AI, API, custom app/web development, and DevOps, demonstrating a strong and pervasive tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+1 (833) 678-2402, +1 (267) 903-6292",
+      "email": "info@ost.agency"
+    }
+  ]
+}

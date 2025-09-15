@@ -4,24 +4,17 @@
   "Location": "Delhi",
   "Phone": "085100 64006",
   "Course": "Programming",
-  "Score": 95,
-  "Reasoning": "The company, Webtech Solution.Net, is primarily a website and software development firm with services, products, and core job roles overwhelmingly centered on programming, API integration, and various forms of software engineering.",
+  "Score": 98,
+  "Reasoning": "WTS Net India is a software development company specializing in web, Android, and Fintech solutions, with its core services and job roles overwhelmingly focused on programming and technical expertise.",
   "extracted_contact_details": [
     {
-      "phone": "+91 8510064006",
-      "email": "info@webtechsolution.net"
-    },
-    {
-      "phone": "011-43095166"
-    },
-    {
+      "title": "Sales & Marketing",
       "phone": "9911014908"
     },
     {
-      "email": "info@webtechsolutions.com"
-    },
-    {
-      "email": "info@wtsnetindia.net"
+      "title": "General Inquiry",
+      "phone": "011-43095166, +91 8510064006",
+      "email": "info@webtechsolution.net, info@webtechsolutions.com, info@wtsnetindia.net"
     }
   ]
 }

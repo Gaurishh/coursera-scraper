@@ -1,0 +1,23 @@
+{
+  "Website": "https://npti.gov.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "011 2694 0722",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "NPTI is a National Power Training Institute with a strong focus on engineering, advanced technology, data science, AI, and cyber security within the power sector, making programming skills highly relevant.",
+  "extracted_contact_details": [
+    {
+      "name": "Mr. K.Muthukumar",
+      "title": "Director, HOI, NPTI Alappuzha",
+      "phone": "+91 0478 2955800",
+      "email": "nptikerala@gmail.com"
+    },
+    {
+      "name": "Dr. Vatsala Sharma",
+      "title": "Director, NPTI New Delhi (NR)",
+      "phone": "011-20904030, 011-20904031, +91 98107 43209",
+      "email": "vatsala.npti@gov.in"
+    }
+  ]
+}

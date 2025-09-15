@@ -194,7 +194,7 @@ ggnindia.dronacharya.info/academicperspective.aspx
 ggnindia.dronacharya.info/blog/
 ggnindia.dronacharya.info/contact.aspx
 ggnindia.dronacharya.info/default.aspx
-ggnindia.dronacharya.info/events/currentEvent.aspx?Month=Aug&Year=2025
+ggnindia.dronacharya.info/events/currentEvent.aspx?Month=Sep&Year=2025
 ggnindia.dronacharya.info/feedback/Feedback.aspx
 ggnindia.dronacharya.info/learningProcess.aspx
 ggnindia.dronacharya.info/managementperspective.aspx

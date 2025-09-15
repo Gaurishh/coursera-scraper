@@ -4,17 +4,20 @@
   "Location": "Delhi",
   "Phone": "089209 47884",
   "Course": "Programming",
-  "Score": 98,
-  "Reasoning": "PerfectionGeeks is a software development agency specializing in custom software, mobile, web, and blockchain development, employing a wide array of programming languages and technologies, indicating a profound need for programming expertise.",
+  "Score": 100,
+  "Reasoning": "PerfectionGeeks is a software development agency that specializes in building custom digital solutions, mobile apps, web apps, and blockchain applications, demonstrating a strong and exclusive tech focus.",
   "extracted_contact_details": [
     {
+      "title": "Sales Department (Singapore)",
+      "email": "sales@perfectiongeeks.com"
+    },
+    {
+      "title": "India Office",
       "phone": "+91 8920947884"
     },
     {
+      "title": "USA Office",
       "phone": "+1 9176282062"
-    },
-    {
-      "email": "sales@perfectiongeeks.com"
     }
   ]
 }

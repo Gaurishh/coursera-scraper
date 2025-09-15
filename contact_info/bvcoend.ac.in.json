@@ -1,17 +1,38 @@
 [
   {
-    "title": "General Contact",
-    "phone": "011-25278444, 011-25278443, 9289792621, 9650435096",
-    "email": "coedelhi@bharatividyapeeth.edu"
+    "name": "Dr. Preeti Nagrath",
+    "title": "Director Placements",
+    "email": "tp.coedelhi@bharatividyapeeth.edu"
+  },
+  {
+    "name": "Dr. Sandeep Sharma",
+    "title": "Training and Placement Officer",
+    "email": "tp.coedelhi@bharatividyapeeth.edu"
+  },
+  {
+    "name": "Ms. Sarita Yadav",
+    "title": "Training and Placement Officer and Data Management Associate, Training and Placement Faculty Co-Ordinator (IT-I)",
+    "email": "tp.coedelhi@bharatividyapeeth.edu"
+  },
+  {
+    "name": "Dr. Arun Dubey",
+    "title": "Training and Placement Faculty Co-Ordinator (IT-II)",
+    "email": "tp.coedelhi@bharatividyapeeth.edu"
+  },
+  {
+    "name": "Ms. Silica Kole",
+    "title": "Training and Placement Faculty Co-Ordinator (CSE-I)",
+    "email": "tp.coedelhi@bharatividyapeeth.edu"
+  },
+  {
+    "name": "Dr. Aarti",
+    "title": "Training and Placement Faculty Co-Ordinator (CSE-II)",
+    "email": "tp.coedelhi@bharatividyapeeth.edu"
   },
   {
     "name": "Sushil Kumar",
-    "title": "HOD, Applied Science Department",
-    "phone": "91-11-25258637, 91-11-25278443, 91-11-25278444 (Ext. 226)",
+    "title": "HOD Applied Science",
+    "phone": "91-11-25258637, 25278443/44",
     "email": "sushil.kumar@bharatividyapeeth.edu, hod.appliedscience@bharatividyapeeth.edu"
-  },
-  {
-    "title": "Training and Placement Cell",
-    "email": "tp.coedelhi@bharatividyapeeth.edu"
   }
 ]

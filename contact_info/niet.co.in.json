@@ -1,16 +1,17 @@
 [
   {
-    "title": "Admission",
-    "phone": "+91-8010-500-700, +91-8448-384-601",
-    "email": "admission@niet.co.in"
-  },
-  {
-    "title": "Director",
+    "name": "Dr. Anil K. Ahlawat",
+    "title": "Director Academics",
     "email": "director@niet.co.in"
   },
   {
     "title": "Registrar",
     "email": "registrar@niet.co.in"
+  },
+  {
+    "title": "Admission Department",
+    "phone": "+91-8010-500-700, +91-8448-384-601",
+    "email": "admission@niet.co.in"
   },
   {
     "title": "General Enquiries",

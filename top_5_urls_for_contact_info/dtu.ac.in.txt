@@ -1,1 +1,5 @@
-https://www.dtu.ac.in/Web/Departments/DSM/about/
+https://www.dtu.ac.in/Web/Departments/DSM/faculty
+https://www.dtu.ac.in/modules/facilities/people/faculty/login.php?e=novalid
+https://www.dtu.ac.in/Web/Departments/CSE/about
+https://www.dtu.ac.in/Web/Departments/InformationTechnology/about/
+https://www.dtu.ac.in/Web/About/books.php

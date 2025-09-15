@@ -1,0 +1,21 @@
+{
+  "Website": "https://creationinfoways.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099100 02006",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Creation Infoways is a digital marketing agency specializing in lead generation, performance marketing, and driving conversions and sales for its clients, indicating a strong sales-driven industry focus.",
+  "extracted_contact_details": [
+    {
+      "title": "General Inquiry / Project Contact",
+      "phone": "+91-9910002006, +91-9810010112",
+      "email": "support@creationinfoways.com"
+    },
+    {
+      "title": "HR Department",
+      "phone": "+91-9599888800",
+      "email": "hr@creationinfoways.com"
+    }
+  ]
+}

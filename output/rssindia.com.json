@@ -1,0 +1,28 @@
+{
+  "Website": "https://www.rssindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099531 34732",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "RSS Infotech is primarily a software development company specializing in web, app, and custom software solutions, with extensive mentions of programming languages and technical services.",
+  "extracted_contact_details": [
+    {
+      "title": "Sales Department",
+      "phone": "+91 9560613581",
+      "email": "sales@rssindia.com"
+    },
+    {
+      "title": "Technical Department",
+      "phone": "+91 9953134732"
+    },
+    {
+      "title": "Support Team",
+      "email": "support@rssindia.com"
+    },
+    {
+      "title": "General Information",
+      "email": "info@rssindia.com"
+    }
+  ]
+}

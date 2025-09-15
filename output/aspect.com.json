@@ -1,0 +1,17 @@
+{
+  "Website": "https://www.aspect.com/in",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 4340 6100",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Aspect is a software company that develops complex enterprise workforce management platforms, featuring a dedicated developer portal with APIs, AI-powered forecasting, and a roadmap focused on technical innovations, indicating a strong foundational tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "1 (877) 258-0268"
+    },
+    {
+      "email": "info@aspect.com"
+    }
+  ]
+}

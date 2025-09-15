@@ -7,9 +7,12 @@ sagesoftware.co.in/ai-in-erp/
 sagesoftware.co.in/asset-management-software/
 sagesoftware.co.in/blogs/
 sagesoftware.co.in/blogs/bills-of-material-bom/
+sagesoftware.co.in/blogs/boost-your-furniture-business-with-sage-erp/
 sagesoftware.co.in/blogs/business-intelligence-report-in-sage-300/
 sagesoftware.co.in/blogs/efficient-quality-management-in-sage-x3/
 sagesoftware.co.in/blogs/erp-for-automobile-industry/
+sagesoftware.co.in/blogs/erp-in-cabinet-manufacturing-industry/
+sagesoftware.co.in/blogs/erp-in-the-furniture-industry/
 sagesoftware.co.in/blogs/quality-control-in-automotive-manufacturing/
 sagesoftware.co.in/blogs/supply-chain-management-in-erp/
 sagesoftware.co.in/blogs/top-12-manufacturing-erp-system/
@@ -21,6 +24,7 @@ sagesoftware.co.in/blogs/what-is-manufacturing-cost/
 sagesoftware.co.in/blogs/what-is-mrp/
 sagesoftware.co.in/blogs/what-is-purchase-order-po/
 sagesoftware.co.in/blogs/what-is-push-and-pull-strategy/
+sagesoftware.co.in/business-intelligence-software
 sagesoftware.co.in/business-intelligence-software-bi-tools/
 sagesoftware.co.in/business-intelligence-software/
 sagesoftware.co.in/careers/
@@ -50,9 +54,7 @@ sagesoftware.co.in/erp-software-for-packaging-industry/
 sagesoftware.co.in/erp-software-for-pharma-manufacturing/
 sagesoftware.co.in/erp-software-for-pharma-trading/
 sagesoftware.co.in/erp-software-for-plastic-industry/
-sagesoftware.co.in/erp-software-for-project-engineering-industry/
 sagesoftware.co.in/erp-software-for-trading-and-distribution/
-sagesoftware.co.in/erp-software-in-india/
 sagesoftware.co.in/erp-solutions-provider-in-bangalore/
 sagesoftware.co.in/erp-solutions-provider-in-chennai/
 sagesoftware.co.in/erp-solutions-provider-in-delhi/
@@ -80,7 +82,6 @@ sagesoftware.co.in/procurement-software/
 sagesoftware.co.in/product-lifecycle-management-software/
 sagesoftware.co.in/products/
 sagesoftware.co.in/sage-300cloud-erp-software
-sagesoftware.co.in/sage-300cloud-erp-software/
 sagesoftware.co.in/sage-copilot/
 sagesoftware.co.in/sage-crm-software
 sagesoftware.co.in/sage-crm-software/
@@ -95,6 +96,5 @@ sagesoftware.co.in/sage-x3/
 sagesoftware.co.in/sales-management-system/
 sagesoftware.co.in/service-locations/
 sagesoftware.co.in/supply-chain-management-software-scm/
-sagesoftware.co.in/supply-chain-management-software/
 sagesoftware.co.in/warehouse-management-system-wms/
 sagesoftware.co.in/warehouse-management-system/

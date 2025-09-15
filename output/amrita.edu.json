@@ -1,0 +1,85 @@
+{
+  "Website": "https://www.amrita.edu/campus/bengaluru",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "080 2518 3700",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Amrita Vishwa Vidyapeetham demonstrates an exceptionally strong and extensive focus on engineering, computer science, artificial intelligence, data science, and cybersecurity programs, supported by tech-focused leadership and research initiatives.",
+  "extracted_contact_details": [
+    {
+      "title": "Online Programs Admissions",
+      "phone": "9447498840, 08065131430",
+      "email": "online@amrita.edu"
+    },
+    {
+      "title": "B.Tech Admissions",
+      "phone": "08069150838",
+      "email": "btech@amrita.edu"
+    },
+    {
+      "title": "Admissions, School of Artificial Intelligence, Bengaluru",
+      "phone": "080 25183700, 080 2844 0092",
+      "email": "admissions@blr.amrita.edu"
+    },
+    {
+      "title": "Admissions, School of Artificial Intelligence, Coimbatore",
+      "phone": "044 48133323",
+      "email": "admissionasas@cb.amrita.edu"
+    },
+    {
+      "title": "School of Artificial Intelligence, Faridabad",
+      "phone": "0129 – 2851234, 9289654050",
+      "email": "fbd@amritahospitals.org"
+    },
+    {
+      "title": "Principal, Arts, Humanities & Commerce, Amritapuri",
+      "phone": "+91 (476) 280 1280, +91 (476) 289 6178",
+      "email": "principal.asas@am.amrita.edu"
+    },
+    {
+      "title": "School of Computing, Nagercoil",
+      "phone": "04652 – 237400"
+    },
+    {
+      "title": "School of Engineering, Amaravati",
+      "phone": "+91 8645277800"
+    },
+    {
+      "title": "School of Engineering, Amritapuri",
+      "phone": "1 800 425 90009",
+      "email": "btech@amrita.edu"
+    },
+    {
+      "title": "School of Engineering, Bengaluru",
+      "phone": "1 800 425 90009",
+      "email": "btech@amrita.edu"
+    },
+    {
+      "title": "School of Engineering, Chennai",
+      "phone": "044-355 33222, 044 3553 3252",
+      "email": "btech@amrita.edu"
+    },
+    {
+      "title": "School of Engineering, Coimbatore",
+      "phone": "044-462 76066",
+      "email": "btech@amrita.edu"
+    },
+    {
+      "name": "Sudarslal",
+      "title": "Associated with Amrita Agilent Analytical Research Lab",
+      "phone": "0476-2803119, 0476-2803110, +91 (476) 280 3126",
+      "email": "sudarslal@am.amrita.edu"
+    },
+    {
+      "name": "Walterschrenk",
+      "title": "Associated with Amrita Agilent Analytical Research Lab",
+      "phone": "0476-2803119, 0476-2803110, +91 (476) 280 3126",
+      "email": "walterschrenk@am.amrita.edu"
+    },
+    {
+      "title": "Chairperson, Amrita School of Computing, Bengaluru",
+      "phone": "080-2518 3700"
+    }
+  ]
+}

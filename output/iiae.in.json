@@ -1,0 +1,16 @@
+{
+  "Website": "http://www.iiae.in/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "098702 90575",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "The Indian Institute of Aircraft Engineering is an engineering college specializing in Aircraft Maintenance Engineering, requiring a strong technical and analytical foundation in subjects like avionics and mechanical systems, which aligns with a programming-oriented curriculum.",
+  "extracted_contact_details": [
+    {
+      "title": "General Inquiry / Admission Helpline",
+      "phone": "+91 9870290573, +91 9870290575, +91 8448488194, +91 9870290577",
+      "email": "admission.iiae@gmail.com"
+    }
+  ]
+}

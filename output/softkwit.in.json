@@ -1,0 +1,15 @@
+{
+  "Website": "https://softkwit.in/mlm-software.php",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088829 25582",
+  "Course": "Programming",
+  "Score": 92,
+  "Reasoning": "SOFTKWIT is primarily a web and software development company, offering services like web design, web development, web application development, and various software solutions (MLM, ERP, E-commerce), indicating a strong tech focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-8882925582, +91-9759136585",
+      "email": "info@softkwit.in"
+    }
+  ]
+}

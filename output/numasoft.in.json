@@ -5,12 +5,11 @@
   "Phone": "088615 62478",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "Numa Soft Technology Services is a web and mobile app development company whose services, technologies, project portfolio, team roles, and certifications all demonstrate a profound programming and technical focus.",
+  "Reasoning": "Numa Soft Technology Services is a website and mobile app development company with a strong focus on technical services, programming languages, frameworks, and development methodologies, as evidenced by their services, project portfolio, and team certifications.",
   "extracted_contact_details": [
     {
-      "name": "Numa Soft Technology Services Pvt. Ltd.",
       "phone": "+91 92421 37092, +91 88615 62478",
-      "email": "info@numasoft.in, live:mailbox_784"
+      "email": "info@numasoft.in"
     }
   ]
 }

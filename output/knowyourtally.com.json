@@ -1,0 +1,14 @@
+{
+  "Website": "http://www.knowyourtally.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098704 34111",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The company explicitly identifies as TDL (Tally Definition Language) developers, offering tailored software solutions and add-ons for Tally, which demonstrates a strong technical and programming focus.",
+  "extracted_contact_details": [
+    {
+      "email": "info@knowyourtally.com"
+    }
+  ]
+}

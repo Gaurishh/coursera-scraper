@@ -36,7 +36,6 @@ nexgenmarketing.in/projects/gloew/
 nexgenmarketing.in/projects/joop/
 nexgenmarketing.in/projects/knowledge-base-live-chat/
 nexgenmarketing.in/projects/kunalrawalofficial/
-nexgenmarketing.in/projects/papericious-website-development/
 nexgenmarketing.in/projects/punarjagran-samiti/
 nexgenmarketing.in/projects/responsive-design/
 nexgenmarketing.in/projects/seo-case-point-pumps/
@@ -76,6 +75,7 @@ nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fne
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fcore-values%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Ffaqs%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fhow-ai-is-shaping-content-marketing-in-the-digital-agency-world%2F
+nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Flinkedin-marketing-insights-in-southeast-asia%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Four-services%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Four-team%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fpricing-plans%2F
@@ -83,7 +83,6 @@ nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fne
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fprojects%2Fcrypto-app-project%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fprojects%2Fecommerce-website%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fprojects%2Fknowledge-base-live-chat%2F
-nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fprojects%2Fseo-case-point-pumps%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fprojects%2Fseo-case-sierra-log-and-timber-2%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fprojects%2Fsocial-media-app%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fprojects%2Fsoftware-management%2F
@@ -96,6 +95,7 @@ nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fne
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Ftop-crypto-exchange-influencers-in-hong-kong%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Ftop-digital-agencies-transforming-e-commerce-in-southeast-asia%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Ftop-digital-agency-case-studies-in-web3-marketing%2F
+nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Ftop-insider-tips-to-master-twitch-marketing%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Ftop-tiktok-campaigns-that-dominated-social-media-in-2024%2F
 nexgenmarketing.in/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fnexgenmarketing.in%2Fwhy-personalization-is-the-future-of-digital-advertising%2F
 nexgenmarketing.in/wp-login.php?action=register

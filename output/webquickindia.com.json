@@ -1,0 +1,15 @@
+{
+  "Website": "https://webquickindia.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "092056 58119",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company's core mission is to drive growth, leads, and sales for businesses through digital marketing and web development, making a Sales course highly relevant for their team to enhance client acquisition and campaign effectiveness.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 9205658119",
+      "email": "info@webquickindia.com"
+    }
+  ]
+}

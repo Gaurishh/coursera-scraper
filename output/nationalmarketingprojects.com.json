@@ -1,0 +1,19 @@
+{
+  "Website": "https://www.nationalmarketingprojects.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099099 20992",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "National Marketing Projects Inc. is a digital marketing agency explicitly focused on helping clients increase traffic, generate leads, and boost sales and revenue through various online strategies.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-99 0992 0992",
+      "email": "info@nationalmarketingprojects.com"
+    },
+    {
+      "phone": "+91-99 0992 0992",
+      "email": "contact@nationalmarketingprojects.com"
+    }
+  ]
+}

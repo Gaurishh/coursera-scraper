@@ -1,0 +1,15 @@
+{
+  "Website": "https://mlmsoftwarecompany.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070373 95111",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The company is a software provider, explicitly stating its team of engineers and IT specialists, its mission for software development, and offering advanced technological solutions like cryptocurrency software and token listing services.",
+  "extracted_contact_details": [
+    {
+      "name": "MLM Software Company",
+      "phone": "+91-9953119957, +91 9582569545"
+    }
+  ]
+}

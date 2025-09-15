@@ -1,0 +1,10 @@
+zeenik.com/
+zeenik.com/about/
+zeenik.com/cancellation-refund-policy/
+zeenik.com/cdn-cgi/l/email-protection
+zeenik.com/contact/
+zeenik.com/legal-policy/
+zeenik.com/privacy-cookie-policy/
+zeenik.com/resources/
+zeenik.com/services/
+zeenik.com/terms-conditions/

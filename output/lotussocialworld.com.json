@@ -1,0 +1,22 @@
+{
+  "Website": "https://lotussocialworld.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070275 89820",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Lotus Social World is a digital marketing agency focused on driving business growth, engagement, and ROI for clients, and explicitly lists 'Sales' as one of its core services, indicating a strong sales-driven industry focus.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 7027589820",
+      "email": "support@lotussocialworld.com"
+    },
+    {
+      "phone": "+91 70275898230",
+      "email": "info@Lotussocialworld.com"
+    },
+    {
+      "phone": "+91 70275809820"
+    }
+  ]
+}

@@ -1,7 +1,26 @@
 [
   {
-    "name": "Jamia Millia Islamia",
-    "title": "General Contact/University Main Line",
-    "phone": "+91(11)26981717, +91(11)26984617, +91(11)26984658, +91(11)26988044, +91(11)26987183, +91(11)26980229"
+    "name": "Prof. Mazhar Asif",
+    "title": "Vice Chancellor",
+    "phone": "91-11-26981717 Ext.1001",
+    "email": "vc@jmi.ac.in"
+  },
+  {
+    "name": "Prof. Md Mahtab Alam Rizvi",
+    "title": "Registrar",
+    "phone": "91-11-26981717 Ext.1101",
+    "email": "registrar@jmi.ac.in"
+  },
+  {
+    "name": "CA. Shaikh Safiullah",
+    "title": "Offg. Finance Officer",
+    "phone": "91-11-26981717 Ext.1301",
+    "email": "fo@jmi.ac.in"
+  },
+  {
+    "name": "Prof. Pawan Kumar Sharma",
+    "title": "Controller of Examinations",
+    "phone": "91-11-26981717 Ext.1450",
+    "email": "coe@jmi.ac.in"
   }
 ]

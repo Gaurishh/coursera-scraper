@@ -95,6 +95,7 @@ gtbit.ac.in/event-detail/87
 gtbit.ac.in/event-detail/88
 gtbit.ac.in/event-detail/89
 gtbit.ac.in/event-detail/90
+gtbit.ac.in/event-detail/91
 gtbit.ac.in/eventarchives
 gtbit.ac.in/examination
 gtbit.ac.in/expert-lectures
@@ -121,6 +122,7 @@ gtbit.ac.in/lab-manual
 gtbit.ac.in/lectureplan
 gtbit.ac.in/library
 gtbit.ac.in/listofpractical
+gtbit.ac.in/luna
 gtbit.ac.in/medical
 gtbit.ac.in/mindscape-society
 gtbit.ac.in/ml
@@ -305,6 +307,7 @@ gtbit.ac.in/notice-detail/600
 gtbit.ac.in/notice-detail/601
 gtbit.ac.in/notice-detail/602
 gtbit.ac.in/notice-detail/603
+gtbit.ac.in/notice-detail/604
 gtbit.ac.in/nptl
 gtbit.ac.in/nss
 gtbit.ac.in/panorama

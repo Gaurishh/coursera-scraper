@@ -1,4 +1,5 @@
 vemanait.edu.in/
+vemanait.edu.in/10.55041/IJSREM14688
 vemanait.edu.in/about-krjs.html
 vemanait.edu.in/about-vemana-it.html
 vemanait.edu.in/admissions.html
@@ -9,6 +10,7 @@ vemanait.edu.in/artificial-intelligence-and-machine-learning.html
 vemanait.edu.in/basic-science.html
 vemanait.edu.in/business-incubation.html
 vemanait.edu.in/civil-engineering.html
+vemanait.edu.in/committees.html
 vemanait.edu.in/computer-science-and-engineering.html
 vemanait.edu.in/contact-us.html
 vemanait.edu.in/cyber-security.html
@@ -17,15 +19,18 @@ vemanait.edu.in/e-mobility-projects-&-e-projects.html
 vemanait.edu.in/electronics-and-communication-engineering.html
 vemanait.edu.in/governing-council.html
 vemanait.edu.in/highlights-of-vemana-it.html
+vemanait.edu.in/hostel.html
 vemanait.edu.in/index.html
 vemanait.edu.in/industry-institute.html
 vemanait.edu.in/information-science-and-engineering.html
 vemanait.edu.in/innovative-projects.html
 vemanait.edu.in/institute-innovation-cell.html
 vemanait.edu.in/iqac.html
+vemanait.edu.in/library.html
 vemanait.edu.in/management-committee.html
 vemanait.edu.in/mandatory-self-disclosure.html
 vemanait.edu.in/mechanical-engineering.html
+vemanait.edu.in/ncc.html
 vemanait.edu.in/outreach-program.html
 vemanait.edu.in/placement.html
 vemanait.edu.in/policies-and-reports.html

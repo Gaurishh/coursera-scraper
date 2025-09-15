@@ -1,0 +1,17 @@
+{
+  "Website": "https://www.tapmi.edu.in/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "0820 270 1000",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "TAPMI is explicitly a premier business school that launched a dedicated PGDM-Sales program in 2018, and its Director specializes in training sales leaders for numerous companies.",
+  "extracted_contact_details": [
+    {
+      "name": "Dr. Roopa Adyasha",
+      "title": "Chairperson – Executive Education, Associate Professor (OB & HRM)",
+      "phone": "+91 80 2449 7065, +91 98863 70635",
+      "email": "roopa.adyasha@manipal.edu"
+    }
+  ]
+}

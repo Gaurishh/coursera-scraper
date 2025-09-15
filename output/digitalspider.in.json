@@ -5,14 +5,17 @@
   "Phone": "078922 99043",
   "Course": "Sales",
   "Score": 98,
-  "Reasoning": "Digital Spider is a Digital Marketing Agency whose primary focus, as stated across all pages, is to generate leads, enhance online presence, boost profits, and increase sales for its clients through various marketing and web development services.",
+  "Reasoning": "Digital Spider is a digital marketing agency primarily focused on lead generation, brand elevation, and driving business growth for clients, making it a sales-driven organization.",
   "extracted_contact_details": [
     {
       "name": "Neha",
       "email": "neha.digitalspider@gmail.com"
     },
     {
-      "phone": "+91 78922 99043, +91 99014 44282"
+      "phone": "+91 78922 99043"
+    },
+    {
+      "phone": "+91 99014 44282"
     }
   ]
 }

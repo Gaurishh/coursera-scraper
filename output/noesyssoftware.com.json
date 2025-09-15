@@ -5,14 +5,11 @@
   "Phone": "080 3501 0646",
   "Course": "Programming",
   "Score": 98,
-  "Reasoning": "The company's core business revolves around developing software products, data analytics, automation, and digital enablement, demonstrating a strong emphasis on technical expertise and programming.",
+  "Reasoning": "Noesys Software Pvt. Ltd. is a technology company specializing in digital transformation, data analytics, automation, and software product development, demonstrating a strong technical core.",
   "extracted_contact_details": [
     {
-      "email": "contact@noesyssoftware.com",
-      "phone": "+91-8035010646"
-    },
-    {
-      "email": "privacy@noesyssoftware.com"
+      "phone": "+91-8035010646",
+      "email": "info@noesyssoftware.com"
     }
   ]
 }

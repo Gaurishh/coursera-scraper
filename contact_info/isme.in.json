@@ -1,24 +1,7 @@
 [
   {
-    "name": "ISME General Contact",
-    "phone": "8880612345",
-    "email": "contact@isme.in"
-  },
-  {
-    "name": "Placement Department",
+    "title": "Head of Placement Department",
     "phone": "9986860198",
     "email": "headplacements@isme.in"
-  },
-  {
-    "name": "ISME Information",
-    "email": "info@isme.in"
-  },
-  {
-    "name": "ISME General Inquiries",
-    "email": "contactus@isme.in"
-  },
-  {
-    "name": "ISME Admissions",
-    "email": "admissions@isme.in"
   }
 ]

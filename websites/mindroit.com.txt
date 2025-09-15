@@ -42,5 +42,5 @@ mindroit.com/seo-services-in-sheffield/
 mindroit.com/seo-services-sharjah/
 mindroit.com/software-development/
 mindroit.com/website-development/
-mindroit.com/wp-admin/admin-ajax.php?action=cws_vc_shortcode_process_simple_like&post_id=2514&nonce=695ba0baf0&is_comment=0&disabled=true
-mindroit.com/wp-admin/admin-ajax.php?action=cws_vc_shortcode_process_simple_like&post_id=3118&nonce=695ba0baf0&is_comment=0&disabled=true
+mindroit.com/wp-admin/admin-ajax.php?action=cws_vc_shortcode_process_simple_like&post_id=2514&nonce=d99df355b5&is_comment=0&disabled=true
+mindroit.com/wp-admin/admin-ajax.php?action=cws_vc_shortcode_process_simple_like&post_id=3118&nonce=d99df355b5&is_comment=0&disabled=true

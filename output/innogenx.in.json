@@ -1,0 +1,15 @@
+{
+  "Website": "http://innogenx.in/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "099019 72889",
+  "Course": "Sales",
+  "Score": 92,
+  "Reasoning": "Innogenx explicitly brands itself as a 'Digital Marketing Company' and offers core services like 'Lead Generation' and 'branding' that are directly aimed at driving sales and client success in a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 99865 57654, +91 96637 10777, +91 99019 72889",
+      "email": "info@innogenx.in"
+    }
+  ]
+}

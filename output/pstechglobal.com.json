@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.pstechglobal.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070179 40576",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company's core mission and value proposition are centered on converting visitors into customers, driving revenue growth, and increasing qualified leads for their clients, making sales a critical skill for their business and their clients' success.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 - 701.794.0576",
+      "email": "info@pstechglobal.com"
+    }
+  ]
+}

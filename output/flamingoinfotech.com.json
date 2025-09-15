@@ -1,0 +1,16 @@
+{
+  "Website": "https://www.flamingoinfotech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099998 66662",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Flamingo Infotech is a digital marketing agency explicitly focused on generating leads, sales, and ROI for its clients, making it a sales-driven corporate entity.",
+  "extracted_contact_details": [
+    {
+      "name": "Flamingo Infotech",
+      "phone": "+91-9811138880, +91-9999866662, +91-8588804854",
+      "email": "info@flamingoinfotech.com"
+    }
+  ]
+}

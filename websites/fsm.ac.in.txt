@@ -165,6 +165,7 @@ fsm.ac.in/nexus
 fsm.ac.in/nirf
 fsm.ac.in/online-programs
 fsm.ac.in/online-registration_payment
+fsm.ac.in/open-fdp-registration-and-payment
 fsm.ac.in/open-mdp-calendar
 fsm.ac.in/open-mdp-calendar-2019-2020
 fsm.ac.in/open-mdp-registration-and-payment

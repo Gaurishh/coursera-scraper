@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.highhorse.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "082871 94831",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "High Horse is a digital marketing agency whose core mission is to help MSME e-commerce brands launch, grow, and scale online by driving traffic, leads, and conversions, which are all direct sales-driven outcomes.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-82871 94831",
+      "email": "Contact@highhorse.in"
+    }
+  ]
+}

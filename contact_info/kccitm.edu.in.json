@@ -1,15 +1,12 @@
 [
   {
-    "phone": "+9192100 65555",
+    "name": "Admissions Department",
+    "title": "Admissions/General Inquiry",
+    "phone": "+919210065555",
     "email": "admissions@kccitm.edu.in"
   },
   {
-    "name": "Navdeep Sirohi",
-    "title": "Head - Placement Dept.",
-    "phone": "8979494747",
-    "email": "placement@kccitm.edu.in"
-  },
-  {
+    "name": "General Application Inquiry",
     "phone": "8447498067"
   }
 ]

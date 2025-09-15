@@ -2,4 +2,4 @@ https://www.codeyiizen.com/contact-us
 https://www.codeyiizen.com/
 https://www.codeyiizen.com/services/frontend-development
 https://www.codeyiizen.com/company/about-us
-https://www.codeyiizen.com/services
+https://www.codeyiizen.com/services/hire-frontend-developer

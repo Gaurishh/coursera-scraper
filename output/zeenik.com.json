@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.zeenik.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "095406 65505",
+  "Course": "Sales",
+  "Score": 75,
+  "Reasoning": "Zeenik's extensive digital marketing and branding services, which explicitly aim for lead generation, conversion boosts, and driving real business growth for their clients, highlight a strong sales-driven aspect of their operations.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 95406 65505",
+      "email": "info@zeenik.com"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Website": "https://www.promoteabhi.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "098994 84839",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "The company is a digital marketing agency explicitly focused on generating leads, increasing sales, and driving business growth for its clients, making sales expertise crucial for both its own operations and client success.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9899484839, +1-347 754 5707",
+      "email": "info@promoteabhi.com"
+    },
+    {
+      "phone": "+91-9899484839, +1-347 754 5707",
+      "email": "sales@promoteabhi.com"
+    }
+  ]
+}

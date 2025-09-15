@@ -4,11 +4,13 @@
   "Location": "Bangalore",
   "Phone": "099723 18316",
   "Course": "Programming",
-  "Score": 95,
-  "Reasoning": "WebzPlot identifies as an 'E-Commerce & Shopify Expert Agency' that 'builds the tech' with a focus on 'Shopify Development Service', 'App Development', and 'building systems that think, automate, and adapt' using AI, indicating a strong technical and programming core.",
+  "Score": 92,
+  "Reasoning": "WebzPlot is a digital agency with a strong tech focus, specializing in web, e-commerce, and app development, building robust digital infrastructures, and leveraging AI and automation for their clients.",
   "extracted_contact_details": [
     {
-      "phone": "+91-9555-993-311",
+      "name": "Muhammed Tauqir",
+      "title": "Founder",
+      "phone": "+91-9555-99-33-11",
       "email": "info@webzplot.com"
     }
   ]

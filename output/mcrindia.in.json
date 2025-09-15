@@ -5,10 +5,10 @@
   "Phone": "099647 40243",
   "Course": "Programming",
   "Score": 95,
-  "Reasoning": "MCRT Software India Pvt Ltd is a solution-providing firm with 'in-house developers' specializing in software customization using Tally Definition Language and creating mobile and web applications, indicating a strong technical and programming focus.",
+  "Reasoning": "MCRT Software India Pvt Ltd is a software company with in-house developers specializing in Tally customization, integration, and web/mobile application development using scripting languages, indicating a strong tech focus.",
   "extracted_contact_details": [
     {
-      "phone": "+91 9964740243, 8792603849",
+      "phone": "9964740243, 8792603849",
       "email": "sales@mcrindia.in"
     }
   ]

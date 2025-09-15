@@ -5,19 +5,16 @@
   "Phone": "092100 65555",
   "Course": "Programming",
   "Score": 95,
-  "Reasoning": "KCC Institutes, particularly KCC Institute of Technology and Management, offers an extensive array of B.Tech and M.Tech programs with numerous specializations in Computer Science & Engineering, Artificial Intelligence, Data Science, and other engineering fields, indicating a strong technological and engineering focus.",
+  "Reasoning": "The institution offers an extensive range of B.Tech and M.Tech programs in Computer Science, Information Technology, Artificial Intelligence, Machine Learning, and various engineering fields, demonstrating a strong technological and engineering focus.",
   "extracted_contact_details": [
     {
-      "phone": "+9192100 65555",
+      "name": "Admissions Department",
+      "title": "Admissions/General Inquiry",
+      "phone": "+919210065555",
       "email": "admissions@kccitm.edu.in"
     },
     {
-      "name": "Navdeep Sirohi",
-      "title": "Head - Placement Dept.",
-      "phone": "8979494747",
-      "email": "placement@kccitm.edu.in"
-    },
-    {
+      "name": "General Application Inquiry",
       "phone": "8447498067"
     }
   ]

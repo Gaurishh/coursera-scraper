@@ -1,0 +1,21 @@
+{
+  "Website": "http://www.revvlocity.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "",
+  "Course": "Sales",
+  "Score": 98,
+  "Reasoning": "Revvlocity is a B2B sales acceleration company whose core business, solutions, and job descriptions are entirely focused on lead generation, appointment setting, and improving sales efficiency for their clients.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 80612 07390",
+      "email": "info@revvlocity.com"
+    },
+    {
+      "phone": "+1 415 527 0876"
+    },
+    {
+      "email": "careers@revvlocity.com"
+    }
+  ]
+}

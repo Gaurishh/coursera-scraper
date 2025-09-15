@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.nethues.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "011 4756 7701",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Nethues Technologies is a software development company that specializes in building, maintaining, and modernizing tech solutions across various programming languages and emerging technologies like AI and Blockchain.",
+  "extracted_contact_details": [
+    {
+      "phone": "+19179054240, +91-11-47567701, +91-11-47567702",
+      "email": "[email protected], [email protected]"
+    }
+  ]
+}

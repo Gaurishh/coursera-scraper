@@ -5,21 +5,13 @@
   "Phone": "096206 52556",
   "Course": "Sales",
   "Score": 95,
-  "Reasoning": "DigiOn Solutions is a digital marketing and AI automation agency explicitly focused on B2B marketing, lead generation, conversion, and driving sales for its clients, making sales expertise central to their business and the value they provide.",
+  "Reasoning": "DigiOn Solutions is a digital marketing and AI automation agency whose core services and value proposition are centered on lead generation, B2B marketing, and driving sales outcomes for their clients, making them a sales-driven company.",
   "extracted_contact_details": [
     {
       "name": "Amit Kumar",
       "title": "CEO & Founder",
-      "phone": "+91-9620-65-2556"
-    },
-    {
-      "title": "General Contact",
       "phone": "+91-9620-65-2556",
-      "email": "contact@digion.in"
-    },
-    {
-      "title": "Careers / HR",
-      "email": "careers@digion.in"
+      "email": "info@digion.in"
     }
   ]
 }

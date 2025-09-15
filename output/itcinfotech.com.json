@@ -1,0 +1,39 @@
+{
+  "Website": "https://www.itcinfotech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Bangalore",
+  "Phone": "080 2298 8331",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "ITC Infotech is a global technology services and solutions provider, with its core business centered on IT, digital transformation, cloud, AI/ML, and engineering services, demonstrating a profound tech focus.",
+  "extracted_contact_details": [
+    {
+      "title": "General Sales Inquiry",
+      "email": "contact.us@itcinfotech.com"
+    },
+    {
+      "title": "Office Contact - Camberwell, Australia",
+      "phone": "+61 3 9804 0888"
+    },
+    {
+      "title": "Office Contact - Kolkata, India",
+      "phone": "+91 033-22889371"
+    },
+    {
+      "title": "Office Contact - Pune, India",
+      "phone": "+91 020 48514100"
+    },
+    {
+      "title": "Office Contact - Gurugram, India",
+      "phone": "+91 124 455 7170"
+    },
+    {
+      "title": "Office Contact - Dubai, UAE",
+      "phone": "+971 4456 4616"
+    },
+    {
+      "title": "Office Contact - Johannesburg, South Africa",
+      "phone": "+27 0 11 881 5482"
+    }
+  ]
+}

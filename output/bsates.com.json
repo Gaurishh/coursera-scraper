@@ -1,0 +1,16 @@
+{
+  "Website": "http://www.bsates.com/",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "098105 09249",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution is explicitly an 'Engineering College' and 'Institute Of Technology' offering a vast array of programming, computer science, and technical engineering degrees and diplomas.",
+  "extracted_contact_details": [
+    {
+      "title": "General Inquiry",
+      "phone": "011-45150467, +91-7703917546, +91-7011291459, +91-9810509249",
+      "email": "info@bsates.com"
+    }
+  ]
+}

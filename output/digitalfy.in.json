@@ -1,0 +1,17 @@
+{
+  "Website": "https://digitalfy.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "084485 33219",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Digitalfy is a digital marketing agency whose core mission is to help clients boost business growth, generate leads, drive conversions, and increase sales, making a Sales course highly relevant to their operations and client objectives.",
+  "extracted_contact_details": [
+    {
+      "name": "Digitalfy",
+      "title": "General Inquiry",
+      "phone": "+91-8448533219",
+      "email": "info@digitalfy.in"
+    }
+  ]
+}

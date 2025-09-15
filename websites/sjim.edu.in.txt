@@ -2,10 +2,12 @@ sjim.edu.in/
 sjim.edu.in/2018-b-plan-news.php
 sjim.edu.in/6th_international_business_plan.php
 sjim.edu.in/7th_international_business_plan.php
+sjim.edu.in/8-SJIM-Albers-International-Business.php
 sjim.edu.in/?utm_source=GMBListing&utm_medium=organic
 sjim.edu.in/AICTE_Approval_Letter.php
 sjim.edu.in/About.php
 sjim.edu.in/Accreditations.php
+sjim.edu.in/Ajay_Abraham23.php
 sjim.edu.in/BloodDonationCamp25.php
 sjim.edu.in/Business Analytics.php
 sjim.edu.in/BusinessAnalyticsConclave2025.php
@@ -25,16 +27,19 @@ sjim.edu.in/HRConclave25.php
 sjim.edu.in/HR_analytics_Business_Performance.php
 sjim.edu.in/Hasiru_Dala_Innovations_Receives_Eminent_Social_Entrepreneur_Year25_Award.php
 sjim.edu.in/ICFAT2025.php
+sjim.edu.in/ITESCO25.php
 sjim.edu.in/Industry-Academia.php
 sjim.edu.in/International_business_plan.php
 sjim.edu.in/La_Lumiere.php
 sjim.edu.in/MOU.php
+sjim.edu.in/Marketing_Communications24.php
 sjim.edu.in/NIPM-Student-Chapter.php
 sjim.edu.in/PGDM_MBA.php
 sjim.edu.in/R&Dcell.php
 sjim.edu.in/SJIM_Anthem.php
 sjim.edu.in/Social_Entrepreneurship_award23.php
 sjim.edu.in/StudentsMakeDifference-GLSJIM.php
+sjim.edu.in/UTKARSH2025-sjim.php
 sjim.edu.in/Vision_Mission.php
 sjim.edu.in/about.php
 sjim.edu.in/academic-clubs.php
@@ -64,6 +69,7 @@ sjim.edu.in/human-resources-club.php
 sjim.edu.in/index.php
 sjim.edu.in/international.php
 sjim.edu.in/jesuits.php
+sjim.edu.in/leadership_conference25.php
 sjim.edu.in/leadership_conference26.php
 sjim.edu.in/library.php
 sjim.edu.in/life-sjim.php
@@ -90,7 +96,6 @@ sjim.edu.in/pgdm_curriculum.php
 sjim.edu.in/pgdm_rankings.php
 sjim.edu.in/phd.php
 sjim.edu.in/pinnacle.php
-sjim.edu.in/researchcenter.php
 sjim.edu.in/seattle.php
 sjim.edu.in/sitemap.php
 sjim.edu.in/sjim-blog.php

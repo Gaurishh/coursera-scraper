@@ -1,0 +1,17 @@
+{
+  "Website": "http://www.acetedu.net/",
+  "Institution Type": "Schools",
+  "Location": "Bangalore",
+  "Phone": "070900 01946",
+  "Course": "Programming",
+  "Score": 98,
+  "Reasoning": "Aditya College of Engineering and Technology is an engineering college with a predominant focus on Computer Science, Artificial Intelligence, Data Science, and Electronics & Communication Engineering programs, indicating a strong need for programming skills.",
+  "extracted_contact_details": [
+    {
+      "name": "Dr. Prasad Naik Hamsavath",
+      "title": "Principal",
+      "phone": "+91 7090001946 / 9620349000",
+      "email": "principal@acetedu.net"
+    }
+  ]
+}

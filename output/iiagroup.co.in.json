@@ -1,0 +1,26 @@
+{
+  "Website": "https://www.iiagroup.co.in/?utm_source=GMB&utm_medium=local",
+  "Institution Type": "Schools",
+  "Location": "Delhi",
+  "Phone": "099715 69455",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "The institution is an Aircraft Maintenance Engineering college with a strong focus on technical, mechanical, and avionics systems, indicating a clear engineering and technology-driven curriculum.",
+  "extracted_contact_details": [
+    {
+      "name": "Sanjeev Kumar",
+      "title": "Assistant Director",
+      "phone": "+91 9599 186 430"
+    },
+    {
+      "name": "Sumit Jha",
+      "title": "Admission In-Charge",
+      "phone": "+91 9801999163"
+    },
+    {
+      "title": "Admissions / General Inquiry (Indian Institute of Aeronautics Group)",
+      "phone": "011-28344990, +91-9599186430",
+      "email": "admission@iiagroup.co.in"
+    }
+  ]
+}

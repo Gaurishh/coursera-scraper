@@ -1,0 +1,23 @@
+{
+  "Website": "https://marketixpro.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "088105 32305",
+  "Course": "Sales",
+  "Score": 95,
+  "Reasoning": "Marketixpro is a digital marketing company whose core mission is to help clients generate revenue-oriented results, sales leads, and increase online sales, making it a sales-driven industry.",
+  "extracted_contact_details": [
+    {
+      "email": "sales@marketixpro.com",
+      "phone": "+91-8810532305, +91-9953932305"
+    },
+    {
+      "email": "info@marketixpro.com",
+      "phone": "+91-8810532305, +91-9953932305, +91 87439 32305, +91 99539 32335"
+    },
+    {
+      "email": "info@digisteps.in",
+      "phone": "+91-8810532305, +91-9953932305"
+    }
+  ]
+}

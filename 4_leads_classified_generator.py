@@ -3,7 +3,6 @@ import json
 import requests
 import time
 import pandas as pd
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 
@@ -15,11 +14,14 @@ except ImportError:
 
 # Import constants
 from constants import (
-    GEMINI_API_KEY, GEMINI_API_URL, CLASSIFICATION_INITIAL_LEADS_FILE,
+    GEMINI_API_KEY, CLASSIFICATION_INITIAL_LEADS_FILE,
     CLASSIFICATION_WEBSITES_DIR, CLASSIFICATION_URL_FILES_DIR, CLASSIFICATION_OUTPUT_FILE,
-    CLASSIFICATION_MAX_WORKERS, DEFAULT_REQUEST_TIMEOUT, LONG_API_REQUEST_TIMEOUT,
+    CLASSIFICATION_MAX_WORKERS, DEFAULT_REQUEST_TIMEOUT,
     DEFAULT_MAX_RETRIES, CLASSIFICATION_PROMPT_TEMPLATE
 )
+
+# Import LLM utilities
+from llm_utils import call_gemini_with_params, parse_llm_response
 
 # --- LLM Master Prompt ---
 # (Prompt template is now imported from constants.py)
@@ -112,87 +114,34 @@ def process_single_lead(lead):
         website_content=formatted_content
     )
 
-    payload = {"contents": [{"parts": [{"text": prompt}]}]}
-
-    # Retry mechanism for LLM calls
-    max_retries = DEFAULT_MAX_RETRIES
-    for attempt in range(max_retries):
-        try:
-            print(f"🤖 LLM attempt {attempt + 1}/{max_retries} for {website_url}")
-            response = requests.post(GEMINI_API_URL, json=payload, timeout=LONG_API_REQUEST_TIMEOUT)
-            response.raise_for_status()
-            response_text = response.json()['candidates'][0]['content']['parts'][0]['text']
-            
-            # Clean response text and parse JSON
-            if response_text.startswith('```json'):
-                response_text = response_text[7:]  # Remove ```json
-            if response_text.endswith('```'):
-                response_text = response_text[:-3]  # Remove ```
-            response_text = response_text.strip()
-            
-            data = json.loads(response_text)
-            
-            print(f"✅ SUCCESS: Analyzed {website_url}")
-            return {
-                'Website': website_url,
-                'Institution Type': institution_type,
-                'Location': lead.get('Location', 'N/A'),
-                'Phone': lead.get('Phone', 'N/A'),
-                'Course': data.get('recommended_course', 'N/A'),
-                'Score': data.get('confidence_score', 0),
-                'Reasoning': data.get('reasoning', '')
-            }
-
-        except requests.RequestException as e:
-            print(f"⚠️  API request failed for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
-            if attempt < max_retries - 1:
-                # Exponential backoff: wait 2^attempt seconds before retrying
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} API attempts failed for {website_url}")
-                return None
-                
-        except (KeyError, IndexError) as e:
-            print(f"⚠️  Invalid API response structure for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} attempts failed due to invalid response structure for {website_url}")
-                return None
-                
-        except json.JSONDecodeError as e:
-            print(f"⚠️  JSON parsing failed for {website_url} (attempt {attempt + 1}/{max_retries}). Response: {response_text[:200] if 'response_text' in locals() else 'No response'}... Error: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} attempts failed due to JSON parsing error for {website_url}")
-                return None
-                
-        except ValueError as e:
-            print(f"⚠️  Data validation failed for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} attempts failed due to data validation error for {website_url}")
-                return None
-                
-        except Exception as e:
-            print(f"⚠️  Unexpected error for {website_url} (attempt {attempt + 1}/{max_retries}). Error: {e}")
-            if attempt < max_retries - 1:
-                wait_time = 2 ** attempt
-                print(f"⏳ Waiting {wait_time} seconds before retry...")
-                time.sleep(wait_time)
-            else:
-                print(f"❌ All {max_retries} attempts failed due to unexpected error for {website_url}")
-                return None
+    # Use enhanced LLM call
+    response_text, error_details = call_gemini_with_params(
+        prompt=prompt,
+        task_type="classification",
+        max_retries=DEFAULT_MAX_RETRIES
+    )
+    
+    if error_details:
+        print(f"❌ LLM call failed for {website_url}: {error_details}")
+        return None
+    
+    # Parse the response
+    data, parse_error = parse_llm_response(response_text, "json")
+    
+    if parse_error:
+        print(f"❌ Response parsing failed for {website_url}: {parse_error}")
+        return None
+    
+    print(f"✅ SUCCESS: Analyzed {website_url}")
+    return {
+        'Website': website_url,
+        'Institution Type': institution_type,
+        'Location': lead.get('Location', 'N/A'),
+        'Phone': lead.get('Phone', 'N/A'),
+        'Course': data.get('recommended_course', 'N/A'),
+        'Score': data.get('confidence_score', 0),
+        'Reasoning': data.get('reasoning', '')
+    }
 
 
 def generate_classifications():
@@ -221,13 +170,11 @@ def generate_classifications():
     
     print(f"--- Starting Analysis for {len(leads_to_process)} Leads ---")
     
-    with ThreadPoolExecutor(max_workers=CLASSIFICATION_MAX_WORKERS) as executor:
-        future_to_lead = {executor.submit(process_single_lead, lead): lead for lead in leads_to_process}
-        
-        for future in as_completed(future_to_lead):
-            result = future.result()
-            if result:
-                all_results.append(result)
+    for i, lead in enumerate(leads_to_process, 1):
+        print(f"Processing lead {i}/{len(leads_to_process)}: {lead.get('Website', 'Unknown')}")
+        result = process_single_lead(lead)
+        if result:
+            all_results.append(result)
 
     if not all_results:
         print("--- No leads were successfully processed. ---")

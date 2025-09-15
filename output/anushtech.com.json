@@ -1,0 +1,15 @@
+{
+  "Website": "https://www.anushtech.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "085868 74338",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Anush Technology is a technology solutions provider specializing in web development, ERP, CRM, and various software solutions, indicating a core business heavily reliant on programming and software engineering expertise.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91 8586874338",
+      "email": "help@anushtech.com"
+    }
+  ]
+}

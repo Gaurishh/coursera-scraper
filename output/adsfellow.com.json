@@ -1,0 +1,14 @@
+{
+  "Website": "http://adsfellow.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "099107 68651",
+  "Course": "Sales",
+  "Score": 15,
+  "Reasoning": "The website content is generic and provides no specific business context, but the domain name 'adsfellow.com' vaguely suggests an advertising or marketing focus, which is more aligned with sales-driven industries.",
+  "extracted_contact_details": [
+    {
+      "email": "adsfellow@gmail.com"
+    }
+  ]
+}

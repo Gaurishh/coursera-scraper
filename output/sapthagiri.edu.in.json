@@ -4,18 +4,13 @@
   "Location": "Bangalore",
   "Phone": "",
   "Course": "Programming",
-  "Score": 98,
-  "Reasoning": "Sapthagiri College of Engineering is an engineering institution with a clear focus on various technical and engineering disciplines, research, and producing skilled engineers.",
+  "Score": 100,
+  "Reasoning": "The institution is explicitly an 'Engineering College' with a strong focus on various engineering disciplines, technical education, and research, making Programming highly relevant.",
   "extracted_contact_details": [
     {
       "title": "Principal",
-      "phone": "080-28 372800, 080-28 372797",
+      "phone": "080-28 372800",
       "email": "principal@sapthagiri.edu.in"
-    },
-    {
-      "title": "Admissions Contact",
-      "phone": "9900072632, 080-28 372800",
-      "email": "admissions@sapthagiri.edu.in"
     }
   ]
 }

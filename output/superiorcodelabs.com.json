@@ -4,14 +4,12 @@
   "Location": "Bangalore",
   "Phone": "096112 01204",
   "Course": "Programming",
-  "Score": 98,
-  "Reasoning": "Superior Codelabs is an IT services and technology consulting company with a core business in mobile app development, website design, cloud hosting, and technology consulting, explicitly mentioning various programming languages and developer job roles.",
+  "Score": 100,
+  "Reasoning": "Superior Codelabs is an IT services and technology consulting firm specializing in mobile app and website development, explicitly mentioning programming languages and frameworks, and hiring for developer roles.",
   "extracted_contact_details": [
     {
-      "phone": "+91 9611201204",
-      "email": "info@superiorcodelabs.com"
-    },
-    {
+      "name": "Shaikh Fakruddin",
+      "title": "Founder",
       "email": "shaikh@superiorcodelabs.com"
     }
   ]

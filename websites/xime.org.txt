@@ -98,6 +98,9 @@ xime.org/testimonial/NTEy
 xime.org/testimonial/NTEz
 xime.org/timetable
 xime.org/type/archives
+xime.org/upcoming1
+xime.org/upcoming2
+xime.org/upcoming3
 xime.org/xime-bangalore
 xime.org/xime-chennai-board-member
 xime.org/xxclubsatxime

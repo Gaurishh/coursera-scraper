@@ -1,0 +1,26 @@
+{
+  "Website": "http://nanoarchsoftware.com/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "070489 22909",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Nanoarch Software Solutions is an IT company specializing in software development, mobile applications, and web development, with job postings explicitly requiring knowledge of various programming languages.",
+  "extracted_contact_details": [
+    {
+      "name": "Nanoarch Software Solutions Sales",
+      "email": "sales@nanoarchsoftware.com",
+      "phone": "+91-7040922909, +91-8459043199, +91-9315344740"
+    },
+    {
+      "name": "Nanoarch Software Solutions General Inquiry",
+      "email": "info@nanoarchsoftware.com",
+      "phone": "+91-7040922909, +91-8459043199, +91-7048922909, +91-9315344740, +91-7290094451"
+    },
+    {
+      "name": "Nanoarch Software Solutions Service",
+      "email": "service@nanoarchsoftware.com",
+      "phone": "+91-7040922909"
+    }
+  ]
+}

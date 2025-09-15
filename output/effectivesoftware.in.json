@@ -1,0 +1,15 @@
+{
+  "Website": "http://effectivesoftware.in/",
+  "Institution Type": "Corporates",
+  "Location": "Delhi",
+  "Phone": "097117 97799",
+  "Course": "Programming",
+  "Score": 95,
+  "Reasoning": "Effective Software Solutions is fundamentally a software development and IT solutions company, with its core business focused on creating and delivering various software products and technical services like website development.",
+  "extracted_contact_details": [
+    {
+      "phone": "+91-9711797799",
+      "email": "busy.essdelhi@gmail.com"
+    }
+  ]
+}

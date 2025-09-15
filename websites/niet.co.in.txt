@@ -126,7 +126,8 @@ niet.co.in/management/leaders-talk
 niet.co.in/management/message-from-amd
 niet.co.in/management/message-from-director-academics
 niet.co.in/management/message-from-managing-director
-niet.co.in/placement/offerings
+niet.co.in/placement/internship
+niet.co.in/placement/our-team-1
 niet.co.in/placement/overview
 niet.co.in/placement/placement-news-activities
 niet.co.in/placement/placement-records

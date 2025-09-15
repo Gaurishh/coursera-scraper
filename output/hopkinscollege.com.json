@@ -5,10 +5,10 @@
   "Phone": "095910 69611",
   "Course": "Sales",
   "Score": 98,
-  "Reasoning": "St. Hopkins is explicitly a 'School of Business' with a strong emphasis on MBA programs, entrepreneurship, and features a dedicated, detailed section on 'How We Teach Sales' through practical workshops.",
+  "Reasoning": "St. Hopkins is explicitly a 'School of Business' offering numerous MBA specializations, with a strong focus on practical business education, entrepreneurship, and a detailed methodology on 'How We Teach Sales'.",
   "extracted_contact_details": [
     {
-      "title": "Admissions Office",
+      "title": "Admissions Department",
       "phone": "+91 80 22113435, 080-22225285, +91 9591069611",
       "email": "admissions@hopkinscollege.com"
     },

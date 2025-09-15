@@ -6,9 +6,9 @@ esi-group.com/blog
 esi-group.com/blog/composite-materials-in-aerospace-manufacturing-finding-the-balance-between-strength-weight-and-safety
 esi-group.com/blog/end-to-end-ai-powered-simulation-drives-airbag-development
 esi-group.com/blog/from-launch-to-landing-solving-space-industry-design-challenges-with-virtual-reality
-esi-group.com/blog/introducing-bm-stamp-esis-new-stamping-simulation-solution-for-automotive-body-manufacturing
 esi-group.com/blog/managing-residual-stress-with-welding-simulation
 esi-group.com/blog/mastering-advanced-casting-techniques-for-modern-aerospace-manufacturing
+esi-group.com/blog/mastering-line-and-transfer-die-stamping-processes-optimizing-metal-forming-with-simulation
 esi-group.com/blog/minimizing-risk-in-automotive-sheet-metal-stamping-with-esis-cutting-edge-simulation
 esi-group.com/blog/shaping-the-future-of-flight-how-simulation-accelerates-innovation-in-sheet-metal-forming-in-aerospace-manufacturing
 esi-group.com/blog/shift-left-with-virtual-prototyping-what-does-it-mean

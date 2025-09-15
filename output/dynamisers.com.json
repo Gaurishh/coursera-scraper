@@ -4,15 +4,14 @@
   "Location": "Delhi",
   "Phone": "098992 69989",
   "Course": "Sales",
-  "Score": 95,
-  "Reasoning": "The company is a digital marketing agency whose core business revolves around selling its services and generating leads/sales for its clients, making sales skills critical for its own growth and client success.",
+  "Score": 90,
+  "Reasoning": "The company explicitly identifies as a 'Digital Marketing Agency' and consistently emphasizes generating leads, improving ROI, and converting visitors into customers for their clients, which are core sales objectives that all their services, including development, aim to achieve.",
   "extracted_contact_details": [
     {
+      "name": "Sudipti Dhawan",
+      "title": "Founder, Director",
       "phone": "+919899269989",
       "email": "info@dynamisers.com"
-    },
-    {
-      "email": "hr@dynamisers.com"
     }
   ]
 }
