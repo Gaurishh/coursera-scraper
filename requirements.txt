@@ -1,0 +1,20 @@
+# Coursera Lead Generation Pipeline Dependencies
+
+# Core HTTP and Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Google AI Integration
+google-generativeai>=0.3.0
+
+# Environment Management (Optional)
+python-dotenv>=1.0.0
+
+# Note: The following are standard library modules and don't need installation:
+# - concurrent.futures (multithreading)
+# - threading (thread-safe operations)
+# - urllib.parse (URL handling)
+# - json, csv, os, time (standard operations)
