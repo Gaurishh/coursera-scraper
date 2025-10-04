@@ -25,19 +25,19 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 | File                                           | Purpose                                                     | Output                                                                              |
 | ---------------------------------------------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| `1_institutions_list_fetcher.py`               | Discovers institutions using Google Places API              | `1_discovered_leads.csv` - Institution data with websites                           |
+| `1_institutions_fetcher.py`                    | Discovers institutions using Google Places API              | `1_discovered_leads.csv` - Institution data with websites                           |
 | `2_website_crawler.py`                         | Crawls websites to extract all available URLs               | `websites/` directory - Text files with website URLs                                |
-| `3_top_5_urls_for_recommendation_extractor.py` | Selects top 5 URLs for course recommendation analysis       | `top_5_urls_for_recommendation/` directory - Text files with selected URLs          |
-| `4_leads_classified_generator.py`              | Classifies institutions and recommends courses using AI     | `2_leads_classified.csv` - Classified leads with course recommendations             |
-| `5_top_5_urls_for_contact_info_extractor.py`   | Selects top 5 URLs for contact information extraction       | `top_5_urls_for_contact_info/` directory - Text files with contact URLs             |
-| `6_final_data_gatherer.py`                     | Extracts contact information from selected URLs             | `contact_info/` directory - JSON files with contact details                         |
+| `3_urls_for_course_recommendation.py`          | Selects top 5 URLs for course recommendation analysis       | `top_5_urls_for_recommendation/` directory - Text files with selected URLs          |
+| `4_course_recommendation.py`                   | Classifies institutions and recommends courses using AI     | `2_leads_classified.csv` - Classified leads with course recommendations             |
+| `5_urls_for_contact_info.py`                   | Selects top 5 URLs for contact information extraction       | `top_5_urls_for_contact_info/` directory - Text files with contact URLs             |
+| `6_contact_extractor.py`                       | Extracts contact information from selected URLs             | `contact_info/` directory - JSON files with contact details                         |
 | `7_final_output_generator.py`                  | Combines classified leads with contact data into final JSON | `output/` directory - Individual JSON files with sales recommendations and contacts |
 
 ---
 
 ## File Documentation
 
-### 1_institutions_list_fetcher.py
+### 1_institutions_fetcher.py
 
 **Overview**: This script serves as the entry point of the lead generation pipeline, using Google Places API to discover institutions (companies and schools) in specified cities. It performs targeted searches for Programming and Sales course leads, extracts detailed information including websites and contact details, and filters results to include only institutions with valid websites.
 
@@ -167,7 +167,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ---
 
-### 3_top_5_urls_for_recommendation_extractor.py
+### 3_urls_for_course_recommendation.py
 
 **Overview**: This script intelligently selects the top 5 most relevant URLs from each institution's website for course recommendation analysis. It combines AI-powered selection using Gemini 2.5 Flash with deterministic fallback algorithms, prioritizes "about" pages, and validates URL accessibility to ensure high-quality content for classification.
 
@@ -234,7 +234,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ---
 
-### 4_leads_classified_generator.py
+### 4_course_recommendation.py
 
 **Overview**: This script performs AI-powered classification of discovered institutions to determine the most suitable course type (Programming or Sales) and provides confidence scores with detailed reasoning. It uses Gemini 2.5 Flash to analyze website content from the top 5 selected URLs and generates comprehensive lead classifications with business context.
 
@@ -300,7 +300,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ---
 
-### 5_top_5_urls_for_contact_info_extractor.py
+### 5_urls_for_contact_info.py
 
 **Overview**: This script intelligently selects the top 5 most relevant URLs from each institution's website specifically for contact information extraction. It uses course-specific AI prompts (Programming vs Sales) with Gemini 2.5 Flash, prioritizes contact pages, and implements sophisticated fallback algorithms to ensure optimal contact discovery.
 
@@ -366,7 +366,7 @@ The system is specifically optimized for finding leads for **Programming** and *
 
 ---
 
-### 6_final_data_gatherer.py
+### 6_contact_extractor.py
 
 **Overview**: This script performs the final step of the lead generation pipeline by extracting detailed contact information from the selected URLs. It uses Gemini 2.5 Flash to analyze website content and identify specific contact details including names, emails, phone numbers, and job titles, saving the results in structured JSON format.
 
@@ -595,12 +595,12 @@ chmod +x run_scripts.sh
 Run scripts individually in sequence:
 
 ```bash
-python 1_institutions_list_fetcher.py
+python 1_institutions_fetcher.py
 python 2_website_crawler.py
-python 3_top_5_urls_for_recommendation_extractor.py
-python 4_leads_classified_generator.py
-python 5_top_5_urls_for_contact_info_extractor.py
-python 6_final_data_gatherer.py
+python 3_urls_for_course_recommendation.py
+python 4_course_recommendation.py
+python 5_urls_for_contact_info.py
+python 6_contact_extractor.py
 python 7_final_output_generator.py
 ```
 
