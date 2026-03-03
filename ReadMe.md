@@ -1,5 +1,7 @@
 # Coursera Lead Generation Pipeline
 
+![Architecture Diagram](architecture.jpg)
+
 ## Project Overview
 
 This project is an automated lead generation system designed to discover, analyze, and extract contact information from institutions (companies and schools) for Coursera course recommendations. The pipeline uses Google Places API for institution discovery, web crawling for content extraction, and Google's Gemini 2.5 Flash AI for intelligent analysis and classification.
